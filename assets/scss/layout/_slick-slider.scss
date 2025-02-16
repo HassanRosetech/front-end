@@ -1,0 +1,295 @@
+/* =====================
+    Slick SLider CSS Start 
+ ========================== */
+@mixin slider_common {}
+
+@mixin slider_1 {}
+
+@mixin slider_2 {
+    .most-popular-box {
+        position: relative;
+        overflow: hidden;
+
+        .round-arrow1 {
+            z-index: 1;
+
+            .swiper {
+                overflow: visible;
+
+                .swiper-button-prev {
+                    background-color: $light-blue;
+                    position: absolute;
+                    top: -77px;
+                    left: unset;
+                    right: 85px;
+                    z-index: 1;
+                    @include pseudowh($width: 40px, $height: 40px);
+                    border-radius: 50%;
+
+                    [dir="rtl"] & {
+                        right: unset;
+                        left: 25px;
+                    }
+
+                    @include mq-max(4xl) {
+                        top: -74px;
+                        right: 85px;
+                    }
+
+                    @include mq-max(3xl) {
+                        top: -58px;
+                        right: 71px;
+                    }
+
+                    @include mq-max(lg) {
+                        top: -58px;
+                        right: 70px;
+                    }
+
+                    @include mq-max(md) {
+                        top: -50px;
+                        right: 70px;
+                        @include pseudowh($width: 10035pxpx, $height: 35px);
+                    }
+
+                    @include mq-max(2xs) {
+                        top: -45px;
+                        right: 61px;
+                    }
+
+                    &::before {
+                        content: "\f053";
+                        color: $black;
+                        @include font;
+                        z-index: 1;
+                        font-size: 16px;
+                    }
+
+                    &::after {
+                        content: none;
+                    }
+                }
+
+                .swiper-button-next {
+                    background-color: $light-blue;
+                    position: absolute;
+                    top: -77px;
+                    right: 25px;
+                    z-index: 1;
+                    @include pseudowh($width: 40px, $height: 40px);
+                    border-radius: 50%;
+
+                    [dir="rtl"] & {
+                        right: unset;
+                        left: 85px;
+                    }
+
+                    @include mq-max(4xl) {
+                        top: -74px;
+                        right: 25px;
+                    }
+
+                    @include mq-max(3xl) {
+                        top: -58px;
+                        right: 25px;
+                    }
+
+                    @include mq-max(lg) {
+                        top: -58px;
+                        right: 15px;
+                    }
+
+                    @include mq-max(md) {
+                        top: -50px;
+                        right: 15px;
+                        @include pseudowh($width: 35px, $height: 35px);
+                    }
+
+                    @include mq-max(2xs) {
+                        top: -45px;
+                        right: 15px;
+                    }
+
+                    &::before {
+                        content: "\f054";
+                        color: $black;
+                        @include font;
+                        z-index: 1;
+                        font-size: 16px;
+                    }
+
+                    &::after {
+                        content: none;
+                    }
+                }
+            }
+        }
+
+        .round-arrow {
+            z-index: 1;
+
+            .swiper {
+                overflow: unset;
+
+                .swiper-button-prev {
+                    background-color: $light-demo-4;
+                    position: absolute;
+                    top: -100px;
+                    left: unset;
+                    right: 85px;
+                    z-index: 1;
+                    @include pseudowh($width: 40px, $height: 40px);
+                    border-radius: 50%;
+
+                    [dir="rtl"] & {
+                        left: 25px;
+                        right: unset;
+                    }
+
+                    @include mq-max(4xl) {
+                        top: -90px;
+                        right: 85px;
+                    }
+
+                    @include mq-max(xl) {
+                        top: -80px;
+                        right: 70px;
+                    }
+
+                    @include mq-max(md) {
+                        top: -68px;
+                        right: 70px;
+                    }
+
+                    &::before {
+                        content: "\f053";
+                        color: $black;
+                        @include font;
+                        z-index: 1;
+                        font-size: 16px;
+                    }
+
+                    &::after {
+                        content: none;
+                    }
+                }
+
+                .swiper-button-next {
+                    background-color: $light-demo-4;
+                    position: absolute;
+                    top: -100px;
+                    right: 25px;
+                    z-index: 1;
+                    @include pseudowh($width: 40px, $height: 40px);
+                    border-radius: 50%;
+
+                    [dir="rtl"] & {
+                        right: unset;
+                        left: 85px;
+                    }
+
+                    @include mq-max(4xl) {
+                        top: -90px;
+                        right: 25px;
+                    }
+
+                    @include mq-max(xl) {
+                        top: -80px;
+                        right: 15px;
+                    }
+
+                    @include mq-max(md) {
+                        top: -68px;
+                        right: 15px;
+                    }
+
+                    &::before {
+                        content: "\f054";
+                        color: $black;
+                        @include font;
+                        z-index: 1;
+                        font-size: 16px;
+                    }
+
+                    &::after {
+                        content: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@mixin slider_3 {
+    .white-arrow {
+        .swiper-button-prev {
+            background-color: $white;
+            @include flex_common;
+            left: -70px;
+            margin-top: -25px;
+
+            [dir="rtl"] & {
+                right: -80px;
+                left: unset;
+            }
+
+            @include mq-max(lg) {
+                left: unset;
+                right: 90px;
+                top: -80px;
+                @include pseudowh($width: 40px, $height: 40px);
+                margin-top: 0;
+
+                [dir="rtl"] & {
+                    right: unset;
+                    left: 30px;
+                }
+            }
+
+            @include mq-max(2xs) {
+                top: -58px;
+            }
+
+            &::after {
+                content: none;
+                @include font;
+                color: $black;
+            }
+        }
+
+        .swiper-button-next {
+            background-color: $white;
+            @include flex_common;
+            left: -70px;
+            margin-top: 20px;
+
+            [dir="rtl"] & {
+                right: -80px;
+                left: unset;
+            }
+
+            @include mq-max(lg) {
+                left: unset;
+                right: 30px;
+                top: -80px;
+                @include pseudowh($width: 40px, $height: 40px);
+                margin-top: 0;
+
+                [dir="rtl"] & {
+                    right: unset;
+                    left: 90px;
+                }
+            }
+
+            @include mq-max(2xs) {
+                top: -58px;
+            }
+
+            &::after {
+                content: none;
+                @include font;
+                color: $black;
+            }
+        }
+    }
+}

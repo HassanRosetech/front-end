@@ -1,0 +1,53 @@
+/**=====================
+     reset css start
+==========================**/
+section,
+.section-t-space {
+    padding-top: calc(30px + (80 - 30) * ((100vw - 320px) / (1920 - 320)));
+}
+
+.section-b-space {
+    padding-bottom: calc(30px + (80 - 30) * ((100vw - 320px) / (1920 - 320)));
+}
+
+.media {
+    .media-body {
+        flex: 1;
+    }
+}
+
+.rating {
+    li {
+        i.orange {
+            color: $rating-color;
+        }
+    }
+}
+
+.g-18 {
+    margin: -18px;
+
+    >div {
+        padding: 18px;
+    }
+}
+
+.custom-gy-5 {
+    margin-top: calc(-16px + (-20 - -16) * ((100vw - 320px) / (1920 - 320)));
+    margin-bottom: calc(-16px + (-20 - -16) * ((100vw - 320px) / (1920 - 320)));
+
+    >div {
+        margin-top: calc(16px + (20 - 16) * ((100vw - 320px) / (1920 - 320)));
+        margin-bottom: calc(16px + (20 - 16) * ((100vw - 320px) / (1920 - 320)));
+    }
+}
+
+.light-gray-bg {
+    background-color: $light-blue;
+}
+
+@include mq-min(xl) {
+    .custom-col {
+        width: calc(33.33333% + 4.16%);
+    }
+}

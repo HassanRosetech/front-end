@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,a as s}from"./BHCayY3x.js";const c={},n={class:"card is-loading"};function r(d,o,i,l,p,_){return t(),a("div",n,o[0]||(o[0]=[s("div",{class:"image"},null,-1),s("div",{class:"content"},[s("h2"),s("h2")],-1)]))}const m=e(c,[["render",r]]);export{m as p};

@@ -1,0 +1,23 @@
+{
+  "data": [
+    {
+      "cartTotal": "5686.25",
+      "items": [
+        {
+          "itemName": "Slim Fit Plastic Coat",
+          "price": 78.0,
+          "image": "../../_nuxt/assets/images/fashion/product/front/1.jpg",
+          "itemImage": "fashion/product/front/1.jpg",
+          "quantity": 1
+        },
+        {
+          "itemName": "Womens Stylish Jacket",
+          "price": 24.0,
+          "image": "../../_nuxt/assets/images/fashion/product/front/7.jpg",
+          "itemImage": "fashion/product/front/7.jpg",
+          "quantity": 2
+        }
+      ]
+    }
+  ]
+}

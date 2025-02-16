@@ -1,0 +1,42 @@
+/**=====================
+    label css start
+==========================**/
+.label {
+    font-size: 12px;
+    padding: 6px 10px;
+    text-transform: uppercase;
+    color: $white;
+    display: inline-block;
+    font-weight: 500;
+    white-space: nowrap;
+
+    @include mq-max(sm) {
+        padding: 4px 6px;
+        font-size: calc(9px + (10 - 9) * ((100vw - 320px) / (575 - 320)));
+    }
+
+    &-block {
+        position: absolute;
+        padding: calc(15px + (20 - 15) * ((100vw - 320px) / (1920 - 320)));
+        top: 0;
+        width: 100%;
+        z-index: 1;
+        display: inline-flex;
+    }
+
+    &-dark {
+        background-color: $black;
+    }
+
+    &-black {
+        background-color: $black;
+
+        [dir="rtl"] & {
+            float: right;
+        }
+    }
+
+    &-theme {
+        background-color: var(--theme-color);
+    }
+}

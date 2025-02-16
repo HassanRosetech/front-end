@@ -1,0 +1,253 @@
+{
+  "data": [
+    {
+      "heading": "Most Popular",
+      "subHeading": "Our Collection",
+      "children": [
+        {
+          "id": 13,
+          "productName": "Orange Arm Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.87,
+          "image": "furniture-images/new-arrival/1.jpg",
+          "type": "popular"
+        },
+        {
+          "id": 14,
+          "productName": "Fancy Yellow Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.45,
+          "image": "furniture-images/new-arrival/2.jpg",
+          "type": "popular"
+        },
+        {
+          "id": 15,
+          "productName": "Orange Arm Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.11,
+          "image": "furniture-images/new-arrival/3.jpg",
+          "type": "popular"
+        },
+        {
+          "id": 16,
+          "productName": "Orange Arm Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.68,
+          "image": "furniture-images/new-arrival/4.jpg",
+          "type": "popular"
+        },
+        {
+          "id": 17,
+          "productName": "Orange Arm Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.9,
+          "image": "furniture-images/new-arrival/5.jpg",
+          "type": "popular"
+        },
+        {
+          "id": 18,
+          "productName": "Yellow Arm Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.07,
+          "image": "furniture-images/new-arrival/7.jpg",
+          "type": "popular"
+        },
+        {
+          "id": 19,
+          "productName": "Orange Arm Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.87,
+          "image": "furniture-images/new-arrival/8.jpg",
+          "type": "popular"
+        }
+      ]
+    },
+    {
+      "heading": "Recent Popular",
+      "subHeading": "Our Collection",
+      "children": [
+        {
+          "id": 20,
+          "productName": "Yellow Arm Chair",
+          "mrp": 150,
+          "price": 32.36,
+
+          "description": "Fully Comfortable",
+          "image": "furniture-images/new-arrival/9.jpg",
+          "type": "Recent popular"
+        },
+        {
+          "id": 17,
+          "productName": "Yellow Arm Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.9,
+          "image": "furniture-images/new-arrival/5.jpg",
+          "type": "Recent popular"
+        },
+        {
+          "id": 14,
+          "productName": "Yellow Arm Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.45,
+          "image": "furniture-images/new-arrival/2.jpg",
+          "type": "Recent popular"
+        },
+        {
+          "id": 16,
+          "productName": "2Orange Arm Chair",
+          "mrp": 150,
+          "price": 32.68,
+
+          "description": "Fully Comfortable",
+          "image": "furniture-images/new-arrival/4.jpg",
+          "type": "Recent popular"
+        },
+        {
+          "id": 18,
+          "productName": "Yellow Arm Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.07,
+          "image": "furniture-images/new-arrival/7.jpg",
+          "type": "Recent popular"
+        },
+        {
+          "id": 14,
+          "productName": "2Orange Arm Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.45,
+          "image": "furniture-images/new-arrival/2.jpg",
+          "type": "Recent popular"
+        },
+        {
+          "id": 16,
+          "productName": "Yellow Arm Chair",
+          "mrp": 150,
+          "price": 32.68,
+
+          "description": "Fully Comfortable",
+          "image": "furniture-images/new-arrival/4.jpg",
+          "type": "Recent popular"
+        },
+        {
+          "id": 18,
+          "productName": "2Orange Arm Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.07,
+          "image": "furniture-images/new-arrival/7.jpg",
+          "type": "Recent popular"
+        },
+        {
+          "id": 20,
+          "productName": "Yellow Arm Chair",
+          "mrp": 150,
+          "price": 32.36,
+
+          "description": "Fully Comfortable",
+          "image": "furniture-images/new-arrival/9.jpg",
+          "type": "Recent popular"
+        },
+        {
+          "id": 14,
+          "productName": "Yellow Arm Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.45,
+          "image": "furniture-images/new-arrival/2.jpg",
+          "type": "Recent popular"
+        }
+      ]
+    },
+    {
+      "heading": "Most Popular ",
+      "subHeading": "Our Collection",
+      "children": [
+        {
+          "id": 16,
+          "productName": "2Orange Arm Chair",
+          "mrp": 150,
+          "price": 32.68,
+
+          "description": "Fully Comfortable",
+          "image": "furniture-images/new-arrival/4.jpg",
+          "type": "Recent popular"
+        },
+        {
+          "id": 14,
+          "productName": "2Orange Arm Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.45,
+          "image": "furniture-images/new-arrival/2.jpg",
+          "type": "Recent popular"
+        },
+        {
+          "id": 18,
+          "productName": "2Orange Arm Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.07,
+          "image": "furniture-images/new-arrival/7.jpg",
+          "type": "Recent popular"
+        },
+        {
+          "id": 16,
+          "productName": "2Orange Arm Chair",
+          "mrp": 150,
+          "price": 32.68,
+
+          "description": "Fully Comfortable",
+          "image": "furniture-images/new-arrival/4.jpg",
+          "type": "Recent popular"
+        },
+        {
+          "id": 17,
+          "productName": "Yellow Arm Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.9,
+          "image": "furniture-images/new-arrival/5.jpg",
+          "type": "Recent popular"
+        },
+        {
+          "id": 14,
+          "productName": "2Orange Arm Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.45,
+          "image": "furniture-images/new-arrival/2.jpg",
+          "type": "Recent popular"
+        },
+        {
+          "id": 18,
+          "productName": "2Orange Arm Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.07,
+          "image": "furniture-images/new-arrival/7.jpg",
+          "type": "Recent popular"
+        },
+        {
+          "id": 17,
+          "productName": "Yellow Arm Chair",
+          "description": "Fully Comfortable",
+          "mrp": 150,
+          "price": 32.9,
+          "image": "furniture-images/new-arrival/5.jpg",
+          "type": "Recent popular"
+        }
+      ]
+    }
+  ]
+}

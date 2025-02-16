@@ -1,0 +1,87 @@
+{
+  "data": [{
+      "id": 0,
+      "menuOpen": true,
+      "click": false,
+      "title": "About Us",
+      "linkClasses": "col-xl-2 col-lg-3 col-md-4 col-sm-6",
+      "items": [{
+          "title": "Home",
+          "path": "/home/fashion_demo"
+        },
+        {
+          "title": "Shop",
+          "path": "/shop/shop_left_sidebar"
+        },
+        {
+          "title": "About Us",
+          "path": "/page/about_us"
+        },
+        {
+          "title": "Blog",
+          "path": "/blog/blog_details"
+        },
+        {
+          "title": "Contact",
+          "path": "/blog/contact_us"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "menuOpen": true,
+      "click": false,
+      "title": "New Categories",
+      "linkClasses": "col-xl-2 col-lg-3 col-md-4 col-sm-6",
+      "items": [{
+          "title": "Latest Shoes",
+          "path": "/shop/shop_left_sidebar"
+        },
+        {
+          "title": "Branded Jeans",
+          "path": "/shop/shop_left_sidebar"
+        },
+        {
+          "title": "New Jackets",
+          "path": "/shop/shop_left_sidebar"
+        },
+        {
+          "title": "Colorful Hoodies",
+          "path": "/shop/shop_left_sidebar"
+        },
+        {
+          "title": "Shiner Goggles",
+          "path": "/shop/shop_left_sidebar"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "menuOpen": true,
+      "click": false,
+      "title": "Get Help",
+      "linkClasses": " col-xl-2 col-lg-2 col-md-4 col-sm-6",
+      "items": [{
+          "title": "Your Orders",
+          "path": "/pages/user_dashboard"
+        },
+        {
+          "title": "Your Account",
+          "path": "/pages/user_dashboard"
+        },
+        {
+          "title": "Track Orders",
+          "path": "/pages/order_tracking"
+        },
+        {
+          "title": "Your Wishlist",
+          "path": "/pages/wishlist"
+        },
+        {
+          "title": "Shopping FAQS",
+          "path": "/pages/faq"
+        }
+      ]
+    }
+  ]
+}

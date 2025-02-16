@@ -1,0 +1,418 @@
+{
+  "data": [
+    {
+      "type": "faqQuestions",
+      "children": [
+        {
+          "id": 1,
+          "question": "How does it work?",
+          "answer": "When choosing a static caravan you will probably look for the holiday park which meets your requirements and the move onto the caravan selection the right holiday park is vital to ensure a long term ownership."
+        },
+        {
+          "id": 2,
+          "question": "Another very important question in FAQ?",
+          "answer": "Now for yhe caravan and looking for the right caravan to suit your needs. Most of the parks will deal with majority of the manufactures. If buying directly from the park you will probably deal with a salesperson instead of direct with the manufactures. You Can collect brochures direct from the manufactures. you can collect brochures direct from the manufactures to research all the models and specifications which will not only ensure you choose the correct model but also help you to understand what to look for and choice of different modals. To see the caravan you can vixit them at key caravan exhibitions as most top manufactures will display there, see events."
+        },
+        {
+          "id": 3,
+          "question": "Another important quesstion in FAQ?",
+          "answer": "The static holiday caravan has been designed for holiday use instead of full time living. With its modern construction and use of high quality materials the static caravan should be built to British and European standard: BS EN 1647 but some luxury caravans are built to BS 3632 confirming to residential standards."
+        },
+        {
+          "id": 4,
+          "question": "Another  quesstion in FAQ?",
+          "answer": "Normal static caravan can come in either one or two sectiond with width up to 22ft and 60ft long. If you have a one piece model this is a single unit and the two piece is known as a twin and usually assembled on site."
+        },
+        {
+          "id": 5,
+          "question": "Another very important quesstion in FAQ?",
+          "answer": "Decide on how many bedrooms you require as most caravans can be from 2 to 4 bedrooms but up to eight berths. manufactures will normally have their own layout but will offer but will a number of ranges depending on your budget."
+        },
+        {
+          "id": 6,
+          "question": "Another question in FAQ?",
+          "answer": "The static holiday caravan has been designed for holiday use instead of full time living. With its modern construction and use of high quality materials the static caravan should be built to British and European standard: BS EN 1647 but some luxury caravans are built to BS 3632 confirming to residential standards."
+        }
+      ]
+    },
+    {
+      "type": "wishlist",
+      "wishlists": [
+        {
+          "userId": 1,
+          "items": [1, 2, 4]
+        }
+      ]
+    },
+    {
+      "type": "cart",
+      "carts": [
+        {
+          "userId": 1,
+          "items": [3, 6, 7]
+        }
+      ]
+    },
+    {
+      "type": "portfolio",
+      "children": [
+        {
+          "id": 1,
+          "title": "Awesome Product",
+          "filter": "app",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "src": "inner-page/product/1.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Awesome Product",
+          "filter": "web",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "src": "inner-page/product/2.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Awesome Product",
+          "filter": "card",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "src": "inner-page/product/3.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Awesome Product",
+          "filter": "app",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "src": "inner-page/product/4.jpg"
+        },
+        {
+          "id": 5,
+          "title": "Awesome Product",
+          "filter": "card",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "src": "inner-page/product/5.jpg"
+        },
+        {
+          "id": 6,
+          "title": "Awesome Product",
+          "filter": "app",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "src": "inner-page/product/6.jpg"
+        },
+        {
+          "id": 7,
+          "title": "Awesome Product",
+          "filter": "web",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "src": "inner-page/product/7.jpg"
+        },
+        {
+          "id": 8,
+          "title": "Awesome Product",
+          "filter": "card",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "src": "inner-page/product/8.jpg"
+        },
+        {
+          "id": 9,
+          "title": "Awesome Product",
+          "filter": "app",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "src": "inner-page/product/9.jpg"
+        },
+        {
+          "id": 10,
+          "title": "Awesome Product",
+          "filter": "web",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "src": "inner-page/product/10.jpg"
+        },
+        {
+          "id": 11,
+          "title": "Awesome Product",
+          "filter": "app",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "src": "inner-page/product/11.jpg"
+        },
+        {
+          "id": 12,
+          "title": "Awesome Product",
+          "filter": "card",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "src": "inner-page/product/12.jpg"
+        }
+      ]
+    },
+    {
+      "type": "customerServices",
+      "children": [
+        {
+          "service": "Customer Servcies",
+          "description": "Top notch customer service.",
+          "svg": "#customer"
+        },
+        {
+          "service": "Pickup At Any Store",
+          "description": "Free shipping on orders over $65.",
+          "svg": "#shop"
+        },
+        {
+          "service": "Secured Payment",
+          "description": "We accept all major credit cards.",
+          "svg": "#secure-payment"
+        },
+        {
+          "service": "Free Returns",
+          "description": "30-days free return policy.",
+          "svg": "#return"
+        }
+      ]
+    },
+    {
+      "type": "fashionImages",
+      "images": [
+        {
+          "imageId": "1",
+          "src": "fashion/1.jpg"
+        },
+        {
+          "imageId": "2",
+          "src": "fashion/2.jpg"
+        },
+        {
+          "imageId": "3",
+          "src": "fashion/3.jpg"
+        },
+        {
+          "imageId": "4",
+          "src": "fashion/4.jpg"
+        }
+      ]
+    },
+    {
+      "type": "vegetablesHurryUpCards",
+      "leftBanners": [
+        {
+          "title": "Fresh And Tasty Red cabbage Per Piece",
+          "image": "vegetable/offer-1/1.png",
+          "mrp": 57.0,
+          "price": 54.0,
+          "ratingStars": 4
+        },
+        {
+          "title": "Red Testy Fresh Tomato",
+          "image": "vegetable/offer-1/2.png",
+          "mrp": 42.0,
+          "price": 39.0,
+          "ratingStars": 5
+        },
+        {
+          "title": "Standard Come",
+          "image": "vegetable/offer-1/3.png",
+          "mrp": 25.0,
+          "price": 20.0,
+          "ratingStars": 3
+        }
+      ],
+      "middleBanner": {
+        "title": "Juicy Lemone",
+        "mrp": 945,
+        "price": 600,
+        "ratingStars": 2,
+        "image1": "vegetable/offer-1/big.png",
+        "image2": "vegetable/circle.png"
+      },
+      "rightBanners": [
+        {
+          "title": "Fresh And Tasty Red cabbage Per Piece",
+          "image": "vegetable/offer-1/4.png",
+          "mrp": 70.0,
+          "price": 68.0,
+          "ratingStars": 2
+        },
+        {
+          "title": "Fresh And Tasty Red cabbage Per Piece",
+          "image": "vegetable/offer-1/5.png",
+          "mrp": 14.0,
+          "price": 10.0,
+          "ratingStars": 4
+        },
+        {
+          "title": "Fresh And Tasty Red cabbage Per Piece",
+          "image": "vegetable/offer-1/6.png",
+          "mrp": 50.0,
+          "price": 45.0,
+          "ratingStars": 2
+        }
+      ]
+    },
+    {
+      "type": "shoesHomeSlider",
+      "children": [
+        {
+          "socialIcons": [
+            {
+              "name": "Facebook",
+              "website": "https://www.facebook.com/",
+              "iconImage": "social-icon/1.png"
+            },
+            {
+              "name": "Instagram",
+              "website": "https://www.instagram.com/",
+              "iconImage": "social-icon/2.png"
+            },
+            {
+              "name": "Twitter",
+              "website": "https://www.twitter.com/",
+              "iconImage": "social-icon/3.png"
+            }
+          ],
+          "title": "New Festival Offer",
+          "discount": 56,
+          "product": "Nike Shoes",
+          "bannerImage": "shoes/1-.png",
+          "leftTitle": "Suggestion Product",
+          "leftSubtitle": "Our Collection",
+          "leftImage": "shoes/slider-2.png",
+          "leftProduct": "Nike Shoes",
+          "leftPrice": 49,
+          "leftReviewStars": 3,
+          "bottomMrp": 79,
+          "bottomPrice": 65,
+          "bottomDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae minima asperiores possimus ad quae."
+        },
+        {
+          "socialIcons": [
+            {
+              "name": "Facebook",
+              "website": "https://www.facebook.com/",
+              "iconImage": "social-icon/1.png"
+            },
+            {
+              "name": "Instagram",
+              "website": "https://www.instagram.com/",
+              "iconImage": "social-icon/2.png"
+            },
+            {
+              "name": "Twitter",
+              "website": "https://www.twitter.com/",
+              "iconImage": "social-icon/3.png"
+            }
+          ],
+          "title": "New Festival Offer",
+          "discount": 65,
+          "product": "Nike Shoes",
+          "bannerImage": "shoes/slider-2.png",
+          "leftTitle": "Suggestion Product",
+          "leftSubtitle": "Our Collection",
+          "leftImage": "shoes/Slider.png",
+          "leftProduct": "Nike Shoes",
+          "leftPrice": 49,
+          "leftReviewStars": 3,
+          "bottomMrp": 79,
+          "bottomPrice": 65,
+          "bottomDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae minima asperiores possimus ad quae."
+        },
+        {
+          "socialIcons": [
+            {
+              "name": "Facebook",
+              "website": "https://www.facebook.com/",
+              "iconImage": "social-icon/1.png"
+            },
+            {
+              "name": "Instagram",
+              "website": "https://www.instagram.com/",
+              "iconImage": "social-icon/2.png"
+            },
+            {
+              "name": "Twitter",
+              "website": "https://www.twitter.com/",
+              "iconImage": "social-icon/3.png"
+            }
+          ],
+          "title": "New Festival Offer",
+          "discount": 65,
+          "product": "Nike Shoes",
+          "bannerImage": "shoes/Slider.png",
+          "leftTitle": "Suggestion Product",
+          "leftSubtitle": "Our Collection",
+          "leftImage": "shoes/1-.png",
+          "leftProduct": "Nike Shoes",
+          "leftPrice": 49,
+          "leftReviewStars": 3,
+          "bottomMrp": 79,
+          "bottomPrice": 65,
+          "bottomDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae minima asperiores possimus ad quae."
+        }
+      ]
+    },
+    {
+      "type": "shoesDemoBanners",
+      "children": [
+        {
+          "bannerImage": "shoes/poster/1.png",
+          "topTitle": "Get 25% Rewarded",
+          "heading": "Latest Sport Shoes",
+          "feature": "Fully Comfortable and Smooth Product",
+          "price": 49.0,
+          "mrp": 58.0
+        },
+        {
+          "bannerImage": "shoes/poster/2.png",
+          "topTitle": "Get 38% Rewarded",
+          "heading": "Perfect Mixture Shoes",
+          "feature": "Fully Comfortable and Smooth Product",
+          "price": 56.0,
+          "mrp": 58.0
+        }
+      ]
+    },
+    {
+      "type": "shoesCategories",
+      "children": [
+        {
+          "image": "shoes/category/1.png",
+          "title": "Canvas",
+          "startingPrice": 45,
+          "endiginPrice": 80
+        },
+        {
+          "image": "shoes/category/2.png",
+          "title": "Canvas",
+          "startingPrice": 45,
+          "endiginPrice": 80
+        },
+        {
+          "image": "shoes/category/3.png",
+          "title": "Canvas",
+          "startingPrice": 45,
+          "endiginPrice": 80
+        },
+        {
+          "image": "shoes/category/4.png",
+          "title": "Canvas",
+          "startingPrice": 45,
+          "endiginPrice": 80
+        },
+        {
+          "image": "shoes/category/5.png",
+          "title": "Canvas",
+          "startingPrice": 45,
+          "endiginPrice": 80
+        },
+        {
+          "image": "shoes/category/6.png",
+          "title": "Canvas",
+          "startingPrice": 45,
+          "endiginPrice": 80
+        },
+        {
+          "image": "shoes/category/7.png",
+          "title": "Canvas",
+          "startingPrice": 45,
+          "endiginPrice": 80
+        }
+      ]
+    }
+  ]
+}

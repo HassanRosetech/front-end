@@ -1,0 +1,743 @@
+{
+  "data": [
+    {
+      "type": "blogDetails",
+      "indexOf": 0,
+      "topText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.",
+      "middleText": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum'(The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..', comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus Bonorum et Malorum' by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+      "bottomText": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose injected humour and the like.",
+      "carouselItems": [
+        {
+          "id": 1,
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "author": "John Wick",  
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/9.jpg"
+        },
+        {
+          "id": 1,
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "author": "John Wick",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/8.jpg"
+        },
+        {
+          "id": 1,
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "author": "John Wick",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/4.jpg"
+        },
+        {
+          "id": 1,
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "author": "John Wick",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/16.jpg"
+        },
+        {
+          "id": 1,
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "author": "John Wick",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/13.jpg"
+        }
+      ],
+      "popularPosts": [
+        {
+          "number": "01",
+          "heading": "Lorem Ipsum is simply dummy text of the printing.",
+          "subHeading1": "King Monster",
+          "subHeading2": "News",
+          "time": "15",
+          "activity": "8641"
+        },
+        {
+          "number": "02",
+          "heading": "Lorem Ipsum is simply dummy text of the printing.",
+          "subHeading1": "King Monster",
+          "subHeading2": "News",
+          "time": "15",
+          "activity": "8641"
+        },
+        {
+          "number": "03",
+          "heading": "Lorem Ipsum is simply dummy text of the printing.",
+          "subHeading1": "King Monster",
+          "subHeading2": "News",
+          "time": "15",
+          "activity": "8641"
+        },
+        {
+          "number": "04",
+          "heading": "Lorem Ipsum is simply dummy text of the printing.",
+          "subHeading1": "King Monster",
+          "subHeading2": "News",
+          "time": "15",
+          "activity": "8641"
+        }
+      ],
+      "categories": [
+        {
+          "iconClasses": "fas fa-globe text-color",
+          "title": "Global",
+          "link": "/blog/blog_left_sidebar"
+        },
+        {
+          "iconClasses": "fas fa-building text-color",
+          "title": "Business",
+          "link": "/blog/blog_left_sidebar"
+        },
+        {
+          "iconClasses": "fas fa-play text-color",
+          "title": "Entertainmant",
+          "link": "/blog/blog_left_sidebar"
+        },
+        {
+          "iconClasses": "fas fa-tshirt text-color",
+          "title": "Sports",
+          "link": "/blog/blog_left_sidebar"
+        },
+        {
+          "iconClasses": "fas fa-dumbbell text-color",
+          "title": "Health",
+          "link": "/blog/blog_left_sidebar"
+        }
+      ]
+    },
+    {
+      "type": "blogListing",
+      "indexOf": 1,
+      "blogs": [
+        {
+          "title": "PRODUCT UPDATE",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet et soluta recusandae aspernatur consectetur id nisi dolorum earum consequuntur, voluptas velit illo repellat minus dolores ipsa nemo laudantium. Modi, iure",
+          "name": "John Wick",
+          "date": "15 Aug 2022",
+          "imagePath": "inner-page/product/1.jpg",
+          "profileImage": "1.jpg"
+        },
+        {
+          "title": "PRODUCT UPDATE",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet et soluta recusandae aspernatur consectetur id nisi dolorum earum consequuntur, voluptas velit illo repellat minus dolores ipsa nemo laudantium. Modi, iure",
+          "name": "John Wick",
+          "date": "15 Aug 2022",
+          "imagePath": "inner-page/product/3.jpg",
+          "profileImage": "2.jpg"
+        },
+        {
+          "title": "PRODUCT UPDATE",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet et soluta recusandae aspernatur consectetur id nisi dolorum earum consequuntur, voluptas velit illo repellat minus dolores ipsa nemo laudantium. Modi, iure",
+          "name": "John Wick",
+          "date": "15 Aug 2022",
+          "imagePath": "inner-page/product/4.jpg",
+          "profileImage": "3.jpg"
+        },
+        {
+          "title": "PRODUCT UPDATE",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet et soluta recusandae aspernatur consectetur id nisi dolorum earum consequuntur, voluptas velit illo repellat minus dolores ipsa nemo laudantium. Modi, iure",
+          "name": "John Wick",
+          "date": "15 Aug 2022",
+          "imagePath": "inner-page/product/5.jpg",
+          "profileImage": "4.jpg"
+        },
+        {
+          "title": "PRODUCT UPDATE",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet et soluta recusandae aspernatur consectetur id nisi dolorum earum consequuntur, voluptas velit illo repellat minus dolores ipsa nemo laudantium. Modi, iure",
+          "name": "John Wick",
+          "date": "15 Aug 2022",
+          "imagePath": "inner-page/product/6.jpg",
+          "profileImage": "5.jpg"
+        },
+        {
+          "title": "PRODUCT UPDATE",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet et soluta recusandae aspernatur consectetur id nisi dolorum earum consequuntur, voluptas velit illo repellat minus dolores ipsa nemo laudantium. Modi, iure",
+          "name": "John Wick",
+          "date": "15 Aug 2022",
+          "imagePath": "inner-page/product/8.jpg",
+          "profileImage": "1.jpg"
+        },
+        {
+          "title": "PRODUCT UPDATE",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet et soluta recusandae aspernatur consectetur id nisi dolorum earum consequuntur, voluptas velit illo repellat minus dolores ipsa nemo laudantium. Modi, iure",
+          "name": "John Wick",
+          "date": "15 Aug 2022",
+          "imagePath": "inner-page/product/9.jpg",
+          "profileImage": "7.jpg"
+        },
+        {
+          "title": "PRODUCT UPDATE",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet et soluta recusandae aspernatur consectetur id nisi dolorum earum consequuntur, voluptas velit illo repellat minus dolores ipsa nemo laudantium. Modi, iure",
+          "name": "John Wick",
+          "date": "15 Aug 2022",
+          "imagePath": "inner-page/product/11.jpg",
+          "profileImage": "2.jpg"
+        },
+        {
+          "title": "PRODUCT UPDATE",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet et soluta recusandae aspernatur consectetur id nisi dolorum earum consequuntur, voluptas velit illo repellat minus dolores ipsa nemo laudantium. Modi, iure",
+          "name": "John Wick",
+          "date": "15 Aug 2022",
+          "imagePath": "inner-page/product/1.jpg",
+          "profileImage": "1.jpg"
+        },
+        {
+          "title": "PRODUCT UPDATE",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet et soluta recusandae aspernatur consectetur id nisi dolorum earum consequuntur, voluptas velit illo repellat minus dolores ipsa nemo laudantium. Modi, iure",
+          "name": "John Wick",
+          "date": "15 Aug 2022",
+          "imagePath": "inner-page/product/12.jpg",
+          "profileImage": "3.jpg"
+        },
+        {
+          "title": "PRODUCT UPDATE",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet et soluta recusandae aspernatur consectetur id nisi dolorum earum consequuntur, voluptas velit illo repellat minus dolores ipsa nemo laudantium. Modi, iure",
+          "name": "John Wick",
+          "date": "15 Aug 2022",
+          "imagePath": "inner-page/product/13.jpg",
+          "profileImage": "4.jpg"
+        },
+        {
+          "title": "PRODUCT UPDATE",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet et soluta recusandae aspernatur consectetur id nisi dolorum earum consequuntur, voluptas velit illo repellat minus dolores ipsa nemo laudantium. Modi, iure",
+          "name": "John Wick",
+          "date": "15 Aug 2022",
+          "imagePath": "inner-page/product/1.jpg",
+          "profileImage": "3.jpg"
+        },
+        {
+          "title": "PRODUCT UPDATE",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet et soluta recusandae aspernatur consectetur id nisi dolorum earum consequuntur, voluptas velit illo repellat minus dolores ipsa nemo laudantium. Modi, iure",
+          "name": "John Wick",
+          "date": "15 Aug 2022",
+          "imagePath": "inner-page/product/12.jpg",
+          "profileImage": "5.jpg"
+        }
+      ]
+    },
+    {
+      "type": "blogInfiniteScroll",
+      "blogs": [
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/2.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/14.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/12.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/15.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/16.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/7.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/8.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/9.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/10.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/11.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/12.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/2.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/2.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/2.jpg"
+        }
+      ]
+    },
+    {
+      "type": "blogLeftSidebar",
+      "blogs": [
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/2.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/14.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/12.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/15.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/16.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/7.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/8.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/9.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/10.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/11.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/12.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/2.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/2.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/2.jpg"
+        }
+      ]
+    },
+    {
+      "type": "blogMasonary",
+      "blogs": [
+        {
+          "title": "Just a Standard Format Post.",
+          "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente porro eligendi, delectus, molestias illo exercitationem sequi a, expedita error ea itaque ab. Ullam culpa, fugit magnam recusandae porro labore eligendi?",
+          "author": "John wike",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/1.jpg",
+          "profileImage": "inner-page/review-image/1.jpg"
+        },
+        {
+          "type": "quote",
+          "title": " Good design is making something intelligible and memorable. Great design is making something memorable and meaningful.",
+          "author": "John Wick",
+          "date": "15 Aug 2021",
+          "image": "inner-page/quote.png",
+          "class": "quote-head",
+          "profileImage": "inner-page/review-image/2.jpg"
+        },
+        {
+          "title": "Just a Standard Format Post.",
+          "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente porro eligendi, delectus, molestias illo exercitationem sequi a, expedita error ea itaque ab. Ullam culpa, fugit magnam recusandae porro labore eligendi?",
+          "author": "John wike",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/3.jpg",
+          "profileImage": "inner-page/review-image/3.jpg"
+        },
+        {
+          "title": "Just a Standard Format Post.",
+          "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente porro eligendi, delectus, molestias illo exercitationem sequi a, expedita error ea itaque ab. Ullam culpa, fugit magnam recusandae porro labore eligendi?",
+          "author": "John wike",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/4.jpg",
+          "profileImage": "inner-page/review-image/4.jpg"
+        },
+        {
+          "title": "Just a Standard Format Post.",
+          "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente porro eligendi, delectus, molestias illo exercitationem sequi a, expedita error ea itaque ab. Ullam culpa, fugit magnam recusandae porro labore eligendi?",
+          "author": "John wike",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/5.jpg",
+          "profileImage": "inner-page/review-image/5.jpg"
+        },
+        {
+          "type": "quote",
+          "title": " Good design is making something intelligible and memorable. Great design is making something memorable and meaningful.",
+          "author": "John Wick",
+          "date": "15 Aug 2021",
+          "image": "inner-page/quote.png",
+          "class": "quote-head",
+          "profileImage": "inner-page/review-image/2.jpg"
+        },
+        {
+          "title": "Just a Standard Format Post.",
+          "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente porro eligendi, delectus, molestias illo exercitationem sequi a, expedita error ea itaque ab. Ullam culpa, fugit magnam recusandae porro labore eligendi?",
+          "author": "John wike",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/6.jpg",
+          "profileImage": "inner-page/review-image/6.jpg"
+        },
+        {
+          "title": "Just a Standard Format Post.",
+          "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente porro eligendi, delectus, molestias illo exercitationem sequi a, expedita error ea itaque ab. Ullam culpa, fugit magnam recusandae porro labore eligendi?",
+          "author": "John wike",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/8.jpg",
+          "profileImage": "inner-page/review-image/3.jpg"
+        },
+        {
+          "title": "Just a Standard Format Post.",
+          "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente porro eligendi, delectus, molestias illo exercitationem sequi a, expedita error ea itaque ab. Ullam culpa, fugit magnam recusandae porro labore eligendi?",
+          "author": "John wike",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/9.jpg",
+          "profileImage": "inner-page/review-image/4.jpg"
+        },
+        {
+          "title": "Just a Standard Format Post.",
+          "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente porro eligendi, delectus, molestias illo exercitationem sequi a, expedita error ea itaque ab. Ullam culpa, fugit magnam recusandae porro labore eligendi?",
+          "author": "John wike",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/11.jpg",
+          "profileImage": "inner-page/review-image/1.jpg"
+        },
+        {
+          "type": "quote",
+          "title": " Good design is making something intelligible and memorable. Great design is making something memorable and meaningful.",
+          "author": "John Wick",
+          "date": "15 Aug 2021",
+          "image": "inner-page/quote.png",
+          "class": "quote-head",
+          "profileImage": "inner-page/review-image/2.jpg"
+        },
+        {
+          "title": "Just a Standard Format Post.",
+          "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente porro eligendi, delectus, molestias illo exercitationem sequi a, expedita error ea itaque ab. Ullam culpa, fugit magnam recusandae porro labore eligendi?",
+          "author": "John wike",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/12.jpg",
+          "profileImage": "inner-page/review-image/4.jpg"
+        },
+        {
+          "type": "quote",
+          "title": " Good design is making something intelligible and memorable. Great design is making something memorable and meaningful.",
+          "author": "John Wick",
+          "date": "15 Aug 2021",
+          "image": "inner-page/quote.png",
+          "class": "quote-head",
+          "profileImage": "inner-page/review-image/2.jpg"
+        }
+      ]
+    },
+    {
+      "type": "blogNoSidebar",
+      "blogs": [
+        {
+          "title": "Product Update",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "author": "John Wick",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/13.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "author": "John Wick",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/2.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "author": "John Wick",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/14.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "author": "John Wick",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/4.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "author": "John Wick",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/15.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "author": "John Wick",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/16.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "author": "John Wick",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/7.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "author": "John Wick",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/8.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "author": "John Wick",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/9.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "author": "John Wick",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/10.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "author": "John Wick",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/11.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
+          "author": "John Wick",
+          "date": "15 Aug 2022",
+          "image": "inner-page/product/12.jpg"
+        }
+      ]
+    },
+    {
+      "type": "blogRightSidebar",
+      "blogs": [
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/2.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/14.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/12.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/15.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/16.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/7.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/8.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/9.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/10.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/11.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/12.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/2.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/2.jpg"
+        },
+        {
+          "title": "Product Update",
+          "heading": "How to make the perfect morning coffee, according to the science",
+          "name": "John Wick",
+          "date": "15 Aug 2021",
+          "imagePath": "inner-page/product/2.jpg"
+        }
+      ]
+    }
+  ]
+}

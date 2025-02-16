@@ -1,0 +1,56 @@
+{
+  "data": {
+    "userAddresses": [
+      {
+        "name": "Mark Jugal",
+        "addressType": "Home",
+        "address1": "549 Sulphur Springs Road",
+        "address2": "Downers Grove, IL",
+        "zipCode": "60515",
+        "mobileNumber": "+1-123-456-7890"
+      },
+      {
+        "name": "Method Zaki",
+        "addressType": "Office",
+        "address1": "549 Sulphur Springs Road",
+        "address2": "Downers Grove, IL",
+        "zipCode": "60515",
+        "mobileNumber": "+1-123-456-7890"
+      },
+      {
+        "name": "Mark Jugal",
+        "addressType": "Home",
+        "address1": "549 Sulphur Springs Road",
+        "address2": "Downers Grove, IL",
+        "zipCode": "60515",
+        "mobileNumber": "+1-123-456-7890"
+      }
+    ],
+    "paymentOptions": [
+      {
+        "cardNumber": "XXXX - XXXX - XXXX - 2548",
+        "validTill": "12/23",
+        "type": "primary",
+        "name": "mark jecno",
+        "image": "payment-icon/1.jpg",
+        "class": ""
+      },
+      {
+        "cardNumber": "XXXX - XXXX - XXXX - 2548",
+        "validTill": "12/23",
+        "type": "primary",
+        "name": "mark jecno",
+        "image": "payment-icon/2.jpg",
+        "class": "card-visa"
+      },
+      {
+        "cardNumber": "XXXX - XXXX - XXXX - 2548",
+        "validTill": "12/23",
+        "type": "primary",
+        "name": "mark jecno",
+        "image": "payment-icon/3.jpg",
+        "class": "dabit-card"
+      }
+    ]
+  }
+}

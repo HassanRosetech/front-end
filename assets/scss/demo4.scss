@@ -1,0 +1,39 @@
+// utils scss files
+@import "utils/variables";
+@import "utils/mixin/common";
+@import "utils/mixin/breakpoints";
+@import "./utils/mixin/animation";
+
+// layout scss files
+@import "layout/header";
+@include header_1;
+@include header_2;
+@import "layout/home_slider";
+@include home_common;
+@include home_4;
+@import "layout/slick-slider";
+@include slider_common;
+@include slider_2;
+@import "layout/poster";
+@import "layout/arrivals";
+@include arrival_2;
+// @import "layout/subscribe";
+@import "layout/service";
+@include service_common;
+@include service_style_2;
+@import "layout/product";
+@include product_style_1;
+@include product_style_3;
+@import "layout/category";
+@import "layout/offer";
+@include offer_1;
+@import "layout/banner";
+@include banner_3;
+@import "layout/cookie_bar";
+@include cookie-bar-2;
+// @import "layout/footer";
+
+// Mixin scss files
+@import "utils/mixin/animation";
+@import "layout/banner";
+@include banner_2;

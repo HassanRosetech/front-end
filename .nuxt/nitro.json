@@ -1,0 +1,33 @@
+{
+<<<<<<< HEAD
+  "date": "2025-02-13T09:10:08.458Z",
+  "preset": "nitro-dev",
+  "framework": {
+    "name": "nuxt",
+    "version": "3.13.2"
+  },
+  "versions": {
+    "nitro": "2.9.7"
+  },
+  "dev": {
+    "pid": 43228,
+    "workerAddress": {
+      "socketPath": "\\\\.\\pipe\\nitro\\worker-43228-2.sock"
+=======
+  "date": "2025-02-16T10:22:16.422Z",
+  "preset": "nitro-dev",
+  "framework": {
+    "name": "nuxt",
+    "version": "3.15.4"
+  },
+  "versions": {
+    "nitro": "2.10.4"
+  },
+  "dev": {
+    "pid": 20584,
+    "workerAddress": {
+      "socketPath": "\\\\.\\pipe\\nitro\\worker-20584-2.sock"
+>>>>>>> b9947588 (Languages Menu Modifications)
+    }
+  }
+}
