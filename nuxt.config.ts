@@ -4,10 +4,6 @@ var boostrapCss = "/css/bootstrap.min.css";
 export default defineNuxtConfig({
   css: ["@/assets/scss/app.scss"],
   ssr:false,
-<<<<<<< HEAD
-=======
-
->>>>>>> b9947588 (Languages Menu Modifications)
   app: {
     head: {
       meta: [
@@ -70,7 +66,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-<<<<<<< HEAD
+
   alias: {
    // pinia: "/node_modules/@pinia/nuxt/node_modules/pinia/dist/pinia.mjs"
     },
@@ -82,7 +78,7 @@ export default defineNuxtConfig({
   ], "@pinia/nuxt"],
   plugins: [
     { src: "~/plugins/plugins.js", mode: "client" } ],
-=======
+
 
   alias: {
    // pinia: "/node_modules/@pinia/nuxt/node_modules/pinia/dist/pinia.mjs"
@@ -100,15 +96,14 @@ export default defineNuxtConfig({
   plugins: [
     { src: "~/plugins/plugins.js", mode: "client" } ],
 
->>>>>>> b9947588 (Languages Menu Modifications)
+
   runtimeConfig: {
     public: {
       const: constants,
     },
   },
-<<<<<<< HEAD
-=======
+
 
   compatibilityDate: "2025-02-16",
->>>>>>> b9947588 (Languages Menu Modifications)
+
 });

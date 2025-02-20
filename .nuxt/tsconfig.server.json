@@ -32,15 +32,12 @@
         "../*",
         "../*"
       ],
-<<<<<<< HEAD
-=======
       "nitropack/types": [
         "../node_modules/nitropack/types"
       ],
       "nitropack/runtime": [
         "../node_modules/nitropack/runtime"
       ],
->>>>>>> b9947588 (Languages Menu Modifications)
       "nitropack": [
         "../node_modules/nitropack"
       ],
@@ -83,13 +80,8 @@
       "nuxt": [
         "../node_modules/nuxt"
       ],
-<<<<<<< HEAD
-      "#internal/nuxt/paths": [
-        "../../node_modules/nuxt/dist/core/runtime/nitro/paths"
-=======
       "vite/client": [
         "../node_modules/vite/client"
->>>>>>> b9947588 (Languages Menu Modifications)
       ],
       "~": [
         "./.."
@@ -103,12 +95,9 @@
       "@@": [
         "./.."
       ],
-<<<<<<< HEAD
-=======
       "#shared": [
         "../shared"
       ],
->>>>>>> b9947588 (Languages Menu Modifications)
       "assets": [
         "../assets"
       ],
@@ -121,8 +110,6 @@
       "public/*": [
         "../public/*"
       ],
-<<<<<<< HEAD
-=======
       "#build": [
         "./"
       ],
@@ -132,7 +119,6 @@
       "#internal/nuxt/paths": [
         "../node_modules/nuxt/dist/core/runtime/nitro/paths"
       ],
->>>>>>> b9947588 (Languages Menu Modifications)
       "pinia": [
         "../node_modules/pinia/dist/pinia"
       ],
@@ -157,14 +143,10 @@
   ],
   "exclude": [
     "../node_modules",
-<<<<<<< HEAD
-    "../../node_modules/nuxt/node_modules",
-=======
     "../node_modules/nuxt/node_modules",
     "../node_modules/@pinia/nuxt/node_modules",
     "../node_modules/@nuxt/devtools/node_modules",
     "../node_modules/@nuxt/telemetry/node_modules",
->>>>>>> b9947588 (Languages Menu Modifications)
     "../dist"
   ]
 }

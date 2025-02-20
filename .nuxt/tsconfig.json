@@ -2,15 +2,12 @@
 {
   "compilerOptions": {
     "paths": {
-<<<<<<< HEAD
-=======
       "nitropack/types": [
         "../node_modules/nitropack/types"
       ],
       "nitropack/runtime": [
         "../node_modules/nitropack/runtime"
       ],
->>>>>>> b9947588 (Languages Menu Modifications)
       "nitropack": [
         "../node_modules/nitropack"
       ],
@@ -53,12 +50,9 @@
       "nuxt": [
         "../node_modules/nuxt"
       ],
-<<<<<<< HEAD
-=======
       "vite/client": [
         "../node_modules/vite/client"
       ],
->>>>>>> b9947588 (Languages Menu Modifications)
       "~": [
         ".."
       ],
@@ -83,12 +77,9 @@
       "@@/*": [
         "../*"
       ],
-<<<<<<< HEAD
-=======
       "#shared": [
         "../shared"
       ],
->>>>>>> b9947588 (Languages Menu Modifications)
       "assets": [
         "../assets"
       ],
@@ -102,15 +93,6 @@
         "../public/*"
       ],
       "#app": [
-<<<<<<< HEAD
-        "../../node_modules/nuxt/dist/app"
-      ],
-      "#app/*": [
-        "../../node_modules/nuxt/dist/app/*"
-      ],
-      "vue-demi": [
-        "../../node_modules/nuxt/dist/app/compat/vue-demi"
-=======
         "../node_modules/nuxt/dist/app"
       ],
       "#app/*": [
@@ -118,7 +100,6 @@
       ],
       "vue-demi": [
         "../node_modules/nuxt/dist/app/compat/vue-demi"
->>>>>>> b9947588 (Languages Menu Modifications)
       ],
       "pinia": [
         "../node_modules/pinia/dist/pinia"
@@ -134,15 +115,12 @@
       ],
       "#components": [
         "./components"
-<<<<<<< HEAD
-=======
       ],
       "#build": [
         "."
       ],
       "#build/*": [
         "./*"
->>>>>>> b9947588 (Languages Menu Modifications)
       ]
     },
     "esModuleInterop": true,
@@ -157,11 +135,7 @@
     "noUncheckedIndexedAccess": false,
     "forceConsistentCasingInFileNames": true,
     "noImplicitOverride": true,
-<<<<<<< HEAD
-    "module": "ESNext",
-=======
     "module": "preserve",
->>>>>>> b9947588 (Languages Menu Modifications)
     "noEmit": true,
     "lib": [
       "ESNext",
@@ -187,25 +161,15 @@
     "../node_modules/@nuxt/devtools/dist/runtime",
     "../node_modules/@nuxt/telemetry/runtime",
     "../node_modules/@nuxt/telemetry/dist/runtime",
-<<<<<<< HEAD
-    "..",
-    "../../node_modules/nuxt/dist/app",
-    "../../node_modules/nuxt/dist/app/compat/vue-demi"
-=======
     ".."
->>>>>>> b9947588 (Languages Menu Modifications)
   ],
   "exclude": [
     "../dist",
     "../node_modules",
-<<<<<<< HEAD
-    "../../node_modules/nuxt/node_modules",
-=======
     "../node_modules/nuxt/node_modules",
     "../node_modules/@pinia/nuxt/node_modules",
     "../node_modules/@nuxt/devtools/node_modules",
     "../node_modules/@nuxt/telemetry/node_modules",
->>>>>>> b9947588 (Languages Menu Modifications)
     "../node_modules/@pinia/nuxt/runtime/server",
     "../node_modules/@pinia/nuxt/dist/runtime/server",
     "../node_modules/@nuxt/devtools/runtime/server",

@@ -1,18 +1,9 @@
 {
-<<<<<<< HEAD
-  "_hash": "1ldo1eTgml",
-  "project": {
-    "rootDir": "C:/projects/device-parts"
-  },
-  "versions": {
-    "nuxt": "3.13.2"
-=======
   "_hash": "VqtrNtWpp6",
   "project": {
     "rootDir": "C:/Users/DELL/Desktop/fronend"
   },
   "versions": {
     "nuxt": "3.15.4"
->>>>>>> b9947588 (Languages Menu Modifications)
   }
 }

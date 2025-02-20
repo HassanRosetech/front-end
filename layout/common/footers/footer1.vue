@@ -16,50 +16,33 @@
                 <li>
                   <span>
                     <b>{{ useRuntimeConfig().public.const.Address }}</b>
-<<<<<<< HEAD
                     <span class="font-light">{{
                       useRuntimeConfig().public.const.ActualAddress
                     }}</span>
-=======
-                    <span class="font-light">{{ useRuntimeConfig().public.const.ActualAddress }}</span>
->>>>>>> b9947588 (Languages Menu Modifications)
                   </span>
                 </li>
                 <li>
                   <span>
                     <b>{{ useRuntimeConfig().public.const.Email }} :</b>
-<<<<<<< HEAD
-                    <span class="font-light">info@rosetech.se</span>
-=======
                     <span class="font-light">voxo123@gmail.com</span>
->>>>>>> b9947588 (Languages Menu Modifications)
                   </span>
                 </li>
               </ul>
             </div>
           </div>
-<<<<<<< HEAD
           <div
             :class="headings.linkClasses ? headings.linkClasses : 'col-lg-2'"
             v-for="(headings, index) in links"
             :key="index"
           >
-=======
-          <div :class="headings.linkClasses ? headings.linkClasses : 'col-lg-2'" v-for="(headings, index) in links"
-            :key="index">
->>>>>>> b9947588 (Languages Menu Modifications)
             <div class="footer-links">
               <div class="footer-title" @click="toggleFooterMenu(headings.id)">
                 <h3>{{ headings.title }}</h3>
               </div>
-<<<<<<< HEAD
               <div
                 class="footer-content"
                 :class="headings.menuOpen ? '' : 'd-none'"
               >
-=======
-              <div class="footer-content" :class="headings.menuOpen ? '' : 'd-none'">
->>>>>>> b9947588 (Languages Menu Modifications)
                 <ul>
                   <li v-for="(links, index) in headings.items" :key="index">
                     <nuxt-link :to="{ path: links.path }" class="font-dark">{{
@@ -97,11 +80,7 @@ export default {
   },
   computed: {
     ...mapState(useFooterStore, {
-<<<<<<< HEAD
       links: "data",
-=======
-      links: 'data',
->>>>>>> b9947588 (Languages Menu Modifications)
     }),
   },
   watch: {
