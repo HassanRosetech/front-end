@@ -2,75 +2,77 @@
   "data": [
     {
       "id": 1,
-      "title": "watches",
+      "title": "MobilReservdelar",
       "active": false,
       "bannerImage": "electronics/banner/4.jpg",
       "menuOpen": false,
       "children": [
         {
           "id": 1,
-          "heading": "Watch Brands",
+          "heading": "Apple Reservdelar",
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Coros",
+              "title": "iPhone reservdelar",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Titan",
+              "title": "iPad Reservdelar",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Citizen",
+              "title": "iPod Reservdelar",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Casio",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Movado",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Tissot",
+              "title": "Apple Watch Reservdelar",
               "path": "#",
               "type": "link"
             }
+            
+            
           ]
         },
         {
           "id": 2,
-          "heading": "Watch Display",
+          "heading": "Sony Reservdelar",
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Analog",
+              "title": "Sony Xperia XZ Series",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Digital",
+              "title": "Sony Xperia XA Series",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Hybrid",
+              "title": "Sony Xperia Z Series",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Tactile",
+              "title": "Sony Xperia M Series",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Touchscreen",
+              "title": "Sony Xperia E Series",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Sony Xperia L Series",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Sony Xperia X",
               "path": "#",
               "type": "link"
             }
@@ -79,7 +81,264 @@
 
         {
           "id": 3,
-          "heading": "Watch Style",
+          "heading": "Nokia Reservdelar",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Nokia 7 Plus",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Nokia Lumia Series",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Nokia N8",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Nokia 7.1",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Nokia N9",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "heading": "Samsung Reservdelar",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Samsung Galaxy A Series",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Samsung Galaxy S Series",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Samsung Galaxy Note Series",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Samsung Galaxy M Series",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "SSamsung Galaxy Z",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Samsung Galaxy J Series",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Samsung Galaxy Xcover series",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Samsung Tablet",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Samsung Galaxy Watches",
+              "path": "#",
+              "type": "link"
+            }
+
+          ]
+        },
+        {
+          "id": 5,
+          "heading": "Google Pixel Reservdelar",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Google Pixel 9 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 9 Pro Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 9 Pro XL Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 8 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 8A Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 8 Pro Spare Parts",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "heading": "Asus Reservdelar",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Casual",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Dress",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Fashion",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Luxury",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "heading": "Huawei Reservdelar",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Casual",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Dress",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Fashion",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Luxury",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "heading": "Motorola Reservdelar",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Casual",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Dress",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Fashion",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Luxury",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "heading": "Xiaomi Reservdelar",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Casual",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Dress",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Fashion",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Luxury",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "heading": "OnePlus Reservdelar",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Casual",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Dress",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Fashion",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Luxury",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "heading": "MobilBatterierl",
           "subMenuOpen": false,
           "items": [
             {
@@ -108,13 +367,13 @@
     },
     {
       "id": 2,
-      "title": "Footwear",
+      "title": "Mobilskal & Fodral",
       "path": "#",
       "type": "link"
     },
     {
       "id": 3,
-      "title": "Clothing",
+      "title": "Mobiltillbehör",
       "active": false,
       "menuOpen": false,
       "bannerImage": "banner/1.jpg",
@@ -219,27 +478,41 @@
     },
     {
       "id": 4,
-      "title": "Accessories",
+      "title": "Laptop Reservdelar",
       "path": "#",
       "type": "link"
     },
     {
       "id": 5,
-      "title": "Home & Decor",
+      "title": "MacBook Reservdelar",
       "path": "#",
       "type": "link"
     },
     {
       "id": 6,
-      "title": "Bags",
+      "title": "Mobilverktyg",
       "path": "#",
       "type": "link"
     },
     {
       "id": 1,
-      "title": "Kitchan",
+      "title": "Gaming",
+      "path": "#",
+      "type": "link"
+    },
+    {
+      "id": 1,
+      "title": "El scooter",
+      "path": "#",
+      "type": "link"
+    },
+    {
+      "id": 1,
+      "title": "Veckans Deal",
       "path": "#",
       "type": "link"
     }
+    
+   
   ]
 }
