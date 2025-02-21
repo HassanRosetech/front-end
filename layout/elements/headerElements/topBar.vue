@@ -4,8 +4,10 @@
       <div class="row">
         <div class="col-auto d-xl-block d-none">
           <ul class="border-list">
-            <li>Voxo ecommerce always free delivery</li>
-            <li>New Customer Extra 50% {{ useRuntimeConfig().public.const.OFF }}</li>
+            <li>8000 SEK For Free Shipping note</li>
+            <li>
+              New Customer Extra 50% {{ useRuntimeConfig().public.const.OFF }}
+            </li>
           </ul>
         </div>
         <div class="col-auto d-sm-block d-none" v-if="offerCode">
