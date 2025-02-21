@@ -64,9 +64,10 @@
             class="dropdown-menu dropdown-menu-end"
             v-model="$i18n.locale"
           >
+            <option class="dropdown-item" value="se">Swedish</option>
             <option class="dropdown-item" value="en">English</option>
-            <option class="dropdown-item" value="fr">French</option>
-            <option class="dropdown-item" value="es">Spanish</option>
+            <!-- <option class="dropdown-item" value="fr">French</option>
+            <option class="dropdown-item" value="es">Spanish</option> -->
           </select>
         </div>
       </li>
@@ -82,7 +83,8 @@ import { lang } from "~~/static/data/langname.json";
 export default {
   data() {
     return {
-      abcd: ["English", "Spanish", "Frrench"],
+      //  abcd: ["English", "Spanish", "Frrench"],
+      abcd: ["Swedish", "English"],
       selectedDropdowns: {
         loginAndRegister: "",
         currency: "",
