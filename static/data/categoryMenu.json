@@ -4,7 +4,7 @@
       "id": 1,
       "title": "MobilReservdelar",
       "active": false,
-      "bannerImage": "electronics/banner/4.jpg",
+      
       "menuOpen": false,
       "children": [
         {
@@ -198,35 +198,104 @@
               "title": "Google Pixel 8 Pro Spare Parts",
               "path": "#",
               "type": "link"
+            },
+            {
+              "title": "Google Pixel 7 Pro Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 7A Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 7 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 6 Pro Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 6A Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 6 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 5 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 5A Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 4XL Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 4A Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 4 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 3 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 3A XL Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 3 XL Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 3A Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 2 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel 2 XL Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Google Pixel XL Spare Parts",
+              "path": "#",
+              "type": "link"
             }
           ]
         },
         {
           "id": 6,
           "heading": "Asus Reservdelar",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Casual",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Dress",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Fashion",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Luxury",
-              "path": "#",
-              "type": "link"
-            }
-          ]
+          "subMenuOpen": false
+          
         },
         {
           "id": 7,
@@ -234,22 +303,22 @@
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Casual",
+              "title": "Huawei P Series",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Dress",
+              "title": "Huawei Mate Series",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Fashion",
+              "title": "Honor Series",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Luxury",
+              "title": "Huawei Y Series",
               "path": "#",
               "type": "link"
             }
@@ -261,22 +330,52 @@
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Casual",
+              "title": "Motorola Moto G84 Spare Parts",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Dress",
+              "title": "Motorola Moto G54 Spare Parts",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Fashion",
+              "title": "G8 Plus Spare Parts",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Luxury",
+              "title": "E6 Play Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Moto G20 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Motorola Moto G 5G Plus Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Moto G9 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Moto G6 Play Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Moto G5S Spare Parts",
+              "path": "#",
+              "type": "link"
+            }, 
+            {
+              "title": "Moto G7 Play Spare Parts",
               "path": "#",
               "type": "link"
             }
@@ -288,22 +387,77 @@
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Casual",
+              "title": "Xiaomi Redmi 13C Spare Parts",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Dress",
+              "title": "Xiaomi Redmi 12C Spare Parts",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Fashion",
+              "title": "Xiaomi Redmi 12 Spare Parts",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Luxury",
+              "title": "Xiaomi Redmi 10C Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Xiaomi Redmi Note 9T Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Xiaomi Mi 9 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Xiaomi Mi 10 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Xiaomi Mi 11 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Xiaomi Mi 12 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Xiaomi Mi 13 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Xiaomi Mi 14 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Xiaomi Redmi Note 9 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Xiaomi Redmi Note 10 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Xiaomi Redmi Note 11 Spare Parts",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Xiaomi Redmi Note 12 Spare Parts",
               "path": "#",
               "type": "link"
             }
@@ -315,22 +469,152 @@
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Casual",
+              "title": "OnePlus 12R Reservdelar",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Dress",
+              "title": "OnePlus 12 Reservdelar",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Fashion",
+              "title": "OnePlus 10 Pro Reservdelar",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Luxury",
+              "title": "OnePlus 9 Pro Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus 9 Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus 8 Pro Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus 8T Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus 8 Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus Nord CE 3 Lite Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus Nord 3 Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus Nord 2T 5G Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus Nord 2 5 G Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus Nord CE 2 Lite Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus Nord CE 2 Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus Nord CE 5G Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus Nord N10 5G Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus Nord N100 Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus Nord Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus 7T Pro Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus 7 Pro Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus 7T Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus 7 Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus 6T Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Oneplus 6 Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus 5T Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus 5 Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus 3/3T Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus 2 Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus One Reservdelar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OnePlus X Reservdelar",
               "path": "#",
               "type": "link"
             }
@@ -342,25 +626,76 @@
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Casual",
+              "title": "Apple Batteries",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Dress",
+              "title": "Samsung Galaxy Batterier",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Fashion",
+              "title": "Google Batterier",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Luxury",
+              "title": "Xiaomi Batterier",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Huawei Batterier",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Sony Xperia Batterier",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "One Plus Batterier",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Nokia Batterier",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "OPPO Batterier",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Motorola Batterier",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Asus Batterier",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Doro Batterier",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Nintendo Batterier",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Smart Watch Batteri",
               "path": "#",
               "type": "link"
             }
+            
           ]
         }
       ]
