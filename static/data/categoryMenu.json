@@ -834,8 +834,70 @@
     {
       "id": 1,
       "title": "Gaming",
-      "path": "#",
-      "type": "link"
+      "active": false,
+      
+      "menuOpen": false,
+      "children": [
+        {
+          "id": 1,
+          "heading": "⁠Xbox",
+          "subMenuOpen": false
+          
+        },
+        {
+          "id": 2,
+          "heading": "⁠Playstation",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Audio",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Simulation",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Bags and cases",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Silicon cover",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Screen protector",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "⁠Gadgets",
+              "path": "#",
+              "type": "link"
+            }
+
+            
+            
+          ]
+        },
+        {
+          "id": 3,
+          "heading": "⁠Gamecube",
+          "subMenuOpen": false
+          
+        },
+        {
+          "id": 4,
+          "heading": "Nintendo Wii",
+          "subMenuOpen": false
+          
+        }
+      ]
+      
     },
     {
       "id": 1,
