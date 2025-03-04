@@ -38,81 +38,6 @@
         },
         {
           "id": 2,
-          "heading": "Sony Reservdelar",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Sony Xperia XZ Series",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Sony Xperia XA Series",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Sony Xperia Z Series",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Sony Xperia M Series",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Sony Xperia E Series",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Sony Xperia L Series",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Sony Xperia X",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
-
-        {
-          "id": 3,
-          "heading": "Nokia Reservdelar",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Nokia 7 Plus",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Nokia Lumia Series",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Nokia N8",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Nokia 7.1",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Nokia N9",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
-        {
-          "id": 4,
           "heading": "Samsung Reservdelar",
           "subMenuOpen": false,
           "items": [
@@ -291,6 +216,83 @@
             }
           ]
         },
+        {
+          "id": 4,
+          "heading": "Sony Reservdelar",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Sony Xperia XZ Series",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Sony Xperia XA Series",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Sony Xperia Z Series",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Sony Xperia M Series",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Sony Xperia E Series",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Sony Xperia L Series",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Sony Xperia X",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+
+        {
+          "id": 3,
+          "heading": "Nokia Reservdelar",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Nokia 7 Plus",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Nokia Lumia Series",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Nokia N8",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Nokia 7.1",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Nokia N9",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        
+        
         {
           "id": 6,
           "heading": "Asus Reservdelar",

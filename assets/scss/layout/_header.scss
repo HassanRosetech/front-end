@@ -671,6 +671,9 @@
                                 .category-childmenu {
                                     .title-category {
                                         margin-bottom: 15px;
+
+                                        text-transform: uppercase;
+                                        font-weight: bold;
                                     }
 
                                     ul {
@@ -731,6 +734,9 @@
             .title-category {
                 h6 {
                     font-size: 14px;
+
+                    text-transform: uppercase;
+                                        font-weight: bold;
                 }
             }
         }
@@ -788,6 +794,10 @@
                                     .title-category {
                                         position: relative;
                                         padding: 6px 0;
+
+
+                                        text-transform: uppercase;
+                                        font-weight: bold;
 
                                         h6 {
                                             font-weight: 400;
