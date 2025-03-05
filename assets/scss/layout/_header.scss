@@ -614,7 +614,25 @@
         }
     }
 
+
     @media (min-width: 1200px) {
+        .col-xl-3:nth-child(5){
+margin-top: -580px;
+        }
+
+        .col-xl-3:nth-child(6){
+            margin-top: -450px;
+                    }
+                    .col-xl-3:nth-child(8){
+                        margin-top: -460px;
+                                }
+                                .col-xl-3:nth-child(9) ,.col-xl-3:nth-child(10) {
+                                    margin-top: -540px;
+                                            }
+                                            .col-xl-3:nth-child(7) ,.col-xl-3:nth-child(11) {
+                                                margin-top: 20px;
+                                                        }
+       
         .category-menu {
             position: relative;
 
@@ -724,7 +742,8 @@
                             }
 
                             @include mq-min(2xl) {
-                                min-width: 850px;
+                                // min-width: 850px;
+                                min-width: 1000px;
                             }
                         }
                     }
