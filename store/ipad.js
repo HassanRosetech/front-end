@@ -1,8 +1,8 @@
-import axiosData from "../static/data/iphone.json";
+import axiosData from "../static/data/ipad.json";
 import { useLayout } from "./layout";
 
 export const useProductStore = defineStore({
-  id: "iphone",
+  id: "ipad",
   state: () => {
     return {
       originalProducts: axiosData.data,
