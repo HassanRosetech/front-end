@@ -3,58 +3,89 @@
   <div class="product-box" :class="productBoxClasses" v-else>
     <div class="img-wrapper">
       <div @click="gotoProduct">
-        <a @click="$router.push('/product/product_left_sidebar/' + product.id)" class="front sliderBackground bg-size"
+        <a
+          @click="$router.push('/product/product_left_sidebar/' + product.id)"
+          class="front sliderBackground bg-size"
           :style="{
             'background-image': `url(${getImageUrl(product.images[0].src)})`,
-          }">
-          <img :src="getImageUrl(product.images[0].src)" class="bg-img d-none" alt="" />
+          }"
+        >
+          <img
+            :src="getImageUrl(product.images[0].src)"
+            class="bg-img d-none"
+            alt=""
+          />
         </a>
       </div>
       <div @click="gotoProduct">
-        <a @click="$router.push('/product/product_left_sidebar/' + product.id)" class="back sliderBackground bg-size"
+        <a
+          @click="$router.push('/product/product_left_sidebar/' + product.id)"
+          class="back sliderBackground bg-size"
           :style="{
             'background-image': `url(${getImageUrl(
               product.images[1] ? product.images[1].src : product.images[0].src
             )})`,
-          }">
-          <img :src="
-            getImageUrl(
-              product.images[1]
-                ? product.images[1].src
-                : product.images[0].src
-            )
-          " class="bg-img d-none" alt="" />
+          }"
+        >
+          <img
+            :src="
+              getImageUrl(
+                product.images[1]
+                  ? product.images[1].src
+                  : product.images[0].src
+              )
+            "
+            class="bg-img d-none"
+            alt=""
+          />
         </a>
       </div>
       <div class="label-block" v-if="product.new || product.discount">
         <span class="label label-black" v-if="product.new">{{
           useRuntimeConfig().public.const.NEW
         }}</span>
-        <span class="label label-theme" v-if="product.discount">{{ product.discount }}% {{
-          useRuntimeConfig().public.const.OFF
-        }}</span>
+        <span class="label label-theme" v-if="product.discount"
+          >{{ product.discount }}%
+          {{ useRuntimeConfig().public.const.OFF }}</span
+        >
       </div>
       <div class="cart-wrap">
         <ul>
           <li>
-            <a href="javascript:void(0)" class="addtocart-btn" data-bs-toggle="modal" data-bs-target="#addtocart"
-              @click="toggleCartModal(product)">
+            <a
+              href="javascript:void(0)"
+              class="addtocart-btn"
+              data-bs-toggle="modal"
+              data-bs-target="#addtocart"
+              @click="toggleCartModal(product)"
+            >
               <vue-feather type="shopping-bag"></vue-feather>
             </a>
           </li>
           <li>
-            <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#quick-view"
-              @click="toggleQuickViewModal(product.id)">
+            <a
+              href="javascript:void(0)"
+              data-bs-toggle="modal"
+              data-bs-target="#quick-view"
+              @click="toggleQuickViewModal(product.id)"
+            >
               <vue-feather type="eye"></vue-feather>
             </a>
           </li>
           <li>
-            <a href="javascript:void(0)" @click.prevent="addTocompareMixin(product)">
+            <a
+              href="javascript:void(0)"
+              @click.prevent="addTocompareMixin(product)"
+            >
               <vue-feather type="refresh-cw"></vue-feather>
             </a>
           </li>
           <li>
-            <a href="javascript:void(0)" @click.prevent="addToWishlist(product)" class="wishlist">
+            <a
+              href="javascript:void(0)"
+              @click.prevent="addToWishlist(product)"
+              class="wishlist"
+            >
               <vue-feather type="heart"></vue-feather>
             </a>
           </li>
@@ -63,20 +94,30 @@
     </div>
     <div class="product-details">
       <div class="rating-details">
-        <span class="font-light grid-content">{{ product.category !='none'?product.category:product.type }}</span>
+        <span class="font-light grid-content">{{
+          product.category != "none" ? product.category : product.type
+        }}</span>
         <ul class="rating mt-0 d-flex">
           <li v-for="(stars, index) in product.ratingStars" :key="index">
             <i class="fas fa-star theme-color"></i>
           </li>
-          <li v-for="(noStars, index) in 5 - product.ratingStars" :key="'A' + index">
+          <li
+            v-for="(noStars, index) in 5 - product.ratingStars"
+            :key="'A' + index"
+          >
             <i class="fas fa-star"></i>
           </li>
         </ul>
       </div>
       <div class="main-price">
-        <a href="javascript:void(0)" @click.prevent="
-          $router.push('/product/product_left_sidebar/' + product.id)
-        " class="font-default">
+        <a
+          href="javascript:void(0)"
+          style="width: -webkit-fill-available"
+          @click.prevent="
+            $router.push('/product/product_left_sidebar/' + product.id)
+          "
+          class="font-default"
+        >
           <h5>{{ product.name }}</h5>
         </a>
         <div class="listing-content">
@@ -95,7 +136,6 @@
 </template>
 
 <script>
-
 import VueFeather from "vue-feather";
 import productBox1_skeletonLoader from "~/layout/elements/skeletonLoaders/productBox1_skeletonLoader.vue";
 import { useClickStore } from "~~/store/clickEvents";
@@ -113,7 +153,7 @@ export default {
   },
   computed: {
     selectedCurrencySymbol() {
-      return useLayout().selectedCurrencySymbol
+      return useLayout().selectedCurrencySymbol;
     },
   },
   methods: {
@@ -123,14 +163,13 @@ export default {
       });
     },
     toggleQuickViewModal(productId) {
-      useClickStore().changeProductId(productId)
+      useClickStore().changeProductId(productId);
     },
     getImageUrl(path) {
-      return ("/images/" + path)
-    }
+      return "/images/" + path;
+    },
   },
   mounted() {
-
     setTimeout(() => {
       this.showSkeletonLoader = false;
     }, 2000);

@@ -14,12 +14,12 @@
           "items": [
             {
               "title": "iPhone reservdelar",
-              "path": "#",
+              "path": "apple/iphone",
               "type": "link"
             },
             {
               "title": "iPad Reservdelar",
-              "path": "#",
+              "path": "apple/iphone",
               "type": "link"
             },
             {
