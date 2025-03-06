@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <Title>Search</Title>
+    <Title>Apple - iphone</Title>
   </Head>
   <layout3 pageName="Search" parent="Search">
     <PageSearchTopBar v-model="search" />
