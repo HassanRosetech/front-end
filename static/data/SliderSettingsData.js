@@ -1,8 +1,4 @@
-import {
-  Pagination,
-  Navigation,
-  Autoplay
-} from "swiper";
+import { Pagination, Navigation, Autoplay } from "swiper";
 
 export const InstaSlider = {
   centerMode: true,
@@ -12,7 +8,8 @@ export const InstaSlider = {
   slidesPerView: 5,
   speed: 500,
   dots: true,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1400,
       settings: {
         slidesPerView: 4,
@@ -48,7 +45,8 @@ export const furnitureInstaSlider = {
   speed: 500,
   slidesPerView: 5,
   slidesToScroll: 2,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1630,
       settings: {
         slidesPerView: 4,
@@ -89,7 +87,8 @@ export const NewArrivalSlider = {
   speed: 500,
   slidesPerView: 4,
   slidesToScroll: 1,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1200,
       settings: {
         slidesPerView: 3,
@@ -118,8 +117,10 @@ export const MainHomeSlider = {
   autoplay: false,
   slidesPerView: 1,
   slidesToScroll: 1,
-  nextArrow: '<div class="custom-arrow next"><span>Next</span><i class="fas fa-chevron-right"></i></div>',
-  prevArrow: '<div class="custom-arrow prev"><i class="fas fa-chevron-left"></i><span>Prev</span></div>',
+  nextArrow:
+    '<div class="custom-arrow next"><span>Next</span><i class="fas fa-chevron-right"></i></div>',
+  prevArrow:
+    '<div class="custom-arrow prev"><i class="fas fa-chevron-left"></i><span>Prev</span></div>',
 };
 
 // ----------------*****************----------------******************------------
@@ -130,7 +131,8 @@ export const FlowerBrandSlider = {
   speed: 500,
   slidesPerView: 6,
   slidesToScroll: 1,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1200,
       settings: {
         slidesPerView: 5,
@@ -158,8 +160,10 @@ export const FlowerBrandSlider = {
 };
 // ----------------*****************----------------******************------------
 export const HomePosterSlider = {
-  nextArrow: '<div class="custom-arrow next"><span>Next</span><i class="fas fa-chevron-right"></i></div>',
-  prevArrow: '<div class="custom-arrow prev"><i class="fas fa-chevron-left"></i><span>Prev</span></div>',
+  nextArrow:
+    '<div class="custom-arrow next"><span>Next</span><i class="fas fa-chevron-right"></i></div>',
+  prevArrow:
+    '<div class="custom-arrow prev"><i class="fas fa-chevron-left"></i><span>Prev</span></div>',
 };
 // ----------------*****************----------------******************------------
 export const FlowerLatestSlider = {
@@ -168,7 +172,8 @@ export const FlowerLatestSlider = {
   speed: 500,
   slidesPerView: 5,
   slidesToScroll: 2,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1200,
       settings: {
         slidesPerView: 4,
@@ -194,13 +199,15 @@ export const FlowerOurSlider = {
   loop: true,
   slidesPerView: 3,
   slidesToScroll: 2,
-  responsive: [{
-    breakpoint: 1200,
-    settings: {
-      slidesPerView: 2,
-      slidesToScroll: 2,
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesPerView: 2,
+        slidesToScroll: 2,
+      },
     },
-  }, ],
+  ],
 };
 // ----------------*****************----------------******************------------
 export const FlowerProductSlider = {
@@ -216,7 +223,8 @@ export const FlowerUpdateSlider = {
   loop: true,
   slidesPerView: 3,
   slidesToScroll: 2,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1200,
       settings: {
         slidesPerView: 2,
@@ -239,7 +247,8 @@ export const CategoryBannerSlider = {
   arrows: true,
   slidesPerView: 4,
   slidesToScroll: 1,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1425,
       settings: {
         slidesPerView: 3,
@@ -273,7 +282,8 @@ export const categorySlider3 = {
   speed: 500,
   slidesPerView: 6,
   slidesToScroll: 1,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1501,
       settings: {
         slidesPerView: 5,
@@ -309,8 +319,10 @@ export const categorySlider3 = {
 };
 // ----------------*****************----------------******************------------
 export const FurnitureMainSlider = {
-  nextArrow: '<div className="custom-arrow next"><span>Next</span><i class="fas fa-chevron-right"></i></div>',
-  prevArrow: '<div className="custom-arrow prev"><i class="fas fa-chevron-left"></i><span>Prev</span></div>',
+  nextArrow:
+    '<div className="custom-arrow next"><span>Next</span><i class="fas fa-chevron-right"></i></div>',
+  prevArrow:
+    '<div className="custom-arrow prev"><i class="fas fa-chevron-left"></i><span>Prev</span></div>',
 };
 // ----------------*****************----------------******************------------
 export const furnitureHomeVerticalSlider = {
@@ -341,7 +353,8 @@ export const FurnitureProductSlider = {
   dots: true,
   slidesPerView: 5,
   slidesToScroll: 2,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1340,
       settings: {
         slidesPerView: 4,
@@ -395,13 +408,15 @@ export const ShoesMainSlider = {
   slidesToScroll: 1,
   fade: true,
   arrows: true,
-  responsive: [{
-    breakpoint: 480,
-    settings: {
-      infinite: false,
-      slidesPerView: 1,
+  responsive: [
+    {
+      breakpoint: 480,
+      settings: {
+        infinite: false,
+        slidesPerView: 1,
+      },
     },
-  }, ],
+  ],
 };
 // ----------------*****************----------------******************------------
 export const ElectronicProductSlider = {
@@ -410,7 +425,8 @@ export const ElectronicProductSlider = {
   speed: 500,
   slidesPerView: 6,
   slidesToScroll: 1,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1630,
       settings: {
         slidesPerView: 5,
@@ -469,9 +485,10 @@ export const VRSlider = {
     },
     0: {
       slidesPerView: 1,
-    }
+    },
   },
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1630,
       settings: {
         slidesPerView: 6,
@@ -510,8 +527,7 @@ export const VRSlider = {
   ],
 };
 
-
-export const VRCollectionSlider ={
+export const VRCollectionSlider = {
   modules: [Autoplay, Pagination],
   loop: true,
   pagination: {
@@ -525,37 +541,37 @@ export const VRCollectionSlider ={
   breakpoints: {
     1630: {
       slidesPerView: 7,
-      spaceBetween: 24
+      spaceBetween: 24,
     },
     1367: {
       slidesPerView: 7,
-      spaceBetween: 24
+      spaceBetween: 24,
     },
     1200: {
       slidesPerView: 5,
-      spaceBetween: 24
+      spaceBetween: 24,
     },
     992: {
       slidesPerView: 4,
-      spaceBetween: 24
+      spaceBetween: 24,
     },
     705: {
       slidesPerView: 3,
-      spaceBetween: 24
+      spaceBetween: 24,
     },
     575: {
-      spaceBetween: 12
+      spaceBetween: 12,
     },
     481: {
       slidesPerView: 1,
-      spaceBetween: 12
+      spaceBetween: 12,
     },
     0: {
       spaceBetween: 12,
       slidesPerView: 1,
-    }
-  }
-}
+    },
+  },
+};
 
 // ----------------*****************----------------******************------------
 export const ShoesProductSlider = {
@@ -564,7 +580,8 @@ export const ShoesProductSlider = {
   speed: 500,
   slidesPerView: 6,
   slidesToScroll: 1,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1630,
       settings: {
         slidesPerView: 5,
@@ -598,7 +615,8 @@ export const ShoesCategorySlider = {
   speed: 500,
   slidesPerView: 6,
   slidesToScroll: 1,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1501,
       settings: {
         slidesPerView: 5,
@@ -639,7 +657,8 @@ export const ShoesNewSlider = {
   speed: 500,
   slidesPerView: 5,
   slidesToScroll: 1,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1200,
       settings: {
         slidesPerView: 4,
@@ -684,7 +703,8 @@ export const VegetableFreshSlider = {
   speed: 500,
   slidesPerView: 6,
   slidesToScroll: 1,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1630,
       settings: {
         slidesPerView: 5,
@@ -721,7 +741,8 @@ export const vegetableProductSection = {
   speed: 500,
   slidesPerView: 6,
   slidesToScroll: 1,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1630,
       settings: {
         slidesPerView: 5,
@@ -754,7 +775,8 @@ export const FreshFruitsSlider = {
   speed: 500,
   slidesPerView: 6,
   slidesToScroll: 1,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1630,
       settings: {
         slidesPerView: 5,
@@ -791,7 +813,8 @@ export const SliderFruit = {
   speed: 500,
   slidesPerView: 4,
   slidesToScroll: 1,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1200,
       settings: {
         slidesPerView: 3,
@@ -817,7 +840,8 @@ export const BottomBanner = {
   loop: true,
   slidesPerView: 3,
   slidesToScroll: 2,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1200,
       settings: {
         slidesPerView: 2,
@@ -837,17 +861,17 @@ export const BottomBanner = {
 export const searchProductSlider = {
   pagination: true,
   loop: true,
-  spaceBetween:20,
-  modules:[Pagination],
+  spaceBetween: 20,
+  modules: [Pagination],
   slidesPerView: 4,
   breakpoints: {
-      991:{
-        slidesPerView: 3,
-      },
-      0:{
-        slidesPerView: 2,
-      }
+    991: {
+      slidesPerView: 3,
     },
+    0: {
+      slidesPerView: 2,
+    },
+  },
 };
 
 // ----------------*****************----------------******************------------
@@ -858,7 +882,8 @@ export const productPageRelativeProducts = {
   speed: 500,
   slidesPerView: 4,
   slidesToScroll: 1,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1200,
       settings: {
         slidesPerView: 3,
@@ -886,7 +911,8 @@ export const quickViewCarousel = {
   loop: true,
   slidesPerView: 4,
   slidesToScroll: 2,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1200,
       settings: {
         slidesPerView: 3,
@@ -914,7 +940,8 @@ export const categoryFilterSlider = {
   slidesToScroll: 1,
   speed: 500,
   autoplay: true,
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1630,
       settings: {
         slidesPerView: 6,
@@ -973,7 +1000,7 @@ export const productPageBottomSlider = {
 export const relatedBlogCarousel = {
   spaceBetween: 10,
   slidesPerView: 4,
-  pagination: true
+  pagination: true,
 };
 
 // ================= about us page ======================
@@ -983,7 +1010,7 @@ export const testimonialCarousel = {
   loop: true,
   spaceBetween: 30,
   pagination: {
-    clickable: true
+    clickable: true,
   },
   clickable: true,
   breakpoints: {
@@ -995,7 +1022,7 @@ export const testimonialCarousel = {
     },
     0: {
       slidesPerView: 1,
-    }
+    },
   },
 };
 
@@ -1008,16 +1035,17 @@ export const teamleadersSlider = {
   slidesToScroll: 2,
   breakpoints: {
     1200: {
-      slidesPerView: 5
+      slidesPerView: 5,
     },
     992: {
-      slidesPerView: 3
+      slidesPerView: 3,
     },
     0: {
-      slidesPerView: 2
+      slidesPerView: 2,
     },
   },
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1200,
       settings: {
         slidesPerView: 4,

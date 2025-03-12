@@ -40,7 +40,7 @@
           />
         </a>
       </div>
-      <div class="label-block" v-if="product.new || product.discount">
+      <!-- <div class="label-block" v-if="product.new || product.discount">
         <span class="label label-black" v-if="product.new">{{
           useRuntimeConfig().public.const.NEW
         }}</span>
@@ -48,8 +48,8 @@
           >{{ product.discount }}%
           {{ useRuntimeConfig().public.const.OFF }}</span
         >
-      </div>
-      <div class="cart-wrap">
+      </div> -->
+      <!-- <div class="cart-wrap">
         <ul>
           <li>
             <a
@@ -90,14 +90,14 @@
             </a>
           </li>
         </ul>
-      </div>
+      </div> -->
     </div>
     <div class="product-details">
       <div class="rating-details">
         <span class="font-light grid-content">{{
           product.category != "none" ? product.category : product.type
         }}</span>
-        <ul class="rating mt-0 d-flex">
+        <!-- <ul class="rating mt-0 d-flex">
           <li v-for="(stars, index) in product.ratingStars" :key="index">
             <i class="fas fa-star theme-color"></i>
           </li>
@@ -107,26 +107,25 @@
           >
             <i class="fas fa-star"></i>
           </li>
-        </ul>
+        </ul> -->
       </div>
       <div class="main-price">
         <a
           href="javascript:void(0)"
-          style="width: -webkit-fill-available"
           @click.prevent="
             $router.push('/product/product_left_sidebar/' + product.id)
           "
           class="font-default"
         >
-          <h5>{{ product.name }}</h5>
+          <h5 style="width: fit-content">{{ product.name }}</h5>
         </a>
         <div class="listing-content">
           <span class="font-light">{{ product.size }}</span>
           <p class="font-light">{{ product.description }}</p>
         </div>
-        <h3 class="theme-color">
+        <!-- <h3 class="theme-color">
           {{ selectedCurrencySymbol }}{{ product.price }}
-        </h3>
+        </h3> -->
         <button @click="toggleCartModal(product)" class="btn listing-content">
           {{ useRuntimeConfig().public.const.Addtocart }}
         </button>
