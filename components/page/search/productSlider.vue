@@ -24,7 +24,7 @@
 
 <script setup>
 import productBox1 from "~/layout/elements/productBox/product-box1.vue";
-import { searchProductSlider } from "@/static/data/SliderSettingsData.js";
+// import { searchProductSlider } from "@/static/data/SliderSettingsData.js";
 let props = defineProps({
   productsList: Array,
 });
