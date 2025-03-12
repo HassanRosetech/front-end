@@ -1,0 +1,1 @@
+import{at as i,l as m}from"./BCKidhl8.js";function o(a,f,l,n){return a.params.createElements&&Object.keys(n).forEach(e=>{if(!l[e]&&l.auto===!0){let t=i(a.el,`.${n[e]}`)[0];t||(t=m("div",n[e]),t.className=n[e],a.el.append(t)),l[e]=t,f[e]=t}}),l}export{o as c};
