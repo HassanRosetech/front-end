@@ -1,0 +1,234 @@
+{
+    "data":[
+        {
+          "id": 198,
+          "category": "Huawei",
+          "name": "Huawei P40 Pro Plus",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 199,
+          "category": "Huawei",
+          "name": "Huawei P40 Pro",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 200,
+          "category": "Huawei",
+          "name": "Huawei P40 Lite",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 201,
+          "category": "Huawei",
+          "name": "Huawei P40",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 202,
+          "category": "Huawei",
+          "name": "Huawei P30 Lite",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 203,
+          "category": "Huawei",
+          "name": "Huawei P30 Pro",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 204,
+          "category": "Huawei",
+          "name": "Huawei P20 Pro",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 205,
+          "category": "Huawei",
+          "name": "Huawei P20",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 206,
+          "category": "Huawei",
+          "name": "Huawei P20 LITE",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 207,
+          "category": "Huawei",
+          "name": "Huawei P Smart Pro",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 208,
+          "category": "Huawei",
+          "name": "Huawei P Smart Plus",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 209,
+          "category": "Huawei",
+          "name": "Huawei P Smart",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 210,
+          "category": "Huawei",
+          "name": "Huawei P SMART (2019)",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 211,
+          "category": "Huawei",
+          "name": "Huawei P10 Plus",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 212,
+          "category": "Huawei",
+          "name": "Huawei P10",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 213,
+          "category": "Huawei",
+          "name": "Huawei P10 Lite",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 214,
+          "category": "Huawei",
+          "name": "Huawei P9 Plus",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 215,
+          "category": "Huawei",
+          "name": "Huawei P9",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 216,
+          "category": "Huawei",
+          "name": "Huawei P9 Lite Mini",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 217,
+          "category": "Huawei",
+          "name": "Huawei P9 Lite",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 218,
+          "category": "Huawei",
+          "name": "Huawei P8",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 219,
+          "category": "Huawei",
+          "name": "Huawei P8 Lite",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 220,
+          "category": "Huawei",
+          "name": "Huawei P Smart Z",
+           "type": "Huawei P Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        }
+      ]
+}

@@ -306,12 +306,12 @@
           "items": [
             {
               "title": "Huawei P Series",
-              "path": "#",
+              "path": "Huawei/P-Series",
               "type": "link"
             },
             {
               "title": "Huawei Mate Series",
-              "path": "#",
+              "path": "Huawei/Mate-Series",
               "type": "link"
             },
             {

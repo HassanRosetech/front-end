@@ -1,0 +1,94 @@
+{
+    "data":[
+        {
+          "id": 221,
+          "category": "Huawei",
+          "name": "Huawei Mate 20 Pro",
+          "type": "Huawei Mate Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 222,
+          "category": "Huawei",
+          "name": "Huawei Mate 20",
+          "type": "Huawei Mate Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 223,
+          "category": "Huawei",
+          "name": "Huawei Mate 20 Lite",
+          "type": "Huawei Mate Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 224,
+          "category": "Huawei",
+          "name": "Huawei Mate 20 RS",
+          "type": "Huawei Mate Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 225,
+          "category": "Huawei",
+          "name": "Huawei Mate 10 Pro",
+          "type": "Huawei Mate Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 226,
+          "category": "Huawei",
+          "name": "Huawei Mate 10 Lite",
+          "type": "Huawei Mate Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 227,
+          "category": "Huawei",
+          "name": "Huawei Mate 10",
+          "type": "Huawei Mate Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 228,
+          "category": "Huawei",
+          "name": "Huawei Mate 9 Pro",
+          "type": "Huawei Mate Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 229,
+          "category": "Huawei",
+          "name": "Huawei Mate 9",
+          "type": "Huawei Mate Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        }
+      ]
+}
