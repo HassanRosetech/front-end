@@ -1,0 +1,124 @@
+{
+    "data":[
+        {
+          "id": 230,
+          "category": "Huawei",
+          "name": "Huawei Honor 20",
+          "type": "Huawei Honor Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 231,
+          "category": "Huawei",
+          "name": "Huawei Honor 10 Lite",
+          "type": "Huawei Honor Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 232,
+          "category": "Huawei",
+          "name": "Huawei Honor 10",
+          "type": "Huawei Honor Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 233,
+          "category": "Huawei",
+          "name": "Honor 9X",
+          "type": "Huawei Honor Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 234,
+          "category": "Huawei",
+          "name": "Huawei Honor 9",
+          "type": "Huawei Honor Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 235,
+          "category": "Huawei",
+          "name": "Huawei Honor 9 Lite",
+          "type": "Huawei Honor Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 236,
+          "category": "Huawei",
+          "name": "Huawei Honor 8 Pro",
+          "type": "Huawei Honor Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 237,
+          "category": "Huawei",
+          "name": "Huawei Honor 8",
+          "type": "Huawei Honor Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 238,
+          "category": "Huawei",
+          "name": "Huawei Honor 8 Lite",
+          "type": "Huawei Honor Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 239,
+          "category": "Huawei",
+          "name": "Huawei Honor 7",
+          "type": "Huawei Honor Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 240,
+          "category": "Huawei",
+          "name": "Honor View 20",
+          "type": "Huawei Honor Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 241,
+          "category": "Huawei",
+          "name": "Honor View 10",
+          "type": "Huawei Honor Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        }
+      ]
+}
