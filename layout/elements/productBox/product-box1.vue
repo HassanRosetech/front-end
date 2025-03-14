@@ -94,9 +94,9 @@
     </div>
     <div class="product-details">
       <div class="rating-details">
-        <span class="font-light grid-content">{{
+        <!-- <span class="font-light grid-content">{{
           product.category != "none" ? product.category : product.type
-        }}</span>
+        }}</span> -->
         <!-- <ul class="rating mt-0 d-flex">
           <li v-for="(stars, index) in product.ratingStars" :key="index">
             <i class="fas fa-star theme-color"></i>

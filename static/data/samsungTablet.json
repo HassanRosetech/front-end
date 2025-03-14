@@ -1,0 +1,134 @@
+{
+    "data":[
+        {
+          "id": 185,
+          "category": "Samsung",
+          "name": "Samsung Tab 4 8.0 SM-T330",
+          "type": "Samsung Tablet",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 186,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Tab 4 7.0 SM-T230",
+          "type": "Samsung Tablet",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 187,
+          "category": "Samsung",
+          "name": "Samsung Tab 3 10.1 GT-P5210 /P5220 /P5200",
+          "type": "Samsung Tablet",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 188,
+          "category": "Samsung",
+          "name": "Samsung Tab 3 8.0 SM-T310 /T311 /T31",
+          "type": "Samsung Tablet",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 189,
+          "category": "Samsung",
+          "name": "Samsung Tab 3 7.0 SM-T210 /T211",
+          "type": "Samsung Tablet",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 190,
+          "category": "Samsung",
+          "name": "Samsung Note 10.1 GT- N8000",
+          "type": "Samsung Tablet",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 191,
+          "category": "Samsung",
+          "name": "Samsung Tab 10.1 GT-P7500",
+          "type": "Samsung Tablet",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 192,
+          "category": "Samsung",
+          "name": "Samsung Tab P1000",
+          "type": "Samsung Tablet",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 193,
+          "category": "Samsung",
+          "name": "Samsung Tab A 9.7 SM-T555",
+          "type": "Samsung Tablet",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 194,
+          "category": "Samsung",
+          "name": "Samsung LTN156AT30-601 15.6",
+          "type": "Samsung Tablet",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 195,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Tab A7 10.4 (2020)",
+          "type": "Samsung Tablet",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 196,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Tab A8",
+          "type": "Samsung Tablet",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 197,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Tab S5e",
+          "type": "Samsung Tablet",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        }
+      ]
+}
