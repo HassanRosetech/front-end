@@ -1,0 +1,14 @@
+{
+    "data":[
+        {
+          "id": 277,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia E5",
+          "type": "Sony Xperia E Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        }
+      ]
+}
