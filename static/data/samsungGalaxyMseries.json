@@ -1,0 +1,106 @@
+{
+    "data":[
+        {
+          "id": 167,
+          "category": "Samsung",
+          "name": "Samsung Galaxy M33",
+           "type": "Samsung Galaxy M Series",
+          
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 168,
+          "category": "Samsung",
+          "name": "Samsung Galaxy M30",
+           "type": "Samsung Galaxy M Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 169,
+          "category": "Samsung",
+          "name": "Samsung Galaxy M31",
+           "type": "Samsung Galaxy M Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 170,
+          "category": "Samsung",
+          "name": "Samsung SM-M205F M20 2019",
+           "type": "Samsung Galaxy M Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 171,
+          "category": "Samsung",
+          "name": "Samsung Galaxy M30s",
+           "type": "Samsung Galaxy M Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 172,
+          "category": "Samsung",
+          "name": "Samsung Galaxy M21",
+           "type": "Samsung Galaxy M Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 173,
+          "category": "Samsung",
+          "name": "Samsung Galaxy M13",
+           "type": "Samsung Galaxy M Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 174,
+          "category": "Samsung",
+          "name": "Samsung Galaxy M53",
+           "type": "Samsung Galaxy M Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 175,
+          "category": "Samsung",
+          "name": "Samsung Galaxy M12",
+           "type": "Samsung Galaxy M Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 176,
+          "category": "Samsung",
+          "name": "Samsung Galaxy M23",
+           "type": "Samsung Galaxy M Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        }
+      ]
+
+}

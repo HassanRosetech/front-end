@@ -75,10 +75,7 @@
           "category": "Samsung",
           "name": "Samsung Galaxy Z Fold 4",
           "type": "Samsung Galaxy Z Series",
-          "images": [{
-            "imageId": 1,
-            "src": "electronics/product/1.jpg"
-          }],
+          
           "images": [{
             "imageId": 1,
             "src": "electronics/product/1.jpg"
