@@ -1,0 +1,34 @@
+{
+    "data":[
+        {
+          "id": 274,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia M2",
+          "type": "Sony Xperia M Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 275,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia M5",
+          "type": "Sony Xperia M Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 276,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia M4",
+          "type": "Sony Xperia M Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        }
+      ]
+}
