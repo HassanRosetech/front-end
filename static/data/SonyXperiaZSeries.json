@@ -1,0 +1,114 @@
+{
+    "data":[
+        {
+          "id": 263,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia Z5 Premium",
+          "type": "Sony Xperia Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 264,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia Z5",
+          "type": "Sony Xperia Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 265,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia Z5 Compact",
+          "type": "Sony Xperia Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 266,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia Z3 Plus",
+          "type": "Sony Xperia Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 267,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia Z3 Compact",
+          "type": "Sony Xperia Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 268,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia Z3",
+          "type": "Sony Xperia Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 269,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia Z2",
+          "type": "Sony Xperia Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 270,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia Z1 Compact",
+          "type": "Sony Xperia Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 271,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia Z1",
+          "type": "Sony Xperia Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 272,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia Z Ultra",
+          "type": "Sony Xperia Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 273,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia Z",
+          "type": "Sony Xperia Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        }
+      ]
+}
