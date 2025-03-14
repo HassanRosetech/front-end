@@ -1,0 +1,34 @@
+{
+    "data":[
+        {
+          "id": 278,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia L3",
+          "type": "Sony Xperia L Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 279,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia L1",
+          "type": "Sony Xperia L Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 280,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia L",
+          "type": "Sony Xperia L Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        }
+      ]
+}
