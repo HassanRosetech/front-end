@@ -1,0 +1,34 @@
+{
+    "data":[
+        {
+          "id": 281,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia X Performance",
+          "type": "Sony Xperia X Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 282,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia X Compact",
+          "type": "Sony Xperia X Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 283,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia X",
+          "type": "Sony Xperia X Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        }
+      ]
+}
