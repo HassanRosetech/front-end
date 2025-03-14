@@ -1,0 +1,74 @@
+{
+    "data":[
+        {
+          "id": 251,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia XZ3",
+          "type": "Sony Xperia XZ Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 252,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia XZ2 Compact",
+          "type": "Sony Xperia XZ Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 253,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia XZ2",
+          "type": "Sony Xperia XZ Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 254,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia XZ1",
+          "type": "Sony Xperia XZ Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 255,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia XZ1 Compact",
+          "type": "Sony Xperia XZ Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 256,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia XZ/XZS",
+          "type": "Sony Xperia XZ Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 257,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia XZ Premium",
+          "type": "Sony Xperia XZ Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        }
+      ]
+}
