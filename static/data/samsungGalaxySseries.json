@@ -1,0 +1,355 @@
+{
+    "data":[
+        {
+          "id": 112,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S24 Ultra",
+          "images": [{
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }]
+        },
+        {
+          "id": 113,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S24 Plus",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 114,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S24",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 115,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S23 Ultra",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 116,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S23 Plus",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 117,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S23 FE",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 119,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S23",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 120,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S22 Ultra",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 121,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S22 Plus",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 122,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S22",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 123,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S21",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 124,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S21 FE",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 125,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S21 Ultra",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 126,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S21 Plus",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 127,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S20 Plus",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 128,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S20 Ultra",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 129,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S20 FE",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 130,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung SM-G980F/DS G981 S20",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 131,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung SM-G770F S10 Lite",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 132,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung SM-G975F S10 Plus",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 133,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung SM-G973F S10",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 134,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung SM-G970F S10e",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 135,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung SM-G965F S9 Plus",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 136,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S9 Duos",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 137,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung SM-G960F S9",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 138,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung SM-G955F S8 Plus",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 139,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung SM-G950F S8",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 140,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung SM-G935F S7 Edge",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 141,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung SM-G930F S7",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 142,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung SM-G928F S6 Edge Plus",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 143,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung SM-G925F S6 Edge",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 144,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung SM-G920F S6",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 546,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S25",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 547,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S25 Plus",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 548,
+          "category": "Samsung",
+          "type": "Samsung Galaxy S Series",
+          "name": "Samsung Galaxy S25 Ultra",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+          
+        }
+      ]
+}

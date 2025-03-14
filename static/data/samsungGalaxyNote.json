@@ -1,0 +1,148 @@
+{
+    "data":[
+        {
+          "id": 153,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Note 20",
+         "type": "Samsung Galaxy Note",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 154,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Note 20 Ultra 5G",
+         "type": "Samsung Galaxy Note",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 155,
+          "category": "Samsung",
+          "name": "Samsung SM-N770F/DSM Note 10 Lite",
+         "type": "Samsung Galaxy Note",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 156,
+          "category": "Samsung",
+          "name": "Samsung SM-N975F Note 10 Plus",
+         "type": "Samsung Galaxy Note",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 157,
+          "category": "Samsung",
+          "name": "Samsung SM-N970F Note 10",
+         "type": "Samsung Galaxy Note",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 158,
+          "category": "Samsung",
+          "name": "Samsung SM-N960F Note 9",
+         "type": "Samsung Galaxy Note",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 159,
+          "category": "Samsung",
+          "name": "Samsung SM-N950F Note 8",
+         "type": "Samsung Galaxy Note",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 160,
+          "category": "Samsung",
+          "name": "Samsung SM-N930F Note 7",
+         "type": "Samsung Galaxy Note",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 161,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Note 5",
+         "type": "Samsung Galaxy Note",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 162,
+          "category": "Samsung",
+          "name": "Samsung SM-N910F Note 4",
+         "type": "Samsung Galaxy Note",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 163,
+          "category": "Samsung",
+          "name": "Samsung SM-N915F Note 4 Edge",
+         "type": "Samsung Galaxy Note",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 164,
+          "category": "Samsung",
+          "name": "Samsung SM-N9005 Note 3 LTE",
+         "type": "Samsung Galaxy Note",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 165,
+          "category": "Samsung",
+          "name": "Samsung GT-N7105 Note 2 LTE",
+         "type": "Samsung Galaxy Note",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 166,
+          "category": "Samsung",
+          "name": "Samsung GT-N7100 Note 2",
+         "type": "Samsung Galaxy Note",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }],
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        }
+      ]
+}

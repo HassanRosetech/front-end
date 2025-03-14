@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <Title>Samsung - Galaxy A series</Title>
+    <Title>Samsung - Galaxy Z series</Title>
   </Head>
   <layout3 pageName="Search" parent="Search">
     <PageSearchTopBar v-model="search" />
@@ -10,11 +10,11 @@
 
 <script setup>
 import layout3 from "~/layout/layouts/layout3.vue";
-import { useProductStore } from "~~/store/samsungGalaxyAseries";
+import { useProductStore } from "~~/store/samsungGalaxyZseries";
 
 let productList = computed(() =>
   useProductStore().data.filter(
-    (item) => item.type === "Samsung Galaxy A Series"
+    (item) => item.type === "Samsung Galaxy Z Series"
   )
 );
 let search = ref(""),

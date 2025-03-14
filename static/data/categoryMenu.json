@@ -48,12 +48,12 @@
             },
             {
               "title": "Samsung Galaxy S Series",
-              "path": "#",
+              "path": "samsung/Galaxy-S-Series",
               "type": "link"
             },
             {
               "title": "Samsung Galaxy Note Series",
-              "path": "#",
+              "path": "samsung/GalaxyNote",
               "type": "link"
             },
             {
@@ -63,7 +63,7 @@
             },
             {
               "title": "Samsung Galaxy Z",
-              "path": "#",
+              "path": "samsung/Galaxy-Z-Series",
               "type": "link"
             },
             {

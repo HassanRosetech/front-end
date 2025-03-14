@@ -1,0 +1,89 @@
+{
+    "data":[
+        {
+          "id": 145,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Z Flip 5",
+          "type": "Samsung Galaxy Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 146,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Z Flip 4 5G",
+          "type": "Samsung Galaxy Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 147,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Z Flip 3 5G",
+          "type": "Samsung Galaxy Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 148,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Z Flip",
+          "type": "Samsung Galaxy Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 149,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Z Fold 3 5G",
+          "type": "Samsung Galaxy Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 150,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Z Fold 2 5G",
+          "type": "Samsung Galaxy Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 151,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Z Fold 5",
+          "type": "Samsung Galaxy Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 152,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Z Fold 4",
+          "type": "Samsung Galaxy Z Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }],
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        }
+      ]
+
+}
