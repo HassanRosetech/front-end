@@ -1,0 +1,54 @@
+{
+    "data":[
+        {
+          "id": 258,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia XA2",
+          "type": "Sony Xperia XA Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 259,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia XA1 UItra",
+          "type": "Sony Xperia XA Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 260,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia XA1",
+          "type": "Sony Xperia XA Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 261,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia XA Ultra",
+          "type": "Sony Xperia XA Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 262,
+          "category": "Sony Xperia",
+          "name": "Sony Xperia XA",
+          "type": "Sony Xperia XA Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        }
+      ]
+}
