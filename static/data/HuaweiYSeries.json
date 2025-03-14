@@ -1,0 +1,94 @@
+{
+    "data":[
+        {
+          "id": 242,
+          "category": "Huawei",
+          "name": "Huawei Y7 (2018)",
+          "type": "Huawei Y Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 243,
+          "category": "Huawei",
+          "name": "Huawei Y6 (2018 )",
+          "type": "Huawei Y Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 244,
+          "category": "Huawei",
+          "name": "Huawei Y5 (2018)",
+          "type": "Huawei Y Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 245,
+          "category": "Huawei",
+          "name": "Huawei Y6 Pro",
+          "type": "Huawei Y Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 246,
+          "category": "Huawei",
+          "name": "Huawei Y6 (2019)",
+          "type": "Huawei Y Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 247,
+          "category": "Huawei",
+          "name": "Huawei Y9 (2019)",
+          "type": "Huawei Y Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 248,
+          "category": "Huawei",
+          "name": "Huawei Y7 (2019)",
+          "type": "Huawei Y Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 249,
+          "category": "Huawei",
+          "name": "Huawei Y5 (2017)",
+          "type": "Huawei Y Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 250,
+          "category": "Huawei",
+          "name": "Huawei Y5P",
+          "type": "Huawei Y Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        }
+      ]
+}
