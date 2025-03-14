@@ -1,0 +1,84 @@
+{
+    "data":[
+        {
+          "id": 177,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Xcover 7",
+          "type": "Samsung Galaxy Xcover Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 178,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Xcover 6 Pro",
+          "type": "Samsung Galaxy Xcover Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 179,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Xcover 5",
+          "type": "Samsung Galaxy Xcover Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 180,
+          "category": "Samsung",
+          "name": "Samsung SM-G390F Xcover 4",
+          "type": "Samsung Galaxy Xcover Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 181,
+          "category": "Samsung",
+          "name": "Samsung SM-G388F Xcover 3",
+          "type": "Samsung Galaxy Xcover Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 182,
+          "category": "Samsung",
+          "name": "Samsung SM-G398F Xcover 4S",
+          "type": "Samsung Galaxy Xcover Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 183,
+          "category": "Samsung",
+          "name": "Samsung SM-G715U1 XCover Pro",
+          "type": "Samsung Galaxy Xcover Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        },
+        {
+          "id": 184,
+          "category": "Samsung",
+          "name": "Samsung Galaxy Xcover Pro SM-G715FN/DS",
+          "type": "Samsung Galaxy Xcover Series",
+          "images": [{
+            "imageId": 1,
+            "src": "electronics/product/1.jpg"
+          }]
+        }
+      ]
+}
