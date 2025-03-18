@@ -117,7 +117,9 @@
           "
           class="font-default"
         >
-          <h5 style="width: fit-content">{{ product.name }}</h5>
+          <h6 style="width: fit-content; font-weight: bold">
+            {{ product.name }}
+          </h6>
         </a>
         <div class="listing-content">
           <span class="font-light">{{ product.size }}</span>
