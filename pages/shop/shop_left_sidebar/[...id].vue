@@ -2,10 +2,10 @@
   <Head>
     <Title>Shop Left Sidebar</Title>
   </Head>
-  <layout5 pageName="Shop Fashion" parent="Shop Listing">
+  <layout5 pageName="Shop Electronic" parent="Shop Listing">
     <shopLeft :showSidebarCarousel="true">
       <template v-slot:topBanner>
-        <topBanner />
+        <!-- <topBanner /> -->
       </template>
     </shopLeft>
   </layout5>
@@ -26,10 +26,14 @@ export default {
   },
   computed: {
     ...mapState(usefilterStore, {
-      showFilterBar: 'showFilters',
+      showFilterBar: "showFilters",
     }),
   },
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.most-popular {
+  display: none;
+}
+</style>

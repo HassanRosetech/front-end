@@ -4,9 +4,9 @@
     <breadcrumb1 v-if="breadcrumb" :parent="parent" :pageName="pageName" />
     <slot v-else name="breadcrumb"></slot>
     <slot></slot>
-    <subscribe />
+    <!-- <subscribe /> -->
     <footer1>
-      <footerRight />
+      <!-- <footerRight /> -->
     </footer1>
     <mobileMenu />
   </div>
@@ -51,7 +51,7 @@ export default {
     };
   },
   created() {
-    let layoutMode = useCookie("colorMode").value || 'light';
+    let layoutMode = useCookie("colorMode").value || "light";
     if (layoutMode === "dark") this.themeCss = "/voxo/css/demo2_dark.css";
     else this.themeCss = "/voxo/css/demo2.css";
   },

@@ -65,7 +65,7 @@
         "size": "none",
         "available": true,
         "first_available_date": "28-10-2001",
-        "inStock": 15,
+        "inStock": 20,
         "totalReviews": 17,
         "brand": "Firebolt",
         "type": "iphone",
@@ -79,8 +79,9 @@
         "department": "none",
         "images": [{
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
-        }]
+          "src": "electronics/product/samsung_1493627761.png"
+        }
+     ]
       },
       {
         "id": 54,

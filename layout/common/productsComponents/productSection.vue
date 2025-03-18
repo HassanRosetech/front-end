@@ -8,7 +8,11 @@
           </h2>
           <div class="product-wrapper product-style-2 slide-4 p-0 light-arrow">
             <swiper v-bind="swiperOption" class="swiper-wrapper">
-              <swiper-slide class="swiper-slide" v-for="(product, index) in productsList" :key="index">
+              <swiper-slide
+                class="swiper-slide"
+                v-for="(product, index) in productsList"
+                :key="index"
+              >
                 <productBox1 :product="product" />
               </swiper-slide>
             </swiper>
@@ -42,24 +46,23 @@ export default {
         breakpoints: {
           1200: {
             slidesPerView: 4,
-            spaceBetween: 20
+            spaceBetween: 20,
           },
           991: {
             slidesPerView: 3,
-            spaceBetween: 20
+            spaceBetween: 20,
           },
           0: {
             slidesPerView: 2,
-          }
-        }
-      }
+          },
+        },
+      },
     };
   },
   computed: {
     productsList() {
-      return useProductStore().data.filter((item) => item.type === "fashion")
-    }
+      return useProductStore().data.filter((item) => item.type === "fashion");
+    },
   },
-
 };
 </script>

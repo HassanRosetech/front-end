@@ -11,7 +11,7 @@
 <script>
 import layout6 from "~/layout/layouts/layout6.vue";
 import productSectionL from "~/layout/common/productsComponents/productSection.vue";
-import { useProductStore } from "~~/store/products";
+import { useProductStore } from "~~/store/iphone";
 
 export default {
   components: { layout6, productSectionL },
@@ -22,7 +22,7 @@ export default {
   },
   computed: {
     allProducts() {
-      return useProductStore().data
+      return useProductStore().data;
     },
     product() {
       var product = this.allProducts.filter(
@@ -33,10 +33,7 @@ export default {
       return product;
     },
   },
-
 };
 </script>
 
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>
