@@ -1,0 +1,642 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "description": "iPhone 14 Pro Max Skärm med HD LCD Display",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": ["black"],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Skärm",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Skärm med HD LCD Display",
+      "mrp": 52,
+      "price": 499,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "description": "iPhone 14 Pro Max Baksida Glas svart",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": ["black"],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Baksida",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Baksida Glas svart",
+      "mrp": 52,
+      "price": 299,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "description": "iPhone 14 Pro Max Baksida Glas Vit",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": ["white"],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Baksida",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Baksida Glas Vit",
+      "mrp": 52,
+      "price": 299,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "description": "iPhone 14 Pro Max Samtalshögtalare Original",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Samtalshögtalare",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Samtalshögtalare Original",
+      "mrp": 52,
+      "price": 299,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "description": "iPhone 14 Pro Max Högtalare ",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Högtalare",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Högtalare ",
+      "mrp": 52,
+      "price": 449,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "description": "iPhone 14 Pro Max Taptic Engine Vibrator Original",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Vibrator",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Taptic Engine Vibrator Original",
+      "mrp": 52,
+      "price": 579,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "description": "iPhone 14 Pro Max Batteri 4323mAh",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Batteri",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Batteri 4323mAh",
+      "mrp": 52,
+      "price": 379,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "description": "iPhone 14 Pro Max Kamera lins glas",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Kamera lins",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Kamera lins glas",
+      "mrp": 52,
+      "price": 199,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "description": "Form för Separerande Lasermaskin Baksida till iPhone 14 Pro Max",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Verktyg",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "Form för Separerande Lasermaskin Baksida till iPhone 14 Pro Max",
+      "mrp": 52,
+      "price": 299,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "description": "iPhone 14 Pro Max Simkortshållare - Guld",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": ["gold"],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Simkortshållare",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Simkortshållare - Guld",
+      "mrp": 52,
+      "price": 389,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "description": "iPhone 14 Pro Max Wifi Antenn Flexkabel Original",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Antenn",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Wifi Antenn Flexkabel Original",
+      "mrp": 52,
+      "price": 479,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "description": "iPhone 14 Pro Max Strömknapp med Flexkabel Original",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Ström Flexkabel ",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Strömknapp med Flexkabel Original",
+      "mrp": 52,
+      "price": 289,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "description": "iPhone 14 Pro Max Laddkontakt med Flexkabel Original - Vit",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": ["white"],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Ström Flexkabel ",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Laddkontakt med Flexkabel Original - Vit",
+      "mrp": 52,
+      "price": 390,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "description": "iPhone 14 Pro Max NFC Antenn med Volymknappar och Strömknapp Flexkabel Original",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Ström Flexkabel ",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max NFC Antenn med Volymknappar och Strömknapp Flexkabel Original",
+      "mrp": 52,
+      "price": 579,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "description": "iPhone 14 Pro Max Laddkontakt med Flexkabel Original - svart",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": ["black"],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Ström Flexkabel ",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Laddkontakt med Flexkabel Original - svart",
+      "mrp": 52,
+      "price": 429,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "description": "iPhone 14 Pro Max Självhäftande tejp till Skärm",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": " SkärmTejp",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Självhäftande tejp till Skärm",
+      "mrp": 52,
+      "price": 59,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "description": "iPhone 14 Pro Max Sidoknappar - Deep Lila",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": ["purple"],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Knappsats",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Sidoknappar - Deep Lila",
+      "mrp": 52,
+      "price": 199,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "description": "iPhone 14 Pro Max Sidoknappar - Silver",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": ["silver"],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Knappsats",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Sidoknappar - Silver",
+      "mrp": 52,
+      "price": 249,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "description": "iPhone 14 Pro Max Bakre Kamera Original",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Kamera",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Bakre Kamera Original",
+      "mrp": 52,
+      "price": 999,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "description": "iPhone 14 Pro Max Glasskärm med OCA-film",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Glasskärm",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Glasskärm med OCA-film",
+      "mrp": 52,
+      "price": 49,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "description": "iPhone 14 Pro Max Blixt Ficklampa Flexkabel Original",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Blixt flexkabel",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Blixt Ficklampa Flexkabel Original",
+      "mrp": 52,
+      "price": 289,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "description": "iPhone 14 Pro Max Ambient Ljus Sensor Flexkabel Original",
+      "category": "iPhone 14 Pro Max ",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Sensor Flexkabel",
+      "type": "iPhone 14 Pro Max",
+      "feature": "none",
+      "name": "iPhone 14 Pro Max Ambient Ljus Sensor Flexkabel Original",
+      "mrp": 52,
+      "price": 369,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import axiosData from "../static/data/productstest.json";
+import axiosData from "../static/data/parts.json";
 export const usefilterStore = defineStore({
   id: "filter",
   state: () => {
