@@ -23,7 +23,7 @@
 </template>
 
 <script setup>
-import productBox1 from "~/layout/elements/productBox/product-box1.vue";
+import productBox1 from "~/layout/elements/productBox/product-box1-modified.vue";
 // import { searchProductSlider } from "@/static/data/SliderSettingsData.js";
 let props = defineProps({
   productsList: Array,
