@@ -16,6 +16,8 @@
             alt=""
           />
         </a>
+        <!-- Watermark Text -->
+        <div class="watermark-text">Parts Shop</div>
       </div>
       <div @click="gotoProduct">
         <a
@@ -177,3 +179,19 @@ export default {
   },
 };
 </script>
+<style scoped>
+.watermark-container {
+  position: relative;
+}
+
+.watermark-text {
+  position: absolute;
+  bottom: 125px; /* Adjust position */
+  right: 50px; /* Adjust position */
+  color: rgba(224, 36, 84, 0.7); /* Adjust color and opacity */
+  font-size: 24px; /* Adjust size */
+  font-weight: bold; /* Adjust font weight */
+  transform: rotate(-45deg); /* Optional: rotate the watermark */
+  pointer-events: none; /* Ensure text does not interfere with clicks */
+}
+</style>
