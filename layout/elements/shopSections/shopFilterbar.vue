@@ -1,5 +1,8 @@
 <template>
-  <div class="col-lg-3 col-md-4" :class="[filterBarClasses, { show: showFilters && !isMobileView }]">
+  <div
+    class="col-lg-3 col-md-4"
+    :class="[filterBarClasses, { show: showFilters && !isMobileView }]"
+  >
     <div class="category-option" :class="[{ show: showFilters }]">
       <div class="button-close mb-3">
         <button class="btn p-0" @click.prevent="toggleFilterBar">
@@ -9,17 +12,32 @@
       <div class="accordion category-name" id="accordionExample">
         <div class="accordion-item category-rating">
           <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-              {{ useRuntimeConfig().public.const.Brand }}
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+            >
+              <!-- {{ useRuntimeConfig().public.const.Brand }} -->
+              Produktvariant
             </button>
           </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#accordionExample"
+          >
             <div class="accordion-body category-scroll">
               <ul class="category-list">
                 <li v-for="(brand, index) in brandFilters" :key="index">
                   <div class="form-check ps-0 custome-form-check" v-if="brand">
-                    <input class="checkbox_animated check-it" type="checkbox" :id="brand" :value="brand"
-                      v-model="filtersList" />
+                    <input
+                      class="checkbox_animated check-it"
+                      type="checkbox"
+                      :id="brand"
+                      :value="brand"
+                      v-model="filtersList"
+                    />
                     <label class="form-check-label" :for="brand">{{
                       brand
                     }}</label>
@@ -38,17 +56,35 @@
 
         <div class="accordion-item category-color" v-if="colors.length > 0">
           <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-              Color
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+            >
+              <!-- Color -->
+              Färg
             </button>
           </h2>
-          <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree"
-            data-bs-parent="#accordionExample">
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
             <div class="accordion-body">
               <ul class="category-list">
                 <li v-for="(color, index) in colors" :key="index">
-                  <input type="checkbox" class="colorCheckbox" :value="color" v-model="selectedColorsList" />
-                  <div class="colorDiv" :style="{ 'background-color': color }"></div>
+                  <input
+                    type="checkbox"
+                    class="colorCheckbox"
+                    :value="color"
+                    v-model="selectedColorsList"
+                  />
+                  <div
+                    class="colorDiv"
+                    :style="{ 'background-color': color }"
+                  ></div>
                 </li>
               </ul>
             </div>
@@ -57,22 +93,44 @@
 
         <div class="accordion-item category-rating" v-if="showRating">
           <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+            >
               Ratings
             </button>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+          >
             <div class="accordion-body">
               <ul class="category-list">
                 <li v-for="stars in [5, 4, 3, 2, 1]" :key="stars">
                   <div class="form-check ps-0 custome-form-check">
-                    <input class="checkbox_animated check-it" :value="stars" v-model="selectedRatingStars" type="checkbox"
-                      id="flexCheckDefault10" />
+                    <input
+                      class="checkbox_animated check-it"
+                      :value="stars"
+                      v-model="selectedRatingStars"
+                      type="checkbox"
+                      id="flexCheckDefault10"
+                    />
                     <ul class="rating mt-0">
-                      <li class="rating-list" v-for="(star, index) in stars" :key="'a' + index">
+                      <li
+                        class="rating-list"
+                        v-for="(star, index) in stars"
+                        :key="'a' + index"
+                      >
                         <i class="fas fa-star theme-color"></i>
                       </li>
-                      <li class="rating-list" v-for="(star, index) in 5 - stars" :key="'b' + index">
+                      <li
+                        class="rating-list"
+                        v-for="(star, index) in 5 - stars"
+                        :key="'b' + index"
+                      >
                         <i class="fas fa-star"></i>
                       </li>
                     </ul>
@@ -91,23 +149,37 @@
 
         <div class="accordion-item category-price" v-if="showPriceRange2">
           <h2 class="accordion-header" id="headingFour">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapsePriceRange2">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsePriceRange2"
+            >
               {{ useRuntimeConfig().public.const.Prices }}
             </button>
           </h2>
-          <div id="collapsePriceRange2" class="accordion-collapse collapse show" aria-labelledby="headingFour"
-            data-bs-parent="#accordionExample">
+          <div
+            id="collapsePriceRange2"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample"
+          >
             <div class="accordion-body">
               <ul class="category-list category-list-box">
-                <li @click.prevent="
-                  setPriceRange(0, priceRangeList[priceRangeList.length - 1])
-                ">
+                <li
+                  @click.prevent="
+                    setPriceRange(0, priceRangeList[priceRangeList.length - 1])
+                  "
+                >
                   <a href="javascript:void(0)">All Products</a>
                 </li>
-                <li v-for="(price, index) in priceRangeList" :key="'b' + index" @click.prevent="
-                  setPriceRange(price, priceRangeList[index + 1])
-                ">
+                <li
+                  v-for="(price, index) in priceRangeList"
+                  :key="'b' + index"
+                  @click.prevent="
+                    setPriceRange(price, priceRangeList[index + 1])
+                  "
+                >
                   <a href="javascript:void(0)">$ {{ price }} - $75</a>
                 </li>
               </ul>
@@ -117,16 +189,32 @@
 
         <div class="accordion-item category-price" v-else>
           <h2 class="accordion-header" id="headingFour">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
-              {{ useRuntimeConfig().public.const.Prices }}
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+            >
+              <!-- {{ useRuntimeConfig().public.const.Prices }} -->
+              Pris
             </button>
           </h2>
-          <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour"
-            data-bs-parent="#accordionExample">
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample"
+          >
             <div class="accordion-body">
               <div class="range-slider category-list">
-                {{ maxPrice  +'jemin' }}
-                <VueSlider v-model="priceRange" :min="0" :max=" 1000" ref="slider" :tooltip="'always'">
+                {{ maxPrice + "jemin" }}
+                <VueSlider
+                  v-model="priceRange"
+                  :min="0"
+                  :max="1000"
+                  ref="slider"
+                  :tooltip="'always'"
+                >
                 </VueSlider>
               </div>
             </div>
@@ -135,19 +223,32 @@
 
         <div class="accordion-item category-price" v-if="showSizeList">
           <h2 class="accordion-header" id="headingFive">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSizeList">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSizeList"
+            >
               Size
             </button>
           </h2>
 
-          <div id="collapseSizeList" class="accordion-collapse collapse show" aria-labelledby="headingFive"
-            data-bs-parent="#accordionExample">
+          <div
+            id="collapseSizeList"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample"
+          >
             <div class="accordion-body">
               <ul class="category-list category-list-box">
                 <li @click.prevent="setSizeFilter('')">
                   <a href="javascript:void(0)">All Sizes</a>
                 </li>
-                <li v-for="(size, index) in sizeListArray" :key="index" @click.prevent="setSizeFilter(size)">
+                <li
+                  v-for="(size, index) in sizeListArray"
+                  :key="index"
+                  @click.prevent="setSizeFilter(size)"
+                >
                   <a href="javascript:void(0)">{{ size }}</a>
                 </li>
               </ul>
@@ -157,19 +258,35 @@
 
         <div class="accordion-item category-rating">
           <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseCategoryList">
-              {{ useRuntimeConfig().public.const.Category }}
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseCategoryList"
+            >
+              <!-- {{ useRuntimeConfig().public.const.Category }} -->
+              Kategori
             </button>
           </h2>
-          <div id="collapseCategoryList" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+          <div
+            id="collapseCategoryList"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+          >
             <div class="accordion-body category-scroll">
               <ul class="category-list">
                 <li v-for="(category, index) in categories" :key="index">
                   <div class="form-check ps-0 custome-form-check">
-                    <input class="checkbox_animated check-it" type="radio" :value="category" v-model="selectedCategory"
-                      name="flexRadioDefault" :id="category" />
-                    <label class="form-check-label" :for="category">{{ category }}
+                    <input
+                      class="checkbox_animated check-it"
+                      type="radio"
+                      :value="category"
+                      v-model="selectedCategory"
+                      name="flexRadioDefault"
+                      :id="category"
+                    />
+                    <label class="form-check-label" :for="category"
+                      >{{ category }}
                     </label>
                   </div>
                 </li>
@@ -180,20 +297,38 @@
 
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingFive">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
-              {{ useRuntimeConfig().public.const.DiscountRange }}
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+            >
+              <!-- {{ useRuntimeConfig().public.const.DiscountRange }} -->
+              rabattintervall
             </button>
           </h2>
-          <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive"
-            data-bs-parent="#accordionExample">
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample"
+          >
             <div class="accordion-body">
               <ul class="category-list">
                 <li v-for="(discount, index) in discounts" :key="'f' + index">
                   <div class="form-check ps-0 custome-form-check">
-                    <input class="checkbox_animated check-it" type="radio" :value="discount" v-model="selectedDiscount"
-                      name="flexRadioDefault" :id="discount" />
-                    <label class="form-check-label" :for="discount"><span v-if="discount === 0">All</span>
-                      <span v-else>{{ discount }}% and above</span></label>
+                    <input
+                      class="checkbox_animated check-it"
+                      type="radio"
+                      :value="discount"
+                      v-model="selectedDiscount"
+                      name="flexRadioDefault"
+                      :id="discount"
+                    />
+                    <label class="form-check-label" :for="discount"
+                      ><span v-if="discount === 0">All</span>
+                      <span v-else>{{ discount }}% and above</span></label
+                    >
                   </div>
                 </li>
               </ul>
@@ -207,13 +342,12 @@
 </template>
 
 <script>
-
 import { mapState } from "pinia";
 import "vue-slider-component/theme/material.css";
 import VueFeather from "vue-feather";
 import mostPopularCarousel from "~/layout/common/shopComponents/mostPopularCarousel.vue";
-import { useClickStore } from '~~/store/clickEvents';
-import { usefilterStore } from '~~/store/filters';
+import { useClickStore } from "~~/store/clickEvents";
+import { usefilterStore } from "~~/store/filters";
 
 export default {
   components: { mostPopularCarousel, VueFeather },
@@ -252,28 +386,27 @@ export default {
   },
   computed: {
     ...mapState(useClickStore, {
-      showFilters: 'shopFilterBar',
-
+      showFilters: "shopFilterBar",
     }),
     ...mapState(usefilterStore, {
-      allProducts: 'allCards',
-      appliedFilters: 'filtersList',
+      allProducts: "allCards",
+      appliedFilters: "filtersList",
     }),
     maxPrice() {
-      return usefilterStore().maxPrices
+      return usefilterStore().maxPrices;
     },
     initCards() {
-      return usefilterStore().cardsToReturn
+      return usefilterStore().cardsToReturn;
     },
     brandFilters() {
-      return usefilterStore().brandFilters
+      return usefilterStore().brandFilters;
     },
     categoriesList() {
-      return usefilterStore().categories
+      return usefilterStore().categories;
     },
 
     brandFiltersList() {
-      return usefilterStore().filtersList
+      return usefilterStore().filtersList;
     },
   },
   watch: {
@@ -297,13 +430,12 @@ export default {
       this.colors = [...new Set(colorsList)];
     },
     selectedRatingStars: function () {
-    
       usefilterStore().setRatingStarsFilter({
         selectedRatingStars: this.selectedRatingStars,
-      })
+      });
     },
     priceRange: function () {
-      usefilterStore().priceRangeChange(this.priceRange)
+      usefilterStore().priceRangeChange(this.priceRange);
     },
     maxPrice: function () {
       this.calcPriceList(this.maxPrice);
@@ -318,28 +450,28 @@ export default {
       }
     },
     filtersList: function () {
-      usefilterStore().setFiltersList(this.filtersList)
+      usefilterStore().setFiltersList(this.filtersList);
       this.$router.push({
         path: this.$route.path,
         query: { ...this.$route.query, filters: this.filtersList },
       });
     },
     selectedCategory: function () {
-      usefilterStore().setCategory(this.selectedCategory)
+      usefilterStore().setCategory(this.selectedCategory);
       this.$router.push({
         name: this.$route.name,
         params: { id: this.selectedCategory },
       });
     },
     selectedDiscount: function () {
-      usefilterStore().filterDiscount(this.selectedDiscount)
+      usefilterStore().filterDiscount(this.selectedDiscount);
       this.$router.push({
         path: this.$route.path,
         query: { ...this.$route.query, discount: this.selectedDiscount },
       });
     },
     selectedColorsList: function () {
-      usefilterStore().setColorsList(this.selectedColorsList)
+      usefilterStore().setColorsList(this.selectedColorsList);
       this.$router.push({
         path: this.$route.path,
         query: { ...this.$route.query, colors: this.selectedColorsList },
@@ -348,7 +480,7 @@ export default {
   },
   methods: {
     setSizeFilter(size) {
-      usefilterStore().setSelectedSize({ selectedSize: size })
+      usefilterStore().setSelectedSize({ selectedSize: size });
     },
     setSizeList() {
       var sizeListArray = [];
@@ -363,7 +495,7 @@ export default {
       var priceRange = [];
       priceRange[0] = min;
       priceRange[1] = max;
-      usefilterStore().priceRangeChange(priceRange)
+      usefilterStore().priceRangeChange(priceRange);
     },
     calcPriceList(maxPrice) {
       this.priceRangeList = [];
@@ -385,7 +517,7 @@ export default {
     },
 
     toggleFilterBar() {
-      useClickStore().toggleShopFilterBar()
+      useClickStore().toggleShopFilterBar();
     },
     changePath(category) {
       this.$router.push({
@@ -394,16 +526,22 @@ export default {
       });
     },
     filterWithColor(color) {
-      usefilterStore().filterWithColor(color)
+      usefilterStore().filterWithColor(color);
     },
   },
- 
+
   mounted() {
     this.setSizeList();
-    this.selectedCategory = Array.isArray( this.$route.params.id)? this.$route.params.id[0]: this.$route.params.id||'all';
+    this.selectedCategory = Array.isArray(this.$route.params.id)
+      ? this.$route.params.id[0]
+      : this.$route.params.id || "all";
     this.categories.push("all");
     this.categories.push(...this.categoriesList);
-    usefilterStore().setCategory(Array.isArray( this.$route.params.id)? this.$route.params.id[0]: this.$route.params.id||'all')
+    usefilterStore().setCategory(
+      Array.isArray(this.$route.params.id)
+        ? this.$route.params.id[0]
+        : this.$route.params.id || "all"
+    );
     var queryFilters = this.$route.query.filters;
     var queryColors = this.$route.query.colors;
 
@@ -418,8 +556,8 @@ export default {
     else this.selectedColorsList = [];
     this.selectedDiscount =
       this.$route.query.discount === undefined ? 0 : this.$route.query.discount;
-      this.calcPriceList(this.maxPrice);
-      this.priceRange = [10,this.maxPrice - this.maxPrice / 10];
+    this.calcPriceList(this.maxPrice);
+    this.priceRange = [10, this.maxPrice - this.maxPrice / 10];
   },
 };
 </script>
@@ -450,7 +588,7 @@ export default {
   width: 10px;
 }
 
-input[type="checkbox"]:checked~div {
+input[type="checkbox"]:checked ~ div {
   box-shadow: 0 0 0 2px rgb(0, 0, 0, 0.8);
 }
 </style>
