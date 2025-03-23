@@ -201,7 +201,7 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="100"><text x="0" y="50" font-size="30" fill="red" opacity="0.2">Parts Shop</text></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="100"><text x="0" y="50" font-size="30" fill="red"  opacity="0.3">PartsShop.se</text></svg>');
   background-repeat: repeat;
   pointer-events: none; /* Prevent watermark from blocking clicks */
 }
