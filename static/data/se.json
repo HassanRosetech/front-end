@@ -1,14 +1,15 @@
 {
-    "data": {
-      "shweta":"shweta",
-      "welcome": "välkomna",
-      "HOME": "Hem",
-      "SHOP": "handla",
-      "PRODUCT": "produkt",
-      "PAGES": "sidor",
-      "BLOG": "bloggar",
-      "Voxo plus":"VOXO PLUS",
-      "VOXO PLUS":"VOXO PLUS"
-    }
+  "data": {
+    "shweta": "shweta",
+    "welcome": "välkomna",
+    "HOME": "Hem",
+    "ABOUT": "Omm Oss",
+    "CONTACT": "Kontakta oss",
+    "SHOP": "handla",
+    "PRODUCT": "produkt",
+    "PAGES": "sidor",
+    "BLOG": "bloggar",
+    "Voxo plus": "VOXO PLUS",
+    "VOXO PLUS": "VOXO PLUS"
   }
-  
+}

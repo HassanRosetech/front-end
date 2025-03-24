@@ -1,13 +1,15 @@
 {
   "data": {
-    "shweta":"shweta",
+    "shweta": "shweta",
     "welcome": "Welcome",
     "HOME": "Home",
+    "ABOUT": "About us",
+    "CONTACT": "Contact us",
     "SHOP": "shop",
     "PRODUCT": "product",
     "PAGES": "pages",
     "BLOG": "blog",
-    "Voxo plus":"VOXO PLUS",
-    "VOXO PLUS":"VOXO PLUS"
+    "Voxo plus": "VOXO PLUS",
+    "VOXO PLUS": "VOXO PLUS"
   }
 }

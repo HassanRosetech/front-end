@@ -5,7 +5,10 @@
         <div class="toggle-nav" @click="toggleMobileNav" v-if="!hideToggleBars">
           <i class="fa fa-bars sidebar-bar"></i>
         </div>
-        <ul class="nav-menu" :style="{ right: openMobileNav ? '0px' : '-410px' }">
+        <ul
+          class="nav-menu"
+          :style="{ right: openMobileNav ? '0px' : '-410px' }"
+        >
           <li class="back-btn d-xl-none" @click="toggleMobileNav">
             <div class="close-btn">
               Menu
@@ -13,41 +16,97 @@
             </div>
           </li>
 
-          <li class="dropdown" v-for="(items, index) in menuList" :key="index" :class="getClass(items.title)">
-            <a href="javascript:void(0)" class="nav-link menu-title" :class="
-              items.title === mobileListDropdown[0] && openMobileNav
-                ? 'active'
-                : ''
-            " @click.prevent="openMobileViewList(items.title)">
+          <li
+            class="dropdown"
+            v-for="(items, index) in menuList"
+            :key="index"
+            :class="getClass(items.title)"
+          >
+            <a
+              href="javascript:void(0)"
+              :class="
+                items.title === mobileListDropdown[0] && openMobileNav
+                  ? 'active'
+                  : ''
+              "
+              @click.prevent="openMobileViewList(items.title)"
+            >
               <div class="gradient-title" v-if="items.title == 'VOXO PLUS'">
-                {{$t('Voxo plus')}}
+                {{ $t("Voxo plus") }}
               </div>
-              <span class="according-menu" v-if="openMobileNav && mobileListDropdown[0] !== items.title">+</span>
-              <span class="according-menu" v-if="mobileListDropdown[0] === items.title && openMobileNav">-</span>
-
-              <span v-if="items.title != 'VOXO PLUS'">
-                {{ $t(items.title) }}
-                <span class="according-menu" v-if="openMobileNav && mobileListDropdown[0] !== items.title">+</span>
-                <span class="according-menu" v-if="mobileListDropdown[0] === items.title && openMobileNav">-</span>
+              <span
+                class="according-menu"
+                v-if="openMobileNav && mobileListDropdown[0] !== items.title"
+                >+</span
+              >
+              <span
+                class="according-menu"
+                v-if="mobileListDropdown[0] === items.title && openMobileNav"
+                >-</span
+              >
+              <span v-if="items.title == 'HOME'">
+                <NuxtLink to="/"> {{ $t(items.title) }}</NuxtLink>
               </span>
+              <span v-if="items.title == 'ABOUT'">
+                <NuxtLink to="/page/about_us"> {{ $t(items.title) }}</NuxtLink>
+              </span>
+              <span v-if="items.title == 'BLOG'">
+                <NuxtLink to="/blog/blog_listing">
+                  {{ $t(items.title) }}</NuxtLink
+                >
+              </span>
+              <span v-if="items.title == 'CONTACT'">
+                <NuxtLink to="/page/contact_us">
+                  {{ $t(items.title) }}</NuxtLink
+                >
+              </span>
+              <!-- <span v-if="items.title != 'VOXO PLUS'">
+                {{ $t(items.title) }}
+                <span
+                  class="according-menu"
+                  v-if="openMobileNav && mobileListDropdown[0] !== items.title"
+                  >+</span
+                >
+                <span
+                  class="according-menu"
+                  v-if="mobileListDropdown[0] === items.title && openMobileNav"
+                  >-</span
+                >
+              </span> -->
             </a>
 
-            <div class="mega-menu-container menu-content" :style="{
-              display: openMobileNav
-                ? items.title === mobileListDropdown[0]
-                  ? 'block'
-                  : 'none'
-                : '',
-            }" v-if="items.title == 'HOME'">
+            <div
+              class="mega-menu-container menu-content"
+              :style="{
+                display: openMobileNav
+                  ? items.title === mobileListDropdown[0]
+                    ? 'block'
+                    : 'none'
+                  : '',
+              }"
+              v-if="items.title == 'HOME'"
+            >
               <div class="container-fluid">
                 <div class="row">
-                  <div class="col mega-box" v-for="(link, index) in items.children" :key="'A' + index">
+                  <div
+                    class="col mega-box"
+                    v-for="(link, index) in items.children"
+                    :key="'A' + index"
+                  >
                     <div class="link-section">
                       <div class="opensubmegamenu">
                         <ul>
                           <li>
-                            <a href="javascript:void(0)" @click.prevent="changePage(link.path)" class="megamenu-image">
-                              <img :src="getImageUrl(link.imagePath)" class="img-fluid" alt="" />
+                            <a
+                              href="javascript:void(0)"
+                              @click.prevent="changePage(link.path)"
+                              class="megamenu-image"
+                            >
+                              <img
+                                :src="getImageUrl(link.imagePath)"
+                                class="img-fluid"
+                                alt=""
+                              />
                             </a>
                           </li>
                         </ul>
@@ -62,54 +121,93 @@
               </div>
             </div>
 
-            <ul class="nav-submenu menu-content" :style="{
-              display: openMobileNav
-                ? items.title === mobileListDropdown[0]
-                  ? 'block'
-                  : 'none'
-                : '',
-            }" v-if="items.title != 'HOME' && items.title != 'VOXO PLUS'">
+            <ul
+              class="nav-submenu menu-content"
+              :style="{
+                display: openMobileNav
+                  ? items.title === mobileListDropdown[0]
+                    ? 'block'
+                    : 'none'
+                  : '',
+              }"
+              v-if="items.title != 'HOME' && items.title != 'VOXO PLUS'"
+            >
               <li v-for="(link, index) in items.children" :key="'B' + index">
-                <a href="javascript:void(0)" @click.prevent="changePage(link.path)">{{
-                  link.title
-                }}<span v-if="link.badge" :class="link.badgeClass">{{
-  link.badge
-}}</span></a>
+                <a
+                  href="javascript:void(0)"
+                  @click.prevent="changePage(link.path)"
+                  >{{ link.title
+                  }}<span v-if="link.badge" :class="link.badgeClass">{{
+                    link.badge
+                  }}</span></a
+                >
               </li>
             </ul>
-            <div class="mega-menu-container poster-bg-image menu-content" :style="{
-              display: openMobileNav
-                ? items.title === mobileListDropdown[0]
-                  ? 'block'
-                  : 'none'
-                : '',
-            }" v-if="items.title == 'VOXO PLUS'">
+            <div
+              class="mega-menu-container poster-bg-image menu-content"
+              :style="{
+                display: openMobileNav
+                  ? items.title === mobileListDropdown[0]
+                    ? 'block'
+                    : 'none'
+                  : '',
+              }"
+              v-if="items.title == 'VOXO PLUS'"
+            >
               <div class="container-fluid">
                 <div class="row row-cols-3">
-                  <div class="col mega-box" v-for="(item, index) in items.children" :key="'C' + index">
-                    <div class="link-section" v-for="(subItem, index) in item.rows" :key="'D' + index">
-                      <div class="submenu-title" @click.prevent="toggleVoxoSubList(subItem.title)">
+                  <div
+                    class="col mega-box"
+                    v-for="(item, index) in items.children"
+                    :key="'C' + index"
+                  >
+                    <div
+                      class="link-section"
+                      v-for="(subItem, index) in item.rows"
+                      :key="'D' + index"
+                    >
+                      <div
+                        class="submenu-title"
+                        @click.prevent="toggleVoxoSubList(subItem.title)"
+                      >
                         <h5>
-                          {{
-                            subItem.title
-                          }}<span class="according-menu" v-if="
-  openMobileNav && voxoSubLists[0] === subItem.title
-">-</span>
-                          <span class="according-menu" v-if="
-                            openMobileNav && voxoSubLists[0] !== subItem.title
-                          ">+</span>
+                          {{ subItem.title
+                          }}<span
+                            class="according-menu"
+                            v-if="
+                              openMobileNav && voxoSubLists[0] === subItem.title
+                            "
+                            >-</span
+                          >
+                          <span
+                            class="according-menu"
+                            v-if="
+                              openMobileNav && voxoSubLists[0] !== subItem.title
+                            "
+                            >+</span
+                          >
                         </h5>
                       </div>
-                      <div class="submenu-content opensubmegamenu" :class="
-                        openMobileNav
-                          ? voxoSubLists[0] === subItem.title
-                            ? ''
-                            : 'd-none'
-                          : ''
-                      ">
+                      <div
+                        class="submenu-content opensubmegamenu"
+                        :class="
+                          openMobileNav
+                            ? voxoSubLists[0] === subItem.title
+                              ? ''
+                              : 'd-none'
+                            : ''
+                        "
+                      >
                         <ul class="list">
-                          <li v-for="(link, index) in subItem.children" :key="'E' + index">
-                            <a href="javascript:void(0)" @click.prevent="changePage(link.path)">{{ link.title }}</a>
+                          <li
+                            v-for="(link, index) in subItem.children"
+                            :key="'E' + index"
+                          >
+                            <a
+                              href="javascript:void(0)"
+                              @click.prevent="changePage(link.path)"
+                              >{{ link.title }}</a
+                            >
                           </li>
                         </ul>
                       </div>
@@ -120,15 +218,22 @@
             </div>
           </li>
 
-          <li class="mobile-poster d-flex d-xl-none" :style="{ right: openMobileNav ? '0px' : '-410px' }">
+          <li
+            class="mobile-poster d-flex d-xl-none"
+            :style="{ right: openMobileNav ? '0px' : '-410px' }"
+          >
             <img src="/images/pwa.png" class="img-fluid" alt="" />
             <div class="mobile-contain">
               <h5>{{ useRuntimeConfig().public.const.EnjoyExperience }}</h5>
               <p class="font-light">
                 {{ useRuntimeConfig().public.const.EnjoyExperienceDescription }}
               </p>
-              <a href="javascript:void(0)" id="installApp" class="btn btn-solid-default btn-spacing w-100">ADD TO
-                HOMESCREEN</a>
+              <a
+                href="javascript:void(0)"
+                id="installApp"
+                class="btn btn-solid-default btn-spacing w-100"
+                >ADD TO HOMESCREEN</a
+              >
             </div>
           </li>
         </ul>
@@ -139,7 +244,7 @@
 
 <script>
 import { mapState } from "pinia";
-import { useMenuStore } from '~~/store/menu';
+import { useMenuStore } from "~~/store/menu";
 import { useClickStore } from "~~/store/clickEvents";
 export default {
   props: ["openMobileNavProp", "hideToggleBars"],
@@ -151,10 +256,10 @@ export default {
   },
   computed: {
     ...mapState(useMenuStore, {
-      menuList: 'data',
+      menuList: "data",
       ...mapState(useClickStore, {
-        openMobileNav: 'mobileMenu',
-      })
+        openMobileNav: "mobileMenu",
+      }),
     }),
   },
   watch: {
@@ -164,7 +269,7 @@ export default {
   },
   methods: {
     getImageUrl(path) {
-      return ("/images/" + path)
+      return "/images/" + path;
     },
     openMobileViewList(title) {
       if (title === this.mobileListDropdown[0]) {
@@ -190,7 +295,7 @@ export default {
       }
     },
     toggleMobileNav() {
-      useClickStore().toggleMobileMenu()
+      useClickStore().toggleMobileMenu();
     },
 
     changePage(path) {
