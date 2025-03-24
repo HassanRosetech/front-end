@@ -36,13 +36,32 @@ let props = defineProps({
   gap: 10px;
 }
 .grid-item {
+  /* height: 200px;
   background: #fff;
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ 
+  min-width: 200px;
+  max-width: 300px;
+  justify-content: center; */
+  text-align: center;
+  display: flex;
+  height: 200px;
+  background: #fff;
+  /* padding: 20px; */
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   /* width: fit-content; */
   min-width: 200px;
   max-width: 300px;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: center;
+  transition: box-shadow 0.5s ease; /* Smooth transition for box-shadow */
+}
+/* Hover effect */
+.grid-item:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7); /* Change box shadow on hover */
 }
 </style>
