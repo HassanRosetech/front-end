@@ -51,9 +51,9 @@
           "
           class="font-default"
         >
-          <h6 style="width: fit-content; font-weight: bold">
+          <h4 style="width: fit-content; font-weight: bold">
             {{ product.name }}
-          </h6>
+          </h4>
         </a>
         <div class="listing-content">
           <span class="font-light">{{ product.size }}</span>
