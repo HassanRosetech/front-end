@@ -57,11 +57,14 @@ let props = defineProps({
   max-width: 300px;
   justify-content: space-evenly;
   align-content: space-around;
-  align-items: center;
+  align-items: baseline;
   transition: box-shadow 0.5s ease; /* Smooth transition for box-shadow */
 }
 /* Hover effect */
 .grid-item:hover {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7); /* Change box shadow on hover */
+}
+.product-box {
+  margin-top: 33%;
 }
 </style>

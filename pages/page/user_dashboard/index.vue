@@ -7,11 +7,24 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
-            <ul class="nav nav-tabs custom-nav-tabs flex-column category-option" id="myTab"
-              :class="{ show: dashboardLinks }">
-              <li class="nav-item mb-2" v-for="(link, index) in allLinks" :key="index">
-                <button class="nav-link font-light" :class="activeTab[link.link] ? 'active' : ''"
-                  @click="setActiveTab(link.link)" id="tab" data-bs-toggle="tab" data-bs-target="#dash">
+            <ul
+              class="nav nav-tabs custom-nav-tabs flex-column category-option"
+              id="myTab"
+              :class="{ show: dashboardLinks }"
+            >
+              <li
+                class="nav-item mb-2"
+                v-for="(link, index) in allLinks"
+                :key="index"
+              >
+                <button
+                  class="nav-link font-light"
+                  :class="activeTab[link.link] ? 'active' : ''"
+                  @click="setActiveTab(link.link)"
+                  id="tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#dash"
+                >
                   <i class="fas fa-angle-right"></i>{{ link.name }}
                 </button>
               </li>
@@ -20,7 +33,10 @@
 
           <div class="col-lg-9">
             <div class="filter-button dash-filter dashboard">
-              <button class="btn btn-solid-default btn-sm fw-bold filter-btn" @click.prevent="toggleDashboardLinks">
+              <button
+                class="btn btn-solid-default btn-sm fw-bold filter-btn"
+                @click.prevent="toggleDashboardLinks"
+              >
                 {{ useRuntimeConfig().public.const.ShowMenu }}
               </button>
             </div>
@@ -29,7 +45,9 @@
               <PageUserDashboardMyDashboard v-if="activeTab['myDashboard']" />
               <PageUserDashboardOrders v-else-if="activeTab['orders']" />
               <PageUserDashboardWishilist v-else-if="activeTab['wishlist']" />
-              <PageUserDashboardSavedAddress v-else-if="activeTab['savedAddress']" />
+              <PageUserDashboardSavedAddress
+                v-else-if="activeTab['savedAddress']"
+              />
               <PageUserDashboardPayment v-else-if="activeTab['payment']" />
               <PageUserDashboardProfile v-else-if="activeTab['profile']" />
               <PageUserDashboardSecurity v-else-if="activeTab['security']" />
@@ -74,11 +92,18 @@ export default {
     };
   },
   computed: {
-    ...mapState(useClickStore, ['dashboardLinks', 'showAddAddressModal', 'showPaymentModal', 'showDeleteAccountModal', 'showConfirmDeleteAccount', 'showEditProfileModal'])
+    ...mapState(useClickStore, [
+      "dashboardLinks",
+      "showAddAddressModal",
+      "showPaymentModal",
+      "showDeleteAccountModal",
+      "showConfirmDeleteAccount",
+      "showEditProfileModal",
+    ]),
   },
   methods: {
     toggleDashboardLinks() {
-      useClickStore().toggleDashboardLinks()
+      useClickStore().toggleDashboardLinks();
     },
     setActiveTab(tab) {
       this.activeTab = {};
