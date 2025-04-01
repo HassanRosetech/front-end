@@ -47,6 +47,9 @@
               <span v-if="items.title == 'HOME'">
                 <NuxtLink to="/"> {{ $t(items.title) }}</NuxtLink>
               </span>
+              <span v-if="items.title == 'DEAL OF THE WEEK'">
+                <NuxtLink to="/"> {{ $t(items.title) }}</NuxtLink>
+              </span>
               <span v-if="items.title == 'ABOUT'">
                 <NuxtLink to="/page/about_us"> {{ $t(items.title) }}</NuxtLink>
               </span>

@@ -6,6 +6,11 @@
       "isHome": true
     },
     {
+      "title": "DEAL OF THE WEEK",
+      "active": false,
+      "isHome": true
+    },
+    {
       "title": "ABOUT",
       "active": false
     },
