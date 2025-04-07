@@ -2,14 +2,14 @@
   <div class="col-xl-3 col-lg-4">
     <div class="left-side">
       <!-- Search Bar Start -->
-      <div class="search-section">
+      <!-- <div class="search-section">
         <div class="input-group search-bar">
           <input type="search" class="form-control search-input" placeholder="Search" />
           <button class="input-group-text search-button" id="basic-addon3">
             <i class="fas fa-search text-color"></i>
           </button>
         </div>
-      </div>
+      </div> -->
       <!-- Search Bar End -->
       <!-- Popular Post Start -->
       <div class="popular-post mt-4">
@@ -17,7 +17,11 @@
           <h3>{{ useRuntimeConfig().public.const.PopularPosts }}</h3>
         </div>
 
-        <div class="popular-image" v-for="(post, index) in blogData.popularPosts" :key="index">
+        <div
+          class="popular-image"
+          v-for="(post, index) in blogData.popularPosts"
+          :key="index"
+        >
           <div class="popular-number">
             <h4 class="theme-color">{{ post.number }}</h4>
           </div>
@@ -46,8 +50,15 @@
           <h3>{{ useRuntimeConfig().public.const.Category }}</h3>
         </div>
         <ul>
-          <li class="category-box" v-for="(category, index) in blogData.categories" :key="index">
-            <a href="javascript:void(0)" @click.prevent="$router.push('/blog/blog_left_sidebar')">
+          <li
+            class="category-box"
+            v-for="(category, index) in blogData.categories"
+            :key="index"
+          >
+            <a
+              href="javascript:void(0)"
+              @click.prevent="$router.push('/blog/blog_left_sidebar')"
+            >
               <div class="category-product">
                 <div class="cate-shape">
                   <i :class="category.iconClasses"></i>
@@ -73,7 +84,7 @@ export default {
   components: { VueFeather },
   computed: {
     blogData() {
-      return useBlogDataStore().data[0]
+      return useBlogDataStore().data[0];
     },
   },
 };

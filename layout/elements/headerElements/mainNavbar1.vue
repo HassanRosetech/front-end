@@ -54,9 +54,7 @@
                 <NuxtLink to="/page/about_us"> {{ $t(items.title) }}</NuxtLink>
               </span>
               <span v-if="items.title == 'BLOG'">
-                <NuxtLink to="/blog/blog_listing">
-                  {{ $t(items.title) }}</NuxtLink
-                >
+                <NuxtLink to="/blogs/"> {{ $t(items.title) }}</NuxtLink>
               </span>
               <span v-if="items.title == 'CONTACT'">
                 <NuxtLink to="/page/contact_us">

@@ -92,7 +92,7 @@ export default {
   data() {
     return {
       pages: [],
-      cardsToShow: 9,
+      cardsToShow: 12,
       totalCards: 8,
       currentPage: 1,
       totalPages: 2,
