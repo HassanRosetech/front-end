@@ -48,7 +48,7 @@
       </div>
       <!-- Popular Post End -->
       <!-- Category section Start -->
-      <div class="category-section popular-post mt-4">
+      <!-- <div class="category-section popular-post mt-4">
         <div class="popular-title">
           <h3>{{ useRuntimeConfig().public.const.Category }}</h3>
         </div>
@@ -74,7 +74,7 @@
             </a>
           </li>
         </ul>
-      </div>
+      </div> -->
       <!-- Category section End -->
     </div>
   </div>
