@@ -14,7 +14,10 @@
       <!-- Popular Post Start -->
       <div class="popular-post mt-4">
         <div class="popular-title">
-          <h3>{{ useRuntimeConfig().public.const.PopularPosts }}</h3>
+          <h3>
+            <!-- {{ useRuntimeConfig().public.const.PopularPosts }} -->
+            Latest Posts
+          </h3>
         </div>
 
         <div
@@ -28,10 +31,10 @@
           <div class="popular-contain">
             <h3>{{ post.heading }}</h3>
             <p class="font-light mb-1">
-              <span>{{ post.subHeading1 }}</span> in
-              <span>{{ post.subHeading2 }}</span>
+              <span>{{ post.subHeading1 }}</span>
+              <!-- <span>{{ post.subHeading2 }}</span> -->
             </p>
-            <div class="review-box">
+            <!-- <div class="review-box">
               <span class="font-light clock-time">
                 <vue-feather type="clock"></vue-feather> {{ post.time }}m ago
               </span>
@@ -39,7 +42,7 @@
                 <vue-feather type="eye"></vue-feather>
                 {{ post.activity }}
               </span>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

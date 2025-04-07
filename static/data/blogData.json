@@ -9,69 +9,139 @@
       "carouselItems": [
         {
           "id": 1,
-          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
-          "author": "John Wick",
-          "date": "15 Aug 2022",
-          "image": "inner-page/product/9.jpg"
+          "title": "Allmänt",
+          "heading": "Olika Klasser av Elsparkcyklar",
+          "name": "Admin",
+          "date": "04 June 2024",
+          "imagePath": "inner-page/product/Elsparkcykel-E2S-Junior-500x400.jpg"
         },
         {
           "id": 1,
-          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
-          "author": "John Wick",
-          "date": "15 Aug 2022",
-          "image": "inner-page/product/8.jpg"
+          "title": "Allmänt",
+          "heading": "Vad säger transportstyrelsen om elsparkcykeln",
+          "name": "Admin",
+          "date": "29 May 2024",
+          "imagePath": "inner-page/product/14.jpg"
         },
         {
           "id": 1,
-          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
-          "author": "John Wick",
-          "date": "15 Aug 2022",
-          "image": "inner-page/product/4.jpg"
+          "title": "Service & Felsökning",
+          "heading": "Xiaomi / Segway Felkod 15 (Error code 15)",
+          "name": "Admin",
+          "date": "17 May 2024",
+          "imagePath": "inner-page/product/errorcode15_480x480.webp"
         },
         {
           "id": 1,
-          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
-          "author": "John Wick",
-          "date": "15 Aug 2022",
-          "image": "inner-page/product/16.jpg"
+          "title": "Service & Felsökning",
+          "heading": "Service & Felsökning",
+          "name": "Admin",
+          "date": "15 May 2024",
+          "imagePath": "inner-page/product/15.jpg"
         },
         {
           "id": 1,
-          "heading": "How To Make The Perfect Morning Coffee, According To The Science",
-          "author": "John Wick",
-          "date": "15 Aug 2022",
-          "image": "inner-page/product/13.jpg"
+          "title": "Tips & Appar",
+          "heading": "Bra att tänka på vid köp av scooter!",
+          "name": "Admin",
+          "date": "15 May 2024",
+          "imagePath": "inner-page/product/bast-i-test_520x500-100x100.webp"
+        },
+        {
+          "id": 1,
+          "title": "Tips & Appar",
+          "heading": "Xiaoflasher – Applikationen som förenklar felsökningen",
+          "name": "Admin",
+          "date": "14 May 2024",
+          "imagePath": "inner-page/product/nedladdning_1_520x500-100x100.avif"
+        },
+        {
+          "id": 1,
+          "title": "Tips & Appar",
+          "heading": "Xiaoflasher – Uppgradering & Trimmning",
+          "name": "Admin",
+          "date": "14 May 2024",
+          "imagePath": "inner-page/product/poweer_boost_520x500.jpg"
+        },
+        {
+          "id": 1,
+          "title": "Service & Felsökning",
+          "heading": "Xiaomi / Segway Felkod 10 (Error Code 10 )",
+          "name": "Admin",
+          "date": "22 September 2023",
+          "imagePath": "inner-page/product/erorr_10_480x480-100x100.webp"
+        },
+        {
+          "id": 1,
+          "title": "Service & Felsökning",
+          "heading": "Xiaomi / Segway Felkod 11/12/13 (Error Code 11/12/13 )",
+          "name": "Admin",
+          "date": "06 September 2022",
+          "imagePath": "inner-page/product/PRO-2B_3_500x_c8d6fbd3-4600-430d-8658-f2c2b0e04dcf_480x480-100x100.webp"
+        },
+        {
+          "id": 1,
+          "title": "Service & Felsökning",
+          "heading": "Xiaomi Felkod 16 (Error code 16 )",
+          "name": "Admin",
+          "date": "11 April 2022",
+          "imagePath": "inner-page/product/11.jpg"
+        },
+        {
+          "id": 1,
+          "title": "Service & Felsökning",
+          "heading": "Xiaomi Felkod 35 (error code 35)",
+          "name": "Admin",
+          "date": "04 April 2022",
+          "imagePath": "inner-page/product/xiaoflasher_480x480-280x85.webp"
+        },
+        {
+          "id": 1,
+          "title": "Service & Felsökning",
+          "heading": "Xiaomi / Segway Felkod 17 ( Error code 17)",
+          "name": "Admin",
+          "date": "27 March 2022",
+          "imagePath": "inner-page/product/segway_batteri_480x480-100x100.webp"
+        },
+        {
+          "id": 1,
+          "title": "Service & Felsökning",
+          "heading": "Xiaomi / Segway Felkod 14 (Error code 14)",
+          "name": "Admin",
+          "date": "17 October 2021",
+          "imagePath": "inner-page/product/M-8_gas1_500x_3dc21646-21e6-49e4-8d79-614306e22166_480x480-100x100.webp"
         }
       ],
       "popularPosts": [
         {
           "number": "01",
-          "heading": "Lorem Ipsum is simply dummy text of the printing.",
-          "subHeading1": "King Monster",
+          "heading": "Olika Klasser av Elsparkcyklar",
+          "subHeading1": "Admin",
           "subHeading2": "News",
           "time": "15",
           "activity": "8641"
         },
+
         {
           "number": "02",
-          "heading": "Lorem Ipsum is simply dummy text of the printing.",
-          "subHeading1": "King Monster",
+          "heading": "Vad säger transportstyrelsen om elsparkcykeln",
+          "subHeading1": "Admin",
           "subHeading2": "News",
           "time": "15",
           "activity": "8641"
         },
         {
           "number": "03",
-          "heading": "Lorem Ipsum is simply dummy text of the printing.",
-          "subHeading1": "King Monster",
+          "heading": "Xiaomi / Segway Felkod 15 (Error code 15)",
+          "subHeading1": "Admin",
           "subHeading2": "News",
           "time": "15",
           "activity": "8641"
         },
         {
           "number": "04",
-          "heading": "Lorem Ipsum is simply dummy text of the printing.",
-          "subHeading1": "King Monster",
+          "heading": "Service & Felsökning",
+          "subHeading1": "Admin",
           "subHeading2": "News",
           "time": "15",
           "activity": "8641"
