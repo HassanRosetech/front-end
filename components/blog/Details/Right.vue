@@ -3,7 +3,7 @@
     <div class="row g-4">
       <div class="col-12">
         <div class="blog-details">
-          <div class="blog-image-box">
+          <!-- <div class="blog-image-box">
             <img
               src="/images/inner-page/product/10.jpg"
               alt=""
@@ -29,8 +29,8 @@
                   </a>
                 </div>
               </div>
-            </div>
-          </div>
+            </div> 
+          </div>-->
           <div class="blog-detail-contain">
             <span class="font-light">August 15 2021</span>
             <h2 class="card-title">
@@ -49,7 +49,7 @@
             </p>
           </div>
         </div>
-        <div class="blog-profile box-center mb-lg-5 mb-4">
+        <!-- <div class="blog-profile box-center mb-lg-5 mb-4">
           <div class="image-profile">
             <img
               src="/images/inner-page/review-image/2.jpg"
@@ -61,8 +61,8 @@
             <h3>{{ useRuntimeConfig().public.const.Johnwick }}</h3>
             <h6>{{ useRuntimeConfig().public.const.date }}</h6>
           </div>
-        </div>
-        <div class="row g-2">
+        </div> -->
+        <!-- <div class="row g-2">
           <div class="col-12">
             <div class="minus-spacing mb-2">
               <h3>{{ useRuntimeConfig().public.const.LeaveComments }}</h3>
@@ -125,7 +125,7 @@
               {{ useRuntimeConfig().public.const.Submit }}
             </button>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

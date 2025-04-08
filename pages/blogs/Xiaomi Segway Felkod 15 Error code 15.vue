@@ -3,7 +3,7 @@
     <Title>Blog Details</Title>
   </Head>
   <layout5 pageName="Blog Details" parent="Blog">
-    <BlogDetailsOlikaKlasser />
+    <BlogDetailsXiaomi />
 
     <BlogDetailsCarousel />
   </layout5>

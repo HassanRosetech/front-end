@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <Title>Blog No Sidebar</Title>
+    <Title>Blogs</Title>
   </Head>
   <layout5 pageName="Blog No Sidebar" parent="Blog">
     <BlogNoSidebarMainSection />

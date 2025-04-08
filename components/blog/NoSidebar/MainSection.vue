@@ -19,7 +19,7 @@
               <div class="card blog-categories">
                 <a
                   href="javascript:void(0)"
-                  @click.prevent="$router.push('/blog/blog_details')"
+                  @click.prevent="$router.push(blog.path)"
                   class="blog-img sliderBackground bg-size"
                   :style="{
                     'background-image': `url(${getImageUrl(blog.imagePath)})`,
@@ -35,7 +35,7 @@
                   <h5>{{ blog.title }}</h5>
                   <a
                     href="javascript:void(0)"
-                    @click.prevent="$router.push('/blog/blog_details')"
+                    @click.prevent="$router.push(blog.path)"
                   >
                     <h2 class="card-title">
                       {{ blog.heading }}

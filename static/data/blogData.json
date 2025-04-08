@@ -608,6 +608,7 @@
           "heading": "Olika Klasser av Elsparkcyklar",
           "name": "Admin",
           "date": "04 June 2024",
+          "path": "/blogs/olika-klasser-av-elsparkcyklar",
           "imagePath": "inner-page/product/Elsparkcykel-E2S-Junior-500x400.jpg"
         },
         {
@@ -615,6 +616,7 @@
           "heading": "Vad säger transportstyrelsen om elsparkcykeln",
           "name": "Admin",
           "date": "29 May 2024",
+          "path": "/blogs/Vad-sager-transportstyrelsen-om-elsparkcykeln",
           "imagePath": "inner-page/product/14.jpg"
         },
         {
@@ -622,6 +624,7 @@
           "heading": "Xiaomi / Segway Felkod 15 (Error code 15)",
           "name": "Admin",
           "date": "17 May 2024",
+          "path": "#",
           "imagePath": "inner-page/product/errorcode15_480x480.webp"
         },
         {
@@ -629,6 +632,7 @@
           "heading": "Service & Felsökning",
           "name": "Admin",
           "date": "15 May 2024",
+          "path": "#",
           "imagePath": "inner-page/product/15.jpg"
         },
         {
@@ -636,6 +640,7 @@
           "heading": "Bra att tänka på vid köp av scooter!",
           "name": "Admin",
           "date": "15 May 2024",
+          "path": "#",
           "imagePath": "inner-page/product/bast-i-test_520x500-100x100.webp"
         },
         {
@@ -643,6 +648,7 @@
           "heading": "Xiaoflasher – Applikationen som förenklar felsökningen",
           "name": "Admin",
           "date": "14 May 2024",
+          "path": "#",
           "imagePath": "inner-page/product/nedladdning_1_520x500-100x100.avif"
         },
         {
@@ -650,6 +656,7 @@
           "heading": "Xiaoflasher – Uppgradering & Trimmning",
           "name": "Admin",
           "date": "14 May 2024",
+          "path": "#",
           "imagePath": "inner-page/product/poweer_boost_520x500.jpg"
         },
         {
@@ -657,6 +664,7 @@
           "heading": "Xiaomi / Segway Felkod 10 (Error Code 10 )",
           "name": "Admin",
           "date": "22 September 2023",
+          "path": "#",
           "imagePath": "inner-page/product/erorr_10_480x480-100x100.webp"
         },
         {
@@ -664,6 +672,7 @@
           "heading": "Xiaomi / Segway Felkod 11/12/13 (Error Code 11/12/13 )",
           "name": "Admin",
           "date": "06 September 2022",
+          "path": "#",
           "imagePath": "inner-page/product/PRO-2B_3_500x_c8d6fbd3-4600-430d-8658-f2c2b0e04dcf_480x480-100x100.webp"
         },
         {
@@ -671,6 +680,7 @@
           "heading": "Xiaomi Felkod 16 (Error code 16 )",
           "name": "Admin",
           "date": "11 April 2022",
+          "path": "#",
           "imagePath": "inner-page/product/11.jpg"
         },
         {
@@ -678,6 +688,7 @@
           "heading": "Xiaomi Felkod 35 (error code 35)",
           "name": "Admin",
           "date": "04 April 2022",
+          "path": "#",
           "imagePath": "inner-page/product/xiaoflasher_480x480-280x85.webp"
         },
         {
@@ -685,6 +696,7 @@
           "heading": "Xiaomi / Segway Felkod 17 ( Error code 17)",
           "name": "Admin",
           "date": "27 March 2022",
+          "path": "#",
           "imagePath": "inner-page/product/segway_batteri_480x480-100x100.webp"
         },
         {
@@ -692,6 +704,7 @@
           "heading": "Xiaomi / Segway Felkod 14 (Error code 14)",
           "name": "Admin",
           "date": "17 October 2021",
+          "path": "#",
           "imagePath": "inner-page/product/M-8_gas1_500x_3dc21646-21e6-49e4-8d79-614306e22166_480x480-100x100.webp"
         }
       ]
