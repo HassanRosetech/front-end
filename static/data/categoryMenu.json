@@ -4,7 +4,7 @@
       "id": 1,
       "title": "MobilReservdelar",
       "active": false,
-      
+
       "menuOpen": false,
       "children": [
         {
@@ -32,8 +32,6 @@
               "path": "#",
               "type": "link"
             }
-            
-            
           ]
         },
         {
@@ -86,7 +84,6 @@
               "path": "#",
               "type": "link"
             }
-
           ]
         },
         {
@@ -291,13 +288,11 @@
             }
           ]
         },
-        
-        
+
         {
           "id": 6,
           "heading": "Asus Reservdelar",
           "subMenuOpen": false
-          
         },
         {
           "id": 7,
@@ -375,7 +370,7 @@
               "title": "Moto G5S Spare Parts",
               "path": "#",
               "type": "link"
-            }, 
+            },
             {
               "title": "Moto G7 Play Spare Parts",
               "path": "#",
@@ -697,7 +692,6 @@
               "path": "#",
               "type": "link"
             }
-            
           ]
         }
       ]
@@ -835,14 +829,13 @@
       "id": 1,
       "title": "Gaming",
       "active": false,
-      
+
       "menuOpen": false,
       "children": [
         {
           "id": 1,
           "heading": "⁠Xbox",
           "subMenuOpen": false
-          
         },
         {
           "id": 2,
@@ -879,39 +872,279 @@
               "path": "#",
               "type": "link"
             }
-
-            
-            
           ]
         },
         {
           "id": 3,
           "heading": "⁠Gamecube",
           "subMenuOpen": false
-          
         },
         {
           "id": 4,
           "heading": "Nintendo Wii",
           "subMenuOpen": false
-          
         }
       ]
-      
     },
+
     {
       "id": 1,
-      "title": "El scooter",
-      "path": "#",
-      "type": "link"
+      "title": "SCOOTERDELAR & TILLBEHÖR",
+      "active": false,
+
+      "menuOpen": false,
+      "children": [
+        {
+          "id": 1,
+          "heading": "Elektronikkomponenter",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Displaymoduler (Styre)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Moderkort / ESC (Mittsektion)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Laddportar (Mittsektion)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Kablage & kontakter (Mittsektion)",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "heading": "Belysning",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Framlampa (Framdel)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Bromsljus (Bakdel)",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "heading": "Batteri & Energi",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Batteripaket (Mittsektion)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Batteriluckor & kåpor (Mittsektion)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Laddare (Mittsektion)",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "heading": "Hjul & Däck",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Framhjul & däck (Framdel)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Bakhjul & däck (Bakdel)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Innerslangar (Framdel / Bakdel)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Solida däck (Framdel / Bakdel)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Kompletta motorhjul (Bakdel)",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "heading": "Bromssystem",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Bromsskiva fram (Framdel)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Bromsskiva bak (Bakdel)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Bromsok (Framdel / Bakdel)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": " Bromsvajrar (Styre → Broms → Hjul)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Bromshandtag (Styre)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Bromsljus (Bakdel)",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "heading": "Skydd & Kåpor",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Framskydd / kåpor (Framdel",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Bakskydd / kåpor (Bakdel)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Displayskydd (Styre)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Batteriskydd (Mittsektion)",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "heading": "Styre & Kontroll",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Gashandtag",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Bromshandtag",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Telefonhållare",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Styrlås",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Fästen & reglage",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "heading": "Tillbehör & Utrustning",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Telefonhållare (Styre)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Krokar & spännen (Styre / Ram)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Transportväska",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Reflexer",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "heading": "Verktyg & Underhåll",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Däckverktyg",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Installationskit",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Reservdelsskruvar & fästen",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        }
+      ]
     },
+
     {
       "id": 1,
       "title": "Veckans Deal",
       "path": "#",
       "type": "link"
     }
-    
-   
   ]
 }
