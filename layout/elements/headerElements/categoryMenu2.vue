@@ -6,11 +6,13 @@
         class="btn btn-solid-default toggle-category d-sm-block d-none"
       >
         {{ useRuntimeConfig().public.const.Allcategories }}
+
         <i class="fas fa-chevron-down d-xl-inline-block d-none"></i>
       </button>
       <div class="category-dropdown">
         <div class="close-btn d-xl-none">
           {{ useRuntimeConfig().public.const.CategoryList }}
+
           <span class="back-category">
             <i class="fa fa-angle-left"></i>
           </span>
@@ -21,12 +23,13 @@
             :key="index"
             :class="items.children ? 'submenu' : ''"
           >
-            <a href="javascript:void(0)">{{ items.title }}</a>
+            <a href="javascript:void(0)">{{ items.title }} </a>
             <ul class="category-mega-menu" v-if="items.children">
               <li>
                 <div class="row">
                   <div
                     class="col-xl-3"
+                    :class="`${items.title}`"
                     v-for="(item, index) in items.children"
                     :key="index"
                   >
@@ -44,6 +47,7 @@
                       </ul>
                     </div>
                   </div>
+
                   <div class="col-xl-3" v-if="items.bannerImage">
                     <div class="category-banner">
                       <img

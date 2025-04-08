@@ -8,9 +8,15 @@
             <div class="main-menu">
               <div class="menu-left">
                 <div class="brand-logo">
-                  <a href="javascript:void(0)" @click.prevent="$router.push('/home/fashion_demo')">
+                  <a
+                    href="javascript:void(0)"
+                    @click.prevent="$router.push('/home/fashion_demo')"
+                  >
                     <svg class="svg-icon">
-                      <use class="fill-color" xlink:href="/svg/icons.svg#logo"></use>
+                      <use
+                        class="fill-color"
+                        xlink:href="/svg/icons.svg#logo"
+                      ></use>
                     </svg>
                     <img src="/images/logo.png" class="img-fluid" alt="logo" />
                   </a>
@@ -20,7 +26,10 @@
               </div>
               <mainNavbar />
               <menuRight @openSearchBar="toggleSearchbar" />
-              <headerSearchBar @closeSearchBar="toggleSearchbar" :isopen="isSearchbarOpen" />
+              <headerSearchBar
+                @closeSearchBar="toggleSearchbar"
+                :isopen="isSearchbarOpen"
+              />
             </div>
           </div>
         </div>
@@ -93,6 +102,6 @@ export default {
   destroyed() {
     window.removeEventListener("scroll", this.handleScroll);
     window.removeEventListener("resize", this.getWindowWidth);
-  }
+  },
 };
 </script>
