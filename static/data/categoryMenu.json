@@ -839,17 +839,17 @@
           "items": [
             {
               "title": "PS4",
-              "path": "#",
+              "path": "playstation/ps4",
               "type": "link"
             },
             {
               "title": "PS5",
-              "path": "#",
+              "path": "playstation/ps5",
               "type": "link"
             },
             {
               "title": " PS4 + PS5",
-              "path": "#",
+              "path": "playstation/ps4ps5",
               "type": "link"
             }
           ]

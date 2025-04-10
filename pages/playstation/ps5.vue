@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <Title>PlayStation - Grips</Title>
+    <Title>PlayStation - PS5</Title>
   </Head>
   <layout3 pageName="Search" parent="Search">
     <PageSearchTopBar v-model="search" />
@@ -10,10 +10,10 @@
 
 <script setup>
 import layout3 from "~/layout/layouts/layout3.vue";
-import { useProductStore } from "~~/store/grips";
+import { useProductStore } from "~~/store/ps5";
 
 let productList = computed(() =>
-  useProductStore().data.filter((item) => item.type === "grips")
+  useProductStore().data.filter((item) => item.type === "ps5")
 );
 let search = ref(""),
   dataToShow = ref();

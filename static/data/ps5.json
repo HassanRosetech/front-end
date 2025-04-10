@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "category": "PlayStation",
+      "name": "Kablar",
+      "type": "ps5",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "PlayStation",
+      "name": "Laddningsstationer",
+      "type": "ps5",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "PlayStation",
+      "name": "Skydd och Grepp",
+      "type": "ps5",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "PlayStation",
+      "name": "Väskor och fodral",
+      "type": "ps5",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "PlayStation",
+      "name": "Franchise-produkter",
+      "type": "ps5",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    }
+  ]
+}
