@@ -834,41 +834,63 @@
       "children": [
         {
           "id": 1,
-          "heading": "⁠Xbox",
-          "subMenuOpen": false
-        },
-        {
-          "id": 2,
           "heading": "⁠Playstation",
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Audio",
+              "title": "Grips",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Simulation",
+              "title": "Charging",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Bags and cases",
+              "title": "Soft Skin + Grips",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Silicon cover",
+              "title": "Cable",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Screen protector",
+              "title": "Case / Bag",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "⁠Gadgets",
+              "title": "Kit / Pack",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "heading": "⁠Xbox",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Charging",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Case / Bag",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Soft Skin + Grips",
               "path": "#",
               "type": "link"
             }
@@ -876,13 +898,374 @@
         },
         {
           "id": 3,
-          "heading": "⁠Gamecube",
-          "subMenuOpen": false
+          "heading": "Switch",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Screen Protector",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Soft Skin + Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Other",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Games Case",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Case / Bag",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Kit / Pack",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Controller",
+              "path": "#",
+              "type": "link"
+            }
+          ]
         },
         {
           "id": 4,
-          "heading": "Nintendo Wii",
-          "subMenuOpen": false
+          "heading": "Audio",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Gaming Headset",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Stand",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "heading": "Simulation",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Racing Wheel",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Flight Stick",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Furniture",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Complements",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "heading": "CAPTAIN TSUBASA COLLECTION",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Hard Skin + Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Case / Bag",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Dock Cover",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "heading": "DC COLLECTION",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Soft Skin + Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Kit / Pack",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Case / Bag",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Charging",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Controller",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "PC Gaming",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Gaming Headset",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "heading": "DEMON SLAYER COLLECTION",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Hard Skin + Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Kit / Pack",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Case / Bag",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "heading": "DRAGON BALL COLLECTION",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Hard Skin + Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Case / Bag",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Dock Cover",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Games Case",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Kit / Pack",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Soft Skin + Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "PC Gaming",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Controller",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "heading": "MONSTER HUNTER COLLECTION",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Hard Skin + Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Case / Bag",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "heading": "ONE PIECE COLLECTION",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Hard Skin + Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Soft Skin + Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Case / Bag",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Dock Cover",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Kit / Pack",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Games Case",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "heading": "RESIDENT EVIL COLLECTION",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Hard Skin + Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Case / Bag",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "heading": "RICK AND MORTY COLLECTION",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Case / Bag",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "heading": "TANOOKI COLLECTION",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Hard Skin + Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Case / Bag",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Gaming Headset",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "heading": "WWE COLLECTION",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Hard Skin + Grips",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Case / Bag",
+              "path": "#",
+              "type": "link"
+            }
+          ]
         }
       ]
     },
