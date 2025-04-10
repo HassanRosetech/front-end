@@ -834,36 +834,21 @@
       "children": [
         {
           "id": 1,
-          "heading": "⁠Playstation",
+          "heading": "PlayStation",
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Grips",
-              "path": "playstation/grips",
-              "type": "link"
-            },
-            {
-              "title": "Charging",
+              "title": "PS4",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Soft Skin + Grips",
+              "title": "PS5",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Cable",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Case / Bag",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Kit / Pack",
+              "title": " PS4 + PS5",
               "path": "#",
               "type": "link"
             }
@@ -875,22 +860,12 @@
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Charging",
+              "title": "XSeries",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Case / Bag",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Grips",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Soft Skin + Grips",
+              "title": "XSeries + XOne",
               "path": "#",
               "type": "link"
             }
@@ -898,46 +873,31 @@
         },
         {
           "id": 3,
-          "heading": "Switch",
+          "heading": "Nintendo Switch",
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Screen Protector",
+              "title": " Switch (Original)",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Soft Skin + Grips",
+              "title": "Switch (Lite)",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Grips",
+              "title": " Switch (Oled)",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Other",
+              "title": "Switch (Original + Oled)",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Games Case",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Case / Bag",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Kit / Pack",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Controller",
+              "title": "Switch (All models)",
               "path": "#",
               "type": "link"
             }
@@ -945,16 +905,11 @@
         },
         {
           "id": 4,
-          "heading": "Audio",
+          "heading": "PC",
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Gaming Headset",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Stand",
+              "title": "PC",
               "path": "#",
               "type": "link"
             }
@@ -962,26 +917,11 @@
         },
         {
           "id": 5,
-          "heading": "Simulation",
+          "heading": "Audio / Ljud",
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Racing Wheel",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Flight Stick",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Furniture",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Complements",
+              "title": "ALL consoles",
               "path": "#",
               "type": "link"
             }
@@ -989,26 +929,21 @@
         },
         {
           "id": 6,
-          "heading": "CAPTAIN TSUBASA COLLECTION",
+          "heading": "Simulation",
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Grips",
+              "title": "ALL consoles",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Hard Skin + Grips",
+              "title": "Nintendo Switch & PC",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Case / Bag",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Dock Cover",
+              "title": "PC",
               "path": "#",
               "type": "link"
             }
@@ -1016,252 +951,16 @@
         },
         {
           "id": 7,
-          "heading": "DC COLLECTION",
+          "heading": "Globalt / Allmänt",
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Soft Skin + Grips",
+              "title": "Väskor och fodral",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Kit / Pack",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Case / Bag",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Charging",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Controller",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "PC Gaming",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Gaming Headset",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
-        {
-          "id": 8,
-          "heading": "DEMON SLAYER COLLECTION",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Hard Skin + Grips",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Kit / Pack",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Case / Bag",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
-        {
-          "id": 9,
-          "heading": "DRAGON BALL COLLECTION",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Grips",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Hard Skin + Grips",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Case / Bag",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Dock Cover",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Games Case",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Kit / Pack",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Soft Skin + Grips",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "PC Gaming",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Controller",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
-        {
-          "id": 10,
-          "heading": "MONSTER HUNTER COLLECTION",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Grips",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Hard Skin + Grips",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Case / Bag",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
-        {
-          "id": 11,
-          "heading": "ONE PIECE COLLECTION",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Grips",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Hard Skin + Grips",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Soft Skin + Grips",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Case / Bag",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Dock Cover",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Kit / Pack",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Games Case",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
-        {
-          "id": 12,
-          "heading": "RESIDENT EVIL COLLECTION",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Hard Skin + Grips",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Case / Bag",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
-        {
-          "id": 13,
-          "heading": "RICK AND MORTY COLLECTION",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Case / Bag",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
-        {
-          "id": 14,
-          "heading": "TANOOKI COLLECTION",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Grips",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Hard Skin + Grips",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Case / Bag",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Gaming Headset",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
-        {
-          "id": 15,
-          "heading": "WWE COLLECTION",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Hard Skin + Grips",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Case / Bag",
+              "title": "Taggar (för filterfunktion)",
               "path": "#",
               "type": "link"
             }
@@ -1278,173 +977,17 @@
       "menuOpen": false,
       "children": [
         {
-          "id": 5,
-          "heading": "Bromssystem",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Bromsskiva fram (Framdel)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Bromsskiva bak (Bakdel)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Bromsok (Framdel / Bakdel)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": " Bromsvajrar (Styre → Broms → Hjul)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Bromshandtag (Styre)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Bromsljus (Bakdel)",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
-        {
-          "id": 4,
-          "heading": "Hjul & Däck",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Framhjul & däck (Framdel)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Bakhjul & däck (Bakdel)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Innerslangar (Framdel / Bakdel)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Solida däck (Framdel / Bakdel)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Kompletta motorhjul (Bakdel)",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
-        {
-          "id": 7,
-          "heading": "Styre & Kontroll",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Gashandtag",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Bromshandtag",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Telefonhållare",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Styrlås",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Fästen & reglage",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
-        {
           "id": 1,
-          "heading": "Elektronikkomponenter",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Displaymoduler (Styre)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Moderkort / ESC (Mittsektion)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Laddportar (Mittsektion)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Kablage & kontakter (Mittsektion)",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
-
-        {
-          "id": 6,
-          "heading": "Skydd & Kåpor",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Framskydd / kåpor (Framdel",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Bakskydd / kåpor (Bakdel)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Displayskydd (Styre)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Batteriskydd (Mittsektion)",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
-        {
-          "id": 8,
           "heading": "Tillbehör & Utrustning",
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Telefonhållare (Styre)",
+              "title": "Lås",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Krokar & spännen (Styre / Ram)",
+              "title": "Spännen & krokar",
               "path": "#",
               "type": "link"
             },
@@ -1454,7 +997,103 @@
               "type": "link"
             },
             {
-              "title": "Reflexer",
+              "title": "Muttrar & skruvar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Dekoration & Reflexer",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Övrigt",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "heading": "Skydd & Kåpor",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Bakskydd / kåpor",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Framskydd / kåpor",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Displayskydd",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Batteriskydd",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Skyddstillbehör",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "heading": "Elektronikkomponenter",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Belysning",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Displaymoduler (Styre)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Kablage & Kontakter (Mittsektion)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Moderkort / ESC (Mittsektion)",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "heading": "Bromssystem",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Bromsvajrar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Bromsok",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Bromsskivor",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Bromsbelägg",
               "path": "#",
               "type": "link"
             }
@@ -1462,22 +1101,39 @@
         },
 
         {
-          "id": 3,
+          "id": 5,
+          "heading": "Chassi & Mittsektion",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Framdel",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Mittsektion",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Bakdel",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 6,
           "heading": "Batteri & Energi",
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Batteripaket (Mittsektion)",
+              "title": "Laddare",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Batteriluckor & kåpor (Mittsektion)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Laddare (Mittsektion)",
+              "title": "Batteripaket",
               "path": "#",
               "type": "link"
             }
@@ -1485,7 +1141,35 @@
         },
 
         {
-          "id": 9,
+          "id": 7,
+          "heading": "Hjul & Däck",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Solida Däck",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Luftdäck",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Innerslangar",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Däcktillbehör",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+
+        {
+          "id": 8,
           "heading": "Verktyg & Underhåll",
           "subMenuOpen": false,
           "items": [
@@ -1507,17 +1191,49 @@
           ]
         },
         {
-          "id": 2,
-          "heading": "Belysning",
+          "id": 9,
+          "heading": "Styre & Kontroll",
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Framlampa (Framdel)",
+              "title": "Telefonhållare",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Bromsljus (Bakdel)",
+              "title": "Fästen & reglage",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Förlängning stång",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Klocka",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "heading": "Filter (För alla kategorier)",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Storlek",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Färg",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Modellkompatibilitet",
               "path": "#",
               "type": "link"
             }
