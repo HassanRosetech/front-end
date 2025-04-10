@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "category": "playstation",
+      "name": "PS4 grips All Games",
+      "type": "grips",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "category": "playstation",
+      "name": "PS4 grips Shooter",
+      "type": "grips",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "category": "playstation",
+      "name": "PS4 grips Sniper",
+      "type": "grips",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "category": "playstation",
+      "name": "PS4 grips Sports",
+      "type": "grips",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "category": "playstation",
+      "name": "PS5 grips Dual Sense",
+      "type": "grips",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    }
+  ]
+}
