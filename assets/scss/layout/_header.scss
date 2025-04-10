@@ -616,6 +616,10 @@
 
 
     @media (min-width: 1200px) {
+
+          .Tillbehör:nth-child(5) , .Tillbehör:nth-child(6), .Tillbehör:nth-child(7) , .Tillbehör:nth-child(8), .Tillbehör:nth-child(9){
+            margin-top: 30px;
+          }
          .MobilReservdelar:nth-child(5){
 margin-top: -580px;
         }

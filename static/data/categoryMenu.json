@@ -889,109 +889,11 @@
 
     {
       "id": 11,
-      "title": "SCOOTERDELAR & TILLBEHÖR",
+      "title": "Scooterdelar & Tillbehör",
       "active": false,
 
       "menuOpen": false,
       "children": [
-        {
-          "id": 1,
-          "heading": "Elektronikkomponenter",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Displaymoduler (Styre)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Moderkort / ESC (Mittsektion)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Laddportar (Mittsektion)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Kablage & kontakter (Mittsektion)",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "heading": "Belysning",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Framlampa (Framdel)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Bromsljus (Bakdel)",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "heading": "Batteri & Energi",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Batteripaket (Mittsektion)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Batteriluckor & kåpor (Mittsektion)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Laddare (Mittsektion)",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
-        {
-          "id": 4,
-          "heading": "Hjul & Däck",
-          "subMenuOpen": false,
-          "items": [
-            {
-              "title": "Framhjul & däck (Framdel)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Bakhjul & däck (Bakdel)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Innerslangar (Framdel / Bakdel)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Solida däck (Framdel / Bakdel)",
-              "path": "#",
-              "type": "link"
-            },
-            {
-              "title": "Kompletta motorhjul (Bakdel)",
-              "path": "#",
-              "type": "link"
-            }
-          ]
-        },
         {
           "id": 5,
           "heading": "Bromssystem",
@@ -1030,27 +932,32 @@
           ]
         },
         {
-          "id": 6,
-          "heading": "Skydd & Kåpor",
+          "id": 4,
+          "heading": "Hjul & Däck",
           "subMenuOpen": false,
           "items": [
             {
-              "title": "Framskydd / kåpor (Framdel",
+              "title": "Framhjul & däck (Framdel)",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Bakskydd / kåpor (Bakdel)",
+              "title": "Bakhjul & däck (Bakdel)",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Displayskydd (Styre)",
+              "title": "Innerslangar (Framdel / Bakdel)",
               "path": "#",
               "type": "link"
             },
             {
-              "title": "Batteriskydd (Mittsektion)",
+              "title": "Solida däck (Framdel / Bakdel)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Kompletta motorhjul (Bakdel)",
               "path": "#",
               "type": "link"
             }
@@ -1089,6 +996,61 @@
           ]
         },
         {
+          "id": 1,
+          "heading": "Elektronikkomponenter",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Displaymoduler (Styre)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Moderkort / ESC (Mittsektion)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Laddportar (Mittsektion)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Kablage & kontakter (Mittsektion)",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+
+        {
+          "id": 6,
+          "heading": "Skydd & Kåpor",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Framskydd / kåpor (Framdel",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Bakskydd / kåpor (Bakdel)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Displayskydd (Styre)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Batteriskydd (Mittsektion)",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
           "id": 8,
           "heading": "Tillbehör & Utrustning",
           "subMenuOpen": false,
@@ -1115,6 +1077,30 @@
             }
           ]
         },
+
+        {
+          "id": 3,
+          "heading": "Batteri & Energi",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Batteripaket (Mittsektion)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Batteriluckor & kåpor (Mittsektion)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Laddare (Mittsektion)",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+
         {
           "id": 9,
           "heading": "Verktyg & Underhåll",
@@ -1132,6 +1118,23 @@
             },
             {
               "title": "Reservdelsskruvar & fästen",
+              "path": "#",
+              "type": "link"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "heading": "Belysning",
+          "subMenuOpen": false,
+          "items": [
+            {
+              "title": "Framlampa (Framdel)",
+              "path": "#",
+              "type": "link"
+            },
+            {
+              "title": "Bromsljus (Bakdel)",
               "path": "#",
               "type": "link"
             }
