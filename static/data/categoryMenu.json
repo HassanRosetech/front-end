@@ -839,7 +839,7 @@
           "items": [
             {
               "title": "Grips",
-              "path": "/playstation/grips",
+              "path": "playstation/grips",
               "type": "link"
             },
             {
