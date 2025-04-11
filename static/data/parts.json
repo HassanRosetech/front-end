@@ -637,6 +637,702 @@
           "src": "electronics/product/iPhone-14-Pro-Max-Ambient-Ljus-Sensor-Flexkabel-Original.jpeg"
         }
       ]
+    },
+    {
+      "id": 23,
+      "description": "PS4 Grips All Games",
+      "category": "Skydd och Grepp",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "Skydd och Grepp",
+      "feature": "none",
+      "name": "PS4 Grips All Games",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "description": "PS4 Grips Shooter",
+      "category": "Skydd och Grepp",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "Skydd och Grepp",
+      "feature": "none",
+      "name": "PS4 Grips Shooter",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "description": "PS4 Grips Sniper",
+      "category": "Skydd och Grepp",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "Skydd och Grepp",
+      "feature": "none",
+      "name": "PS4 Grips Sniper",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "description": "PS4 Grips Sports",
+      "category": "Skydd och Grepp",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "Skydd och Grepp",
+      "feature": "none",
+      "name": "PS4 Grips Sports",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "description": "PS4 Micro USB Cable 3 m. Blue",
+      "category": "Kablar",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Cable",
+      "type": "Kablar",
+      "feature": "none",
+      "name": "PS4 Micro USB Cable 3 m. Blue",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "description": "PS4 Micro USB Cable 3 m. Premium",
+      "category": "Kablar",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Cable",
+      "type": "Kablar",
+      "feature": "none",
+      "name": "PS4 Micro USB Cable 3 m. Premium",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "description": "PS4 Dual Charger",
+      "category": "Laddningsstationer",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Charging",
+      "type": "Laddningsstationer",
+      "feature": "none",
+      "name": "PS4 Dual Charger",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "description": "PS4 Silicone Skin + Grips (Blue)",
+      "category": "Skydd och Grepp",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Skydd och Grepp",
+      "feature": "none",
+      "name": "PS4 Silicone Skin + Grips (Blue)",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "description": "PS4 Silicone Skin + Grips (Red)",
+      "category": "Skydd och Grepp",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Skydd och Grepp",
+      "feature": "none",
+      "name": "PS4 Silicone Skin + Grips (Red)",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "description": "PS4 Silicone Skin + Grips Camo Woodland",
+      "category": "Skydd och Grepp",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Skydd och Grepp",
+      "feature": "none",
+      "name": "PS4 Silicone Skin + Grips Camo Woodland",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "description": "PS4 Silicone + Grips Camo Digital Black",
+      "category": "Skydd och Grepp",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Skydd och Grepp",
+      "feature": "none",
+      "name": "PS4 Silicone + Grips Camo Digital Black",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "description": "PS4 Silicone Skin + Grips Glow In The Dark",
+      "category": "Skydd och Grepp",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Skydd och Grepp",
+      "feature": "none",
+      "name": "PS4 Silicone Skin + Grips Glow In The Dark",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "description": "PS5 Dual Charging Station",
+      "category": "Laddningsstationer",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Charging",
+      "type": "Laddningsstationer",
+      "feature": "none",
+      "name": "PS5 Dual Charging Station",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "description": "PS5 USB-C Cable 3 m.",
+      "category": "Kablar",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Cable",
+      "type": "Kablar",
+      "feature": "none",
+      "name": "PS5 USB-C Cable 3 m.",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "description": "PS5 USB-C Cable 3 m. Premium",
+      "category": "Kablar",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Cable",
+      "type": "Kablar",
+      "feature": "none",
+      "name": "PS5 USB-C Cable 3 m. Premium",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "description": "PS5 HDMI 2.1 Cable 1.5 m.",
+      "category": "Kablar",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Cable",
+      "type": "Kablar",
+      "feature": "none",
+      "name": "PS5 HDMI 2.1 Cable 1.5 m.",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "description": "PS5 Controller Case",
+      "category": "Väskor och fodral",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "Väskor och fodral",
+      "feature": "none",
+      "name": "PS5 Controller Case",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "description": "PS5 Grips Dual Sense",
+      "category": "Skydd och Grepp",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "Skydd och Grepp",
+      "feature": "none",
+      "name": "PS5 Grips Dual Sense",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "description": "PS5 Custom Kit  Basics",
+      "category": "Skydd och Grepp",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Skydd och Grepp",
+      "feature": "none",
+      "name": "PS5 Custom Kit  Basics",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "description": "PS5 Custom Kit Glow In The Dark",
+      "category": "Skydd och Grepp",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Skydd och Grepp",
+      "feature": "none",
+      "name": "PS5 Custom Kit Glow In The Dark",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "description": "PS5 Custom Kit Camo Digital Black",
+      "category": "Skydd och Grepp",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Skydd och Grepp",
+      "feature": "none",
+      "name": "PS5 Custom Kit Camo Digital Black",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "description": "PS5 Custom Kit Translucent",
+      "category": "Skydd och Grepp",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Skydd och Grepp",
+      "feature": "none",
+      "name": "PS5 Custom Kit Translucent",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "description": "PS5 Control Mod Pro (CMP)",
+      "category": "Väskor och fodral",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Kit / Pack",
+      "type": "Väskor och fodral",
+      "feature": "none",
+      "name": "PS5 Control Mod Pro (CMP)",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "description": "PS5 Racing Enhance Kit",
+      "category": "Väskor och fodral",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Kit / Pack",
+      "type": "Väskor och fodral",
+      "feature": "none",
+      "name": "PS5 Racing Enhance Kit",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
     }
   ]
 }
