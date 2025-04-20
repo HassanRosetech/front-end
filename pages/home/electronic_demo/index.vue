@@ -1,22 +1,36 @@
 <template>
   <Head>
-    <Title>Electronic Store</Title>
-    <Link rel="icon" href="/favicons/1.png">
-    </Link>
+    <Title>Parts Shop</Title>
+    <Link rel="icon" href="/favicons/1.png"> </Link>
   </Head>
   <layout3 :offerCode="offerCode">
     <HomeElectronicDemoComponentsHomeSlider :slides="slides" />
     <customerServices />
-    <HomeElectronicDemoComponentsElectronicBanner :banners="bannersList.filter((item) => item.subtype === 'topbanner')[0].banners
-      " />
-    <HomeElectronicDemoComponentsOurCollectionCarousel :products="productsList" />
-    <HomeElectronicDemoComponentsBannerWithTimer :banner="bannersList.filter((item) => item.subtype === 'dealday')[0]" />
-    <HomeElectronicDemoComponentsVrCollectionCarousel :products="productsList.filter((item) => item.category === 'vr')" />
-    <HomeElectronicDemoComponentsHurryUpBanner :tabList="hurryUpBannersList.filter((item) => item.subtype === 'hurryup')[0].tabs
-      " />
-    <HomeElectronicDemoComponentsInstagramShop :banners="bannersList.filter((item) => item.subtype === 'instagramshop')[0]
-        .children
-      " />
+    <HomeElectronicDemoComponentsElectronicBanner
+      :banners="
+        bannersList.filter((item) => item.subtype === 'topbanner')[0].banners
+      "
+    />
+    <HomeElectronicDemoComponentsOurCollectionCarousel
+      :products="productsList"
+    />
+    <HomeElectronicDemoComponentsBannerWithTimer
+      :banner="bannersList.filter((item) => item.subtype === 'dealday')[0]"
+    />
+    <HomeElectronicDemoComponentsVrCollectionCarousel
+      :products="productsList.filter((item) => item.category === 'vr')"
+    />
+    <HomeElectronicDemoComponentsHurryUpBanner
+      :tabList="
+        hurryUpBannersList.filter((item) => item.subtype === 'hurryup')[0].tabs
+      "
+    />
+    <HomeElectronicDemoComponentsInstagramShop
+      :banners="
+        bannersList.filter((item) => item.subtype === 'instagramshop')[0]
+          .children
+      "
+    />
     <brandCarousel />
     <template v-slot:footerRight>
       <footerRight1 />
@@ -29,9 +43,9 @@
 <script>
 import layout3 from "~/layout/layouts/layout3.vue";
 import cookieBar1 from "~/layout/elements/cookieBars/cookieBar1.vue";
-import { useProductStore } from '~~/store/products';
-import { useBannerStore } from '~~/store/banners';
-import { useLayout } from '~~/store/layout';
+import { useProductStore } from "~~/store/products";
+import { useBannerStore } from "~~/store/banners";
+import { useLayout } from "~~/store/layout";
 import { useClickStore } from "~~/store/clickEvents";
 import { useHomeSliderStore } from "~~/store/homeSliders";
 import customerServices from "~/layout/elements/banners/customerServices.vue";
@@ -78,21 +92,19 @@ export default {
       );
     },
     bannersList() {
-      return useBannerStore().data.filter(
-        (item) => item.type === "electronic"
-      );
+      return useBannerStore().data.filter((item) => item.type === "electronic");
     },
   },
   created() {
-    useLayout().setPrimaryColor({ primaryColor: "#0163d2" })
+    useLayout().setPrimaryColor({ primaryColor: "#0163d2" });
     let layoutMode = useCookie("layoutType").value || "light";
 
     if (layoutMode === "dark") this.themeCss = "/voxo/css/demo1_dark.css";
     else this.themeCss = "/voxo/css/demo1.css";
   },
   mounted() {
-    !useCookie('newsLetterSet').value &&
-      useClickStore().toggleNewsLetterModal()
+    !useCookie("newsLetterSet").value &&
+      useClickStore().toggleNewsLetterModal();
   },
 };
 </script>

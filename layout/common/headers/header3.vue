@@ -10,7 +10,7 @@
                 <div class="brand-logo">
                   <a
                     href="javascript:void(0)"
-                    @click.prevent="$router.push('/home/fashion_demo')"
+                    @click.prevent="$router.push('/')"
                   >
                     <svg class="svg-icon">
                       <use

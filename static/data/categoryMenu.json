@@ -848,7 +848,7 @@
               "type": "link"
             },
             {
-              "title": " PS4 + PS5",
+              "title": "PS4 + PS5",
               "path": "playstation/ps4ps5",
               "type": "link"
             }
@@ -861,12 +861,12 @@
           "items": [
             {
               "title": "XSeries",
-              "path": "#",
+              "path": "xbox/xseries",
               "type": "link"
             },
             {
               "title": "XSeries + XOne",
-              "path": "#",
+              "path": "xbox/xseries-xone",
               "type": "link"
             }
           ]
@@ -878,27 +878,27 @@
           "items": [
             {
               "title": " Switch (Original)",
-              "path": "#",
+              "path": "NintendoSwitch/original",
               "type": "link"
             },
             {
               "title": "Switch (Lite)",
-              "path": "#",
+              "path": "NintendoSwitch/lite",
               "type": "link"
             },
             {
               "title": " Switch (Oled)",
-              "path": "#",
+              "path": "NintendoSwitch/oled",
               "type": "link"
             },
             {
               "title": "Switch (Original + Oled)",
-              "path": "#",
+              "path": "NintendoSwitch/original-oled",
               "type": "link"
             },
             {
               "title": "Switch (All models)",
-              "path": "#",
+              "path": "NintendoSwitch/all-models",
               "type": "link"
             }
           ]
@@ -910,7 +910,7 @@
           "items": [
             {
               "title": "PC",
-              "path": "#",
+              "path": "pc/audio-ljud",
               "type": "link"
             }
           ]
@@ -922,7 +922,7 @@
           "items": [
             {
               "title": "ALL consoles",
-              "path": "#",
+              "path": "",
               "type": "link"
             }
           ]
@@ -934,17 +934,17 @@
           "items": [
             {
               "title": "ALL consoles",
-              "path": "#",
+              "path": "simulation/aLL-consoles",
               "type": "link"
             },
             {
               "title": "Nintendo Switch & PC",
-              "path": "#",
+              "path": "simulation/nintendo-switch-pc",
               "type": "link"
             },
             {
               "title": "PC",
-              "path": "#",
+              "path": "simulation/pc",
               "type": "link"
             }
           ]
@@ -956,12 +956,12 @@
           "items": [
             {
               "title": "Väskor och fodral",
-              "path": "#",
+              "path": "globalt-allmant/vaskor-och-fodral",
               "type": "link"
             },
             {
               "title": "Taggar (för filterfunktion)",
-              "path": "#",
+              "path": "globalt-allmant/taggar-for-filterfunktion",
               "type": "link"
             }
           ]
