@@ -2,7 +2,10 @@
 import type { DefineComponent, SlotsType } from 'vue'
 type IslandComponent<T extends DefineComponent> = T & DefineComponent<{}, {refresh: () => Promise<void>}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, SlotsType<{ fallback: { error: unknown } }>>
 interface _GlobalComponents {
-      'PortfolioGrid': typeof import("../components/Portfolio/Grid.vue")['default']
+      'GamingPS4': typeof import("../components/Gaming/PS4.vue")['default']
+    'GamingPS4Ps5': typeof import("../components/Gaming/PS4Ps5.vue")['default']
+    'GamingPS5': typeof import("../components/Gaming/PS5.vue")['default']
+    'PortfolioGrid': typeof import("../components/Portfolio/Grid.vue")['default']
     'PortfolioMasonary': typeof import("../components/Portfolio/Masonary.vue")['default']
     'WrapperTabs': typeof import("../components/Wrapper/Tabs.vue")['default']
     'BlogCommonLeftSection': typeof import("../components/blog/Common/LeftSection.vue")['default']
@@ -230,7 +233,10 @@ interface _GlobalComponents {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'NuxtIsland': typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
-      'LazyPortfolioGrid': typeof import("../components/Portfolio/Grid.vue")['default']
+      'LazyGamingPS4': typeof import("../components/Gaming/PS4.vue")['default']
+    'LazyGamingPS4Ps5': typeof import("../components/Gaming/PS4Ps5.vue")['default']
+    'LazyGamingPS5': typeof import("../components/Gaming/PS5.vue")['default']
+    'LazyPortfolioGrid': typeof import("../components/Portfolio/Grid.vue")['default']
     'LazyPortfolioMasonary': typeof import("../components/Portfolio/Masonary.vue")['default']
     'LazyWrapperTabs': typeof import("../components/Wrapper/Tabs.vue")['default']
     'LazyBlogCommonLeftSection': typeof import("../components/blog/Common/LeftSection.vue")['default']
@@ -464,6 +470,9 @@ declare module 'vue' {
   export interface GlobalComponents extends _GlobalComponents { }
 }
 
+export const GamingPS4: typeof import("../components/Gaming/PS4.vue")['default']
+export const GamingPS4Ps5: typeof import("../components/Gaming/PS4Ps5.vue")['default']
+export const GamingPS5: typeof import("../components/Gaming/PS5.vue")['default']
 export const PortfolioGrid: typeof import("../components/Portfolio/Grid.vue")['default']
 export const PortfolioMasonary: typeof import("../components/Portfolio/Masonary.vue")['default']
 export const WrapperTabs: typeof import("../components/Wrapper/Tabs.vue")['default']
@@ -692,6 +701,9 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
+export const LazyGamingPS4: typeof import("../components/Gaming/PS4.vue")['default']
+export const LazyGamingPS4Ps5: typeof import("../components/Gaming/PS4Ps5.vue")['default']
+export const LazyGamingPS5: typeof import("../components/Gaming/PS5.vue")['default']
 export const LazyPortfolioGrid: typeof import("../components/Portfolio/Grid.vue")['default']
 export const LazyPortfolioMasonary: typeof import("../components/Portfolio/Masonary.vue")['default']
 export const LazyWrapperTabs: typeof import("../components/Wrapper/Tabs.vue")['default']
