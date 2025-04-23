@@ -877,7 +877,7 @@
           "subMenuOpen": false,
           "items": [
             {
-              "title": " Switch (Original)",
+              "title": "Switch (Original)",
               "path": "NintendoSwitch/original",
               "type": "link"
             },
@@ -887,7 +887,7 @@
               "type": "link"
             },
             {
-              "title": " Switch (Oled)",
+              "title": "Switch (Oled)",
               "path": "NintendoSwitch/oled",
               "type": "link"
             },
@@ -921,7 +921,7 @@
           "subMenuOpen": false,
           "items": [
             {
-              "title": "ALL consoles",
+              "title": "ALL Consoles",
               "path": "",
               "type": "link"
             }

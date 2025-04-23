@@ -40,7 +40,7 @@
                       <ul>
                         <li v-for="(link, index) in item.items" :key="index">
                           <NuxtLink
-                            :class="`${link.title}`"
+                            :class="`${link.title}`.replace(/[()]/g, '')"
                             :to="`/${link.path}`"
                             >{{ link.title }}</NuxtLink
                           >
@@ -55,6 +55,36 @@
 
                           <div v-if="link.title === 'PS4 + PS5'">
                             <GamingPS4Ps5></GamingPS4Ps5>
+                          </div>
+
+                          <div v-if="link.title === 'XSeries'">
+                            <GamingXseries></GamingXseries>
+                          </div>
+
+                          <div v-if="link.title === 'XSeries + XOne'">
+                            <GamingXseriesXone></GamingXseriesXone>
+                          </div>
+
+                          <div v-if="link.title === 'Switch (Original)'">
+                            <GamingSwitchOriginal></GamingSwitchOriginal>
+                          </div>
+                          <div v-if="link.title === 'Switch (Lite)'">
+                            <GamingSwitchLite></GamingSwitchLite>
+                          </div>
+                          <div v-if="link.title === 'Switch (Oled)'">
+                            <GamingSwitchOled></GamingSwitchOled>
+                          </div>
+                          <div v-if="link.title === 'Switch (Original + Oled)'">
+                            <GamingSwitchOriginalOled></GamingSwitchOriginalOled>
+                          </div>
+                          <div v-if="link.title === 'Switch (All models)'">
+                            <GamingSwitchAllModels></GamingSwitchAllModels>
+                          </div>
+                          <div v-if="link.title === 'PC'">
+                            <GamingPC></GamingPC>
+                          </div>
+                          <div v-if="link.title === 'ALL Consoles'">
+                            <GamingAudioLjud></GamingAudioLjud>
                           </div>
                         </li>
                       </ul>
@@ -91,6 +121,7 @@ const collapsed = ref({
 
   PS5: true,
   "PS4 + PS5": true,
+
   // Add more keys as needed
 });
 import { mapState } from "pinia";
@@ -122,7 +153,16 @@ const isCollapsed = ref(true);
 <style scoped>
 .PS4,
 .PS5,
-.Grepp {
+.Grepp,
+.XSeries,
+.XOne,
+.Lite,
+.Original,
+.Oled,
+.models,
+.PC,
+.Ljud,
+.Consoles {
   display: none;
 }
 </style>
