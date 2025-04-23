@@ -86,6 +86,24 @@
                           <div v-if="link.title === 'ALL Consoles'">
                             <GamingAudioLjud></GamingAudioLjud>
                           </div>
+                          <div v-if="link.title === 'ALL Consoles '">
+                            <GamingAllconsoles1></GamingAllconsoles1>
+                          </div>
+                          <div v-if="link.title === 'Nintendo Switch & PC '">
+                            <GamingNintendoSwitch></GamingNintendoSwitch>
+                          </div>
+                          <div v-if="link.title === ' PC '">
+                            <GamingPC1></GamingPC1>
+                          </div>
+
+                          <div v-if="link.title === 'Väskor och fodral'">
+                            <GamingVaskorochfodral></GamingVaskorochfodral>
+                          </div>
+                          <div
+                            v-if="link.title === 'Taggar (för filterfunktion)'"
+                          >
+                            <GamingTaggarforfilterfunktion></GamingTaggarforfilterfunktion>
+                          </div>
                         </li>
                       </ul>
                     </div>
@@ -162,7 +180,9 @@ const isCollapsed = ref(true);
 .models,
 .PC,
 .Ljud,
-.Consoles {
+.Consoles,
+.fodral,
+.filterfunktion {
   display: none;
 }
 </style>

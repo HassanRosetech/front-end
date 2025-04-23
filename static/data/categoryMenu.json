@@ -933,17 +933,17 @@
           "subMenuOpen": false,
           "items": [
             {
-              "title": "ALL consoles",
+              "title": "ALL Consoles ",
               "path": "simulation/aLL-consoles",
               "type": "link"
             },
             {
-              "title": "Nintendo Switch & PC",
+              "title": "Nintendo Switch & PC ",
               "path": "simulation/nintendo-switch-pc",
               "type": "link"
             },
             {
-              "title": "PC",
+              "title": " PC ",
               "path": "simulation/pc",
               "type": "link"
             }
