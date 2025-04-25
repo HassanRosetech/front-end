@@ -160,6 +160,16 @@
                           <div v-if="link.title === 'Bromsbelägg'">
                             <ScooterBromsbelagg></ScooterBromsbelagg>
                           </div>
+
+                          <div v-if="link.title === 'Framdel'">
+                            <ScooterFramdel></ScooterFramdel>
+                          </div>
+                          <div v-if="link.title === 'Mittsektion'">
+                            <ScooterMittsektion></ScooterMittsektion>
+                          </div>
+                          <div v-if="link.title === 'Bakdel'">
+                            <ScooterBakdel></ScooterBakdel>
+                          </div>
                         </li>
                       </ul>
                     </div>
@@ -250,7 +260,9 @@ const isCollapsed = ref(true);
 .Bromsvajrar,
 .Bromsok,
 .Bromsskivor,
-.Bromsbelägg {
+.Bromsbelägg,
+.Framdel,
+.Bakdel {
   display: none;
 }
 </style>
