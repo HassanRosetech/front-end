@@ -170,6 +170,12 @@
                           <div v-if="link.title === 'Bakdel'">
                             <ScooterBakdel></ScooterBakdel>
                           </div>
+                          <div v-if="link.title === 'Laddare'">
+                            <ScooterLaddare></ScooterLaddare>
+                          </div>
+                          <div v-if="link.title === 'Batteripaket'">
+                            <ScooterBatteripaket></ScooterBatteripaket>
+                          </div>
                         </li>
                       </ul>
                     </div>
@@ -262,7 +268,9 @@ const isCollapsed = ref(true);
 .Bromsskivor,
 .Bromsbelägg,
 .Framdel,
-.Bakdel {
+.Bakdel,
+.Laddare,
+.Batteripaket {
   display: none;
 }
 </style>
