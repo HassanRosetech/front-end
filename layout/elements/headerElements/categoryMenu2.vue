@@ -104,6 +104,49 @@
                           >
                             <GamingTaggarforfilterfunktion></GamingTaggarforfilterfunktion>
                           </div>
+                          <!-- Scooter Section -->
+                          <div v-if="link.title === 'Transportväska'">
+                            <ScooterTransport></ScooterTransport>
+                          </div>
+
+                          <div v-if="link.title === 'Muttrar & skruvar'">
+                            <ScooterMuttrarskruvar></ScooterMuttrarskruvar>
+                          </div>
+
+                          <div v-if="link.title === 'Dekoration & Reflexer'">
+                            <ScooterDekorationReflexer></ScooterDekorationReflexer>
+                          </div>
+
+                          <div v-if="link.title === 'Bakskydd / kåpor'">
+                            <ScooterBakskyddkapor></ScooterBakskyddkapor>
+                          </div>
+                          <div v-if="link.title === 'Framskydd / kåpor'">
+                            <ScooterFramskyddkapor></ScooterFramskyddkapor>
+                          </div>
+                          <div v-if="link.title === 'Skyddstillbehör'">
+                            <ScooterSkyddstillbehor></ScooterSkyddstillbehor>
+                          </div>
+
+                          <div v-if="link.title === 'Belysning'">
+                            <ScooterBelysning></ScooterBelysning>
+                          </div>
+                          <div v-if="link.title === 'Displaymoduler (Styre)'">
+                            <ScooterDisplaymodulerStyre></ScooterDisplaymodulerStyre>
+                          </div>
+                          <div
+                            v-if="
+                              link.title === 'Kablage & Kontakter (Mittsektion)'
+                            "
+                          >
+                            <ScooterKablageKontakterESC></ScooterKablageKontakterESC>
+                          </div>
+                          <div
+                            v-if="
+                              link.title === 'Moderkort / ESC (Mittsektion)'
+                            "
+                          >
+                            <ScooterModerkortESC></ScooterModerkortESC>
+                          </div>
                         </li>
                       </ul>
                     </div>
@@ -182,7 +225,15 @@ const isCollapsed = ref(true);
 .Ljud,
 .Consoles,
 .fodral,
-.filterfunktion {
+.filterfunktion,
+.Transportväska,
+.skruvar,
+.Reflexer,
+.kåpor,
+.Skyddstillbehör,
+.Belysning,
+.Styre,
+.Mittsektion {
   display: none;
 }
 </style>
