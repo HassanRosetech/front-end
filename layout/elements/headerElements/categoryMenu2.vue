@@ -189,6 +189,21 @@
                           <div v-if="link.title === 'Däcktillbehör'">
                             <ScooterDacktillbehor></ScooterDacktillbehor>
                           </div>
+
+                          <div v-if="link.title === 'Telefonhållare'">
+                            <ScooterTelefonhallare></ScooterTelefonhallare>
+                          </div>
+
+                          <div v-if="link.title === 'Storlek'">
+                            <ScooterStorlek></ScooterStorlek>
+                          </div>
+
+                          <div v-if="link.title === 'Färg'">
+                            <ScooterFarg></ScooterFarg>
+                          </div>
+                          <div v-if="link.title === 'Modellkompatibilitet'">
+                            <ScooterModellkompatibilitet></ScooterModellkompatibilitet>
+                          </div>
                         </li>
                       </ul>
                     </div>
@@ -287,7 +302,11 @@ const isCollapsed = ref(true);
 .Däck,
 .Luftdäck,
 .Innerslangar,
-.Däcktillbehör {
+.Däcktillbehör,
+.Telefonhållare,
+.Storlek,
+.Färg,
+.Modellkompatibilitet {
   display: none;
 }
 </style>
