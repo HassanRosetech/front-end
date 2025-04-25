@@ -176,6 +176,19 @@
                           <div v-if="link.title === 'Batteripaket'">
                             <ScooterBatteripaket></ScooterBatteripaket>
                           </div>
+
+                          <div v-if="link.title === 'Solida Däck'">
+                            <ScooterSolidaDack></ScooterSolidaDack>
+                          </div>
+                          <div v-if="link.title === 'Luftdäck'">
+                            <ScooterLuftdack></ScooterLuftdack>
+                          </div>
+                          <div v-if="link.title === 'Innerslangar'">
+                            <ScooterInnerslangar></ScooterInnerslangar>
+                          </div>
+                          <div v-if="link.title === 'Däcktillbehör'">
+                            <ScooterDacktillbehor></ScooterDacktillbehor>
+                          </div>
                         </li>
                       </ul>
                     </div>
@@ -270,7 +283,11 @@ const isCollapsed = ref(true);
 .Framdel,
 .Bakdel,
 .Laddare,
-.Batteripaket {
+.Batteripaket,
+.Däck,
+.Luftdäck,
+.Innerslangar,
+.Däcktillbehör {
   display: none;
 }
 </style>
