@@ -147,6 +147,19 @@
                           >
                             <ScooterModerkortESC></ScooterModerkortESC>
                           </div>
+
+                          <div v-if="link.title === 'Bromsvajrar'">
+                            <ScooterBromsvajrar></ScooterBromsvajrar>
+                          </div>
+                          <div v-if="link.title === 'Bromsok'">
+                            <ScooterBromsok></ScooterBromsok>
+                          </div>
+                          <div v-if="link.title === 'Bromsskivor'">
+                            <ScooterBromsskivor></ScooterBromsskivor>
+                          </div>
+                          <div v-if="link.title === 'Bromsbelägg'">
+                            <ScooterBromsbelagg></ScooterBromsbelagg>
+                          </div>
                         </li>
                       </ul>
                     </div>
@@ -233,7 +246,11 @@ const isCollapsed = ref(true);
 .Skyddstillbehör,
 .Belysning,
 .Styre,
-.Mittsektion {
+.Mittsektion,
+.Bromsvajrar,
+.Bromsok,
+.Bromsskivor,
+.Bromsbelägg {
   display: none;
 }
 </style>
