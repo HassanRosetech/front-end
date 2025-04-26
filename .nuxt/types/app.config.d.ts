@@ -4,6 +4,14 @@ import type { Defu } from 'defu'
 
 
 declare const inlineConfig = {
+  "hanko": {
+    "redirects": {
+      "login": "/login",
+      "home": "/",
+      "success": "/",
+      "followRedirect": true
+    }
+  },
   "nuxt": {}
 }
 type ResolvedAppConfig = Defu<typeof inlineConfig, []>

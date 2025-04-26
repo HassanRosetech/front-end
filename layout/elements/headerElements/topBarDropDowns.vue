@@ -28,20 +28,22 @@
               v-for="(link, index) in dropdowns[key].links"
               :key="'a' + index"
             >
-              <a
-                href="javascript:void(0)"
+              <router-link
+                v-if="link.path"
+                :to="link.path"
                 class="dropdown-item"
-                @click.prevent="handleDropdown(key, link.code)"
-                v-if="link.name"
-                >{{ link.name }}</a
+                @click.prevent="handleDropdown(key, link.name)"
               >
+                {{ link.name }}
+              </router-link>
               <a
                 v-else
                 href="javascript:void(0)"
                 class="dropdown-item"
                 @click.prevent="handleDropdown(key, link)"
-                >{{ link }}</a
               >
+                {{ link }}
+              </a>
             </li>
           </ul>
         </div>
@@ -66,8 +68,6 @@
           >
             <option class="dropdown-item" value="se">Swedish</option>
             <option class="dropdown-item" value="en">English</option>
-            <!-- <option class="dropdown-item" value="fr">French</option>
-            <option class="dropdown-item" value="es">Spanish</option> -->
           </select>
         </div>
       </li>
@@ -80,10 +80,10 @@ import { mapState } from "pinia";
 import { useLayout } from "~~/store/layout";
 import { useProductStore } from "~~/store/products";
 import { lang } from "~~/static/data/langname.json";
+
 export default {
   data() {
     return {
-      //  abcd: ["English", "Spanish", "Frrench"],
       abcd: ["Swedish", "English"],
       selectedDropdowns: {
         loginAndRegister: "",
@@ -94,7 +94,10 @@ export default {
         loginAndRegister: {
           title: "Login & Register",
           active: false,
-          links: ["login", "register"],
+          links: [
+            { name: "Login", path: "/login" }, // Added path to login page
+            { name: "Register", path: "/login" }, // Added path to register page
+          ],
         },
         currency: {
           title: "Currency",

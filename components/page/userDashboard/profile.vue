@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div class="tab-pane fade dashboard-profile dashboard show active" id="profile">
     <div class="box-head">
       <h3>Profile</h3>
@@ -119,4 +119,13 @@
 
 <script>
 export default {};
-</script>
+</script> -->
+
+<template>
+  <hanko-profile />
+</template>
+<style>
+body {
+  text-align: -webkit-center;
+}
+</style>

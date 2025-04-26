@@ -75,7 +75,11 @@ export default defineNuxtConfig({
     {
       autoImports: ["defineStore", "acceptHMRUpdate"],
     },
-  ], "@pinia/nuxt"],
+  ], "@pinia/nuxt","@nuxtjs/hanko"],
+  hanko: {
+    apiURL: process.env.NUXT_PUBLIC_HANKO_API_URL,
+    registerComponents: true
+  },
   plugins: [
     { src: "~/plugins/plugins.js", mode: "client" } ],
 
@@ -84,14 +88,7 @@ export default defineNuxtConfig({
    // pinia: "/node_modules/@pinia/nuxt/node_modules/pinia/dist/pinia.mjs"
     },
 
-  modules: [    
-    [
-      "@pinia/nuxt",
-      {
-        autoImports: ["defineStore", "acceptHMRUpdate"],
-      },
-    ],
-  ],
+
 
   plugins: [
     { src: "~/plugins/plugins.js", mode: "client" } ],

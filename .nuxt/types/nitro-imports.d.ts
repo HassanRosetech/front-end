@@ -123,8 +123,10 @@ declare global {
   const useRuntimeConfig: typeof import('../../node_modules/nitropack/dist/runtime/internal/config')['useRuntimeConfig']
   const useSession: typeof import('../../node_modules/h3')['useSession']
   const useStorage: typeof import('../../node_modules/nitropack/dist/runtime/internal/storage')['useStorage']
+  const verifyHankoEvent: typeof import('../../node_modules/@nuxtjs/hanko/dist/runtime/server/utils/index')['verifyHankoEvent']
   const writeEarlyHints: typeof import('../../node_modules/h3')['writeEarlyHints']
 }
+export { verifyHankoEvent } from '../../node_modules/@nuxtjs/hanko/dist/runtime/server/utils/index';
 export { useNitroApp } from 'nitropack/runtime/internal/app';
 export { useRuntimeConfig, useAppConfig } from 'nitropack/runtime/internal/config';
 export { defineNitroPlugin, nitroPlugin } from 'nitropack/runtime/internal/plugin';

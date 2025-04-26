@@ -3,6 +3,14 @@ import { updateAppConfig } from '#app/config'
 import { defuFn } from 'defu'
 
 const inlineConfig = {
+  "hanko": {
+    "redirects": {
+      "login": "/login",
+      "home": "/",
+      "success": "/",
+      "followRedirect": true
+    }
+  },
   "nuxt": {}
 }
 

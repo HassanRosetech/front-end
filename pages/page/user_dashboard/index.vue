@@ -50,7 +50,8 @@
               />
               <PageUserDashboardPayment v-else-if="activeTab['payment']" />
               <PageUserDashboardProfile v-else-if="activeTab['profile']" />
-              <PageUserDashboardSecurity v-else-if="activeTab['security']" />
+              <PageUserDashboardProfile v-else-if="activeTab['security']" />
+              <PageUserDashboardLogout v-else-if="activeTab['logout']" />
             </div>
           </div>
         </div>
@@ -83,11 +84,12 @@ export default {
       allLinks: [
         { name: "Dashboard", link: "myDashboard" },
         { name: "Orders", link: "orders" },
-        { name: "Wishlist", link: "wishlist" },
+
         { name: "Saved Address", link: "savedAddress" },
         { name: "Payment", link: "payment" },
         { name: "Profile", link: "profile" },
         { name: "Security", link: "security" },
+        { name: "Logout", link: "logout" },
       ],
     };
   },
@@ -111,4 +113,8 @@ export default {
     },
   },
 };
+
+definePageMeta({
+  middleware: "hanko-logged-in",
+});
 </script>
