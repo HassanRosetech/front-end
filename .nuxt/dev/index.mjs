@@ -4,6 +4,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { parentPort, threadId } from 'node:worker_threads';
 import { getRequestHeader, splitCookiesString, setResponseStatus, setResponseHeader, send, getRequestHeaders, defineEventHandler, handleCacheHeaders, createEvent, fetchWithEvent, isEvent, eventHandler, getResponseStatus, setResponseHeaders, setHeaders, sendRedirect, proxyRequest, createError, getHeader, getCookie, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getRouterParam, readBody, getQuery as getQuery$1, getResponseStatusText } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/h3/dist/index.mjs';
+import { neon } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/@neondatabase/serverless/index.mjs';
 import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/vue-bundle-renderer/dist/runtime.mjs';
 import { stringify, uneval } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/devalue/index.js';
 import destr from 'file://C:/Users/DELL/Desktop/fronend/node_modules/destr/dist/index.mjs';
@@ -20,7 +21,7 @@ import { AsyncLocalStorage } from 'node:async_hooks';
 import { consola } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/consola/dist/index.mjs';
 import { getContext } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/unctx/dist/index.mjs';
 import { captureRawStackTrace, parseRawStackTrace } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/errx/dist/index.js';
-import { isVNode, unref, version } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/vue/index.mjs';
+import { isVNode, unref, version as version$2 } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/vue/index.mjs';
 import { createRemoteJWKSet, jwtVerify } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/jose/dist/node/esm/index.js';
 import { hash } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/ohash/dist/index.mjs';
 import { createStorage, prefixStorage } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/unstorage/dist/index.mjs';
@@ -658,7 +659,8 @@ const _inlineRuntimeConfig = {
       "meetOurTeam": "Meet Our Team",
       "teamDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero assumenda hic porro odio voluptas qui quod sed."
     }
-  }
+  },
+  "databaseUrl": "postgresql://PartsShopDB_owner:npg_7LgQKJba5xoI@ep-hidden-shape-abqldvat-pooler.eu-west-2.aws.neon.tech/PartsShopDB?sslmode=require"
 };
 const envOptions = {
   prefix: "NITRO_",
@@ -1226,9 +1228,23 @@ const _rtYxPZ = defineEventHandler(async (event) => {
   event.context.hanko = await verifyHankoEvent(event).catch(() => void 0);
 });
 
+const _lazy_jFCGUv = () => Promise.resolve().then(function () { return blogs_post$1; });
+const _lazy_uL9iIk = () => Promise.resolve().then(function () { return blogs$1; });
+const _lazy_xhWwUD = () => Promise.resolve().then(function () { return _id__put$1; });
+const _lazy_7TzKwr = () => Promise.resolve().then(function () { return _id_$3; });
+const _lazy_VFjeIg = () => Promise.resolve().then(function () { return _id_$1; });
+const _lazy_2oS0wW = () => Promise.resolve().then(function () { return _slug_$1; });
+const _lazy_yeU3lG = () => Promise.resolve().then(function () { return version$1; });
 const _lazy_3MsgpG = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
+  { route: '/api/blogs', handler: _lazy_jFCGUv, lazy: true, middleware: false, method: "post" },
+  { route: '/api/blogs', handler: _lazy_uL9iIk, lazy: true, middleware: false, method: undefined },
+  { route: '/api/blogs/:id', handler: _lazy_xhWwUD, lazy: true, middleware: false, method: "put" },
+  { route: '/api/blogs/:id', handler: _lazy_7TzKwr, lazy: true, middleware: false, method: undefined },
+  { route: '/api/blogs/delete/:id', handler: _lazy_VFjeIg, lazy: true, middleware: false, method: undefined },
+  { route: '/api/blogs/slug/:slug', handler: _lazy_2oS0wW, lazy: true, middleware: false, method: undefined },
+  { route: '/api/version', handler: _lazy_yeU3lG, lazy: true, middleware: false, method: undefined },
   { route: '/__nuxt_error', handler: _lazy_3MsgpG, lazy: true, middleware: false, method: undefined },
   { route: '', handler: _rtYxPZ, lazy: false, middleware: true, method: undefined },
   { route: '/**', handler: _lazy_3MsgpG, lazy: true, middleware: false, method: undefined }
@@ -1431,7 +1447,309 @@ const errorDev = /*#__PURE__*/Object.freeze({
   template: template$1
 });
 
-const Vue3 = version[0] === "3";
+const blogs_post = defineEventHandler(async (event) => {
+  const { databaseUrl } = useRuntimeConfig();
+  const db = neon(databaseUrl);
+  try {
+    const body = await readBody(event);
+    const {
+      title,
+      slug,
+      content,
+      author_name,
+      published_at,
+      is_published = false,
+      seo_title,
+      seo_description,
+      seo_keywords,
+      image
+    } = body;
+    const result = await db`
+      INSERT INTO blogs (
+        title, slug, content, author_name, published_at,
+        is_published, seo_title, seo_description, seo_keywords , image
+      )
+      VALUES (
+        ${title}, ${slug}, ${content}, ${author_name}, ${published_at},
+        ${is_published}, ${seo_title}, ${seo_description}, ${seo_keywords}, ${image}
+      )
+      RETURNING *;
+    `;
+    return {
+      message: "Blog created successfully",
+      blog: result[0]
+    };
+  } catch (error) {
+    console.error("\u{1F525} Blog creation error:", error);
+    throw createError({
+      statusCode: 500,
+      statusMessage: "Failed to create blog: " + error.message
+    });
+  }
+});
+
+const blogs_post$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: blogs_post
+});
+
+const blogs = defineCachedEventHandler(
+  async (event) => {
+    const { databaseUrl } = useRuntimeConfig();
+    const db = neon(databaseUrl);
+    try {
+      const result = await db`SELECT 
+  id, 
+  title, 
+  slug, 
+  content, 
+  author_name, 
+  TO_CHAR(published_at, 'Mon DD, YYYY') AS published_at,  -- Short date format
+  is_published, 
+  seo_title, 
+  seo_description, 
+  seo_keywords, 
+  TO_CHAR(created_at, 'Mon DD, YYYY') AS created_at,   -- Short date format
+  TO_CHAR(updated_at, 'Mon DD, YYYY') AS updated_at ,    -- Short date format
+  image
+FROM blogs
+ORDER BY id DESC;
+`;
+      return result;
+    } catch (error) {
+      console.error("\u{1F525} Database query failed:", error);
+      throw createError({
+        statusCode: 500,
+        statusMessage: "Database error: " + error.message
+      });
+    }
+  },
+  {
+    maxAge: 1 * 1 * 1
+    // Cache for 1 day
+  }
+);
+
+const blogs$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: blogs
+});
+
+const _id__put = defineEventHandler(async (event) => {
+  const { databaseUrl } = useRuntimeConfig();
+  const db = neon(databaseUrl);
+  const id = getRouterParam(event, "id");
+  const body = await readBody(event);
+  const {
+    title,
+    slug,
+    content,
+    author_name,
+    is_published,
+    seo_title,
+    seo_description,
+    seo_keywords,
+    image
+  } = body;
+  try {
+    const result = await db`
+      UPDATE blogs
+      SET
+        title = ${title},
+        slug = ${slug},
+        content = ${content},
+      
+        author_name = ${author_name},
+        is_published = ${is_published},
+        seo_title = ${seo_title},
+        seo_description = ${seo_description},
+        seo_keywords = ${seo_keywords},
+        image = ${image},
+        updated_at = NOW()
+      WHERE id = ${id}
+      RETURNING *
+    `;
+    if (result.length === 0) {
+      throw createError({
+        statusCode: 404,
+        statusMessage: "Blog not found"
+      });
+    }
+    return result[0];
+  } catch (error) {
+    console.error("\u{1F525} Error updating blog:", error);
+    throw createError({
+      statusCode: 500,
+      statusMessage: "Database error: " + error.message
+    });
+  }
+});
+
+const _id__put$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: _id__put
+});
+
+const _id_$2 = defineCachedEventHandler(
+  async (event) => {
+    const { databaseUrl } = useRuntimeConfig();
+    const db = neon(databaseUrl);
+    const id = getRouterParam(event, "id");
+    if (!id) {
+      throw createError({
+        statusCode: 400,
+        statusMessage: "Missing id parameter"
+      });
+    }
+    try {
+      const result = await db`
+        SELECT 
+          id,
+          title,
+          slug,
+          content,
+          author_name,
+          TO_CHAR(published_at, 'Mon DD, YYYY') AS published_at,
+          is_published,
+          seo_title,
+          seo_description,
+          seo_keywords,
+          TO_CHAR(created_at, 'Mon DD, YYYY') AS created_at,
+          TO_CHAR(updated_at, 'Mon DD, YYYY') AS updated_at,
+          image
+        FROM blogs
+        WHERE id = ${id}
+        LIMIT 1
+      `;
+      if (result.length === 0) {
+        throw createError({
+          statusCode: 404,
+          statusMessage: "Blog not found"
+        });
+      }
+      return result[0];
+    } catch (error) {
+      console.error("\u{1F525} Error fetching blog by slug:", error);
+      throw createError({
+        statusCode: 500,
+        statusMessage: "Database error: " + error.message
+      });
+    }
+  },
+  {
+    maxAge: 1 * 1
+    // Cache for 1 hour
+  }
+);
+
+const _id_$3 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: _id_$2
+});
+
+const _id_ = defineCachedEventHandler(
+  async (event) => {
+    const { databaseUrl } = useRuntimeConfig();
+    const db = neon(databaseUrl);
+    const { id } = event.context.params || {};
+    if (!id) {
+      throw createError({ statusCode: 400, message: "ID is required" });
+    }
+    const result = await db`
+      DELETE FROM blogs WHERE id = ${id} RETURNING *;  -- This will return the deleted row
+    `;
+    if (result.length === 0) {
+      throw createError({ statusCode: 404, message: "Contact not found" });
+    }
+    return { message: "Blog deleted successfully", deletedContact: result[0] };
+  },
+  {
+    maxAge: 60 * 60 * 24
+    // Cache it for a day
+  }
+);
+
+const _id_$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: _id_
+});
+
+const _slug_ = defineCachedEventHandler(
+  async (event) => {
+    const { databaseUrl } = useRuntimeConfig();
+    const db = neon(databaseUrl);
+    const slug = getRouterParam(event, "slug");
+    console.log(slug);
+    if (!slug) {
+      throw createError({
+        statusCode: 400,
+        statusMessage: "Missing slug parameter"
+      });
+    }
+    try {
+      const result = await db`
+        SELECT 
+          id,
+          title,
+          slug,
+          content,
+          author_name,
+          TO_CHAR(published_at, 'Mon DD, YYYY') AS published_at,
+          is_published,
+          seo_title,
+          seo_description,
+          seo_keywords,
+          TO_CHAR(created_at, 'Mon DD, YYYY') AS created_at,
+          TO_CHAR(updated_at, 'Mon DD, YYYY') AS updated_at
+        FROM blogs
+        WHERE slug = ${slug}
+        LIMIT 1
+      `;
+      if (result.length === 0) {
+        throw createError({
+          statusCode: 404,
+          statusMessage: "Blog not found"
+        });
+      }
+      return result[0];
+    } catch (error) {
+      console.error("\u{1F525} Error fetching blog by slug:", error);
+      throw createError({
+        statusCode: 500,
+        statusMessage: "Database error: " + error.message
+      });
+    }
+  },
+  {
+    maxAge: 1 * 1
+    // Cache for 1 hour
+  }
+);
+
+const _slug_$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: _slug_
+});
+
+const version = defineCachedEventHandler(
+  async (event) => {
+    const { databaseUrl } = useRuntimeConfig();
+    const db = neon(databaseUrl);
+    const result = await db`SELECT version()`;
+    return result;
+  },
+  {
+    maxAge: 60 * 60 * 24
+    // cache it for a day
+  }
+);
+
+const version$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: version
+});
+
+const Vue3 = version$2[0] === "3";
 
 function resolveUnref(r) {
   return typeof r === "function" ? r() : unref(r);

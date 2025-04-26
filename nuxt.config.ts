@@ -98,6 +98,7 @@ export default defineNuxtConfig({
     public: {
       const: constants,
     },
+	 databaseUrl: process.env.NUXT_DATABASE_URL,
   },
 
 
