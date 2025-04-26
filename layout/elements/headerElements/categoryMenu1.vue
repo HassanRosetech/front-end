@@ -24,7 +24,7 @@
         >
           <a
             href="javascript:void(0)"
-            @click="toggleMenu(category.id)"
+            @click="toggleMenu(index)"
             class="d-block"
             >{{ category.title
             }}<span
@@ -42,13 +42,16 @@
             v-if="category.children"
             :class="category.menuOpen ? '' : 'd-none'"
           >
-            <li v-for="(item, index) in category.children" :key="'a' + index">
+            <li
+              v-for="(item, itemIndex) in category.children"
+              :key="'a' + itemIndex"
+            >
               <div class="row">
                 <div class="col-xl-3">
                   <div class="category-childmenu">
                     <div
                       class="title-category"
-                      @click="toggleSubMenu(category.id, item.id)"
+                      @click="toggleSubMenu(index, itemIndex)"
                     >
                       <h6>
                         {{ item.heading
@@ -66,7 +69,169 @@
                     </div>
                     <ul :class="item.subMenuOpen ? '' : 'd-none'">
                       <li v-for="(link, index) in item.items" :key="index">
-                        <a href="shop-left-sidebar.html">{{ link.title }}</a>
+                        <NuxtLink
+                          :class="`${link.title}`.replace(/[()]/g, '')"
+                          :to="`/${link.path}`"
+                          >{{ link.title }}</NuxtLink
+                        >
+
+                        <div v-if="link.title === 'PS4'">
+                          <GamingPS4></GamingPS4>
+                        </div>
+
+                        <div v-if="link.title === 'PS5'">
+                          <GamingPS5></GamingPS5>
+                        </div>
+
+                        <div v-if="link.title === 'PS4 + PS5'">
+                          <GamingPS4Ps5></GamingPS4Ps5>
+                        </div>
+
+                        <div v-if="link.title === 'XSeries'">
+                          <GamingXseries></GamingXseries>
+                        </div>
+
+                        <div v-if="link.title === 'XSeries + XOne'">
+                          <GamingXseriesXone></GamingXseriesXone>
+                        </div>
+
+                        <div v-if="link.title === 'Switch (Original)'">
+                          <GamingSwitchOriginal></GamingSwitchOriginal>
+                        </div>
+                        <div v-if="link.title === 'Switch (Lite)'">
+                          <GamingSwitchLite></GamingSwitchLite>
+                        </div>
+                        <div v-if="link.title === 'Switch (Oled)'">
+                          <GamingSwitchOled></GamingSwitchOled>
+                        </div>
+                        <div v-if="link.title === 'Switch (Original + Oled)'">
+                          <GamingSwitchOriginalOled></GamingSwitchOriginalOled>
+                        </div>
+                        <div v-if="link.title === 'Switch (All models)'">
+                          <GamingSwitchAllModels></GamingSwitchAllModels>
+                        </div>
+                        <div v-if="link.title === 'PC'">
+                          <GamingPC></GamingPC>
+                        </div>
+                        <div v-if="link.title === 'ALL Consoles'">
+                          <GamingAudioLjud></GamingAudioLjud>
+                        </div>
+                        <div v-if="link.title === 'ALL Consoles '">
+                          <GamingAllconsoles1></GamingAllconsoles1>
+                        </div>
+                        <div v-if="link.title === 'Nintendo Switch & PC '">
+                          <GamingNintendoSwitch></GamingNintendoSwitch>
+                        </div>
+                        <div v-if="link.title === ' PC '">
+                          <GamingPC1></GamingPC1>
+                        </div>
+
+                        <div v-if="link.title === 'Väskor och fodral'">
+                          <GamingVaskorochfodral></GamingVaskorochfodral>
+                        </div>
+                        <div
+                          v-if="link.title === 'Taggar (för filterfunktion)'"
+                        >
+                          <GamingTaggarforfilterfunktion></GamingTaggarforfilterfunktion>
+                        </div>
+                        <!-- Scooter Section -->
+                        <div v-if="link.title === 'Transportväska'">
+                          <ScooterTransport></ScooterTransport>
+                        </div>
+
+                        <div v-if="link.title === 'Muttrar & skruvar'">
+                          <ScooterMuttrarskruvar></ScooterMuttrarskruvar>
+                        </div>
+
+                        <div v-if="link.title === 'Dekoration & Reflexer'">
+                          <ScooterDekorationReflexer></ScooterDekorationReflexer>
+                        </div>
+
+                        <div v-if="link.title === 'Bakskydd / kåpor'">
+                          <ScooterBakskyddkapor></ScooterBakskyddkapor>
+                        </div>
+                        <div v-if="link.title === 'Framskydd / kåpor'">
+                          <ScooterFramskyddkapor></ScooterFramskyddkapor>
+                        </div>
+                        <div v-if="link.title === 'Skyddstillbehör'">
+                          <ScooterSkyddstillbehor></ScooterSkyddstillbehor>
+                        </div>
+
+                        <div v-if="link.title === 'Belysning'">
+                          <ScooterBelysning></ScooterBelysning>
+                        </div>
+                        <div v-if="link.title === 'Displaymoduler (Styre)'">
+                          <ScooterDisplaymodulerStyre></ScooterDisplaymodulerStyre>
+                        </div>
+                        <div
+                          v-if="
+                            link.title === 'Kablage & Kontakter (Mittsektion)'
+                          "
+                        >
+                          <ScooterKablageKontakterESC></ScooterKablageKontakterESC>
+                        </div>
+                        <div
+                          v-if="link.title === 'Moderkort / ESC (Mittsektion)'"
+                        >
+                          <ScooterModerkortESC></ScooterModerkortESC>
+                        </div>
+
+                        <div v-if="link.title === 'Bromsvajrar'">
+                          <ScooterBromsvajrar></ScooterBromsvajrar>
+                        </div>
+                        <div v-if="link.title === 'Bromsok'">
+                          <ScooterBromsok></ScooterBromsok>
+                        </div>
+                        <div v-if="link.title === 'Bromsskivor'">
+                          <ScooterBromsskivor></ScooterBromsskivor>
+                        </div>
+                        <div v-if="link.title === 'Bromsbelägg'">
+                          <ScooterBromsbelagg></ScooterBromsbelagg>
+                        </div>
+
+                        <div v-if="link.title === 'Framdel'">
+                          <ScooterFramdel></ScooterFramdel>
+                        </div>
+                        <div v-if="link.title === 'Mittsektion'">
+                          <ScooterMittsektion></ScooterMittsektion>
+                        </div>
+                        <div v-if="link.title === 'Bakdel'">
+                          <ScooterBakdel></ScooterBakdel>
+                        </div>
+                        <div v-if="link.title === 'Laddare'">
+                          <ScooterLaddare></ScooterLaddare>
+                        </div>
+                        <div v-if="link.title === 'Batteripaket'">
+                          <ScooterBatteripaket></ScooterBatteripaket>
+                        </div>
+
+                        <div v-if="link.title === 'Solida Däck'">
+                          <ScooterSolidaDack></ScooterSolidaDack>
+                        </div>
+                        <div v-if="link.title === 'Luftdäck'">
+                          <ScooterLuftdack></ScooterLuftdack>
+                        </div>
+                        <div v-if="link.title === 'Innerslangar'">
+                          <ScooterInnerslangar></ScooterInnerslangar>
+                        </div>
+                        <div v-if="link.title === 'Däcktillbehör'">
+                          <ScooterDacktillbehor></ScooterDacktillbehor>
+                        </div>
+
+                        <div v-if="link.title === 'Telefonhållare'">
+                          <ScooterTelefonhallare></ScooterTelefonhallare>
+                        </div>
+
+                        <div v-if="link.title === 'Storlek'">
+                          <ScooterStorlek></ScooterStorlek>
+                        </div>
+
+                        <div v-if="link.title === 'Färg'">
+                          <ScooterFarg></ScooterFarg>
+                        </div>
+                        <div v-if="link.title === 'Modellkompatibilitet'">
+                          <ScooterModellkompatibilitet></ScooterModellkompatibilitet>
+                        </div>
                       </li>
                     </ul>
                   </div>
@@ -110,14 +275,64 @@ export default {
       useClickStore().closeOverlay();
     },
 
-    toggleMenu(menuId) {
-      this.categoryList[menuId - 1].menuOpen =
-        !this.categoryList[menuId - 1].menuOpen;
+    // toggleMenu(menuId) {
+    //   this.categoryList[menuId - 1].menuOpen =
+    //     !this.categoryList[menuId - 1].menuOpen;
+    // },
+    // toggleSubMenu(menuId, subMenuId) {
+    //   this.categoryList[menuId - 1].children[subMenuId - 1].subMenuOpen =
+    //     !this.categoryList[menuId - 1].children[subMenuId - 1].subMenuOpen;
+    // },
+    toggleMenu(index) {
+      this.categoryList[index].menuOpen = !this.categoryList[index].menuOpen;
     },
-    toggleSubMenu(menuId, subMenuId) {
-      this.categoryList[menuId - 1].children[subMenuId - 1].subMenuOpen =
-        !this.categoryList[menuId - 1].children[subMenuId - 1].subMenuOpen;
+
+    toggleSubMenu(categoryIndex, itemIndex) {
+      this.categoryList[categoryIndex].children[itemIndex].subMenuOpen =
+        !this.categoryList[categoryIndex].children[itemIndex].subMenuOpen;
     },
   },
 };
 </script>
+<style scoped>
+.PS4,
+.PS5,
+.Grepp,
+.XSeries,
+.XOne,
+.Lite,
+.Original,
+.Oled,
+.models,
+.PC,
+.Ljud,
+.Consoles,
+.fodral,
+.filterfunktion,
+.Transportväska,
+.skruvar,
+.Reflexer,
+.kåpor,
+.Skyddstillbehör,
+.Belysning,
+.Styre,
+.Mittsektion,
+.Bromsvajrar,
+.Bromsok,
+.Bromsskivor,
+.Bromsbelägg,
+.Framdel,
+.Bakdel,
+.Laddare,
+.Batteripaket,
+.Däck,
+.Luftdäck,
+.Innerslangar,
+.Däcktillbehör,
+.Telefonhållare,
+.Storlek,
+.Färg,
+.Modellkompatibilitet {
+  display: none;
+}
+</style>
