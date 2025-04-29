@@ -1234,6 +1234,7 @@ const _lazy_xhWwUD = () => Promise.resolve().then(function () { return _id__put$
 const _lazy_7TzKwr = () => Promise.resolve().then(function () { return _id_$3; });
 const _lazy_VFjeIg = () => Promise.resolve().then(function () { return _id_$1; });
 const _lazy_2oS0wW = () => Promise.resolve().then(function () { return _slug_$1; });
+const _lazy_CGSrwQ = () => Promise.resolve().then(function () { return contact_post$1; });
 const _lazy_xpMbo6 = () => Promise.resolve().then(function () { return subscribe_post$1; });
 const _lazy_4zF49U = () => Promise.resolve().then(function () { return unsubscribe_post$1; });
 const _lazy_yeU3lG = () => Promise.resolve().then(function () { return version$1; });
@@ -1246,6 +1247,7 @@ const handlers = [
   { route: '/api/blogs/:id', handler: _lazy_7TzKwr, lazy: true, middleware: false, method: undefined },
   { route: '/api/blogs/delete/:id', handler: _lazy_VFjeIg, lazy: true, middleware: false, method: undefined },
   { route: '/api/blogs/slug/:slug', handler: _lazy_2oS0wW, lazy: true, middleware: false, method: undefined },
+  { route: '/api/contactus/contact', handler: _lazy_CGSrwQ, lazy: true, middleware: false, method: "post" },
   { route: '/api/newsletter/subscribe', handler: _lazy_xpMbo6, lazy: true, middleware: false, method: "post" },
   { route: '/api/newsletter/unsubscribe', handler: _lazy_4zF49U, lazy: true, middleware: false, method: "post" },
   { route: '/api/version', handler: _lazy_yeU3lG, lazy: true, middleware: false, method: undefined },
@@ -1733,6 +1735,45 @@ const _slug_ = defineCachedEventHandler(
 const _slug_$1 = /*#__PURE__*/Object.freeze({
   __proto__: null,
   default: _slug_
+});
+
+const contact_post = defineEventHandler(async (event) => {
+  const { databaseUrl } = useRuntimeConfig();
+  const db = neon(databaseUrl);
+  try {
+    const body = await readBody(event);
+    const {
+      firstName,
+      lastName,
+      email,
+      subject,
+      comment
+    } = body;
+    const result = await db`
+      INSERT INTO contact_us (
+       first_name , last_name ,email , subject , comment  
+      )
+      VALUES (
+        ${firstName}, ${lastName}, ${email}, ${subject}, ${comment}
+      )
+      RETURNING *;
+    `;
+    return {
+      message: "Contact is created successfully",
+      blog: result[0]
+    };
+  } catch (error) {
+    console.error("\u{1F525} Contact creation error:", error);
+    throw createError({
+      statusCode: 500,
+      statusMessage: "Failed to create Contact: " + error.message
+    });
+  }
+});
+
+const contact_post$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: contact_post
 });
 
 const subscribe_post = defineEventHandler(async (event) => {
