@@ -3,7 +3,7 @@ import { Server } from 'node:http';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { parentPort, threadId } from 'node:worker_threads';
-import { getRequestHeader, splitCookiesString, setResponseStatus, setResponseHeader, send, getRequestHeaders, defineEventHandler, handleCacheHeaders, createEvent, fetchWithEvent, isEvent, eventHandler, getResponseStatus, setResponseHeaders, setHeaders, sendRedirect, proxyRequest, createError, getHeader, getCookie, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getRouterParam, readBody, getQuery as getQuery$1, getResponseStatusText } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/h3/dist/index.mjs';
+import { getRequestHeader, splitCookiesString, setResponseStatus, setResponseHeader, send, getRequestHeaders, defineEventHandler, handleCacheHeaders, createEvent, fetchWithEvent, isEvent, eventHandler, getResponseStatus, setResponseHeaders, setHeaders, sendRedirect, proxyRequest, createError, getHeader, getCookie, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getRouterParam, readBody, getQuery as getQuery$1, sendError, getResponseStatusText } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/h3/dist/index.mjs';
 import { neon } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/@neondatabase/serverless/index.mjs';
 import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/vue-bundle-renderer/dist/runtime.mjs';
 import { stringify, uneval } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/devalue/index.js';
@@ -1234,6 +1234,8 @@ const _lazy_xhWwUD = () => Promise.resolve().then(function () { return _id__put$
 const _lazy_7TzKwr = () => Promise.resolve().then(function () { return _id_$3; });
 const _lazy_VFjeIg = () => Promise.resolve().then(function () { return _id_$1; });
 const _lazy_2oS0wW = () => Promise.resolve().then(function () { return _slug_$1; });
+const _lazy_xpMbo6 = () => Promise.resolve().then(function () { return subscribe_post$1; });
+const _lazy_4zF49U = () => Promise.resolve().then(function () { return unsubscribe_post$1; });
 const _lazy_yeU3lG = () => Promise.resolve().then(function () { return version$1; });
 const _lazy_3MsgpG = () => Promise.resolve().then(function () { return renderer$1; });
 
@@ -1244,6 +1246,8 @@ const handlers = [
   { route: '/api/blogs/:id', handler: _lazy_7TzKwr, lazy: true, middleware: false, method: undefined },
   { route: '/api/blogs/delete/:id', handler: _lazy_VFjeIg, lazy: true, middleware: false, method: undefined },
   { route: '/api/blogs/slug/:slug', handler: _lazy_2oS0wW, lazy: true, middleware: false, method: undefined },
+  { route: '/api/newsletter/subscribe', handler: _lazy_xpMbo6, lazy: true, middleware: false, method: "post" },
+  { route: '/api/newsletter/unsubscribe', handler: _lazy_4zF49U, lazy: true, middleware: false, method: "post" },
   { route: '/api/version', handler: _lazy_yeU3lG, lazy: true, middleware: false, method: undefined },
   { route: '/__nuxt_error', handler: _lazy_3MsgpG, lazy: true, middleware: false, method: undefined },
   { route: '', handler: _rtYxPZ, lazy: false, middleware: true, method: undefined },
@@ -1729,6 +1733,59 @@ const _slug_ = defineCachedEventHandler(
 const _slug_$1 = /*#__PURE__*/Object.freeze({
   __proto__: null,
   default: _slug_
+});
+
+const subscribe_post = defineEventHandler(async (event) => {
+  const { databaseUrl } = useRuntimeConfig();
+  const db = neon(databaseUrl);
+  const body = await readBody(event);
+  if (!body.email) {
+    return sendError(event, createError({ statusCode: 400, statusMessage: "Email is required" }));
+  }
+  try {
+    const result = await db.query(
+      "INSERT INTO newsletter_subscribers (email) VALUES ($1) ON CONFLICT (email) DO NOTHING RETURNING *",
+      [body.email]
+    );
+    return { success: true, data: result.rows[0] || null };
+  } catch (err) {
+    console.error(err);
+    return sendError(event, createError({ statusCode: 500, statusMessage: "Database error" }));
+  }
+});
+
+const subscribe_post$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: subscribe_post
+});
+
+const unsubscribe_post = defineEventHandler(async (event) => {
+  const { databaseUrl } = useRuntimeConfig();
+  const db = neon(databaseUrl);
+  const body = await readBody(event);
+  if (!body.email) {
+    return sendError(event, createError({ statusCode: 400, statusMessage: "Email is required" }));
+  }
+  try {
+    const result = await db.query(
+      `UPDATE newsletter_subscribers
+       SET subscribed = FALSE, unsubscribed_date = CURRENT_TIMESTAMP
+       WHERE email = $1 RETURNING *`,
+      [body.email]
+    );
+    if (result.rowCount === 0) {
+      return sendError(event, createError({ statusCode: 404, statusMessage: "Email not found" }));
+    }
+    return { success: true, data: result.rows[0] };
+  } catch (err) {
+    console.error(err);
+    return sendError(event, createError({ statusCode: 500, statusMessage: "Database error" }));
+  }
+});
+
+const unsubscribe_post$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: unsubscribe_post
 });
 
 const version = defineCachedEventHandler(

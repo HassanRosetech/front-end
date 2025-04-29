@@ -17,6 +17,12 @@ declare module "nitropack/types" {
     '/api/blogs/slug/:slug': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/blogs/slug/[slug]').default>>>>
     }
+    '/api/newsletter/subscribe': {
+      'post': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/newsletter/subscribe.post').default>>>>
+    }
+    '/api/newsletter/unsubscribe': {
+      'post': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/newsletter/unsubscribe.post').default>>>>
+    }
     '/api/version': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/version').default>>>>
     }

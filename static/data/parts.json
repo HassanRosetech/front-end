@@ -638,10 +638,11 @@
         }
       ]
     },
+
     {
       "id": 23,
       "description": "PS4 Grips All Games",
-      "category": "Skydd och Grepp",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -651,11 +652,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Grips",
-      "type": "Skydd och Grepp",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS4 Grips All Games",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -670,7 +671,7 @@
     {
       "id": 24,
       "description": "PS4 Grips Shooter",
-      "category": "Skydd och Grepp",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -680,11 +681,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Grips",
-      "type": "Skydd och Grepp",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS4 Grips Shooter",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -699,7 +700,7 @@
     {
       "id": 25,
       "description": "PS4 Grips Sniper",
-      "category": "Skydd och Grepp",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -709,11 +710,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Grips",
-      "type": "Skydd och Grepp",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS4 Grips Sniper",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -728,7 +729,7 @@
     {
       "id": 26,
       "description": "PS4 Grips Sports",
-      "category": "Skydd och Grepp",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -738,11 +739,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Grips",
-      "type": "Skydd och Grepp",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS4 Grips Sports",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -757,7 +758,7 @@
     {
       "id": 27,
       "description": "PS4 Micro USB Cable 3 m. Blue",
-      "category": "Kablar",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -767,11 +768,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Cable",
-      "type": "Kablar",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS4 Micro USB Cable 3 m. Blue",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -786,7 +787,7 @@
     {
       "id": 28,
       "description": "PS4 Micro USB Cable 3 m. Premium",
-      "category": "Kablar",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -796,11 +797,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Cable",
-      "type": "Kablar",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS4 Micro USB Cable 3 m. Premium",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -815,7 +816,7 @@
     {
       "id": 29,
       "description": "PS4 Dual Charger",
-      "category": "Laddningsstationer",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -825,11 +826,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Charging",
-      "type": "Laddningsstationer",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS4 Dual Charger",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -844,7 +845,7 @@
     {
       "id": 30,
       "description": "PS4 Silicone Skin + Grips (Blue)",
-      "category": "Skydd och Grepp",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -854,11 +855,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Soft Skin + Grips",
-      "type": "Skydd och Grepp",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS4 Silicone Skin + Grips (Blue)",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -873,7 +874,7 @@
     {
       "id": 31,
       "description": "PS4 Silicone Skin + Grips (Red)",
-      "category": "Skydd och Grepp",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -883,11 +884,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Soft Skin + Grips",
-      "type": "Skydd och Grepp",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS4 Silicone Skin + Grips (Red)",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -902,7 +903,7 @@
     {
       "id": 32,
       "description": "PS4 Silicone Skin + Grips Camo Woodland",
-      "category": "Skydd och Grepp",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -912,11 +913,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Soft Skin + Grips",
-      "type": "Skydd och Grepp",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS4 Silicone Skin + Grips Camo Woodland",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -931,7 +932,7 @@
     {
       "id": 33,
       "description": "PS4 Silicone + Grips Camo Digital Black",
-      "category": "Skydd och Grepp",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -941,11 +942,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Soft Skin + Grips",
-      "type": "Skydd och Grepp",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS4 Silicone + Grips Camo Digital Black",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -960,7 +961,7 @@
     {
       "id": 34,
       "description": "PS4 Silicone Skin + Grips Glow In The Dark",
-      "category": "Skydd och Grepp",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -970,11 +971,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Soft Skin + Grips",
-      "type": "Skydd och Grepp",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS4 Silicone Skin + Grips Glow In The Dark",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -989,7 +990,7 @@
     {
       "id": 35,
       "description": "PS5 Dual Charging Station",
-      "category": "Laddningsstationer",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -999,11 +1000,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Charging",
-      "type": "Laddningsstationer",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS5 Dual Charging Station",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -1018,7 +1019,7 @@
     {
       "id": 36,
       "description": "PS5 USB-C Cable 3 m.",
-      "category": "Kablar",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -1028,11 +1029,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Cable",
-      "type": "Kablar",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS5 USB-C Cable 3 m.",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -1047,7 +1048,7 @@
     {
       "id": 37,
       "description": "PS5 USB-C Cable 3 m. Premium",
-      "category": "Kablar",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -1057,11 +1058,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Cable",
-      "type": "Kablar",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS5 USB-C Cable 3 m. Premium",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -1076,7 +1077,7 @@
     {
       "id": 38,
       "description": "PS5 HDMI 2.1 Cable 1.5 m.",
-      "category": "Kablar",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -1086,11 +1087,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Cable",
-      "type": "Kablar",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS5 HDMI 2.1 Cable 1.5 m.",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -1105,7 +1106,7 @@
     {
       "id": 39,
       "description": "PS5 Controller Case",
-      "category": "Väskor och fodral",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -1115,11 +1116,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Case / Bag",
-      "type": "Väskor och fodral",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS5 Controller Case",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -1134,7 +1135,7 @@
     {
       "id": 40,
       "description": "PS5 Grips Dual Sense",
-      "category": "Skydd och Grepp",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -1144,11 +1145,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Grips",
-      "type": "Skydd och Grepp",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS5 Grips Dual Sense",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -1162,8 +1163,8 @@
     },
     {
       "id": 41,
-      "description": "PS5 Custom Kit  Basics",
-      "category": "Skydd och Grepp",
+      "description": "PS5 Custom Kit Basics",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -1173,11 +1174,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Soft Skin + Grips",
-      "type": "Skydd och Grepp",
+      "type": "PlayStation",
       "feature": "none",
-      "name": "PS5 Custom Kit  Basics",
+      "name": "PS5 Custom Kit Basics",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -1192,7 +1193,7 @@
     {
       "id": 42,
       "description": "PS5 Custom Kit Glow In The Dark",
-      "category": "Skydd och Grepp",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -1202,11 +1203,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Soft Skin + Grips",
-      "type": "Skydd och Grepp",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS5 Custom Kit Glow In The Dark",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -1221,7 +1222,7 @@
     {
       "id": 43,
       "description": "PS5 Custom Kit Camo Digital Black",
-      "category": "Skydd och Grepp",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -1231,11 +1232,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Soft Skin + Grips",
-      "type": "Skydd och Grepp",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS5 Custom Kit Camo Digital Black",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -1250,7 +1251,7 @@
     {
       "id": 44,
       "description": "PS5 Custom Kit Translucent",
-      "category": "Skydd och Grepp",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -1260,11 +1261,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Soft Skin + Grips",
-      "type": "Skydd och Grepp",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS5 Custom Kit Translucent",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -1279,7 +1280,7 @@
     {
       "id": 45,
       "description": "PS5 Control Mod Pro (CMP)",
-      "category": "Väskor och fodral",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -1289,11 +1290,11 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Kit / Pack",
-      "type": "Väskor och fodral",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS5 Control Mod Pro (CMP)",
       "mrp": 52,
-      "price": 100,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
@@ -1308,7 +1309,7 @@
     {
       "id": 46,
       "description": "PS5 Racing Enhance Kit",
-      "category": "Väskor och fodral",
+      "category": "PlayStation",
       "manufacturer": "none",
       "colors": [],
       "totalPurchases": 10,
@@ -1318,11 +1319,3851 @@
       "inStock": 20,
       "totalReviews": 17,
       "brand": "Kit / Pack",
-      "type": "Väskor och fodral",
+      "type": "PlayStation",
       "feature": "none",
       "name": "PS5 Racing Enhance Kit",
       "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": 47,
+      "description": "Xbox Charging Station X",
+      "category": "Xbox",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Charging",
+      "type": "Xbox",
+      "feature": "none",
+      "name": "Xbox Charging Station X",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "description": "Xbox Play & Charge Kit",
+      "category": "Xbox",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Charging",
+      "type": "Xbox",
+      "feature": "none",
+      "name": "Xbox Play & Charge Kit",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "description": "Xbox Controller Case",
+      "category": "Xbox",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "Xbox",
+      "feature": "none",
+      "name": "Xbox Controller Case",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "description": "Xbox Grips X",
+      "category": "Xbox",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "Xbox",
+      "feature": "none",
+      "name": "Xbox Grips X",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "description": "Xbox Custom Kit Glow In The Dark",
+      "category": "Xbox",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Xbox",
+      "feature": "none",
+      "name": "Xbox Custom Kit Glow In The Dark",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "description": "Xbox Custom Kit Camo Digital Black",
+      "category": "Xbox",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Xbox",
+      "feature": "none",
+      "name": "Xbox Custom Kit Camo Digital Black",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": 53,
+      "description": "Switch Tempered Glass Screen Protector",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Screen Protector",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Tempered Glass Screen Protector",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "description": "Switch Joy Con Silicone Skin + Grip - Right - Blue",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Joy Con Silicone Skin + Grip - Right - Blue",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "description": "Switch Joy Con Silicone Skin + Grip - Left - Red",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Joy Con Silicone Skin + Grip - Left - Red",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "description": "Switch Joy Con Silicone Skin + Grip - Right - Red",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Joy Con Silicone Skin + Grip - Right - Red",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "description": "Switch Joy Con Silicone Skin + Grip - Left - Green",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Joy Con Silicone Skin + Grip - Left - Green",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "description": "Switch Grips Pro XL - Black",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Grips Pro XL - Black",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "description": "Switch Grips Pro XL - Neon Blue / Neon Red",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Grips Pro XL - Neon Blue / Neon Red",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "description": "Switch V-Grip",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Other",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch V-Grip",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "description": "Switch 24 Games Case",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Games Case",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch 24 Games Case",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "description": "Switch Anti Blue Light Tempered Glass Screen Protector",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Screen Protector",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Anti Blue Light Tempered Glass Screen Protector",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "description": "Switch Lite Armor Case",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Lite Armor Case",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "description": "Switch Lite Bumper + Grips",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Lite Bumper + Grips",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "description": "Switch Lite Full Body Silicone Skin + Grips",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Lite Full Body Silicone Skin + Grips",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "description": "Switch Lite Full Pack",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Kit / Pack",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Lite Full Pack",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "description": "Switch Lite Full Body Silicone Skin + GripsGlow In The Dark",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Lite Full Body Silicone Skin + GripsGlow In The Dark",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "description": "Switch Lite Flip Case Gray",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Lite Flip Case Gray",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "description": "Switch Lite Flip Case Yellow",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Lite Flip Case Yellow",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "description": "Switch Lite Flip Case Turquoise",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Lite Flip Case Turquoise",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "description": "Switch Lite Anti Blue Light Tempered Glass Screen Protector",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Screen Protector",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Lite Anti Blue Light Tempered Glass Screen Protector",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "description": "Switch Pro Controller Custom Kit Glow In The Dark",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Pro Controller Custom Kit Glow In The Dark",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "description": "Switch Pro Controller Custom Kit Llama Skin",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Pro Controller Custom Kit Llama Skin",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "description": "Switch Oled Grips XL",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Oled Grips XL",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "description": "Switch Oled Tempered Glass Screen Protector",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Screen Protector",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Oled Tempered Glass Screen Protector",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "description": "Switch Oled Anti Blue Light Tempered Glass Screen Protector",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Screen Protector",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Oled Anti Blue Light Tempered Glass Screen Protector",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "description": "Switch Oled Custom Kit (Full Silicone Skin + Grips)",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Oled Custom Kit (Full Silicone Skin + Grips)",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "description": "Switch Advanced Pro Gaming Controller",
+      "category": "Switch",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Controller",
+      "type": "Switch",
+      "feature": "none",
+      "name": "Switch Advanced Pro Gaming Controller",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": 79,
+      "description": "Gaming Headset GENBU",
+      "category": "Audio",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Gaming Headset",
+      "type": "Audio",
+      "feature": "none",
+      "name": "Gaming Headset GENBU",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "description": "Gaming Headset AIZEN",
+      "category": "Audio",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Gaming Headset",
+      "type": "Audio",
+      "feature": "none",
+      "name": "Gaming Headset AIZEN",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "description": "Gaming Headset DEIMOS",
+      "category": "Audio",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Gaming Headset",
+      "type": "Audio",
+      "feature": "none",
+      "name": "Gaming Headset DEIMOS",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "description": "Gaming Headset PHOBOS WARRIOR",
+      "category": "Audio",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Gaming Headset",
+      "type": "Audio",
+      "feature": "none",
+      "name": "Gaming Headset PHOBOS WARRIOR",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "description": "Gaming Headset PHOBOS WINTER WARRIOR",
+      "category": "Audio",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Gaming Headset",
+      "type": "Audio",
+      "feature": "none",
+      "name": "Gaming Headset PHOBOS WINTER WARRIOR",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "description": "Gaming Headset ASGARD NJÖRD",
+      "category": "Audio",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Gaming Headset",
+      "type": "Audio",
+      "feature": "none",
+      "name": "Gaming Headset ASGARD NJÖRD",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "description": "Gaming Headset ASGARD SKADI",
+      "category": "Audio",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Gaming Headset",
+      "type": "Audio",
+      "feature": "none",
+      "name": "Gaming Headset ASGARD SKADI",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "description": "Gaming Headset Stand ATLAS",
+      "category": "Audio",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Stand",
+      "type": "Audio",
+      "feature": "none",
+      "name": "Gaming Headset Stand ATLAS",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "description": "Gaming Headset Switch SAMUS",
+      "category": "Audio",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Gaming Headset",
+      "type": "Audio",
+      "feature": "none",
+      "name": "Gaming Headset Switch SAMUS",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "description": "Gaming Headset PS5 KRATOS",
+      "category": "Audio",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Gaming Headset",
+      "type": "Audio",
+      "feature": "none",
+      "name": "Gaming Headset PS5 KRATOS",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "description": "Gaming Headset GHOST H28",
+      "category": "Audio",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Gaming Headset",
+      "type": "Audio",
+      "feature": "none",
+      "name": "Gaming Headset GHOST H28",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "description": "Gaming Headset ENSO",
+      "category": "Audio",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Gaming Headset",
+      "type": "Audio",
+      "feature": "none",
+      "name": "Gaming Headset ENSO",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "description": "Gaming Headset BIFROST",
+      "category": "Audio",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Gaming Headset",
+      "type": "Audio",
+      "feature": "none",
+      "name": "Gaming Headset BIFROST",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "description": "Gaming Headset TYPHOON",
+      "category": "Audio",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Gaming Headset",
+      "type": "Audio",
+      "feature": "none",
+      "name": "Gaming Headset TYPHOON",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": 93,
+      "description": "TURBO CUP Wheel",
+      "category": "Simulation",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Racing Wheel",
+      "type": "Simulation",
+      "feature": "none",
+      "name": "TURBO CUP Wheel",
+      "mrp": 52,
       "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "description": "HURRICANE MKII Wheel",
+      "category": "Simulation",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Racing Wheel",
+      "type": "Simulation",
+      "feature": "none",
+      "name": "HURRICANE MKII Wheel",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "description": "FORMULA Wheel",
+      "category": "Simulation",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Racing Wheel",
+      "type": "Simulation",
+      "feature": "none",
+      "name": "FORMULA Wheel",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "description": "SUZUKA ELITE NEXT Wheel",
+      "category": "Simulation",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Racing Wheel",
+      "type": "Simulation",
+      "feature": "none",
+      "name": "SUZUKA ELITE NEXT Wheel",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "description": "GRAND CHELEM Wheel",
+      "category": "Simulation",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Racing Wheel",
+      "type": "Simulation",
+      "feature": "none",
+      "name": "GRAND CHELEM Wheel",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "description": "FR-FORCE Force Feedback Wheel",
+      "category": "Simulation",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Racing Wheel",
+      "type": "Simulation",
+      "feature": "none",
+      "name": "FR-FORCE Force Feedback Wheel",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "description": "Flight Stick RAPTOR MACH 2",
+      "category": "Simulation",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Flight Stick",
+      "type": "Simulation",
+      "feature": "none",
+      "name": "Flight Stick RAPTOR MACH 2",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "description": "Flight Stick RAPTOR MACH 1 HOTASCombo",
+      "category": "Simulation",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Flight Stick",
+      "type": "Simulation",
+      "feature": "none",
+      "name": "Flight Stick RAPTOR MACH 1 HOTASCombo",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "description": "Driving Stand LAST LAP",
+      "category": "Simulation",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Furniture",
+      "type": "Simulation",
+      "feature": "none",
+      "name": "Driving Stand LAST LAP",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "description": "Racing Seat SPRINT",
+      "category": "Simulation",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Furniture",
+      "type": "Simulation",
+      "feature": "none",
+      "name": "Racing Seat SPRINT",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "description": "Racing Seat RACE",
+      "category": "Simulation",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Furniture",
+      "type": "Simulation",
+      "feature": "none",
+      "name": "Racing Seat RACE",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "description": "Racing Seat LEGEND",
+      "category": "Simulation",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Furniture",
+      "type": "Simulation",
+      "feature": "none",
+      "name": "Racing Seat LEGEND",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "description": "SimRacing Gloves",
+      "category": "Simulation",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Complements",
+      "type": "Simulation",
+      "feature": "none",
+      "name": "SimRacing Gloves",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": 106,
+      "description": "PS4 & PS5 Captain Tsubasa Grips Set Elementary School",
+      "category": "Captain Tsubasa",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "Captain Tsubasa",
+      "feature": "none",
+      "name": "PS4 & PS5 Captain Tsubasa Grips Set Elementary School",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "description": "PS4 Captain Tsubasa Combo Pack Versus",
+      "category": "Captain Tsubasa",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Hard Skin + Grips",
+      "type": "Captain Tsubasa",
+      "feature": "none",
+      "name": "PS4 Captain Tsubasa Combo Pack Versus",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "description": "Captain Tsubasa Controller Case Nankatsu",
+      "category": "Captain Tsubasa",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "Captain Tsubasa",
+      "feature": "none",
+      "name": "Captain Tsubasa Controller Case Nankatsu",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "description": "Switch Captain Tsubasa Lenticular Bag Rivals",
+      "category": "Captain Tsubasa",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "Captain Tsubasa",
+      "feature": "none",
+      "name": "Switch Captain Tsubasa Lenticular Bag Rivals",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "description": "Switch Captain Tsubasa Dock Cover Elementary School",
+      "category": "Captain Tsubasa",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Dock Cover",
+      "type": "Captain Tsubasa",
+      "feature": "none",
+      "name": "Switch Captain Tsubasa Dock Cover Elementary School",
+      "mrp": 52,
+      "price": 100,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": 111,
+      "description": "PS5 DC Custom Kit Batman",
+      "category": "DC Batman",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "DC Batman",
+      "feature": "none",
+      "name": "PS5 DC Custom Kit Batman",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "description": "Switch DC Combo Pack Batman",
+      "category": "DC Batman",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Kit / Pack",
+      "type": "DC Batman",
+      "feature": "none",
+      "name": "Switch DC Combo Pack Batman",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "description": "Switch DC Premium Bag Batman",
+      "category": "DC Batman",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "DC Batman",
+      "feature": "none",
+      "name": "Switch DC Premium Bag Batman",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "description": "Xbox Series DC Custom Kit Batman",
+      "category": "DC Batman",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "DC Batman",
+      "feature": "none",
+      "name": "Xbox Series DC Custom Kit Batman",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "description": "Xbox Series DC Play&Charge Batman",
+      "category": "DC Batman",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Charging",
+      "type": "DC Batman",
+      "feature": "none",
+      "name": "Xbox Series DC Play&Charge Batman",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "description": "PS4 DC Gamepad Batman",
+      "category": "DC Batman | Gamepad",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Controller",
+      "type": "DC Batman | Gamepad",
+      "feature": "none",
+      "name": "PS4 DC Gamepad Batman",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "description": "PC DC Keyboard Batman",
+      "category": "DC Batman | PC Gaming",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "PC Gaming",
+      "type": "DC Batman | PC Gaming",
+      "feature": "none",
+      "name": "PC DC Keyboard Batman",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "description": "PC DC Mouse Batman",
+      "category": "DC Batman | PC Gaming",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "PC Gaming",
+      "type": "DC Batman | PC Gaming",
+      "feature": "none",
+      "name": "PC DC Mouse Batman",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "description": "PC DC Mousepad Batman",
+      "category": "DC Batman | PC Gaming",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "PC Gaming",
+      "type": "DC Batman | PC Gaming",
+      "feature": "none",
+      "name": "PC DC Mousepad Batman",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "description": "Gaming Headset DC BATMAN",
+      "category": "DC Batman | Audio",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Gaming Headset",
+      "type": "DC Batman | Audio",
+      "feature": "none",
+      "name": "Gaming Headset DC BATMAN",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "description": "PS5 DC Custom Kit Superman",
+      "category": "DC Superman",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "DC Superman",
+      "feature": "none",
+      "name": "PS5 DC Custom Kit Superman",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "description": "Switch DC Combo Pack Superman",
+      "category": "DC Superman",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Kit / Pack",
+      "type": "DC Superman",
+      "feature": "none",
+      "name": "Switch DC Combo Pack Superman",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "description": "Switch DC Premium Bag Superman",
+      "category": "DC Superman",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "DC Superman",
+      "feature": "none",
+      "name": "Switch DC Premium Bag Superman",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "description": "Xbox Series DC Custom Kit Superman",
+      "category": "DC Superman",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "DC Superman",
+      "feature": "none",
+      "name": "Xbox Series DC Custom Kit Superman",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "description": "PS5 DC Custom Kit Flash",
+      "category": "DC Flash",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "DC Flash",
+      "feature": "none",
+      "name": "PS5 DC Custom Kit Flash",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "description": "Switch DC Combo Pack Flash",
+      "category": "DC Flash",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Kit / Pack",
+      "type": "DC Flash",
+      "feature": "none",
+      "name": "Switch DC Combo Pack Flash",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "description": "Switch DC Premium Bag Flash",
+      "category": "DC Flash",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "DC Flash",
+      "feature": "none",
+      "name": "Switch DC Premium Bag Flash",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "description": "Xbox Series DC Custom Kit Flash",
+      "category": "DC Flash",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "DC Flash",
+      "feature": "none",
+      "name": "Xbox Series DC Custom Kit Flash",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": 129,
+      "description": "PS5 Demon Slayer Custom Kit Snow",
+      "category": "Demon Slayer",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Hard Skin + Grips",
+      "type": "Demon Slayer",
+      "feature": "none",
+      "name": "PS5 Demon Slayer Custom Kit Snow",
+      "mrp": 52,
+      "price": 200,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "description": "Switch Demon Slayer Combo Pack Siblings",
+      "category": "Demon Slayer",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Kit / Pack",
+      "type": "Demon Slayer",
+      "feature": "none",
+      "name": "Switch Demon Slayer Combo Pack Siblings",
+      "mrp": 52,
+      "price": 200,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "description": "Switch Demon Slayer Premium Bag Water Breath",
+      "category": "Demon Slayer",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "Demon Slayer",
+      "feature": "none",
+      "name": "Switch Demon Slayer Premium Bag Water Breath",
+      "mrp": 52,
+      "price": 200,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "description": "Xbox Series Demon Slayer Custom Kit Snow",
+      "category": "Demon Slayer",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Hard Skin + Grips",
+      "type": "Demon Slayer",
+      "feature": "none",
+      "name": "Xbox Series Demon Slayer Custom Kit Snow",
+      "mrp": 52,
+      "price": 200,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": 133,
+      "description": "PS4 & PS5 Dragon Ball Grips 4 Stars",
+      "category": "Dragon Ball",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "Dragon Ball",
+      "feature": "none",
+      "name": "PS4 & PS5 Dragon Ball Grips 4 Stars",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "description": "PS4 & PS5 Dragon Ball Grips Capsule Corp",
+      "category": "Dragon Ball",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "Dragon Ball",
+      "feature": "none",
+      "name": "PS4 & PS5 Dragon Ball Grips Capsule Corp",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "description": "PS4 & PS5 Dragon Ball Grips Whis",
+      "category": "Dragon Ball",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "Dragon Ball",
+      "feature": "none",
+      "name": "PS4 & PS5 Dragon Ball Grips Whis",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "description": "PS4 & PS5 Dragon Ball Grips Universe",
+      "category": "Dragon Ball",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "Dragon Ball",
+      "feature": "none",
+      "name": "PS4 & PS5 Dragon Ball Grips Whis",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "description": "PS4 Dragon Ball Combo Pack Z",
+      "category": "Dragon Ball",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Hard Skin + Grips",
+      "type": "Dragon Ball",
+      "feature": "none",
+      "name": "PS4 Dragon Ball Combo Pack Z",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "description": "PS4 Dragon Ball Combo Pack Super",
+      "category": "Dragon Ball",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Hard Skin + Grips",
+      "type": "Dragon Ball",
+      "feature": "none",
+      "name": "PS4 Dragon Ball Combo Pack Super",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "description": "Switch Dragon Ball Grips 1 Star",
+      "category": "Dragon Ball",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "Dragon Ball",
+      "feature": "none",
+      "name": "Switch Dragon Ball Grips 1 Star",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "description": "Switch Dragon Ball Combo Pack Super",
+      "category": "Dragon Ball",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Hard Skin + Grips",
+      "type": "Dragon Ball",
+      "feature": "none",
+      "name": "Switch Dragon Ball Combo Pack Super",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "description": "Switch Dragon Ball Bag Super",
+      "category": "Dragon Ball",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "Dragon Ball",
+      "feature": "none",
+      "name": "Switch Dragon Ball Bag Super",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "description": "Switch Dragon Ball Bag Universe",
+      "category": "Dragon Ball",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "Dragon Ball",
+      "feature": "none",
+      "name": "Switch Dragon Ball Bag Universe",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "description": "Switch Dragon Ball Dock Cover Super",
+      "category": "Dragon Ball",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Dock Cover",
+      "type": "Dragon Ball",
+      "feature": "none",
+      "name": "Switch Dragon Ball Dock Cover Super",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "description": "Switch Dragon Ball 24 Games Case Super",
+      "category": "Dragon Ball",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Games Case",
+      "type": "Dragon Ball",
+      "feature": "none",
+      "name": "Switch Dragon Ball 24 Games Case Super",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "description": "Switch Dragon Ball Pack Universe",
+      "category": "Dragon Ball",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Kit / Pack",
+      "type": "Dragon Ball",
+      "feature": "none",
+      "name": "Switch Dragon Ball Pack Universe",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "description": "PS5 & PS4 Dragon Ball Grips Set Fighters",
+      "category": "Dragon Ball",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "Dragon Ball",
+      "feature": "none",
+      "name": "PS5 & PS4 Dragon Ball Grips Set Fighters",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "description": "PS5 Dragon Ball Thermocromatic Silicone Skin + Grips",
+      "category": "Dragon Ball",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "Dragon Ball",
+      "feature": "none",
+      "name": "PS5 Dragon Ball Thermocromatic Silicone Skin + Grips",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "description": "PC Dragon Ball Keyboard GOKU",
+      "category": "Dragon Ball | PC Gaming",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "PC Gaming",
+      "type": "Dragon Ball | PC Gaming",
+      "feature": "none",
+      "name": "PC Dragon Ball Keyboard GOKU",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "description": "PC Dragon Ball Mouse GOKU",
+      "category": "Dragon Ball | PC Gaming",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "PC Gaming",
+      "type": "Dragon Ball | PC Gaming",
+      "feature": "none",
+      "name": "PC Dragon Ball Mouse GOKU",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "description": "PC Dragon Ball MousePad GOKU",
+      "category": "Dragon Ball | PC Gaming",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "PC Gaming",
+      "type": "Dragon Ball | PC Gaming",
+      "feature": "none",
+      "name": "PC Dragon Ball MousePad GOKU",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "description": "PC Dragon Ball Pack Keyboard + Mouse + Mousepad",
+      "category": "Dragon Ball | PC Gaming",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "PC Gaming",
+      "type": "Dragon Ball | PC Gaming",
+      "feature": "none",
+      "name": "PC Dragon Ball Pack Keyboard + Mouse + Mousepad",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "description": "PS5 Dragon Ball Combo Pack Enemies",
+      "category": "Dragon Ball",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Hard Skin + Grips",
+      "type": "Dragon Ball",
+      "feature": "none",
+      "name": "PS5 Dragon Ball Combo Pack Enemies",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "description": "Xbox Series Dragon Ball Combo Pack Namek",
+      "category": "Dragon Ball",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Hard Skin + Grips",
+      "type": "Dragon Ball",
+      "feature": "none",
+      "name": "Xbox Series Dragon Ball Combo Pack Namek",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "description": "PS4 Dragon Ball Gamepad Shenron",
+      "category": "Dragon Ball | Gamepad",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Controller",
+      "type": "Dragon Ball | Gamepad",
+      "feature": "none",
+      "name": "PS4 Dragon Ball Gamepad Shenron",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": 155,
+      "description": "PS4 & PS5 Monster Hunter Grips Iceborn",
+      "category": "Monster Hunter",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "Monster Hunter",
+      "feature": "none",
+      "name": "PS4 & PS5 Monster Hunter Grips Iceborn",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "description": "PS4 Monster Hunter Combo Pack Icons",
+      "category": "Monster Hunter",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Hard Skin + Grips",
+      "type": "Monster Hunter",
+      "feature": "none",
+      "name": "PS4 Monster Hunter Combo Pack Icons",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "description": "Switch Monster Hunter Bag Ultimate",
+      "category": "Monster Hunter",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "Monster Hunter",
+      "feature": "none",
+      "name": "Switch Monster Hunter Bag Ultimate",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": 158,
+      "description": "PS5 & PS4 One Piece Grips Sunny",
+      "category": "One Piece",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "One Piece",
+      "feature": "none",
+      "name": "PS5 & PS4 One Piece Grips Sunny",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "description": "PS4 One Piece Combo Pack Luffy",
+      "category": "One Piece",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Hard Skin + Grips",
+      "type": "One Piece",
+      "feature": "none",
+      "name": "PS4 One Piece Combo Pack Luffy",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "description": "Switch One Piece Bag Chibi",
+      "category": "One Piece",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "One Piece",
+      "feature": "none",
+      "name": "Switch One Piece Bag Chibi",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "description": "Switch One Piece Dock Cover Dressrosa",
+      "category": "One Piece",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Dock Cover",
+      "type": "One Piece",
+      "feature": "none",
+      "name": "Switch One Piece Dock Cover Dressrosa",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "description": "Switch One Piece Full Pack Dressrosa",
+      "category": "One Piece",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Kit / Pack",
+      "type": "One Piece",
+      "feature": "none",
+      "name": "Switch One Piece Full Pack Dressrosa",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "description": "PS5 One Piece Custom Kit Fire",
+      "category": "One Piece",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "One Piece",
+      "feature": "none",
+      "name": "PS5 One Piece Custom Kit Fire",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "description": "Switch One Piece Game Case Thousand Sunny",
+      "category": "One Piece",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Games Case",
+      "type": "One Piece",
+      "feature": "none",
+      "name": "Switch One Piece Game Case Thousand Sunny",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "description": "Switch One Piece Premium Bag Thousand Sunny",
+      "category": "One Piece",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "One Piece",
+      "feature": "none",
+      "name": "Switch One Piece Premium Bag Thousand Sunny",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "description": "Xbox Series One Piece Custom Kit Fire",
+      "category": "One Piece",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Soft Skin + Grips",
+      "type": "One Piece",
+      "feature": "none",
+      "name": "Xbox Series One Piece Custom Kit Fire",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": true,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": 167,
+      "description": "PS4 Resident Evil Combo Pack Umbrella",
+      "category": "Resident Evil",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Hard Skin + Grips",
+      "type": "Resident Evil",
+      "feature": "none",
+      "name": "PS4 Resident Evil Combo Pack Umbrella",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "description": "Resident Evil Controller Case Evil",
+      "category": "Resident Evil",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "Resident Evil",
+      "feature": "none",
+      "name": "Resident Evil Controller Case Evil",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "description": "Switch Rick and Morty Bag Portals",
+      "category": "Rick and Morty",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "Rick and Morty",
+      "feature": "none",
+      "name": "Switch Rick and Morty Bag Portals",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+
+    {
+      "id": 170,
+      "description": "PS5 & PS4 Tanooki Grips",
+      "category": "Tanooki",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Grips",
+      "type": "Tanooki",
+      "feature": "none",
+      "name": "PS5 & PS4 Tanooki Grips",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "description": "PS4 Tanooki Combo Pack",
+      "category": "Tanooki",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Hard Skin + Grips",
+      "type": "Tanooki",
+      "feature": "none",
+      "name": "PS4 Tanooki Combo Pack",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "description": "Switch Tanooki Bag",
+      "category": "Tanooki",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "Tanooki",
+      "feature": "none",
+      "name": "Switch Tanooki Bag",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "description": "Switch Tanooki Combo Pack",
+      "category": "Tanooki",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Hard Skin + Grips",
+      "type": "Tanooki",
+      "feature": "none",
+      "name": "Switch Tanooki Combo Pack",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "description": "Switch Tanooki Bag EARS",
+      "category": "Tanooki",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "Tanooki",
+      "feature": "none",
+      "name": "Switch Tanooki Bag EARS",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "description": "Switch Tanooki Bag PRIDE",
+      "category": "Tanooki",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "Tanooki",
+      "feature": "none",
+      "name": "Switch Tanooki Bag PRIDE",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "description": "Gaming Headset TANOOKI",
+      "category": "Tanooki | Audio",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Gaming Headset",
+      "type": "Tanooki | Audio",
+      "feature": "none",
+      "name": "Gaming Headset TANOOKI",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "description": "Switch WWE Combo Pack",
+      "category": "WWE",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Hard Skin + Grips",
+      "type": "WWE",
+      "feature": "none",
+      "name": "Switch WWE Combo Pack",
+      "mrp": 52,
+      "price": 150,
+      "ratingStars": 4,
+      "new": false,
+      "discount": 0,
+      "department": "none",
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "description": "Switch WWE Bag",
+      "category": "WWE",
+      "manufacturer": "none",
+      "colors": [],
+      "totalPurchases": 10,
+      "size": "none",
+      "available": true,
+      "first_available_date": "28-10-2024",
+      "inStock": 20,
+      "totalReviews": 17,
+      "brand": "Case / Bag",
+      "type": "WWE",
+      "feature": "none",
+      "name": "Switch WWE Bag",
+      "mrp": 52,
+      "price": 150,
       "ratingStars": 4,
       "new": false,
       "discount": 0,
