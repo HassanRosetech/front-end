@@ -2,15 +2,27 @@
   <section class="section-b-space">
     <div class="container">
       <div class="row">
-        <shopFilterbar :showRating="showRating" :showPriceRange2="showPriceRange2"
-          :showSizeListInComponent="showSizeListInComponent" :showFilterBar="showFilters"
-          v-if="filterbarPosition != 'right'" :filterBarClasses="filterBarClasses"
-          :showSidebarCarousel="showSidebarCarousel" :isMobileView="isMobileView" />
+        <shopFilterbar
+          :showRating="showRating"
+          :showPriceRange2="showPriceRange2"
+          :showSizeListInComponent="showSizeListInComponent"
+          :showFilterBar="showFilters"
+          v-if="filterbarPosition != 'right'"
+          :filterBarClasses="filterBarClasses"
+          :showSidebarCarousel="showSidebarCarousel"
+          :isMobileView="isMobileView"
+        />
 
-        <div class="col-lg-9 col-12 ratio_30" :class="[{ 'col-lg-12': showFilters }]">
+        <div
+          class="col-lg-9 col-12 ratio_30"
+          :class="[{ 'col-lg-12': showFilters }]"
+        >
           <slot name="topBanner"></slot>
           <div class="hide-button d-flex mb-3" v-if="filterHide">
-            <button class="danger-button danger-center btn btn-sm filter-btn" @click.prevent="toggleFilterBar">
+            <button
+              class="danger-button danger-center btn btn-sm filter-btn"
+              @click.prevent="toggleFilterBar"
+            >
               <span class="d-lg-inline-block" v-if="showFilters">{{
                 useRuntimeConfig().public.const.ShowFilter
               }}</span>
@@ -22,7 +34,10 @@
           <div class="row g-4">
             <!-- filter button -->
             <div class="filter-button">
-              <button class="danger-button danger-center btn btn-sm filter-btn" @click.prevent="toggleFilterBar">
+              <button
+                class="danger-button danger-center btn btn-sm filter-btn"
+                @click.prevent="toggleFilterBar"
+              >
                 <vue-feather type="align-left"></vue-feather>Filter
               </button>
             </div>
@@ -35,24 +50,37 @@
                 <li v-for="(filter, index) in filtersList" :key="index">
                   <div class="label-tag">
                     <span>{{ filter }}</span>
-                    <button type="button" class="btn-close" aria-label="Close" @click="removeFilter(filter)"></button>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      aria-label="Close"
+                      @click="removeFilter(filter)"
+                    ></button>
                   </div>
                 </li>
                 <li>
                   <div class="label-tag" v-if="filtersList.length != 0">
-                    <a href="javascript:void(0)" @click.prevent="clearAllFilters"><span>Clear All</span></a>
+                    <a
+                      href="javascript:void(0)"
+                      @click.prevent="clearAllFilters"
+                      ><span>Clear All</span></a
+                    >
                   </div>
                 </li>
               </ul>
             </div>
 
-            <options :setCardsLayout="setCardsLayout" @changeCardLayout="changeCardLayout"
-              @changeProductsPerPage="changeProductsPerPage" />
+            <options
+              :setCardsLayout="setCardsLayout"
+              @changeCardLayout="changeCardLayout"
+              @changeProductsPerPage="changeProductsPerPage"
+            />
           </div>
           <!-- label and featured section -->
 
           <!-- Prodcut setion -->
-          <div class="row g-sm-4 g-3 gx-sm-4 gx-3 mt-1 custom-gy-5 product-style-2 ratio_asos product-list-section"
+          <div
+            class="row g-sm-4 g-3 gx-sm-4 gx-3 mt-1 custom-gy-5 product-style-2 ratio_asos product-list-section"
             :class="[
               { 'row-cols-2': cardsLayout == 2 },
               { 'row-cols-md-3 row-cols-2': cardsLayout == 3 },
@@ -64,11 +92,15 @@
               {
                 'list-style': cardsLayout == 6,
               },
-            ]">
-            <div v-for="(product, index) in cards.slice(
-              currentPage * cardsToShow - cardsToShow,
-              currentPage * cardsToShow
-            )" :key="index">
+            ]"
+          >
+            <div
+              v-for="(product, index) in cards.slice(
+                currentPage * cardsToShow - cardsToShow,
+                currentPage * cardsToShow
+              )"
+              :key="index"
+            >
               <productBox1 :product="product" />
             </div>
 
@@ -78,27 +110,50 @@
           <nav class="page-section" v-if="cards.length != 0">
             <ul class="pagination">
               <li class="page-item">
-                <a href="javascript:void(0)" class="page-link" @click="changePage(currentPage - 1)">
+                <a
+                  href="javascript:void(0)"
+                  class="page-link"
+                  @click="changePage(currentPage - 1)"
+                >
                   <i class="fas fa-chevron-left"></i>
                 </a>
               </li>
-              <li class="page-item" v-for="i in pages" :key="i" :class="i === currentPage ? 'active' : ''">
-                <a class="page-link" href="javascript:void(0)" @click.prevent="changePage(i)">{{ i }}
+              <li
+                class="page-item"
+                v-for="i in pages"
+                :key="i"
+                :class="i === currentPage ? 'active' : ''"
+              >
+                <a
+                  class="page-link"
+                  href="javascript:void(0)"
+                  @click.prevent="changePage(i)"
+                  >{{ i }}
                 </a>
               </li>
 
               <li class="page-item">
-                <a href="javascript:void(0)" class="page-link" @click="changePage(currentPage + 1)">
+                <a
+                  href="javascript:void(0)"
+                  class="page-link"
+                  @click="changePage(currentPage + 1)"
+                >
                   <i class="fas fa-chevron-right"></i>
                 </a>
               </li>
             </ul>
           </nav>
         </div>
-        <shopFilterbar :showRating="showRating" :showPriceRange2="showPriceRange2"
-          :showSizeListInComponent="showSizeListInComponent" :showFilterBar="showFilters"
-          v-if="filterbarPosition === 'right'" :filterBarClasses="filterBarClasses"
-          :showSidebarCarousel="showSidebarCarousel" :isMobileView="isMobileView" />
+        <shopFilterbar
+          :showRating="showRating"
+          :showPriceRange2="showPriceRange2"
+          :showSizeListInComponent="showSizeListInComponent"
+          :showFilterBar="showFilters"
+          v-if="filterbarPosition === 'right'"
+          :filterBarClasses="filterBarClasses"
+          :showSidebarCarousel="showSidebarCarousel"
+          :isMobileView="isMobileView"
+        />
       </div>
     </div>
   </section>
@@ -111,7 +166,7 @@ import productBox1 from "~/layout/elements/productBox/product-box1.vue";
 import productBox1_skeletonLoader from "~/layout/elements/skeletonLoaders/productBox1_skeletonLoader.vue";
 import options from "~/layout/elements/shopSections/options1.vue";
 import { mapState } from "pinia";
-import { useClickStore } from '~~/store/clickEvents';
+import { useClickStore } from "~~/store/clickEvents";
 import { usefilterStore } from "~~/store/filters";
 export default {
   components: {
@@ -147,16 +202,15 @@ export default {
   },
   computed: {
     initCards() {
-      return usefilterStore().cardsToReturn
+      return usefilterStore().cardsToReturn;
     },
     ...mapState(usefilterStore, {
-
-      filtersList: 'filtersList',
-      appliedFiltersList: 'appliedFilters',
+      filtersList: "filtersList",
+      appliedFiltersList: "appliedFilters",
     }),
     ...mapState(useClickStore, {
-      showFilters: 'shopFilterBar',
-    })
+      showFilters: "shopFilterBar",
+    }),
   },
   watch: {
     initCards: function () {
@@ -194,16 +248,14 @@ export default {
       }
     },
     toggleFilterBar() {
-      if (this.filterHide)
-        useClickStore().toggleShopFilterBarNoOverlay()
-      else
-        useClickStore().toggleShopFilterBar()
+      if (this.filterHide) useClickStore().toggleShopFilterBarNoOverlay();
+      else useClickStore().toggleShopFilterBar();
     },
     removeFilter(title) {
-      usefilterStore().removeFilter(title)
+      usefilterStore().removeFilter(title);
     },
     clearAllFilters() {
-      usefilterStore().clearAllFilters()
+      usefilterStore().clearAllFilters();
     },
     changeCardLayout(toLayout) {
       this.cardsLayout = toLayout;
@@ -215,7 +267,7 @@ export default {
     },
   },
   mounted() {
-    usefilterStore().setCategory(this.category)
+    usefilterStore().setCategory(this.category);
     this.cards = this.initCards.filter((item) => item.category != "vr");
     this.totalCards = this.cards.length;
     this.totalPages = Math.ceil(this.totalCards / this.cardsToShow);

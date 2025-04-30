@@ -158,7 +158,7 @@ export const usefilterStore = defineStore({
             .map((item) => item.brand)
         ),
       ];
-      brands.splice(brands.indexOf("none"), 1);
+      brands.splice(brands.indexOf("none"), 0);
       return brands;
     },
     categories: (state) => {
