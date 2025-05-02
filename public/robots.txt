@@ -1,8 +1,4 @@
 User-agent: *
-Disallow: /admin/
-Disallow: /login/
-Disallow: /private/
-Disallow: /temp/
-Allow: /
+Disallow:
 
 Sitemap: https://www.partsshop.se/sitemap.xml
