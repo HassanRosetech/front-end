@@ -780,7 +780,11 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT0018-1000x1000.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT0018-2-1-1000x1000.jpg"
         }
       ]
     },
@@ -809,7 +813,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/1FT0025.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT0025-2-1-1000x1000.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT0025-3-1-1000x1000.jpg"
         }
       ]
     },
@@ -867,7 +879,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT0007-1.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT0007-2-1.jpg"
+        },
+        {
+          "imageId": 31,
+          "src": "electronics/product/1FT0007-3-1.jpg"
         }
       ]
     },
@@ -925,7 +945,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT0019-1-1000x1000.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT0019-2-1-1000x1000.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT0019-3-1-1000x1000.jpg"
         }
       ]
     },
@@ -983,7 +1011,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT0027-1000x1000.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT0027-2-1-1000x1000.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT0027-3-1-1000x1000.jpg"
         }
       ]
     },
@@ -1070,7 +1106,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT0030-USB-C-PREMIUM-Web-1B-1.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT0030-USB-C-PREMIUM-Web-1A.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT0030-USB-C-PREMIUM-Web-4.jpg"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT0030-USB-C-PREMIUM-Web-5-1.jpg"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT0030-USB-C-PREMIUM-Web-2.jpg"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT0030-USB-C-PREMIUM-Web-3.jpg"
         }
       ]
     },
@@ -1099,7 +1155,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT0031-PS5-HDMI-2.1-Cable-Web-1B.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT0031-PS5-HDMI-2.1-Cable-Web-1A.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT0031-PS5-HDMI-2.1-Cable-Web-2.jpg"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT0031-PS5-HDMI-2.1-Cable-Web-3-1.jpg"
         }
       ]
     },
@@ -1128,7 +1196,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT0032-PS5-Controller-Case-Web-1AA-1.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT0032-PS5-Controller-Case-Web-1BB.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT0032-PS5-Controller-Case-Web-3.jpg"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT0032-PS5-Controller-Case-Web-4.jpg"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT0032-PS5-Controller-Case-Web-5.jpg"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT0032-PS5-Controller-Case-Web-6.jpg"
         }
       ]
     },
@@ -1186,7 +1274,31 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-1AA.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-1BBB.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-1BB.jpg"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-6.jpg"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-3.jpg"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-4.jpg"
+        },
+        {
+          "imageId": 7,
+          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-5.jpg"
         }
       ]
     },
@@ -1215,7 +1327,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT0036-PS5-Custom-Kit-Glow-in-the-Dark-Web-1AA.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT0036-PS5-Custom-Kit-Glow-in-the-Dark-Web-1BB.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT0036-PS5-Custom-Kit-Glow-in-the-Dark-Web-3.jpg"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT0036-PS5-Custom-Kit-Glow-in-the-Dark-Web-6.jpg"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT0036-PS5-Custom-Kit-Glow-in-the-Dark-Web-4.jpg"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT0036-PS5-Custom-Kit-Glow-in-the-Dark-Web-5.jpg"
         }
       ]
     },
@@ -1273,7 +1405,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT0038-PS5-Custom-Kit-Translucent-Web-BG-1AA.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT0038-PS5-Custom-Kit-Translucent-Web-BG-3.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT0038-PS5-Custom-Kit-Translucent-Web-BG-2.jpg"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT0038-PS5-Custom-Kit-Translucent-Web-BG-4.jpg"
         }
       ]
     },
@@ -1302,7 +1446,31 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/cmp-ps5.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/closeup-hand-holding-blank-screen-mobile-phone-orange-background.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT0034-PS5-Control-Mod-Pro-2.jpg"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT0034-PS5-Control-Mod-Pro-4.jpg"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT0034-PS5-Control-Mod-Pro-5.jpg"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT0034-PS5-Control-Mod-Pro-3.jpg"
+        },
+        {
+          "imageId": 7,
+          "src": "electronics/product/FT0034-PS5-Control-Mod-Pro-6.jpg"
         }
       ]
     },
@@ -1331,7 +1499,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT0039-PS5-Racing-Enhance-Kit-White-BG-01.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT0039-PS5-Racing-Enhance-Kit-01.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT0039-PS5-Racing-Enhance-Kit-03.jpg"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT0039-PS5-Racing-Enhance-Kit-02.jpg"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT0039-PS5-Racing-Enhance-Kit-04.jpg"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT0039-PS5-Racing-Enhance-Kit-05.jpg"
         }
       ]
     },
@@ -1361,7 +1549,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT3001-XBOX-SERIES-X-Station-X-White-BG-1.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT3001-XBOX-SERIES-X-Station-X-Web-1A.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT3001-XBOX-SERIES-X-Station-X-Web-2.jpg"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT3001-XBOX-SERIES-X-Station-X-Web-3.jpg"
         }
       ]
     },
@@ -1390,7 +1590,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT3002-XBOX-SERIES-X-Play-Charge-Web-1B.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT3002-XBOX-SERIES-X-Play-Charge-Web-1A.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT3002-XBOX-SERIES-X-Play-Charge-Web-3.jpg"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/XBOX-fotos-de-producto.jpg"
         }
       ]
     },
@@ -1419,7 +1631,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT3003-XBOX-SERIES-X-Controller-Case-White-BG-1.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT3003-XBOX-SERIES-X-Controller-Case-Web-1.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT3003-XBOX-SERIES-X-Controller-Case-Web-2.jpg"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT3003-XBOX-SERIES-X-Controller-Case-Web-3.jpg"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT3003-XBOX-SERIES-X-Controller-Case-Web-4.jpg"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT3003-XBOX-SERIES-X-Controller-Case-Web-5.jpg"
         }
       ]
     },
@@ -1448,7 +1680,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT3004-XBOX-SERIES-X-Grips-X-White-BG-1.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT3004-XBOX-SERIES-X-Grips-X-Web-1.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT3004-XBOX-SERIES-X-Grips-X-Web-2-1.jpg"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT3004-XBOX-SERIES-X-Grips-X-Web-3.jpg"
         }
       ]
     },
@@ -1477,7 +1721,23 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT3005-XBOX-SERIES-X-Silicone-Glow-In-The-Dark-Web-1B.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT3005-XBOX-SERIES-X-Silicone-Glow-In-The-Dark-Web-1A.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT3005-XBOX-SERIES-X-Silicone-Glow-In-The-Dark-Web-4.jpg"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT3005-XBOX-SERIES-X-Silicone-Glow-In-The-Dark-Web-2.jpg"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT3005-XBOX-SERIES-X-Silicone-Glow-In-The-Dark-Web-3.jpg"
         }
       ]
     },
@@ -1536,7 +1796,11 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT1010-1.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT1010-2-1-1000x1000.jpg"
         }
       ]
     },
@@ -1565,7 +1829,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT1012-1-1000x1000.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT1012-2-1-1000x1000.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT1012-3-1-1000x1000.jpg"
         }
       ]
     },
@@ -1594,7 +1866,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT1013-1-1000x1000.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT1013-2-1-1000x1000.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT1013-3-1-1000x1000.jpg"
         }
       ]
     },
@@ -1739,7 +2019,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT1028-1-1000x1000.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT1028-2-2-1000x1000.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT1028-3-2-1000x1000.jpg"
         }
       ]
     },
@@ -1768,7 +2056,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT1034-1-1000x1000.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT1034-2-1-1000x1000.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT1034-3-1-1000x1000.jpg"
         }
       ]
     },
@@ -1797,7 +2093,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT1036-1000x1000.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT1036-2-1000x1000.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT1036-4-1000x1000.jpg"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT1036-3-1000x10001.jpg"
         }
       ]
     },
@@ -2058,7 +2366,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT1047.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT1047-1.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT1047-2.jpg"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT1047-3.jpg"
         }
       ]
     },
@@ -2087,7 +2407,23 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT1051-Switch-pro-controller-Custom-Kit-GitD-01A.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT1051-Switch-pro-controller-Custom-Kit-GitD-03-1.jpg"
+        },
+        {
+          "imageId": 31,
+          "src": "electronics/product/FT1051-Switch-pro-controller-Custom-Kit-GitD-01-1.jpg"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT1051-Switch-pro-controller-Custom-Kit-GitD-02.jpg"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT1051-Switch-pro-controller-Custom-Kit-GitD-04-1000x1000.jpg"
         }
       ]
     },
@@ -2116,7 +2452,23 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT1052-Switch-Pro-Controller-Custom-Kit-Llama-Skin-01-White-1000x1000.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT1052-Switch-Pro-Controller-Custom-Kit-Llama-Skin-Web-01-1000x1000.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/0-FT1052-Switch-Pro-Controller-Custom-Kit-Llama-Skin-02.jpg"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT1052-Switch-Pro-Controller-Custom-Kit-Llama-Skin-Web-04-1000x1000.jpg"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT1052-Switch-Pro-Controller-Custom-Kit-Llama-Skin-Web-01-100x100.jpg"
         }
       ]
     },

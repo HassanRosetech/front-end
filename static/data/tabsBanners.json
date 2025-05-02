@@ -1,503 +1,19 @@
 {
-  "data": [{
-      "type": "furniture",
-      "subtype": "hurryup",
-      "tabs": [{
-          "name": "Lamps",
-          "active": false,
-          "displayTitle": "Camera",
-          "id": "Camera",
-          "children": [{
-              "childtype": "leftbanners",
-              "banners": [{
-                  "mrp": "$58.00",
-                  "price": "$25.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 2,
-                  "image": "furniture-images/special-offer/1.png"
-                },
-                {
-                  "mrp": "$850.00",
-                  "price": "$700.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 3,
-                  "image": "furniture-images/special-offer/2.png"
-                },
-                {
-                  "mrp": "$90.00",
-                  "price": "$78.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 5,
-                  "image": "furniture-images/special-offer/3.png"
-                }
-              ]
-            },
-            {
-              "childtype": "middlebanner",
-              "price": "$49",
-              "mrp": "$52",
-              "lefttag": "New",
-              "righttag": "50% off",
-              "heading": "Hurry Up !!!!",
-              "subheading": "Offer Expires in 02 Hours",
-              "image": "furniture-images/special-offer/a1.png",
-              "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-              "ratingstars": 2
-            },
-            {
-              "childtype": "rightbanners",
-              "banners": [{
-                  "mrp": "$60.00",
-                  "price": "$52.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 5,
-                  "image": "furniture-images/special-offer/1.png"
-                },
-                {
-                  "mrp": "$50.00",
-                  "price": "$30.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 4,
-                  "image": "furniture-images/special-offer/2.png"
-                },
-                {
-                  "mrp": "$1068.00",
-                  "price": "$1000.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 2,
-                  "image": "furniture-images/special-offer/3.png"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Sofa-set",
-          "active": false,
-          "displayTitle": "Sofa-set",
-          "id": "Sofa-set",
-          "children": [{
-              "childtype": "leftbanners",
-              "banners": [{
-                  "mrp": "$58.00",
-                  "price": "$25.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 2,
-                  "image": "furniture-images/special-offer/1.png"
-                },
-                {
-                  "mrp": "$850.00",
-                  "price": "$700.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 3,
-                  "image": "furniture-images/special-offer/2.png"
-                },
-                {
-                  "mrp": "$90.00",
-                  "price": "$78.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 5,
-                  "image": "furniture-images/special-offer/3.png"
-                }
-              ]
-            },
-            {
-              "childtype": "middlebanner",
-              "price": "$49",
-              "mrp": "$52",
-              "lefttag": "New",
-              "righttag": "50% off",
-              "heading": "Hurry Up !!!!",
-              "subheading": "Offer Expires in 02 Hours",
-              "image": "furniture-images/special-offer/a1.png",
-              "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-              "ratingstars": 2
-            },
-            {
-              "childtype": "rightbanners",
-              "banners": [{
-                  "mrp": "$60.00",
-                  "price": "$52.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 5,
-                  "image": "furniture-images/special-offer/1.png"
-                },
-                {
-                  "mrp": "$50.00",
-                  "price": "$30.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 4,
-                  "image": "furniture-images/special-offer/2.png"
-                },
-                {
-                  "mrp": "$1068.00",
-                  "price": "$1000.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 2,
-                  "image": "furniture-images/special-offer/3.png"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Tables",
-          "active": false,
-          "displayTitle": "Tables",
-          "id": "Tables",
-          "children": [{
-              "childtype": "leftbanners",
-              "banners": [{
-                  "mrp": "$58.00",
-                  "price": "$25.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 2,
-                  "image": "furniture-images/special-offer/1.png"
-                },
-                {
-                  "mrp": "$850.00",
-                  "price": "$700.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 3,
-                  "image": "furniture-images/special-offer/2.png"
-                },
-                {
-                  "mrp": "$90.00",
-                  "price": "$78.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 5,
-                  "image": "furniture-images/special-offer/3.png"
-                }
-              ]
-            },
-            {
-              "childtype": "middlebanner",
-              "price": "$49",
-              "mrp": "$52",
-              "lefttag": "New",
-              "righttag": "50% off",
-              "heading": "Hurry Up !!!!",
-              "subheading": "Offer Expires in 02 Hours",
-              "image": "furniture-images/special-offer/a1.png",
-              "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-              "ratingstars": 2
-            },
-            {
-              "childtype": "rightbanners",
-              "banners": [{
-                  "mrp": "$60.00",
-                  "price": "$52.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 5,
-                  "image": "furniture-images/special-offer/1.png"
-                },
-                {
-                  "mrp": "$50.00",
-                  "price": "$30.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 4,
-                  "image": "furniture-images/special-offer/2.png"
-                },
-                {
-                  "mrp": "$1068.00",
-                  "price": "$1000.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 2,
-                  "image": "furniture-images/special-offer/3.png"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Mixer",
-          "active": true,
-          "displayTitle": "Mixer",
-          "id": "Mixer",
-          "children": [{
-              "childtype": "leftbanners",
-              "banners": [{
-                  "mrp": "$58.00",
-                  "price": "$25.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 2,
-                  "image": "furniture-images/special-offer/1.png"
-                },
-                {
-                  "mrp": "$850.00",
-                  "price": "$700.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 3,
-                  "image": "furniture-images/special-offer/2.png"
-                },
-                {
-                  "mrp": "$90.00",
-                  "price": "$78.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 5,
-                  "image": "furniture-images/special-offer/3.png"
-                }
-              ]
-            },
-            {
-              "childtype": "middlebanner",
-              "price": "$49",
-              "mrp": "$52",
-              "lefttag": "New",
-              "righttag": "50% off",
-              "heading": "Hurry Up !!!!",
-              "subheading": "Offer Expires in 02 Hours",
-              "image": "furniture-images/special-offer/a1.png",
-              "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-              "ratingstars": 2
-            },
-            {
-              "childtype": "rightbanners",
-              "banners": [{
-                  "mrp": "$60.00",
-                  "price": "$52.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 5,
-                  "image": "furniture-images/special-offer/1.png"
-                },
-                {
-                  "mrp": "$50.00",
-                  "price": "$30.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 4,
-                  "image": "furniture-images/special-offer/2.png"
-                },
-                {
-                  "mrp": "$1068.00",
-                  "price": "$1000.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 2,
-                  "image": "furniture-images/special-offer/3.png"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Chair",
-          "active": false,
-          "displayTitle": "Chair",
-          "id": "Chair",
-          "children": [{
-              "childtype": "leftbanners",
-              "banners": [{
-                  "mrp": "$58.00",
-                  "price": "$25.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 2,
-                  "image": "furniture-images/special-offer/1.png"
-                },
-                {
-                  "mrp": "$850.00",
-                  "price": "$700.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 3,
-                  "image": "furniture-images/special-offer/2.png"
-                },
-                {
-                  "mrp": "$90.00",
-                  "price": "$78.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 5,
-                  "image": "furniture-images/special-offer/3.png"
-                }
-              ]
-            },
-            {
-              "childtype": "middlebanner",
-              "price": "$49",
-              "mrp": "$52",
-              "lefttag": "New",
-              "righttag": "50% off",
-              "heading": "Hurry Up !!!!",
-              "subheading": "Offer Expires in 02 Hours",
-              "image": "furniture-images/special-offer/a1.png",
-              "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-              "ratingstars": 2
-            },
-            {
-              "childtype": "rightbanners",
-              "banners": [{
-                  "mrp": "$60.00",
-                  "price": "$52.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 5,
-                  "image": "furniture-images/special-offer/1.png"
-                },
-                {
-                  "mrp": "$50.00",
-                  "price": "$30.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 4,
-                  "image": "furniture-images/special-offer/2.png"
-                },
-                {
-                  "mrp": "$1068.00",
-                  "price": "$1000.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 2,
-                  "image": "furniture-images/special-offer/3.png"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Beds",
-          "active": false,
-          "displayTitle": "Beds",
-          "id": "Beds",
-          "children": [{
-              "childtype": "leftbanners",
-              "banners": [{
-                  "mrp": "$58.00",
-                  "price": "$25.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 2,
-                  "image": "furniture-images/special-offer/1.png"
-                },
-                {
-                  "mrp": "$850.00",
-                  "price": "$700.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 3,
-                  "image": "furniture-images/special-offer/2.png"
-                },
-                {
-                  "mrp": "$90.00",
-                  "price": "$78.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 5,
-                  "image": "furniture-images/special-offer/3.png"
-                }
-              ]
-            },
-            {
-              "childtype": "middlebanner",
-              "price": "$49",
-              "mrp": "$52",
-              "lefttag": "New",
-              "righttag": "50% off",
-              "heading": "Hurry Up !!!!",
-              "subheading": "Offer Expires in 02 Hours",
-              "image": "furniture-images/special-offer/a1.png",
-              "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-              "ratingstars": 2
-            },
-            {
-              "childtype": "rightbanners",
-              "banners": [{
-                  "mrp": "$60.00",
-                  "price": "$52.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 5,
-                  "image": "furniture-images/special-offer/1.png"
-                },
-                {
-                  "mrp": "$50.00",
-                  "price": "$30.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 4,
-                  "image": "furniture-images/special-offer/2.png"
-                },
-                {
-                  "mrp": "$1068.00",
-                  "price": "$1000.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 2,
-                  "image": "furniture-images/special-offer/3.png"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Window",
-          "active": false,
-          "displayTitle": "Window",
-          "id": "Window",
-          "children": [{
-              "childtype": "leftbanners",
-              "banners": [{
-                  "mrp": "$58.00",
-                  "price": "$25.00",
-                  "title": "Latest Yellow ",
-                  "ratingstars": 2,
-                  "image": "furniture-images/special-offer/1.png"
-                },
-                {
-                  "mrp": "$850.00",
-                  "price": "$700.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 3,
-                  "image": "furniture-images/special-offer/2.png"
-                },
-                {
-                  "mrp": "$90.00",
-                  "price": "$78.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 5,
-                  "image": "furniture-images/special-offer/3.png"
-                }
-              ]
-            },
-            {
-              "childtype": "middlebanner",
-              "price": "$49",
-              "mrp": "$52",
-              "lefttag": "New",
-              "righttag": "50% off",
-              "heading": "Hurry Up !!!!",
-              "subheading": "Offer Expires in 02 Hours",
-              "image": "furniture-images/special-offer/a1.png",
-              "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-              "ratingstars": 2
-            },
-            {
-              "childtype": "rightbanners",
-              "banners": [{
-                  "mrp": "$60.00",
-                  "price": "$52.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 5,
-                  "image": "furniture-images/special-offer/1.png"
-                },
-                {
-                  "mrp": "$50.00",
-                  "price": "$30.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 4,
-                  "image": "furniture-images/special-offer/2.png"
-                },
-                {
-                  "mrp": "$1068.00",
-                  "price": "$1000.00",
-                  "title": "Latest Yellow Sofa Furniture Fully Comfortable",
-                  "ratingstars": 2,
-                  "image": "furniture-images/special-offer/3.png"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
+  "data": [
     {
       "type": "electronic",
       "subtype": "hurryup",
-      "tabs": [{
+      "tabs": [
+        {
           "name": "Camera",
           "active": false,
           "displayTitle": "Camera",
           "id": "Camera",
-          "children": [{
+          "children": [
+            {
               "childtype": "leftbanners",
-              "banners": [{
+              "banners": [
+                {
                   "mrp": "$58.00",
                   "price": "$25.00",
                   "title": "Digital Unisex Watch",
@@ -534,7 +50,8 @@
             },
             {
               "childtype": "rightbanners",
-              "banners": [{
+              "banners": [
+                {
                   "mrp": "$60.00",
                   "price": "$52.00",
                   "title": "16MP 4K HD Action Waterproof Camera",
@@ -564,9 +81,11 @@
           "active": false,
           "displayTitle": "Audio",
           "id": "Audio",
-          "children": [{
+          "children": [
+            {
               "childtype": "leftbanners",
-              "banners": [{
+              "banners": [
+                {
                   "mrp": "$1068.00",
                   "price": "$1000.00",
                   "title": "Full HD Indoor WiFi Spy Security Camera",
@@ -603,7 +122,8 @@
             },
             {
               "childtype": "rightbanners",
-              "banners": [{
+              "banners": [
+                {
                   "mrp": "$58.00",
                   "price": "$25.00",
                   "title": "Digital Unisex Watch",
@@ -633,9 +153,11 @@
           "active": false,
           "displayTitle": "Navigation",
           "id": "Navigation",
-          "children": [{
+          "children": [
+            {
               "childtype": "leftbanners",
-              "banners": [{
+              "banners": [
+                {
                   "mrp": "$1068.00",
                   "price": "$1000.00",
                   "title": "Full HD Indoor WiFi Spy Security Camera",
@@ -672,7 +194,8 @@
             },
             {
               "childtype": "rightbanners",
-              "banners": [{
+              "banners": [
+                {
                   "mrp": "$90.00",
                   "price": "$78.00",
                   "title": "White dial Wrist Watch",
@@ -702,9 +225,11 @@
           "active": true,
           "displayTitle": "others",
           "id": "others",
-          "children": [{
+          "children": [
+            {
               "childtype": "leftbanners",
-              "banners": [{
+              "banners": [
+                {
                   "mrp": "$90.00",
                   "price": "$78.00",
                   "title": "White dial Wrist Watch",
@@ -741,7 +266,8 @@
             },
             {
               "childtype": "rightbanners",
-              "banners": [{
+              "banners": [
+                {
                   "mrp": "$1068.00",
                   "price": "$1000.00",
                   "title": "Full HD Indoor WiFi Spy Security Camera",
@@ -771,9 +297,11 @@
           "active": false,
           "displayTitle": "phones",
           "id": "phones",
-          "children": [{
+          "children": [
+            {
               "childtype": "leftbanners",
-              "banners": [{
+              "banners": [
+                {
                   "mrp": "$1068.00",
                   "price": "$1000.00",
                   "title": "Full HD Indoor WiFi Spy Security Camera",
@@ -810,7 +338,8 @@
             },
             {
               "childtype": "rightbanners",
-              "banners": [{
+              "banners": [
+                {
                   "mrp": "$60.00",
                   "price": "$52.00",
                   "title": "16MP 4K HD Action Waterproof Camera",
@@ -840,9 +369,11 @@
           "active": false,
           "displayTitle": "Computer",
           "id": "Computer",
-          "children": [{
+          "children": [
+            {
               "childtype": "leftbanners",
-              "banners": [{
+              "banners": [
+                {
                   "mrp": "$58.00",
                   "price": "$25.00",
                   "title": "Digital Unisex Watch",
@@ -879,7 +410,8 @@
             },
             {
               "childtype": "rightbanners",
-              "banners": [{
+              "banners": [
+                {
                   "mrp": "$1068.00",
                   "price": "$1000.00",
                   "title": "Full HD Indoor WiFi Spy Security Camera",
@@ -909,9 +441,11 @@
           "active": false,
           "displayTitle": "Accesories",
           "id": "Accesories",
-          "children": [{
+          "children": [
+            {
               "childtype": "leftbanners",
-              "banners": [{
+              "banners": [
+                {
                   "mrp": "$58.00",
                   "price": "$25.00",
                   "title": "Digital Unisex Watch",
@@ -948,7 +482,8 @@
             },
             {
               "childtype": "rightbanners",
-              "banners": [{
+              "banners": [
+                {
                   "mrp": "$1068.00",
                   "price": "$1000.00",
                   "title": "Full HD Indoor WiFi Spy Security Camera",

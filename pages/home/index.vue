@@ -20,11 +20,11 @@
     <HomeElectronicDemoComponentsVrCollectionCarousel
       :products="productsList.filter((item) => item.category === 'vr')"
     />
-    <HomeElectronicDemoComponentsHurryUpBanner
+    <!-- <HomeElectronicDemoComponentsHurryUpBanner
       :tabList="
         hurryUpBannersList.filter((item) => item.subtype === 'hurryup')[0].tabs
       "
-    />
+    /> -->
     <HomeElectronicDemoComponentsInstagramShop
       :banners="
         bannersList.filter((item) => item.subtype === 'instagramshop')[0]
