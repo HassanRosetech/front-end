@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /user/
+Disallow: /account/
+Disallow: /search
+Disallow: /*?*
+
+Allow: /
+
+Sitemap: https://www.partsshop.se/sitemap.xml
