@@ -1,4 +1,5 @@
 <template>
+  <h1>Test</h1>
   <button @click="startPayment">Pay Now</button>
 </template>
 
