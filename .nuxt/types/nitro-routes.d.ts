@@ -20,11 +20,17 @@ declare module "nitropack/types" {
     '/api/contactus/contact': {
       'post': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/contactus/contact.post').default>>>>
     }
+    '/api/initiate-payment': {
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/initiate-payment').default>>>>
+    }
     '/api/newsletter/subscribe': {
       'post': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/newsletter/subscribe.post').default>>>>
     }
     '/api/newsletter/unsubscribe': {
       'post': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/newsletter/unsubscribe.post').default>>>>
+    }
+    '/api/payment/callback': {
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/payment/callback').default>>>>
     }
     '/api/version': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/version').default>>>>

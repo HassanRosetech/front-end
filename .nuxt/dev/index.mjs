@@ -5,6 +5,7 @@ import { join } from 'node:path';
 import { parentPort, threadId } from 'node:worker_threads';
 import { getRequestHeader, splitCookiesString, setResponseStatus, setResponseHeader, send, getRequestHeaders, defineEventHandler, handleCacheHeaders, createEvent, fetchWithEvent, isEvent, eventHandler, getResponseStatus, setResponseHeaders, setHeaders, sendRedirect, proxyRequest, createError, getHeader, getCookie, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getRouterParam, readBody, getQuery as getQuery$1, sendError, getResponseStatusText } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/h3/dist/index.mjs';
 import { neon } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/@neondatabase/serverless/index.mjs';
+import axios from 'file://C:/Users/DELL/Desktop/fronend/node_modules/axios/index.js';
 import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/vue-bundle-renderer/dist/runtime.mjs';
 import { stringify, uneval } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/devalue/index.js';
 import destr from 'file://C:/Users/DELL/Desktop/fronend/node_modules/destr/dist/index.mjs';
@@ -1235,8 +1236,10 @@ const _lazy_7TzKwr = () => Promise.resolve().then(function () { return _id_$3; }
 const _lazy_VFjeIg = () => Promise.resolve().then(function () { return _id_$1; });
 const _lazy_2oS0wW = () => Promise.resolve().then(function () { return _slug_$1; });
 const _lazy_CGSrwQ = () => Promise.resolve().then(function () { return contact_post$1; });
+const _lazy_fjF3DR = () => Promise.resolve().then(function () { return initiatePayment$1; });
 const _lazy_xpMbo6 = () => Promise.resolve().then(function () { return subscribe_post$1; });
 const _lazy_4zF49U = () => Promise.resolve().then(function () { return unsubscribe_post$1; });
+const _lazy_8e8y0C = () => Promise.resolve().then(function () { return callback$1; });
 const _lazy_yeU3lG = () => Promise.resolve().then(function () { return version$1; });
 const _lazy_3MsgpG = () => Promise.resolve().then(function () { return renderer$1; });
 
@@ -1248,8 +1251,10 @@ const handlers = [
   { route: '/api/blogs/delete/:id', handler: _lazy_VFjeIg, lazy: true, middleware: false, method: undefined },
   { route: '/api/blogs/slug/:slug', handler: _lazy_2oS0wW, lazy: true, middleware: false, method: undefined },
   { route: '/api/contactus/contact', handler: _lazy_CGSrwQ, lazy: true, middleware: false, method: "post" },
+  { route: '/api/initiate-payment', handler: _lazy_fjF3DR, lazy: true, middleware: false, method: undefined },
   { route: '/api/newsletter/subscribe', handler: _lazy_xpMbo6, lazy: true, middleware: false, method: "post" },
   { route: '/api/newsletter/unsubscribe', handler: _lazy_4zF49U, lazy: true, middleware: false, method: "post" },
+  { route: '/api/payment/callback', handler: _lazy_8e8y0C, lazy: true, middleware: false, method: undefined },
   { route: '/api/version', handler: _lazy_yeU3lG, lazy: true, middleware: false, method: undefined },
   { route: '/__nuxt_error', handler: _lazy_3MsgpG, lazy: true, middleware: false, method: undefined },
   { route: '', handler: _rtYxPZ, lazy: false, middleware: true, method: undefined },
@@ -1776,6 +1781,45 @@ const contact_post$1 = /*#__PURE__*/Object.freeze({
   default: contact_post
 });
 
+const initiatePayment = async (req, res) => {
+  const payload = {
+    payment: {
+      operation: "Purchase",
+      intent: "Authorization",
+      currency: "SEK",
+      prices: [{ type: "Visa", amount: 1e4, vatAmount: 2500 }],
+      description: "Order #123",
+      userAgent: req.headers["user-agent"],
+      language: "sv-SE",
+      urls: {
+        completeUrl: "https://www.partsshop.se/payment/complete",
+        cancelUrl: "https://www.partsshop.se/payment/cancel",
+        callbackUrl: "https://www.partsshop.se/payment/callback"
+      }
+    }
+  };
+  try {
+    const response = await axios.post(
+      "https://api.swedbankpay.com/psp/paymentorders",
+      payload,
+      {
+        headers: {
+          Authorization: "f09688768d079a7646aae6cf8bc2212efe727b9476975af6f02c164ef53a9538",
+          "Content-Type": "application/json"
+        }
+      }
+    );
+    res.status(200).json(response.data);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+};
+
+const initiatePayment$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: initiatePayment
+});
+
 const subscribe_post = defineEventHandler(async (event) => {
   const { databaseUrl } = useRuntimeConfig();
   const db = neon(databaseUrl);
@@ -1827,6 +1871,17 @@ const unsubscribe_post = defineEventHandler(async (event) => {
 const unsubscribe_post$1 = /*#__PURE__*/Object.freeze({
   __proto__: null,
   default: unsubscribe_post
+});
+
+const callback = defineEventHandler(async (event) => {
+  const body = await readBody(event);
+  console.log("Swedbank callback received:", body);
+  return { status: "ok" };
+});
+
+const callback$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: callback
 });
 
 const version = defineCachedEventHandler(
