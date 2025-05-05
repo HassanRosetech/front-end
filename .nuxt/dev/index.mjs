@@ -1781,7 +1781,9 @@ const contact_post$1 = /*#__PURE__*/Object.freeze({
   default: contact_post
 });
 
-const initiatePayment = async (req, res) => {
+const initiatePayment = defineEventHandler(async (event) => {
+  var _a, _b;
+  const userAgent = getHeader(event, "user-agent") || "NuxtApp";
   const payload = {
     payment: {
       operation: "Purchase",
@@ -1789,12 +1791,13 @@ const initiatePayment = async (req, res) => {
       currency: "SEK",
       prices: [{ type: "Visa", amount: 1e4, vatAmount: 2500 }],
       description: "Order #123",
-      userAgent: req.headers["user-agent"],
+      userAgent,
       language: "sv-SE",
       urls: {
         completeUrl: "https://www.partsshop.se/payment/complete",
         cancelUrl: "https://www.partsshop.se/payment/cancel",
-        callbackUrl: "https://www.partsshop.se/payment/callback"
+        callbackUrl: "https://www.partsshop.se/api/payment/callback"
+        // use `/api/` here
       }
     }
   };
@@ -1804,16 +1807,26 @@ const initiatePayment = async (req, res) => {
       payload,
       {
         headers: {
-          Authorization: "98eed80d-748d-4d45-abd4-5618efa7a95d",
+          Authorization: "Bearer f09688768d079a7646aae6cf8bc2212efe727b9476975af6f02c164ef53a9538",
+          // ⛔ missing 'Bearer'!
           "Content-Type": "application/json"
         }
       }
     );
-    res.status(200).json(response.data);
+    return response.data;
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    console.error(
+      "Payment initiation error:",
+      ((_a = err.response) == null ? void 0 : _a.data) || err.message
+    );
+    return {
+      statusCode: 500,
+      body: {
+        error: ((_b = err.response) == null ? void 0 : _b.data) || err.message
+      }
+    };
   }
-};
+});
 
 const initiatePayment$1 = /*#__PURE__*/Object.freeze({
   __proto__: null,
