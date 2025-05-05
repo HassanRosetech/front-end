@@ -1,5 +1,4 @@
-// Nuxt 3 server route using Nitro conventions
-import axios from "axios";
+// server/api/initiate-payment.js
 
 export default defineEventHandler(async (event) => {
   const userAgent = getHeader(event, "user-agent") || "NuxtApp";
@@ -16,34 +15,32 @@ export default defineEventHandler(async (event) => {
       urls: {
         completeUrl: "https://www.partsshop.se/payment/complete",
         cancelUrl: "https://www.partsshop.se/payment/cancel",
-        callbackUrl: "https://www.partsshop.se/api/payment/callback", // use `/api/` here
+        callbackUrl: "https://www.partsshop.se/api/payment/callback",
       },
     },
   };
 
   try {
-    const response = await axios.post(
+    const response = await $fetch(
       "https://api.swedbankpay.com/psp/paymentorders",
-      payload,
       {
+        method: "POST",
+        body: payload,
         headers: {
           Authorization:
-            "Bearer f09688768d079a7646aae6cf8bc2212efe727b9476975af6f02c164ef53a9538", // ⛔ missing 'Bearer'!
+            "Bearer f09688768d079a7646aae6cf8bc2212efe727b9476975af6f02c164ef53a9538",
           "Content-Type": "application/json",
         },
       }
     );
 
-    return response.data;
+    return response;
   } catch (err) {
-    console.error(
-      "Payment initiation error:",
-      err.response?.data || err.message
-    );
+    console.error("Swedbank error:", err.data || err.message);
     return {
       statusCode: 500,
       body: {
-        error: err.response?.data || err.message,
+        error: err.data || err.message,
       },
     };
   }

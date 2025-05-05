@@ -5,7 +5,6 @@ import { join } from 'node:path';
 import { parentPort, threadId } from 'node:worker_threads';
 import { getRequestHeader, splitCookiesString, setResponseStatus, setResponseHeader, send, getRequestHeaders, defineEventHandler, handleCacheHeaders, createEvent, fetchWithEvent, isEvent, eventHandler, getResponseStatus, setResponseHeaders, setHeaders, sendRedirect, proxyRequest, createError, getHeader, getCookie, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getRouterParam, readBody, getQuery as getQuery$1, sendError, getResponseStatusText } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/h3/dist/index.mjs';
 import { neon } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/@neondatabase/serverless/index.mjs';
-import axios from 'file://C:/Users/DELL/Desktop/fronend/node_modules/axios/index.js';
 import { getRequestDependencies, getPreloadLinks, getPrefetchLinks, createRenderer } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/vue-bundle-renderer/dist/runtime.mjs';
 import { stringify, uneval } from 'file://C:/Users/DELL/Desktop/fronend/node_modules/devalue/index.js';
 import destr from 'file://C:/Users/DELL/Desktop/fronend/node_modules/destr/dist/index.mjs';
@@ -1782,7 +1781,6 @@ const contact_post$1 = /*#__PURE__*/Object.freeze({
 });
 
 const initiatePayment = defineEventHandler(async (event) => {
-  var _a, _b;
   const userAgent = getHeader(event, "user-agent") || "NuxtApp";
   const payload = {
     payment: {
@@ -1797,32 +1795,28 @@ const initiatePayment = defineEventHandler(async (event) => {
         completeUrl: "https://www.partsshop.se/payment/complete",
         cancelUrl: "https://www.partsshop.se/payment/cancel",
         callbackUrl: "https://www.partsshop.se/api/payment/callback"
-        // use `/api/` here
       }
     }
   };
   try {
-    const response = await axios.post(
+    const response = await $fetch(
       "https://api.swedbankpay.com/psp/paymentorders",
-      payload,
       {
+        method: "POST",
+        body: payload,
         headers: {
           Authorization: "Bearer f09688768d079a7646aae6cf8bc2212efe727b9476975af6f02c164ef53a9538",
-          // ⛔ missing 'Bearer'!
           "Content-Type": "application/json"
         }
       }
     );
-    return response.data;
+    return response;
   } catch (err) {
-    console.error(
-      "Payment initiation error:",
-      ((_a = err.response) == null ? void 0 : _a.data) || err.message
-    );
+    console.error("Swedbank error:", err.data || err.message);
     return {
       statusCode: 500,
       body: {
-        error: ((_b = err.response) == null ? void 0 : _b.data) || err.message
+        error: err.data || err.message
       }
     };
   }
