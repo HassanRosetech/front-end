@@ -1,5 +1,6 @@
 {
-  "data": [{
+  "data": [
+    {
       "id": 1,
       "type": "fashion",
       "name": "Slim Fit Plastic Coat",
@@ -21,7 +22,8 @@
       "size": "Regular Fit",
       "colors": ["black", "blue", "green"],
       "sizeoption": ["S", "M", "L", "XL", "XXL"],
-      "colorvariants": [{
+      "colorvariants": [
+        {
           "color": "black",
           "imageId": 111
         },
@@ -34,7 +36,8 @@
           "imageId": 113
         }
       ],
-      "images": [{
+      "images": [
+        {
           "imageId": 111,
           "src": "fashion/product/front/1.jpg"
         },
@@ -70,7 +73,8 @@
       "price": 85.68,
       "size": "Regular Fit",
       "department": "men",
-      "colorvariants": [{
+      "colorvariants": [
+        {
           "color": "blue",
           "imageId": 111
         },
@@ -83,7 +87,8 @@
           "imageId": 114
         }
       ],
-      "images": [{
+      "images": [
+        {
           "imageId": 111,
           "src": "fashion/product/front/3.jpg"
         },
@@ -124,11 +129,14 @@
       "mrp": 81.0,
       "price": 69.34,
       "size": "Regular Fit",
-      "colorvariants": [{
-        "color": "brown",
-        "imageId": 114
-      }],
-      "images": [{
+      "colorvariants": [
+        {
+          "color": "brown",
+          "imageId": 114
+        }
+      ],
+      "images": [
+        {
           "imageId": 114,
           "src": "fashion/product/front/4.jpg"
         },
@@ -161,7 +169,8 @@
       "mrp": 86.0,
       "price": 60.64,
       "size": "Regular Fit",
-      "colorvariants": [{
+      "colorvariants": [
+        {
           "color": "black",
           "imageId": 111
         },
@@ -170,7 +179,8 @@
           "imageId": 112
         }
       ],
-      "images": [{
+      "images": [
+        {
           "imageId": 111,
           "src": "fashion/product/front/2.jpg"
         },
@@ -203,7 +213,8 @@
       "mrp": 79.0,
       "price": 60.2,
       "size": "Regular Fit",
-      "colorvariants": [{
+      "colorvariants": [
+        {
           "color": "red",
           "imageId": 111
         },
@@ -216,7 +227,8 @@
           "imageId": 113
         }
       ],
-      "images": [{
+      "images": [
+        {
           "imageId": 111,
           "src": "fashion/product/front/4.jpg"
         },
@@ -252,7 +264,8 @@
       "price": 85.05,
       "size": "Regular Fit",
       "department": "men",
-      "colorvariants": [{
+      "colorvariants": [
+        {
           "color": "blue",
           "imageId": 111
         },
@@ -269,7 +282,8 @@
           "imageId": 114
         }
       ],
-      "images": [{
+      "images": [
+        {
           "imageId": 111,
           "src": "fashion/product/front/3.jpg"
         },
@@ -310,7 +324,8 @@
       "mrp": 86.0,
       "price": 60.08,
       "size": "Regular Fit",
-      "colorvariants": [{
+      "colorvariants": [
+        {
           "color": "black",
           "imageId": 111
         },
@@ -319,7 +334,8 @@
           "imageId": 112
         }
       ],
-      "images": [{
+      "images": [
+        {
           "imageId": 111,
           "src": "fashion/product/front/2.jpg"
         },
@@ -351,7 +367,8 @@
       "manufacturer": "PAGE INDUSTRIES LIMITED",
       "size": "Regular Fit",
       "colors": ["black", "blue", "green"],
-      "colorvariants": [{
+      "colorvariants": [
+        {
           "color": "blue",
           "imageId": 111
         },
@@ -360,7 +377,8 @@
           "imageId": 112
         }
       ],
-      "images": [{
+      "images": [
+        {
           "imageId": 111,
           "src": "fashion/product/front/1.jpg"
         },
@@ -391,10 +409,12 @@
       "ratingStars": 3,
       "price": 49.97,
       "mrp": 52,
-      "images": [{
-        "imageId": 1,
-        "src": "flower/product/1.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "flower/product/1.jpg"
+        }
+      ]
     },
     {
       "id": 7,
@@ -417,10 +437,12 @@
       "ratingStars": 4,
       "price": 49.3,
       "mrp": 52,
-      "images": [{
-        "imageId": 1,
-        "src": "flower/product/2.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "flower/product/2.jpg"
+        }
+      ]
     },
     {
       "id": 8,
@@ -443,10 +465,12 @@
       "ratingStars": 5,
       "price": 49.34,
       "mrp": 52,
-      "images": [{
-        "imageId": 1,
-        "src": "flower/product/3.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "flower/product/3.jpg"
+        }
+      ]
     },
     {
       "id": 9,
@@ -469,10 +493,12 @@
       "ratingStars": 3,
       "price": 49.13,
       "mrp": 52,
-      "images": [{
-        "imageId": 1,
-        "src": "flower/product/5.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "flower/product/5.jpg"
+        }
+      ]
     },
     {
       "id": 10,
@@ -495,10 +521,12 @@
       "ratingStars": 2,
       "price": 49.84,
       "mrp": 52,
-      "images": [{
-        "imageId": 1,
-        "src": "flower/product/1.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "flower/product/1.jpg"
+        }
+      ]
     },
     {
       "id": 11,
@@ -521,10 +549,12 @@
       "ratingStars": 5,
       "price": 49.69,
       "mrp": 52,
-      "images": [{
-        "imageId": 1,
-        "src": "flower/product/2.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "flower/product/2.jpg"
+        }
+      ]
     },
     {
       "id": 12,
@@ -547,10 +577,12 @@
       "ratingStars": 5,
       "price": 32.12,
       "mrp": 52,
-      "images": [{
-        "imageId": 1,
-        "src": "flower/product/3.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "flower/product/3.jpg"
+        }
+      ]
     },
     {
       "id": 13,
@@ -573,10 +605,12 @@
       "department": "none",
       "ratingStars": 2,
       "price": 32.87,
-      "images": [{
-        "imageId": 1,
-        "src": "furniture-images/new-arrival/1.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "furniture-images/new-arrival/1.jpg"
+        }
+      ]
     },
     {
       "id": 14,
@@ -600,10 +634,12 @@
       "new": true,
       "ratingStars": 4,
       "price": 32.45,
-      "images": [{
-        "imageId": 1,
-        "src": "furniture-images/new-arrival/2.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "furniture-images/new-arrival/2.jpg"
+        }
+      ]
     },
     {
       "id": 15,
@@ -627,10 +663,12 @@
       "ratingStars": 2,
       "mrp": 150,
       "price": 32.11,
-      "images": [{
-        "imageId": 1,
-        "src": "furniture-images/new-arrival/3.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "furniture-images/new-arrival/3.jpg"
+        }
+      ]
     },
     {
       "id": 16,
@@ -654,10 +692,12 @@
       "ratingStars": 2,
       "mrp": 150,
       "price": 32.68,
-      "images": [{
-        "imageId": 1,
-        "src": "furniture-images/new-arrival/4.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "furniture-images/new-arrival/4.jpg"
+        }
+      ]
     },
     {
       "id": 17,
@@ -681,10 +721,12 @@
       "ratingStars": 2,
       "mrp": 150,
       "price": 32.9,
-      "images": [{
-        "imageId": 1,
-        "src": "furniture-images/new-arrival/5.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "furniture-images/new-arrival/5.jpg"
+        }
+      ]
     },
     {
       "id": 18,
@@ -708,10 +750,12 @@
       "ratingStars": 2,
       "mrp": 150,
       "price": 32.07,
-      "images": [{
-        "imageId": 1,
-        "src": "furniture-images/new-arrival/7.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "furniture-images/new-arrival/7.jpg"
+        }
+      ]
     },
     {
       "id": 19,
@@ -735,10 +779,12 @@
       "ratingStars": 2,
       "mrp": 150,
       "price": 32.87,
-      "images": [{
-        "imageId": 1,
-        "src": "furniture-images/new-arrival/8.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "furniture-images/new-arrival/8.jpg"
+        }
+      ]
     },
     {
       "id": 20,
@@ -762,10 +808,12 @@
       "ratingStars": 2,
       "mrp": 150,
       "price": 32.36,
-      "images": [{
-        "imageId": 1,
-        "src": "furniture-images/new-arrival/9.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "furniture-images/new-arrival/9.jpg"
+        }
+      ]
     },
     {
       "id": 21,
@@ -791,10 +839,12 @@
       "new": true,
       "discount": 50,
       "department": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "vegetable/fresh/1.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "vegetable/fresh/1.jpg"
+        }
+      ]
     },
     {
       "id": 22,
@@ -819,10 +869,12 @@
       "quantity_1": "500 G",
       "ratingStars": 4,
       "new": true,
-      "images": [{
-        "imageId": 1,
-        "src": "vegetable/fresh/2.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "vegetable/fresh/2.jpg"
+        }
+      ]
     },
     {
       "id": 23,
@@ -847,10 +899,12 @@
       "new": true,
       "discount": 50,
       "department": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "vegetable/fresh/3.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "vegetable/fresh/3.jpg"
+        }
+      ]
     },
     {
       "id": 24,
@@ -875,10 +929,12 @@
       "ratingStars": 3,
       "discount": 50,
       "department": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "vegetable/fresh/4.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "vegetable/fresh/4.jpg"
+        }
+      ]
     },
     {
       "id": 25,
@@ -903,10 +959,12 @@
       "quantity_1": "300 G",
       "quantity_2": "500 G",
       "ratingStars": 2,
-      "images": [{
-        "imageId": 1,
-        "src": "vegetable/fresh/5.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "vegetable/fresh/5.jpg"
+        }
+      ]
     },
     {
       "id": 26,
@@ -931,10 +989,12 @@
       "ratingStars": 5,
       "discount": 20,
       "department": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "vegetable/fresh/6.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "vegetable/fresh/6.jpg"
+        }
+      ]
     },
     {
       "id": 27,
@@ -959,10 +1019,12 @@
       "quantity_1": "300 G",
       "quantity_2": "500 G",
       "ratingStars": 2,
-      "images": [{
-        "imageId": 1,
-        "src": "vegetable/fresh/5.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "vegetable/fresh/5.jpg"
+        }
+      ]
     },
     {
       "id": 28,
@@ -987,10 +1049,12 @@
       "new": true,
       "discount": 50,
       "department": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "vegetable/fresh/3.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "vegetable/fresh/3.jpg"
+        }
+      ]
     },
     {
       "id": 29,
@@ -1014,10 +1078,12 @@
       "new": true,
       "discount": 50,
       "department": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "electronics/product/1.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        }
+      ]
     },
     {
       "id": 30,
@@ -1041,10 +1107,12 @@
       "price": 32.77,
       "ratingStars": 2,
       "label": "Discount",
-      "images": [{
-        "imageId": 1,
-        "src": "electronics/product/2.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/2.jpg"
+        }
+      ]
     },
     {
       "id": 31,
@@ -1068,10 +1136,12 @@
       "price": 25.14,
       "new": true,
       "ratingStars": 4,
-      "images": [{
-        "imageId": 1,
-        "src": "electronics/product/3.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/3.jpg"
+        }
+      ]
     },
     {
       "id": 32,
@@ -1094,10 +1164,12 @@
       "department": "none",
       "price": 28.57,
       "ratingStars": 3,
-      "images": [{
-        "imageId": 1,
-        "src": "electronics/product/4.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/4.jpg"
+        }
+      ]
     },
     {
       "id": 33,
@@ -1121,10 +1193,12 @@
       "price": 35.53,
       "label": "Best Value",
       "ratingStars": 5,
-      "images": [{
-        "imageId": 1,
-        "src": "electronics/product/4.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/4.jpg"
+        }
+      ]
     },
     {
       "id": 34,
@@ -1147,10 +1221,12 @@
       "mrp": 150,
       "price": 52.55,
       "ratingStars": 5,
-      "images": [{
-        "imageId": 1,
-        "src": "electronics/product/6.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/6.jpg"
+        }
+      ]
     },
     {
       "id": 35,
@@ -1173,10 +1249,12 @@
       "price": 28.93,
       "mrp": 30.0,
       "ratingStars": 3,
-      "images": [{
-        "imageId": 1,
-        "src": "electronics/product/4.jpg"
-      }]
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/4.jpg"
+        }
+      ]
     },
     {
       "id": 36,
@@ -1195,10 +1273,12 @@
       "brand": "Sony",
       "discount": 20,
       "department": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "electronics/product/png/1.png"
-      }],
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/png/1.png"
+        }
+      ],
       "price": 49.39,
       "mrp": 52.0,
       "name": "Portable Charger",
@@ -1221,10 +1301,12 @@
       "brand": "Valve",
       "discount": 10,
       "department": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "electronics/product/png/2.png"
-      }],
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/png/2.png"
+        }
+      ],
       "price": 52.14,
       "mrp": 60.0,
       "name": "VR Box - Buy VR Headset",
@@ -1247,10 +1329,12 @@
       "brand": "HP",
       "discount": 8,
       "department": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "electronics/product/png/3.png"
-      }],
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/png/3.png"
+        }
+      ],
       "price": 52.47,
       "mrp": 60.0,
       "name": "Headset Game For IOS",
@@ -1273,10 +1357,12 @@
       "brand": "none",
       "discount": 15,
       "department": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "electronics/product/png/4.png"
-      }],
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/png/4.png"
+        }
+      ],
       "price": 45.75,
       "mrp": 80.0,
       "name": "Unifree Portable",
@@ -1299,10 +1385,12 @@
       "brand": "Meta",
       "discount": 20,
       "department": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "electronics/product/png/5.png"
-      }],
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/png/5.png"
+        }
+      ],
       "price": 25.53,
       "mrp": 40.0,
       "name": "Wireless bluetooth Sunglasses Headset",
@@ -1325,10 +1413,12 @@
       "brand": "Miscrosoft",
       "discount": 5,
       "department": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "electronics/product/png/6.png"
-      }],
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/png/6.png"
+        }
+      ],
       "price": 48.13,
       "mrp": 62.0,
       "name": "Dual EQ bluetooth 5.0 Portable",
@@ -1351,10 +1441,12 @@
       "brand": "Google",
       "discount": 12,
       "department": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "electronics/product/png/7.png"
-      }],
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/png/7.png"
+        }
+      ],
       "price": 58.09,
       "mrp": 84.0,
       "name": "Leapmotion VR",
@@ -1377,10 +1469,12 @@
       "brand": "Oculus",
       "discount": 20,
       "department": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "electronics/product/png/5.png"
-      }],
+      "images": [
+        {
+          "imageId": 1,
+          "src": "electronics/product/png/5.png"
+        }
+      ],
       "price": 25.15,
       "mrp": 40.0,
       "name": "Wireless bluetooth Sunglasses Headset",
@@ -1401,10 +1495,12 @@
       "brand": "none",
       "type": "shoes",
       "feature": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "shoes/product/1.jpg"
-      }],
+      "images": [
+        {
+          "imageId": 1,
+          "src": "shoes/product/1.jpg"
+        }
+      ],
       "new": true,
       "discount": 50,
       "department": "none",
@@ -1428,10 +1524,12 @@
       "brand": "New balance",
       "type": "shoes",
       "feature": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "shoes/product/2.jpg"
-      }],
+      "images": [
+        {
+          "imageId": 1,
+          "src": "shoes/product/2.jpg"
+        }
+      ],
       "label": "Discount",
       "mrp": 52,
       "price": 49.69,
@@ -1455,10 +1553,12 @@
       "brand": "Bata",
       "type": "shoes",
       "feature": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "shoes/product/3.jpg"
-      }],
+      "images": [
+        {
+          "imageId": 1,
+          "src": "shoes/product/3.jpg"
+        }
+      ],
       "label": "Discount",
       "mrp": 52,
       "discount": 50,
@@ -1482,10 +1582,12 @@
       "brand": "Puma",
       "type": "shoes",
       "feature": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "shoes/product/1.jpg"
-      }],
+      "images": [
+        {
+          "imageId": 1,
+          "src": "shoes/product/1.jpg"
+        }
+      ],
       "discount": 0,
       "department": "none",
       "mrp": 52,
@@ -1508,10 +1610,12 @@
       "brand": "Reebok",
       "type": "shoes",
       "feature": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "shoes/product/4.jpg"
-      }],
+      "images": [
+        {
+          "imageId": 1,
+          "src": "shoes/product/4.jpg"
+        }
+      ],
       "label": "Best Value",
       "discount": 0,
       "department": "none",
@@ -1535,10 +1639,12 @@
       "brand": "Nike",
       "type": "shoes",
       "feature": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "shoes/product/5.jpg"
-      }],
+      "images": [
+        {
+          "imageId": 1,
+          "src": "shoes/product/5.jpg"
+        }
+      ],
       "discount": 0,
       "department": "none",
       "mrp": 52,
@@ -1561,10 +1667,12 @@
       "brand": "Woodland",
       "type": "shoes",
       "feature": "none",
-      "images": [{
-        "imageId": 1,
-        "src": "shoes/product/6.jpg"
-      }],
+      "images": [
+        {
+          "imageId": 1,
+          "src": "shoes/product/6.jpg"
+        }
+      ],
       "discount": 0,
       "department": "none",
       "mrp": 52,

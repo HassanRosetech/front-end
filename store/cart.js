@@ -19,7 +19,8 @@ export const useCartStore = defineStore({
     cartTotal(state) {
       let total = 0;
       state.cartItems.forEach((item) => {
-        let itemTotal = item.price * item.quantity * useLayout().currencyConversionMultiple;
+        let itemTotal =
+          item.price * item.quantity * useLayout().currencyConversionMultiple;
         total += itemTotal;
       });
       return Math.round(total, 2);
@@ -32,7 +33,7 @@ export const useCartStore = defineStore({
       return cartProductIds;
     },
     getCartItems(state) {
-      let cartToSend = JSON.parse(JSON.stringify(state.cartItems))
+      let cartToSend = JSON.parse(JSON.stringify(state.cartItems));
       cartToSend.forEach((item) => {
         item.price = (
           item.price * useLayout().currencyConversionMultiple
@@ -71,12 +72,10 @@ export const useCartStore = defineStore({
         } else alert("item not in JSON");
       }
     },
-    changeQuantityTo( payload) {
+    changeQuantityTo(payload) {
       this.cartItems.every((item, index) => {
         if (item.id === payload.productId) {
-          var objToReplace = JSON.parse(
-            JSON.stringify(this.cartItems[index])
-          );
+          var objToReplace = JSON.parse(JSON.stringify(this.cartItems[index]));
           objToReplace.quantity = payload.quantity;
           this.cartItems.splice(index, 1, objToReplace);
           return false;
@@ -86,7 +85,7 @@ export const useCartStore = defineStore({
     clearAllCartItems() {
       this.cartItems = [];
     },
-    removeCartItem( payload) {
+    removeCartItem(payload) {
       this.cartItems.every((item, index) => {
         if (item.id === payload) {
           this.cartItems.splice(index, 1);
@@ -94,15 +93,15 @@ export const useCartStore = defineStore({
         } else return true;
       });
     },
-    createOrder ( payload) {
+    createOrder(payload) {
       this.order.push(payload);
     },
-    saveUserInfo ( payload)  {
+    saveUserInfo(payload) {
       this.userInfo = payload;
     },
-    setLocalCart(payload){
-      Array.isArray(payload) && payload.length && (this.cartItems = payload)
-    }
+    setLocalCart(payload) {
+      Array.isArray(payload) && payload.length && (this.cartItems = payload);
+    },
   },
 });
 

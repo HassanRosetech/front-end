@@ -12,7 +12,7 @@ export const useClickStore = defineStore({
       productId: 1,
       copySettings: false,
       shopFilterBar: false,
-      mobileMenu:false,
+      mobileMenu: false,
       successfulModal: false,
       lastAddedProduct: {},
       successfulModalImage: "fashion/banner/2.jpg",
@@ -151,7 +151,7 @@ export const useClickStore = defineStore({
       this.showVideoModal = !this.showVideoModal;
       this.overlay = !this.overlay;
     },
-    toggleMobileMenu(){
+    toggleMobileMenu() {
       this.mobileMenu = !this.mobileMenu;
       this.overlay = !this.overlay;
     },

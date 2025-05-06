@@ -22,13 +22,12 @@ export default defineEventHandler(async (event) => {
 
   try {
     const response = await $fetch(
-      "https://api.swedbankpay.com/psp/paymentorders",
+      "https://api.externalintegration.payex.com/psp/paymentorders",
       {
         method: "POST",
         body: payload,
         headers: {
-          Authorization:
-            "Bearer f09688768d079a7646aae6cf8bc2212efe727b9476975af6f02c164ef53a9538",
+          Authorization: "Bearer 98eed80d-748d-4d45-abd4-5618efa7a95d",
           "Content-Type": "application/json",
         },
       }

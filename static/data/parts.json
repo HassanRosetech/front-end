@@ -141,7 +141,7 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/iPhone-14-Pro-Max-Hogtalare.jpeg"
+          "src": "electronics/product/iPhone-14-Pro-Max-Hogtalare.jpg"
         }
       ]
     },
@@ -780,11 +780,11 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT0018-1000x1000.jpg"
+          "src": "electronics/product/FT0018-1000x1000.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT0018-2-1-1000x1000.jpg"
+          "src": "electronics/product/FT0018-2-1-1000x1000.webp"
         }
       ]
     },
@@ -813,15 +813,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1FT0025.jpg"
+          "src": "electronics/product/1FT0025.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT0025-2-1-1000x1000.jpg"
+          "src": "electronics/product/FT0025-2-1-1000x1000.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT0025-3-1-1000x1000.jpg"
+          "src": "electronics/product/FT0025-3-1-1000x1000.webp"
         }
       ]
     },
@@ -879,15 +879,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT0007-1.jpg"
+          "src": "electronics/product/FT0007-1.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT0007-2-1.jpg"
+          "src": "electronics/product/FT0007-2-1.webp"
         },
         {
           "imageId": 31,
-          "src": "electronics/product/1FT0007-3-1.jpg"
+          "src": "electronics/product/1FT0007-3-1.webp"
         }
       ]
     },
@@ -945,15 +945,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT0019-1-1000x1000.jpg"
+          "src": "electronics/product/FT0019-1-1000x1000.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT0019-2-1-1000x1000.jpg"
+          "src": "electronics/product/FT0019-2-1-1000x1000.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT0019-3-1-1000x1000.jpg"
+          "src": "electronics/product/FT0019-3-1-1000x1000.webp"
         }
       ]
     },
@@ -1011,15 +1011,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT0027-1000x1000.jpg"
+          "src": "electronics/product/FT0027-1000x1000.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT0027-2-1-1000x1000.jpg"
+          "src": "electronics/product/FT0027-2-1-1000x1000.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT0027-3-1-1000x1000.jpg"
+          "src": "electronics/product/FT0027-3-1-1000x1000.webp"
         }
       ]
     },
@@ -1106,27 +1106,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT0030-USB-C-PREMIUM-Web-1B-1.jpg"
+          "src": "electronics/product/FT0030-USB-C-PREMIUM-Web-1B-1.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT0030-USB-C-PREMIUM-Web-1A.jpg"
+          "src": "electronics/product/FT0030-USB-C-PREMIUM-Web-1A.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT0030-USB-C-PREMIUM-Web-4.jpg"
+          "src": "electronics/product/FT0030-USB-C-PREMIUM-Web-4.webp"
         },
         {
           "imageId": 4,
-          "src": "electronics/product/FT0030-USB-C-PREMIUM-Web-5-1.jpg"
+          "src": "electronics/product/FT0030-USB-C-PREMIUM-Web-5-1.webp"
         },
         {
           "imageId": 5,
-          "src": "electronics/product/FT0030-USB-C-PREMIUM-Web-2.jpg"
+          "src": "electronics/product/FT0030-USB-C-PREMIUM-Web-2.webp"
         },
         {
           "imageId": 6,
-          "src": "electronics/product/FT0030-USB-C-PREMIUM-Web-3.jpg"
+          "src": "electronics/product/FT0030-USB-C-PREMIUM-Web-3.webp"
         }
       ]
     },
@@ -1155,19 +1155,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT0031-PS5-HDMI-2.1-Cable-Web-1B.jpg"
+          "src": "electronics/product/FT0031-PS5-HDMI-2.1-Cable-Web-1B.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT0031-PS5-HDMI-2.1-Cable-Web-1A.jpg"
+          "src": "electronics/product/FT0031-PS5-HDMI-2.1-Cable-Web-1A.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT0031-PS5-HDMI-2.1-Cable-Web-2.jpg"
+          "src": "electronics/product/FT0031-PS5-HDMI-2.1-Cable-Web-2.webp"
         },
         {
           "imageId": 4,
-          "src": "electronics/product/FT0031-PS5-HDMI-2.1-Cable-Web-3-1.jpg"
+          "src": "electronics/product/FT0031-PS5-HDMI-2.1-Cable-Web-3-1.webp"
         }
       ]
     },
@@ -1196,27 +1196,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT0032-PS5-Controller-Case-Web-1AA-1.jpg"
+          "src": "electronics/product/FT0032-PS5-Controller-Case-Web-1AA-1.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT0032-PS5-Controller-Case-Web-1BB.jpg"
+          "src": "electronics/product/FT0032-PS5-Controller-Case-Web-1BB.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT0032-PS5-Controller-Case-Web-3.jpg"
+          "src": "electronics/product/FT0032-PS5-Controller-Case-Web-3.webp"
         },
         {
           "imageId": 4,
-          "src": "electronics/product/FT0032-PS5-Controller-Case-Web-4.jpg"
+          "src": "electronics/product/FT0032-PS5-Controller-Case-Web-4.webp"
         },
         {
           "imageId": 5,
-          "src": "electronics/product/FT0032-PS5-Controller-Case-Web-5.jpg"
+          "src": "electronics/product/FT0032-PS5-Controller-Case-Web-5.webp"
         },
         {
           "imageId": 6,
-          "src": "electronics/product/FT0032-PS5-Controller-Case-Web-6.jpg"
+          "src": "electronics/product/FT0032-PS5-Controller-Case-Web-6.webp"
         }
       ]
     },
@@ -1274,31 +1274,31 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-1AA.jpg"
+          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-1AA.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-1BBB.jpg"
+          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-1BBB.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-1BB.jpg"
+          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-1BB.webp"
         },
         {
           "imageId": 4,
-          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-6.jpg"
+          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-6.webp"
         },
         {
           "imageId": 5,
-          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-3.jpg"
+          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-3.webp"
         },
         {
           "imageId": 6,
-          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-4.jpg"
+          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-4.webp"
         },
         {
           "imageId": 7,
-          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-5.jpg"
+          "src": "electronics/product/FT0035-PS5-Custom-Kit-Dualsense-Web-5.webp"
         }
       ]
     },
@@ -1327,27 +1327,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT0036-PS5-Custom-Kit-Glow-in-the-Dark-Web-1AA.jpg"
+          "src": "electronics/product/FT0036-PS5-Custom-Kit-Glow-in-the-Dark-Web-1AA.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT0036-PS5-Custom-Kit-Glow-in-the-Dark-Web-1BB.jpg"
+          "src": "electronics/product/FT0036-PS5-Custom-Kit-Glow-in-the-Dark-Web-1BB.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT0036-PS5-Custom-Kit-Glow-in-the-Dark-Web-3.jpg"
+          "src": "electronics/product/FT0036-PS5-Custom-Kit-Glow-in-the-Dark-Web-3.webp"
         },
         {
           "imageId": 4,
-          "src": "electronics/product/FT0036-PS5-Custom-Kit-Glow-in-the-Dark-Web-6.jpg"
+          "src": "electronics/product/FT0036-PS5-Custom-Kit-Glow-in-the-Dark-Web-6.webp"
         },
         {
           "imageId": 5,
-          "src": "electronics/product/FT0036-PS5-Custom-Kit-Glow-in-the-Dark-Web-4.jpg"
+          "src": "electronics/product/FT0036-PS5-Custom-Kit-Glow-in-the-Dark-Web-4.webp"
         },
         {
           "imageId": 6,
-          "src": "electronics/product/FT0036-PS5-Custom-Kit-Glow-in-the-Dark-Web-5.jpg"
+          "src": "electronics/product/FT0036-PS5-Custom-Kit-Glow-in-the-Dark-Web-5.webp"
         }
       ]
     },
@@ -1405,19 +1405,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT0038-PS5-Custom-Kit-Translucent-Web-BG-1AA.jpg"
+          "src": "electronics/product/FT0038-PS5-Custom-Kit-Translucent-Web-BG-1AA.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT0038-PS5-Custom-Kit-Translucent-Web-BG-3.jpg"
+          "src": "electronics/product/FT0038-PS5-Custom-Kit-Translucent-Web-BG-3.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT0038-PS5-Custom-Kit-Translucent-Web-BG-2.jpg"
+          "src": "electronics/product/FT0038-PS5-Custom-Kit-Translucent-Web-BG-2.webp"
         },
         {
           "imageId": 4,
-          "src": "electronics/product/FT0038-PS5-Custom-Kit-Translucent-Web-BG-4.jpg"
+          "src": "electronics/product/FT0038-PS5-Custom-Kit-Translucent-Web-BG-4.webp"
         }
       ]
     },
@@ -1446,31 +1446,31 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/cmp-ps5.jpg"
+          "src": "electronics/product/cmp-ps5.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/closeup-hand-holding-blank-screen-mobile-phone-orange-background.jpg"
+          "src": "electronics/product/closeup-hand-holding-blank-screen-mobile-phone-orange-background.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT0034-PS5-Control-Mod-Pro-2.jpg"
+          "src": "electronics/product/FT0034-PS5-Control-Mod-Pro-2.webp"
         },
         {
           "imageId": 4,
-          "src": "electronics/product/FT0034-PS5-Control-Mod-Pro-4.jpg"
+          "src": "electronics/product/FT0034-PS5-Control-Mod-Pro-4.webp"
         },
         {
           "imageId": 5,
-          "src": "electronics/product/FT0034-PS5-Control-Mod-Pro-5.jpg"
+          "src": "electronics/product/FT0034-PS5-Control-Mod-Pro-5.webp"
         },
         {
           "imageId": 6,
-          "src": "electronics/product/FT0034-PS5-Control-Mod-Pro-3.jpg"
+          "src": "electronics/product/FT0034-PS5-Control-Mod-Pro-3.webp"
         },
         {
           "imageId": 7,
-          "src": "electronics/product/FT0034-PS5-Control-Mod-Pro-6.jpg"
+          "src": "electronics/product/FT0034-PS5-Control-Mod-Pro-6.webp"
         }
       ]
     },
@@ -1499,27 +1499,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT0039-PS5-Racing-Enhance-Kit-White-BG-01.jpg"
+          "src": "electronics/product/FT0039-PS5-Racing-Enhance-Kit-White-BG-01.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT0039-PS5-Racing-Enhance-Kit-01.jpg"
+          "src": "electronics/product/FT0039-PS5-Racing-Enhance-Kit-01.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT0039-PS5-Racing-Enhance-Kit-03.jpg"
+          "src": "electronics/product/FT0039-PS5-Racing-Enhance-Kit-03.webp"
         },
         {
           "imageId": 4,
-          "src": "electronics/product/FT0039-PS5-Racing-Enhance-Kit-02.jpg"
+          "src": "electronics/product/FT0039-PS5-Racing-Enhance-Kit-02.webp"
         },
         {
           "imageId": 5,
-          "src": "electronics/product/FT0039-PS5-Racing-Enhance-Kit-04.jpg"
+          "src": "electronics/product/FT0039-PS5-Racing-Enhance-Kit-04.webp"
         },
         {
           "imageId": 6,
-          "src": "electronics/product/FT0039-PS5-Racing-Enhance-Kit-05.jpg"
+          "src": "electronics/product/FT0039-PS5-Racing-Enhance-Kit-05.webp"
         }
       ]
     },
@@ -1549,19 +1549,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT3001-XBOX-SERIES-X-Station-X-White-BG-1.jpg"
+          "src": "electronics/product/FT3001-XBOX-SERIES-X-Station-X-White-BG-1.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT3001-XBOX-SERIES-X-Station-X-Web-1A.jpg"
+          "src": "electronics/product/FT3001-XBOX-SERIES-X-Station-X-Web-1A.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT3001-XBOX-SERIES-X-Station-X-Web-2.jpg"
+          "src": "electronics/product/FT3001-XBOX-SERIES-X-Station-X-Web-2.webp"
         },
         {
           "imageId": 4,
-          "src": "electronics/product/FT3001-XBOX-SERIES-X-Station-X-Web-3.jpg"
+          "src": "electronics/product/FT3001-XBOX-SERIES-X-Station-X-Web-3.webp"
         }
       ]
     },
@@ -1590,19 +1590,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT3002-XBOX-SERIES-X-Play-Charge-Web-1B.jpg"
+          "src": "electronics/product/FT3002-XBOX-SERIES-X-Play-Charge-Web-1B.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT3002-XBOX-SERIES-X-Play-Charge-Web-1A.jpg"
+          "src": "electronics/product/FT3002-XBOX-SERIES-X-Play-Charge-Web-1A.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT3002-XBOX-SERIES-X-Play-Charge-Web-3.jpg"
+          "src": "electronics/product/FT3002-XBOX-SERIES-X-Play-Charge-Web-3.webp"
         },
         {
           "imageId": 4,
-          "src": "electronics/product/XBOX-fotos-de-producto.jpg"
+          "src": "electronics/product/XBOX-fotos-de-producto.webp"
         }
       ]
     },
@@ -1631,27 +1631,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT3003-XBOX-SERIES-X-Controller-Case-White-BG-1.jpg"
+          "src": "electronics/product/FT3003-XBOX-SERIES-X-Controller-Case-White-BG-1.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT3003-XBOX-SERIES-X-Controller-Case-Web-1.jpg"
+          "src": "electronics/product/FT3003-XBOX-SERIES-X-Controller-Case-Web-1.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT3003-XBOX-SERIES-X-Controller-Case-Web-2.jpg"
+          "src": "electronics/product/FT3003-XBOX-SERIES-X-Controller-Case-Web-2.webp"
         },
         {
           "imageId": 4,
-          "src": "electronics/product/FT3003-XBOX-SERIES-X-Controller-Case-Web-3.jpg"
+          "src": "electronics/product/FT3003-XBOX-SERIES-X-Controller-Case-Web-3.webp"
         },
         {
           "imageId": 5,
-          "src": "electronics/product/FT3003-XBOX-SERIES-X-Controller-Case-Web-4.jpg"
+          "src": "electronics/product/FT3003-XBOX-SERIES-X-Controller-Case-Web-4.webp"
         },
         {
           "imageId": 6,
-          "src": "electronics/product/FT3003-XBOX-SERIES-X-Controller-Case-Web-5.jpg"
+          "src": "electronics/product/FT3003-XBOX-SERIES-X-Controller-Case-Web-5.webp"
         }
       ]
     },
@@ -1680,19 +1680,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT3004-XBOX-SERIES-X-Grips-X-White-BG-1.jpg"
+          "src": "electronics/product/FT3004-XBOX-SERIES-X-Grips-X-White-BG-1.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT3004-XBOX-SERIES-X-Grips-X-Web-1.jpg"
+          "src": "electronics/product/FT3004-XBOX-SERIES-X-Grips-X-Web-1.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT3004-XBOX-SERIES-X-Grips-X-Web-2-1.jpg"
+          "src": "electronics/product/FT3004-XBOX-SERIES-X-Grips-X-Web-2-1.webp"
         },
         {
           "imageId": 4,
-          "src": "electronics/product/FT3004-XBOX-SERIES-X-Grips-X-Web-3.jpg"
+          "src": "electronics/product/FT3004-XBOX-SERIES-X-Grips-X-Web-3.webp"
         }
       ]
     },
@@ -1721,23 +1721,23 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT3005-XBOX-SERIES-X-Silicone-Glow-In-The-Dark-Web-1B.jpg"
+          "src": "electronics/product/FT3005-XBOX-SERIES-X-Silicone-Glow-In-The-Dark-Web-1B.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT3005-XBOX-SERIES-X-Silicone-Glow-In-The-Dark-Web-1A.jpg"
+          "src": "electronics/product/FT3005-XBOX-SERIES-X-Silicone-Glow-In-The-Dark-Web-1A.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT3005-XBOX-SERIES-X-Silicone-Glow-In-The-Dark-Web-4.jpg"
+          "src": "electronics/product/FT3005-XBOX-SERIES-X-Silicone-Glow-In-The-Dark-Web-4.webp"
         },
         {
           "imageId": 4,
-          "src": "electronics/product/FT3005-XBOX-SERIES-X-Silicone-Glow-In-The-Dark-Web-2.jpg"
+          "src": "electronics/product/FT3005-XBOX-SERIES-X-Silicone-Glow-In-The-Dark-Web-2.webp"
         },
         {
           "imageId": 5,
-          "src": "electronics/product/FT3005-XBOX-SERIES-X-Silicone-Glow-In-The-Dark-Web-3.jpg"
+          "src": "electronics/product/FT3005-XBOX-SERIES-X-Silicone-Glow-In-The-Dark-Web-3.webp"
         }
       ]
     },
@@ -1796,11 +1796,11 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT1010-1.jpg"
+          "src": "electronics/product/FT1010-1.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT1010-2-1-1000x1000.jpg"
+          "src": "electronics/product/FT1010-2-1-1000x1000.webp"
         }
       ]
     },
@@ -1829,15 +1829,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT1012-1-1000x1000.jpg"
+          "src": "electronics/product/FT1012-1-1000x1000.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT1012-2-1-1000x1000.jpg"
+          "src": "electronics/product/FT1012-2-1-1000x1000.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT1012-3-1-1000x1000.jpg"
+          "src": "electronics/product/FT1012-3-1-1000x1000.webp"
         }
       ]
     },
@@ -1866,15 +1866,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT1013-1-1000x1000.jpg"
+          "src": "electronics/product/FT1013-1-1000x1000.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT1013-2-1-1000x1000.jpg"
+          "src": "electronics/product/FT1013-2-1-1000x1000.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT1013-3-1-1000x1000.jpg"
+          "src": "electronics/product/FT1013-3-1-1000x1000.webp"
         }
       ]
     },
@@ -2019,15 +2019,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT1028-1-1000x1000.jpg"
+          "src": "electronics/product/FT1028-1-1000x1000.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT1028-2-2-1000x1000.jpg"
+          "src": "electronics/product/FT1028-2-2-1000x1000.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT1028-3-2-1000x1000.jpg"
+          "src": "electronics/product/FT1028-3-2-1000x1000.webp"
         }
       ]
     },
@@ -2056,15 +2056,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT1034-1-1000x1000.jpg"
+          "src": "electronics/product/FT1034-1-1000x1000.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT1034-2-1-1000x1000.jpg"
+          "src": "electronics/product/FT1034-2-1-1000x1000.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT1034-3-1-1000x1000.jpg"
+          "src": "electronics/product/FT1034-3-1-1000x1000.webp"
         }
       ]
     },
@@ -2093,19 +2093,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT1036-1000x1000.jpg"
+          "src": "electronics/product/FT1036-1000x1000.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT1036-2-1000x1000.jpg"
+          "src": "electronics/product/FT1036-2-1000x1000.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT1036-4-1000x1000.jpg"
+          "src": "electronics/product/FT1036-4-1000x1000.webp"
         },
         {
           "imageId": 4,
-          "src": "electronics/product/FT1036-3-1000x10001.jpg"
+          "src": "electronics/product/FT1036-3-1000x10001.webp"
         }
       ]
     },
@@ -2366,19 +2366,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT1047.jpg"
+          "src": "electronics/product/FT1047.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT1047-1.jpg"
+          "src": "electronics/product/FT1047-1.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/FT1047-2.jpg"
+          "src": "electronics/product/FT1047-2.webp"
         },
         {
           "imageId": 4,
-          "src": "electronics/product/FT1047-3.jpg"
+          "src": "electronics/product/FT1047-3.webp"
         }
       ]
     },
@@ -2407,23 +2407,23 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT1051-Switch-pro-controller-Custom-Kit-GitD-01A.jpg"
+          "src": "electronics/product/FT1051-Switch-pro-controller-Custom-Kit-GitD-01A.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT1051-Switch-pro-controller-Custom-Kit-GitD-03-1.jpg"
+          "src": "electronics/product/FT1051-Switch-pro-controller-Custom-Kit-GitD-03-1.webp"
         },
         {
           "imageId": 31,
-          "src": "electronics/product/FT1051-Switch-pro-controller-Custom-Kit-GitD-01-1.jpg"
+          "src": "electronics/product/FT1051-Switch-pro-controller-Custom-Kit-GitD-01-1.webp"
         },
         {
           "imageId": 4,
-          "src": "electronics/product/FT1051-Switch-pro-controller-Custom-Kit-GitD-02.jpg"
+          "src": "electronics/product/FT1051-Switch-pro-controller-Custom-Kit-GitD-02.webp"
         },
         {
           "imageId": 5,
-          "src": "electronics/product/FT1051-Switch-pro-controller-Custom-Kit-GitD-04-1000x1000.jpg"
+          "src": "electronics/product/FT1051-Switch-pro-controller-Custom-Kit-GitD-04-1000x1000.webp"
         }
       ]
     },
@@ -2452,23 +2452,23 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/FT1052-Switch-Pro-Controller-Custom-Kit-Llama-Skin-01-White-1000x1000.jpg"
+          "src": "electronics/product/FT1052-Switch-Pro-Controller-Custom-Kit-Llama-Skin-01-White-1000x1000.webp"
         },
         {
           "imageId": 2,
-          "src": "electronics/product/FT1052-Switch-Pro-Controller-Custom-Kit-Llama-Skin-Web-01-1000x1000.jpg"
+          "src": "electronics/product/FT1052-Switch-Pro-Controller-Custom-Kit-Llama-Skin-Web-01-1000x1000.webp"
         },
         {
           "imageId": 3,
-          "src": "electronics/product/0-FT1052-Switch-Pro-Controller-Custom-Kit-Llama-Skin-02.jpg"
+          "src": "electronics/product/0-FT1052-Switch-Pro-Controller-Custom-Kit-Llama-Skin-02.webp"
         },
         {
           "imageId": 4,
-          "src": "electronics/product/FT1052-Switch-Pro-Controller-Custom-Kit-Llama-Skin-Web-04-1000x1000.jpg"
+          "src": "electronics/product/FT1052-Switch-Pro-Controller-Custom-Kit-Llama-Skin-Web-04-1000x1000.webp"
         },
         {
           "imageId": 5,
-          "src": "electronics/product/FT1052-Switch-Pro-Controller-Custom-Kit-Llama-Skin-Web-01-100x100.jpg"
+          "src": "electronics/product/FT1052-Switch-Pro-Controller-Custom-Kit-Llama-Skin-Web-01-100x100.webp"
         }
       ]
     },
@@ -2497,7 +2497,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT1053-Switch-OLED-XL-Grips-White-BG-02-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT1053-Switch-OLED-XL-Grips-02-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT1053-Switch-OLED-XL-Grips-01-1000x1000.webp"
         }
       ]
     },
@@ -2526,7 +2534,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT1054-Switch-OLED-Tempered-Glass-White-BG-01-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT1054-Switch-OLED-Tempered-Glass-01-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT1054-Switch-OLED-Tempered-Glass-02-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT1054-Switch-OLED-Tempered-Glass-03-1000x1000.webp"
         }
       ]
     },
@@ -2555,7 +2575,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT1055-Switch-OLED-Anti-Blue-Light-Tempered-Glass-White-BG-01-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT1055-Switch-OLED-Anti-Blue-Light-Tempered-Glass-01-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT1055-Switch-OLED-Anti-Blue-Light-Tempered-Glass-02-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT1055-Switch-OLED-Anti-Blue-Light-Tempered-Glass-03-1000x1000.webp"
         }
       ]
     },
@@ -2584,7 +2616,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT1056-Switch-OLED-Custom-Kit-White-BG-01-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT1056-Switch-OLED-Custom-Kit-01-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT1056-Switch-OLED-Custom-Kit-02-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT1056-Switch-OLED-Custom-Kit-03-1000x1000.webp"
         }
       ]
     },
@@ -2613,7 +2657,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT1057-Switch-Advanced-Pro-Controller-White-BG-1-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT1057-Switch-Advanced-Pro-Controller-1-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT1057-Switch-Advanced-Pro-Controller-2-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT1057-Switch-Advanced-Pro-Controller-3-1000x1000.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT1057-Switch-Advanced-Pro-Controller-4-1000x1000.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT1057-Switch-Advanced-Pro-Controller-5-1000x1000.webp"
         }
       ]
     },
@@ -2701,7 +2765,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT2005-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT2005-2-100x100.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT2005-3.webp"
         }
       ]
     },
@@ -2759,7 +2831,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT2008-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT2008-2-100x100.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT2008-3.webp"
         }
       ]
     },
@@ -2788,6 +2868,18 @@
       "images": [
         {
           "imageId": 1,
+          "src": "electronics/product/1.jpg"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/1.jpg"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/1.jpg"
+        },
+        {
+          "imageId": 4,
           "src": "electronics/product/1.jpg"
         }
       ]
@@ -2846,7 +2938,23 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT2014-AllDevices-Gaming-Headset-Stand-Web-1B.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT2014-AllDevices-Gaming-Headset-Stand-Web-1A.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT2014-AllDevices-Gaming-Headset-Stand-Web-2.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT2014-AllDevices-Gaming-Headset-Stand-Web-3.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT2014-AllDevices-Gaming-Headset-Stand-Web-4.webp"
         }
       ]
     },
@@ -2875,7 +2983,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT2017-AllDevices-Gaming-Headset-SAMUS-White-1-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT2017-AllDevices-Gaming-Headset-SAMUS-Web-1-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT2017-AllDevices-Gaming-Headset-SAMUS-Web-2-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT2017-AllDevices-Gaming-Headset-SAMUS-Web-3-1000x1000.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT2017-AllDevices-Gaming-Headset-SAMUS-Web-4-1000x1000.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT2017-AllDevices-Gaming-Headset-SAMUS-Web-5-1000x1000.webp"
         }
       ]
     },
@@ -2933,7 +3061,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT2015-Gaming-Headset-Ghost-White-1-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT2015-Gaming-Headset-Ghost-Web-3.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT2015-Gaming-Headset-Ghost-Web-5.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT2015-Gaming-Headset-Ghost-White-1-100x100.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT2015-Gaming-Headset-Ghost-Web-3-100x100.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT2015-Gaming-Headset-Ghost-Web-5-100x100.webp"
         }
       ]
     },
@@ -2962,7 +3110,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT2018-1.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT2018-AllDevices-Gaming-Headset-ENSO-Web-6.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT2018-AllDevices-Gaming-Headset-ENSO-Web-4.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT2018-AllDevices-Gaming-Headset-ENSO-Web-5.webp"
         }
       ]
     },
@@ -2991,7 +3151,23 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT2022-Gaming-Headset-Bifrost-White-BG-01-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT2022-Gaming-Headset-Bifrost-01-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT2022-Gaming-Headset-Bifrost-02-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT2022-Gaming-Headset-Bifrost-03-1000x1000.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT2022-Headset-Bifrost-04-1000x1000.webp"
         }
       ]
     },
@@ -3020,7 +3196,23 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT2020-Gaming-Headset-TYPHOON-White-BG-01-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT2020-Gaming-Headset-TYPHOON-01-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT2020-Gaming-Headset-TYPHOON-02-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT2020-Gaming-Headset-TYPHOON-03-1000x1000.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT2020-Gaming-Headset-TYPHOON-04-1000x1000.webp"
         }
       ]
     },
@@ -3050,7 +3242,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT7012-Nintendo-Switch-Turbo-Cup-Wheel-White-BG-2-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT7012-Nintendo-Switch-Turbo-Cup-Wheel-1-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT7012-Nintendo-Switch-Turbo-Cup-Wheel-2-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT7012-Nintendo-Switch-Turbo-Cup-Wheel-3-1000x1000.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT7012-Nintendo-Switch-Turbo-Cup-Wheel-4-1000x1000.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/1FT7012-Nintendo-Switch-Turbo-Cup-Wheel-5-1000x1000.webp"
         }
       ]
     },
@@ -3079,7 +3291,31 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT7004-Hurricane-Wheel-MKII-White-1.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT7004-Hurricane-Wheel-MKII-Web-1.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT7004-Hurricane-Wheel-MKII-Web-4.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT7004-Hurricane-Wheel-MKII-Web-2.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT7004-Hurricane-Wheel-MKII-Web-3.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT7004-Hurricane-Wheel-MKII-Web-6.webp"
+        },
+        {
+          "imageId": 7,
+          "src": "electronics/product/FT7004-Hurricane-Wheel-MKII-Web-5.webp"
         }
       ]
     },
@@ -3137,7 +3373,43 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT7003-PS4-Suzuka-Elite-Next-Web-1A.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT7003-PS4-Suzuka-Elite-Next-Web-2-2.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT7003-PS4-Suzuka-Elite-Next-Web-1.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT7003-PS4-Suzuka-Elite-Next-Web-7.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT7003-PS4-Suzuka-Elite-Next-Web-3-1.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT7003-PS4-Suzuka-Elite-Next-Web-4.webp"
+        },
+        {
+          "imageId": 7,
+          "src": "electronics/product/FT7003-PS4-Suzuka-Elite-Next-Web-5.webp"
+        },
+        {
+          "imageId": 8,
+          "src": "electronics/product/FT7003-PS4-Suzuka-Elite-Next-Web-6.webp"
+        },
+        {
+          "imageId": 9,
+          "src": "electronics/product/FT7003-PS4-Suzuka-Elite-Next-Web-8.webp"
+        },
+        {
+          "imageId": 10,
+          "src": "electronics/product/FT7003-PS4-Suzuka-Elite-Next-Web-9.webp"
         }
       ]
     },
@@ -3224,7 +3496,31 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT7006-Flight-Stick-Mach-2-White-1.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT7006-Flight-Stick-Mach-2-Web-1.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT7006-Flight-Stick-Mach-2-Web-6.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT7006-Flight-Stick-Mach-2-Web-5.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT7006-Flight-Stick-Mach-2-Web-4.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT7006-Flight-Stick-Mach-2-Web-3.webp"
+        },
+        {
+          "imageId": 7,
+          "src": "electronics/product/FT7006-Flight-Stick-Mach-2-Web-2.webp"
         }
       ]
     },
@@ -3253,7 +3549,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT7006-Flight-Stick-Mach-1-White-1.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT7006-Flight-Stick-Mach-1-Web-1.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT7006-Flight-Stick-Mach-1-Web-2.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT7006-Flight-Stick-Mach-1-Web-3.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT7006-Flight-Stick-Mach-1-Web-4.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT7006-Flight-Stick-Mach-1-Web-6.webp"
         }
       ]
     },
@@ -3282,7 +3598,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT7008-Simulation-Stand-Last-Lap-White-BG-1-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT7008-Simulation-Stand-Last-Lap-1-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT7008-Simulation-Stand-Last-Lap-2-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT7008-Simulation-Stand-Last-Lap-3-1000x1000.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT7008-Simulation-Stand-Last-Lap-4-1-1000x1000.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT7008-Simulation-Stand-Last-Lap-4-1000x1000.webp"
         }
       ]
     },
@@ -3311,7 +3647,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT7009-Simulation-Racing-Seat-Sprint-White-BG-1-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT7009-Simulation-Racing-Seat-Sprint-1-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT7009-Simulation-Racing-Seat-Sprint-2-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT7009-Simulation-Racing-Seat-Sprint-3-1000x1000.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT7009-Simulation-Racing-Seat-Sprint-4-1000x1000.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT7009-Simulation-Racing-Seat-Sprint-4-1-1000x1000.webp"
         }
       ]
     },
@@ -3340,7 +3696,31 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT7010-Simulation-Racing-Seat-Race-White-BG-1-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT7010-Simulation-Racing-Seat-Race-1-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT7010-Simulation-Racing-Seat-Race-2-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT7010-Simulation-Racing-Seat-Race-3-1000x1000.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT7010-Simulation-Racing-Seat-Race-6-1000x1000.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT7010-Simulation-Racing-Seat-Race-4-1000x1000.webp"
+        },
+        {
+          "imageId": 7,
+          "src": "electronics/product/FT7010-Simulation-Racing-Seat-Race-5-1000x1000.webp"
         }
       ]
     },
@@ -3369,7 +3749,31 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT7011-Simulation-Racing-Seat-Legend-White-BG-1-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT7011-Simulation-Racing-Seat-Legend-1-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT7011-Simulation-Racing-Seat-Legend-2-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT7011-Simulation-Racing-Seat-Legend-3-1000x1000.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT7011-Simulation-Racing-Seat-Legend-4-1000x1000.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT7011-Simulation-Racing-Seat-Legend-5-1000x1000.webp"
+        },
+        {
+          "imageId": 7,
+          "src": "electronics/product/FT7011-Simulation-Racing-Seat-Legend-6-1000x1000.webp"
         }
       ]
     },
@@ -3398,7 +3802,23 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT7014-Guantes-simRacing-White-BG-2000px-01-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT7014-Guantes-simRacing-01-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT7014-Guantes-simRacing-02-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT7014-Guantes-simRacing-04-1000x1000.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT7014-Guantes-simRacing-03-1000x1000.webp"
         }
       ]
     },
@@ -3544,7 +3964,31 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/CTSWDOCKELEMENT-1B-copia.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/CTSWDOCKELEMENT-2.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/CTSWDOCKELEMENT-1A.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/CTSWDOCKELEMENT-3-1.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/CTSWDOCKELEMENT-4.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/CTSWDOCKELEMENT-5.webp"
+        },
+        {
+          "imageId": 7,
+          "src": "electronics/product/CTSWDOCKELEMENT-6.webp"
         }
       ]
     },
@@ -3574,7 +4018,31 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/BATPS5CK-PS5-DC-Custom-Kit-Batman-White-BG-01-1-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/BATPS5CK-PS5-DC-Custom-Kit-Batman-01-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/DSCF3397_DxO-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/BATPS5CK-PS5-DC-Custom-Kit-Batman-03-1000x1000.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/BATPS5CK-PS5-DC-Custom-Kit-Batman-04-1000x1000.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/BATPS5CK-PS5-DC-Custom-Kit-Batman-05-1000x1000.webp"
+        },
+        {
+          "imageId": 7,
+          "src": "electronics/product/BATPS5CK-PS5-DC-Custom-Kit-Batman-02-1000x1000.webp"
         }
       ]
     },
@@ -3603,7 +4071,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/BATSWCP-Switch-DC-Combo-Batman-White-BG-01-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/BATSWCP-Switch-DC-Combo-Batman-01-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/BATSWCP-Switch-DC-Combo-Batman-02-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/DSCF3434_DxO-1000x1000.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/BATSWCP-Switch-DC-Combo-Batman-04-1000x1000.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/BATSWCP-Switch-DC-Combo-Batman-03-1000x1000.webp"
         }
       ]
     },
@@ -3632,7 +4120,31 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/BATSWPB-Switch-DC-Premium-Bag-Batman-White-BG-01-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/BATSWPB-Switch-DC-Premium-Bag-Batman-01-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/BATSWPB-Switch-DC-Premium-Bag-Batman-02-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/BATSWPB-Switch-DC-Premium-Bag-Batman-03-1000x1000.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/BATSWPB-Switch-DC-Premium-Bag-Batman-04-1-1000x1000.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/DSCF3456_DxO-1000x1000.webp"
+        },
+        {
+          "imageId": 7,
+          "src": "electronics/product/DSCF3448_DxO-1000x1001.webp"
         }
       ]
     },
@@ -3661,7 +4173,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/BATXBCK-XBOX-DC-Custom-Kit-Batman-White-BG-01-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/BATXBCK-XBOX-DC-Custom-Kit-Batman-01-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/BATXBCK-XBOX-DC-Custom-Kit-Batman-04-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/BATXBCK-XBOX-DC-Custom-Kit-Batman-03-1000x1000.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/DSCF3415_DxO-1000x1000.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/BATXBCK-XBOX-DC-Custom-Kit-Batman-02-1000x1000.webp"
         }
       ]
     },
@@ -3690,7 +4222,31 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/BATXBPC-Xbox-Series-DC-PlayCharge-Batman-White-BG-02-1000x1000.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/BATXBPC-Xbox-Series-DC-PlayCharge-BatmaN-01-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/BATXBPC-Xbox-Series-DC-PlayCharge-Batman-02-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/BATXBPC-Xbox-Series-DC-PlayCharge-Batman-03-1000x1000.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/BATXBPC-Xbox-Series-DC-PlayCharge-Batman-04-1000x1000.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/DSCF3423_DxO-1000x1000.webp"
+        },
+        {
+          "imageId": 7,
+          "src": "electronics/product/DSCF3422_DxO-1000x1000.webp"
         }
       ]
     },
@@ -3864,7 +4420,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/SUPPS5CK-PS5-DC-Custom-Kit-Superman-White-BG-01-1000x10001.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/SUPPS5CK-PS5-DC-Custom-Kit-Superman-01-1000x1000.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/SUPPS5CK-PS5-DC-Custom-Kit-Superman-03-1000x1000.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/SUPPS5CK-PS5-DC-Custom-Kit-Superman-04-1000x1000.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/SUPPS5CK-PS5-DC-Custom-Kit-Superman-Life-style-01.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/SUPPS5CK-PS5-DC-Custom-Kit-Superman-02.webp"
         }
       ]
     },
@@ -3893,7 +4469,31 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/SUPSWCP-Switch-DC-Combo-Superman-White-BG-01.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/SUPSWCP-Switch-DC-Combo-Superman-01.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/SUPSWCP-Switch-DC-Combo-Superman-02.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/SUPSWCP-Switch-DC-Combo-Superman-03.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/SUPSWCP-Switch-DC-Combo-Superman-04.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/DSCF3505_DxO-scaled.webp"
+        },
+        {
+          "imageId": 7,
+          "src": "electronics/product/SUPSWCP-Switch-DC-Combo-Superman-05-100x100.webp"
         }
       ]
     },
@@ -3951,7 +4551,31 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/SUPXBCK-Xbox-Series-DC-Custom-Kit-Superman-White-BG-01-1.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/SUPXBCK-Xbox-Series-DC-Custom-Kit-Superman-03.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/SUPXBCK-Xbox-Series-DC-Custom-Kit-Superman-Life-style-01.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/SUPXBCK-Xbox-Series-DC-Custom-Kit-Superman-01.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/SUPXBCK-Xbox-Series-DC-Custom-Kit-Superman-04.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/SUPXBCK-Xbox-Series-DC-Custom-Kit-Superman-05.webp"
+        },
+        {
+          "imageId": 7,
+          "src": "electronics/product/SUPXBCK-Xbox-Series-DC-Custom-Kit-Superman-02-1.webp"
         }
       ]
     },
@@ -3980,7 +4604,31 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FLAPS5CK-PS5-DC-Custom-Kit-Flash-White-BG-01.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FLAPS5CK-PS5-DC-Custom-Kit-Flash-01.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FLAPS5CK-PS5-DC-Custom-Kit-Flash-04.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FLAPS5CK-PS5-DC-Custom-Kit-Flash-02.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FLAPS5CK-PS5-DC-Custom-Kit-Flash-05.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/DSCF3550_DxO-scaled.webp"
+        },
+        {
+          "imageId": 7,
+          "src": "electronics/product/FLAPS5CK-PS5-DC-Custom-Kit-Flash-03.webp"
         }
       ]
     },
@@ -4038,7 +4686,31 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FLASWPB-Switch-DC-Premium-Bag-Flash-White-BG-01-1.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FLASWPB-Switch-DC-Premium-Bag-Flash-01.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FLASWPB-Switch-DC-Premium-Bag-Flash-02.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FLASWPB-Switch-DC-Premium-Bag-Flash-05.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FLASWPB-Switch-DC-Premium-Bag-Flash-03.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/DSCF3541_DxO-scaled.webp"
+        },
+        {
+          "imageId": 7,
+          "src": "electronics/product/FLASWPB-Switch-DC-Premium-Bag-Flash-04-1.webp"
         }
       ]
     },
@@ -4067,7 +4739,23 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FLAXBCK-Xbox-Series-DC-Custom-Kit-Flash-White-BG-01.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FLAXBCK-Xbox-Series-DC-Custom-Kit-Flash-01.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FLAXBCK-Xbox-Series-DC-Custom-Kit-Flash-02.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FLAXBCK-Xbox-Series-DC-Custom-Kit-Flash-03.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FLAXBCK-Xbox-Series-DC-Custom-Kit-Flash-04.webp"
         }
       ]
     },
@@ -4214,7 +4902,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/DBPS4GRIPS-2.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/DBPS4GRIPS.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/DBPS4GRIPS-3.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/DBPS4GRIPS-4.webp"
         }
       ]
     },
@@ -4359,7 +5059,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/DBPS4COMBOSUP.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/DBPS4COMBOSUP-2.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/DBPS4COMBOSUP-3.webp"
         }
       ]
     },
@@ -4446,7 +5154,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/DBSWBAG.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/DBSWBAG-2-1.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/DBSWBAG-3-1.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/DBSWBAG-5.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/DBSWBAG-4.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/DBSWBAG-6-1.webp"
         }
       ]
     },
@@ -4504,7 +5232,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/DBSWDOCK.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/DBSWDOCK-2.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/DBSWDOCK-3.webp"
         }
       ]
     },
@@ -4533,7 +5269,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/DBSW24GAMES.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/DBSW24GAMES-2.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/DBSW24GAMES-3.webp"
         }
       ]
     },
@@ -4620,7 +5364,23 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/DBPS5THERMOGOKU-PS5-Dragon-Ball-Super-Thermocromatic-Silicone-Skin-grips-White-BG-01.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/DBPS5THERMOGOKU-PS5-Dragon-Ball-Super-Thermocromatic-Silicone-Skin-grips-01.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/DBPS5THERMOGOKU-PS5-Dragon-Ball-Super-Thermocromatic-Silicone-Skin-grips-03.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/DBPS5THERMOGOKU-PS5-Dragon-Ball-Super-Thermocromatic-Silicone-Skin-grips-02.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/DBPS5THERMOGOKU-PS5-Dragon-Ball-Super-Thermocromatic-Silicone-Skin-grips-04-1-1.webp"
         }
       ]
     },
@@ -4649,7 +5409,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/DBPCKEYGO-PC-Dragon-Ball-Super-Keyboard-GOKU-White-BG-01.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/DBPCKEYGO-PC-Dragon-Ball-Super-Keyboard-GOKU-01.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/DBPCKEYGO-PC-Dragon-Ball-Super-Keyboard-GOKU-03.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/DBPCKEYGO-PC-Dragon-Ball-Super-Keyboard-GOKU-02.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/DBPCKEYGO-PC-Dragon-Ball-Super-Keyboard-GOKU-04.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/DBPCKEYGO-PC-Dragon-Ball-Super-Keyboard-GOKU-05.webp"
         }
       ]
     },
@@ -4678,7 +5458,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/DBPCMOUPADGO-PC-Dragon-Ball-Super-MousePad-GOKU-White-BG-01.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/DBPCMOUPADGO-PC-Dragon-Ball-Super-MousePad-GOKU-02.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/DBPCMOUPADGO-PC-Dragon-Ball-Super-MousePad-GOKU-04.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/DBPCMOUPADGO-PC-Dragon-Ball-Super-MousePad-GOKU-01.webp"
         }
       ]
     },
@@ -4707,7 +5499,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/DBPCMOUPADGO-PC-Dragon-Ball-Super-MousePad-GOKU-White-BG-01.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/DBPCMOUPADGO-PC-Dragon-Ball-Super-MousePad-GOKU-02.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/DBPCMOUPADGO-PC-Dragon-Ball-Super-MousePad-GOKU-04.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/DBPCMOUPADGO-PC-Dragon-Ball-Super-MousePad-GOKU-01.webp"
         }
       ]
     },
@@ -4853,7 +5657,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/MONSTER-HUNTER-6.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/MONSTER-HUNTER-7.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/1MONSTER-HUNTER-2.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/grips-3.webp"
         }
       ]
     },
@@ -4882,7 +5698,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/MHPS4COMBO-PS4-Monster-Hunter-Combo-Pack-Icon-1A-1.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/MHPS4COMBO-PS4-Monster-Hunter-Combo-Pack-Icon-1-1.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/MHPS4COMBO-PS4-Monster-Hunter-Combo-Pack-Icon-2.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/MHPS4COMBO-PS4-Monster-Hunter-Combo-Pack-Icon-3-1.webp"
         }
       ]
     },
@@ -4941,7 +5769,23 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/OPPS4GRISUN-PS4-One-Piece-Grips-Sunny-White-BG-1.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/OPPS4GRISUN-PS4-One-Piece-Grips-Sunny-Web-1.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/OPPS4GRISUN-PS4-One-Piece-Grips-Sunny-Web-2.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/OPPS4GRISUN-PS4-One-Piece-Grips-Sunny-Web-3.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/OPPS4GRISUN-PS4-One-Piece-Grips-Sunny-Web-4.webp"
         }
       ]
     },
@@ -4999,7 +5843,31 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/OPSWBAGCHIBI-SWITCH-LITE-One-Piece-Bag-Chibi-White-BG-1.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/OPSWBAGCHIBI-SWITCH-LITE-One-Piece-Bag-Chibi-Web-1.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/OPSWBAGCHIBI-SWITCH-LITE-One-Piece-Bag-Chibi-Web-2.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/OPSWBAGCHIBI-SWITCH-LITE-One-Piece-Bag-Chibi-Web-3.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/OPSWBAGCHIBI-SWITCH-LITE-One-Piece-Bag-Chibi-Web-5.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/OPSWBAGCHIBI-SWITCH-LITE-One-Piece-Bag-Chibi-Web-4.webp"
+        },
+        {
+          "imageId": 7,
+          "src": "electronics/product/OPSWBAGCHIBI-SWITCH-LITE-One-Piece-Bag-Chibi-Web-6.webp"
         }
       ]
     },
@@ -5028,7 +5896,23 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/1OPSWDOCKDRESS-SWITCH-One-Piece-Dock-Cover-Dressrosa-Web-1A.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/OPSWDOCKDRESS-SWITCH-One-Piece-Dock-Cover-Dressrosa-Web-2-1.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/OPSWDOCKDRESS-SWITCH-One-Piece-Dock-Cover-Dressrosa-Web-1-1.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/OPSWDOCKDRESS-SWITCH-One-Piece-Dock-Cover-Dressrosa-Web-4-1.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/OPSWDOCKDRESS-SWITCH-One-Piece-Dock-Cover-Dressrosa-Web-3.webp"
         }
       ]
     },
@@ -5203,7 +6087,19 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/REPS4COMBOUMB-PS4-Resident-Evil-Combo-Pack-Umbrella-1A.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/çREPS4COMBOUMB-PS4-Resident-Evil-Combo-Pack-Umbrella-1.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/REPS4COMBOUMB-PS4-Resident-Evil-Combo-Pack-Umbrella-2.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/REPS4COMBOUMB-PS4-Resident-Evil-Combo-Pack-Umbrella-3.webp"
         }
       ]
     },
@@ -5232,7 +6128,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/REPS4CASEEVIL-PS4-Resident-Evil-Controller-Case-Evil-1A.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/REPS4CASEEVIL-PS4-Resident-Evil-Controller-Case-Evil-1.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/REPS4CASEEVIL-PS4-Resident-Evil-Controller-Case-Evil-2.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/REPS4CASEEVIL-PS4-Resident-Evil-Controller-Case-Evil-3.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/REPS4CASEEVIL-PS4-Resident-Evil-Controller-Case-Evil-4.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/REPS4CASEEVIL-PS4-Resident-Evil-Controller-Case-Evil-5.webp"
         }
       ]
     },
@@ -5320,7 +6236,23 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/TNKPS4COMBO-PS4-Combo-1B.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/TNKPS4COMBO-PS4-Combo-1A.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/TNKPS4COMBO-PS4-Combo-2.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/TNKPS4COMBO-PS4-Combo-3.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/TNKPS4COMBO-PS4-Combo-4.webp"
         }
       ]
     },
@@ -5378,7 +6310,27 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/TNSWCOMBO-SWITCH-Tanooki-combo-pack-Web-1AA.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/TNSWCOMBO-SWITCH-Tanooki-combo-pack-Web-1BB.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/TNSWCOMBO-SWITCH-Tanooki-combo-pack-Web-2.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/TNSWCOMBO-SWITCH-Tanooki-combo-pack-Web-3.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/TNSWCOMBO-SWITCH-Tanooki-combo-pack-Web-4.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/TNSWCOMBO-SWITCH-Tanooki-combo-pack-Web-5.webp"
         }
       ]
     },
@@ -5436,7 +6388,31 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/TNKSWBAGPRD-Switch-Tanooki-Bag-PRIDE-White-BG-01.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/TNKSWBAGPRD-Switch-Tanooki-Bag-PRIDE-02.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/TNKSWBAGPRD-Switch-Tanooki-Bag-PRIDE-01.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/TNKSWBAGPRD-Switch-Tanooki-Bag-PRIDE-06.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/TNKSWBAGPRD-Switch-Tanooki-Bag-PRIDE-04.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/1TNKSWBAGPRD-Switch-Tanooki-Bag-PRIDE-03.webp"
+        },
+        {
+          "imageId": 7,
+          "src": "electronics/product/TNKSWBAGPRD-Switch-Tanooki-Bag-PRIDE-05.webp"
         }
       ]
     },
@@ -5465,7 +6441,35 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/FT2021-Gaming-Headset-Tanooki-White-BG-01-1.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/FT2021-Gaming-Headset-Tanooki-01-1.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/FT2021-Gaming-Headset-Tanooki-02-1.webp"
+        },
+        {
+          "imageId": 4,
+          "src": "electronics/product/FT2021-Gaming-Headset-Tanooki-03-1.webp"
+        },
+        {
+          "imageId": 5,
+          "src": "electronics/product/FT2021-Gaming-Headset-Tanooki-04-1.webp"
+        },
+        {
+          "imageId": 6,
+          "src": "electronics/product/FT2021-Gaming-Headset-Tanooki-05.webp"
+        },
+        {
+          "imageId": 7,
+          "src": "electronics/product/FT2021-Gaming-Headset-Tanooki-Lifestyle-01.webp"
+        },
+        {
+          "imageId": 8,
+          "src": "electronics/product/Tanooki-babies-postcards-10-1.webp"
         }
       ]
     },
@@ -5494,7 +6498,15 @@
       "images": [
         {
           "imageId": 1,
-          "src": "electronics/product/1.jpg"
+          "src": "electronics/product/WWESWCOMBO-1.webp"
+        },
+        {
+          "imageId": 2,
+          "src": "electronics/product/WWESWCOMBO-2-1.webp"
+        },
+        {
+          "imageId": 3,
+          "src": "electronics/product/WWESWCOMBO-3-1.webp"
         }
       ]
     },

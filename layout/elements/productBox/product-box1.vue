@@ -55,7 +55,7 @@
       </div>
       <div class="cart-wrap">
         <ul>
-          <li>
+          <!-- <li>
             <a
               href="javascript:void(0)"
               class="addtocart-btn"
@@ -65,7 +65,7 @@
             >
               <vue-feather type="shopping-bag"></vue-feather>
             </a>
-          </li>
+          </li> -->
           <li>
             <a
               href="javascript:void(0)"
@@ -76,14 +76,14 @@
               <vue-feather type="eye"></vue-feather>
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a
               href="javascript:void(0)"
               @click.prevent="addTocompareMixin(product)"
             >
               <vue-feather type="refresh-cw"></vue-feather>
             </a>
-          </li>
+          </li> -->
           <li>
             <a
               href="javascript:void(0)"

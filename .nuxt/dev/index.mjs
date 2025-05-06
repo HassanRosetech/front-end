@@ -1800,12 +1800,12 @@ const initiatePayment = defineEventHandler(async (event) => {
   };
   try {
     const response = await $fetch(
-      "https://api.swedbankpay.com/psp/paymentorders",
+      "https://api.externalintegration.payex.com/psp/paymentorders",
       {
         method: "POST",
         body: payload,
         headers: {
-          Authorization: "Bearer f09688768d079a7646aae6cf8bc2212efe727b9476975af6f02c164ef53a9538",
+          Authorization: "Bearer 98eed80d-748d-4d45-abd4-5618efa7a95d",
           "Content-Type": "application/json"
         }
       }
@@ -1881,8 +1881,20 @@ const unsubscribe_post$1 = /*#__PURE__*/Object.freeze({
 });
 
 const callback = defineEventHandler(async (event) => {
+  var _a;
   const body = await readBody(event);
   console.log("Swedbank callback received:", body);
+  const signature = getHeader(event, "x-signature");
+  if (signature && !isValidSignature(signature, body)) {
+    console.warn("Invalid signature!");
+    return { statusCode: 403, body: "Invalid signature" };
+  }
+  const orderId = (_a = body.payment) == null ? void 0 : _a.orderReference;
+  if (orderId) {
+    console.log("Updating order:", orderId);
+  } else {
+    console.warn("No order reference found in callback body");
+  }
   return { status: "ok" };
 });
 
