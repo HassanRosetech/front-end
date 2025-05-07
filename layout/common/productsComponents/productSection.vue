@@ -1,7 +1,7 @@
 <template>
   <section class="ratio_asos section-b-space overflow-hidden">
     <div class="container">
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-12">
           <h2 class="mb-lg-4 mb-3 lh-sm">
             {{ useRuntimeConfig().public.const.CustomersAlsoBoughtThese }}
@@ -18,7 +18,7 @@
             </swiper>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>

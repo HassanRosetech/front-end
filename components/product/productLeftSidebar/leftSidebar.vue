@@ -1,6 +1,6 @@
 <template>
   <div class="accordion category-name" id="accordionExample">
-    <div class="accordion-item category-rating">
+    <!-- <div class="accordion-item category-rating">
       <h2 class="accordion-header" id="headingThree">
         <button
           class="accordion-button"
@@ -129,7 +129,7 @@
           </ul>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="accordion-item service-accorion">
       <div

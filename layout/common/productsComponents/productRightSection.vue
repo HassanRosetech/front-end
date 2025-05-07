@@ -6,34 +6,47 @@
       <div class="details-image-concept">
         <h2>{{ currentProduct.name }}</h2>
       </div>
-
+      <!-- 
       <div class="label-section">
         <span class="badge badge-grey-color">{{ useRuntimeConfig().public.const.BestSeller }}</span>
         <span class="label-text">{{ useRuntimeConfig().public.const.infashion }}</span>
-      </div>
+      </div> -->
 
       <h3 class="price-detail">
         {{ selectedCurrencySymbol }}{{ currentProduct.price }}
-        <del>{{ selectedCurrencySymbol }}{{ currentProduct.mrp }}</del><span v-if="currentProduct.discount != 0">{{
-          currentProduct.discount
-        }}% off</span><span v-else>25% off</span>
+        <!-- <del>{{ selectedCurrencySymbol }}
+          {{ currentProduct.mrp }}</del> -->
+        <span v-if="currentProduct.discount != 0"
+          >{{ currentProduct.discount }}% off</span
+        >
+        <!-- <span v-else>25% off</span> -->
       </h3>
 
       <selectColors v-if="currentProduct.colors.length > 0" />
 
-      <selectSize :product="currentProduct" :submited="submited" @changeQuantityTo="changeQuantityTo"
-        @setSelectedSize="setSelectedSize" />
+      <selectSize
+        :product="currentProduct"
+        :submited="submited"
+        @changeQuantityTo="changeQuantityTo"
+        @setSelectedSize="setSelectedSize"
+      />
 
       <div class="product-buttons">
         <a @click.prevent="addToWishlist(currentProduct)" class="btn btn-solid">
           <i class="fa fa-bookmark fz-16 me-2"></i>
           <span>{{ useRuntimeConfig().public.const.wishlist }}</span>
         </a>
-        <a href="javascript:void(0)" @click="addToCart(currentProduct)" id="cartEffect"
-          class="btn btn-solid hover-solid btn-animation">
+        <a
+          href="javascript:void(0)"
+          @click="addToCart(currentProduct)"
+          id="cartEffect"
+          class="btn btn-solid hover-solid btn-animation"
+        >
           <i class="fa fa-shopping-cart" v-if="!addedToCart"></i>
           <span>{{
-            addedToCart? useRuntimeConfig().public.const.AddedToBag : useRuntimeConfig().public.const.Addtocart
+            addedToCart
+              ? useRuntimeConfig().public.const.AddedToBag
+              : useRuntimeConfig().public.const.Addtocart
           }}</span>
         </a>
       </div>
@@ -41,11 +54,11 @@
       <ul class="product-count shipping-order">
         <li>
           <img src="/images/gif/truck.png" class="img-fluid" alt="image" />
-          <span class="lang">Free shipping for orders above $500 USD</span>
+          <span class="lang">8000 SEK For Free Shipping note</span>
         </li>
       </ul>
 
-      <timer />
+      <!-- <timer /> -->
 
       <shareIt />
       <slot></slot>
@@ -91,14 +104,13 @@ export default {
   },
   computed: {
     inCartProductIds() {
-      return useCartStore().inCartProductIds
+      return useCartStore().inCartProductIds;
     },
     cartItems() {
       return useCartStore().getCartItems;
-
     },
     selectedCurrencySymbol() {
-      return useLayout().selectedCurrencySymbol
+      return useLayout().selectedCurrencySymbol;
     },
   },
   methods: {
@@ -117,14 +129,14 @@ export default {
       if (this.validEntries) {
         var item = { product: product, quantity: this.quantity };
 
-        useCartStore().addToCart(item)
-        useClickStore().changeProductId(product.id)
-        
+        useCartStore().addToCart(item);
+        useClickStore().changeProductId(product.id);
+
         useClickStore().toggleSuccessfulModal({
           image: product.images[0].src,
           message: "Item Added to cart",
           link: useRuntimeConfig().public.const.cartPagePath,
-        })
+        });
       }
     },
     changeQuantityTo(quantity) {
@@ -136,7 +148,7 @@ export default {
   },
   created() {
     if (this.product === undefined)
-      this.currentProduct = useProductStore().data[0]
+      this.currentProduct = useProductStore().data[0];
     else this.currentProduct = this.product;
 
     let indexOfProductInCart = this.inCartProductIds.indexOf(

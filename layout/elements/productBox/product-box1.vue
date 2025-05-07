@@ -4,7 +4,7 @@
     <div class="img-wrapper">
       <div @click="gotoProduct">
         <a
-          @click="$router.push('/shop/shop_left_sidebar/' + product.name)"
+          @click="$router.push('/product/product_left_sidebar/' + product.id)"
           class="front sliderBackground bg-size"
           :style="{
             'background-image': `url(${getImageUrl(product.images[0].src)})`,
@@ -23,7 +23,7 @@
       </div>
       <div @click="gotoProduct">
         <a
-          @click="$router.push('/shop/shop_left_sidebar/' + product.name)"
+          @click="$router.push('/product/product_left_sidebar/' + product.id)"
           class="back sliderBackground bg-size"
           :style="{
             'background-image': `url(${getImageUrl(
@@ -117,7 +117,7 @@
         <a
           href="javascript:void(0)"
           @click.prevent="
-            $router.push('/shop/shop_left_sidebar/' + product.name)
+            $router.push('/product/product_left_sidebar/' + product.id)
           "
           class="font-default"
         >
@@ -164,7 +164,7 @@ export default {
   methods: {
     gotoProduct() {
       this.$router.push({
-        path: "/shop/shop_left_sidebar/" + this.product.name,
+        path: "/product/product_left_sidebar/" + this.product.id,
       });
     },
     toggleQuickViewModal(productId) {

@@ -4,11 +4,11 @@
     <breadcrumb1 v-if="breadcrumb" :parent="parent" :pageName="pageName" />
     <slot v-else name="breadcrumb"></slot>
     <slot></slot>
-    <subscribe />
+    <!-- <subscribe /> -->
     <footer1>
       <footerRight />
     </footer1>
-    <bottomCart showCartAt="500" :product="product" />
+    <!-- <bottomCart showCartAt="500" :product="product" /> -->
     <recentlyPurchasedProduct />
     <mobileMenu />
     <sizeChartModal :showModal="showSizeChart" />
@@ -66,7 +66,7 @@ export default {
   },
   computed: {
     showSizeChart() {
-      return useClickStore().showSizeChart
+      return useClickStore().showSizeChart;
     },
   },
   created() {

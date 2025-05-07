@@ -11,7 +11,7 @@
 <script>
 import layout6 from "~/layout/layouts/layout6.vue";
 import productSectionL from "~/layout/common/productsComponents/productSection.vue";
-import { useProductStore } from "~~/store/iphone";
+import { useProductStore } from "~~/store/parts";
 
 export default {
   components: { layout6, productSectionL },
