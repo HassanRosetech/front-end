@@ -1,4 +1,4 @@
-import axiosData from "../static/data/products.json";
+import axiosData from "../static/data/parts.json";
 export const useClickStore = defineStore({
   id: "click",
   state: () => {

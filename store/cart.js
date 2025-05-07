@@ -1,5 +1,5 @@
 import axiosData from "../static/data/cart.json";
-import axiosAllProucts from "../static/data/products.json";
+import axiosAllProucts from "../static/data/parts.json";
 import { useClickStore } from "./clickEvents";
 import { useLayout } from "./layout";
 
