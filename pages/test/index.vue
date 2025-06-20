@@ -1,17 +1,13 @@
-<template>
-  <h1>Test3</h1>
-  <button @click="startPayment">Pay Now</button>
-</template>
-
 <script setup>
-const startPayment = async () => {
-  const res = await fetch("/api/initiate-payment");
-  const data = await res.json();
-  if (data && data.operations) {
-    const redirectUrl = data.operations.find(
-      (op) => op.rel === "redirect-authorization"
-    ).href;
-    window.location.href = redirectUrl;
-  }
+const createPayment = async () => {
+  const response = await $fetch("/api/payment");
+  const redirectUrl = response.operations.find(
+    (op) => op.rel === "redirect-authorization"
+  ).href;
+  window.location.href = redirectUrl; // Redirect user to Swedbank payment UI
 };
 </script>
+
+<template>
+  <button @click="createPayment">Pay with Swedbank (Test)</button>
+</template>

@@ -660,6 +660,8 @@ const _inlineRuntimeConfig = {
       "teamDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero assumenda hic porro odio voluptas qui quod sed."
     }
   },
+  "SWEDBANK_ACCESS_TOKEN": "e1ef03945774ae234993086c8c2c9197099d2586b7b9db83c6a251a4b181566b",
+  "SWEDBANK_PAYEE_ID": "6794ffe1-dc1f-4b4b-a885-952611f649b4",
   "databaseUrl": "postgresql://PartsShopDB_owner:npg_7LgQKJba5xoI@ep-hidden-shape-abqldvat-pooler.eu-west-2.aws.neon.tech/PartsShopDB?sslmode=require"
 };
 const envOptions = {
@@ -1239,6 +1241,7 @@ const _lazy_fjF3DR = () => Promise.resolve().then(function () { return initiateP
 const _lazy_xpMbo6 = () => Promise.resolve().then(function () { return subscribe_post$1; });
 const _lazy_4zF49U = () => Promise.resolve().then(function () { return unsubscribe_post$1; });
 const _lazy_8e8y0C = () => Promise.resolve().then(function () { return callback$1; });
+const _lazy_Bhq6c2 = () => Promise.resolve().then(function () { return payment$1; });
 const _lazy_yeU3lG = () => Promise.resolve().then(function () { return version$1; });
 const _lazy_3MsgpG = () => Promise.resolve().then(function () { return renderer$1; });
 
@@ -1254,6 +1257,7 @@ const handlers = [
   { route: '/api/newsletter/subscribe', handler: _lazy_xpMbo6, lazy: true, middleware: false, method: "post" },
   { route: '/api/newsletter/unsubscribe', handler: _lazy_4zF49U, lazy: true, middleware: false, method: "post" },
   { route: '/api/payment/callback', handler: _lazy_8e8y0C, lazy: true, middleware: false, method: undefined },
+  { route: '/api/payment/payment', handler: _lazy_Bhq6c2, lazy: true, middleware: false, method: undefined },
   { route: '/api/version', handler: _lazy_yeU3lG, lazy: true, middleware: false, method: undefined },
   { route: '/__nuxt_error', handler: _lazy_3MsgpG, lazy: true, middleware: false, method: undefined },
   { route: '', handler: _rtYxPZ, lazy: false, middleware: true, method: undefined },
@@ -1901,6 +1905,46 @@ const callback = defineEventHandler(async (event) => {
 const callback$1 = /*#__PURE__*/Object.freeze({
   __proto__: null,
   default: callback
+});
+
+const payment = defineEventHandler(async (event) => {
+  const config = useRuntimeConfig();
+  const res = await fetch("https://api.externalintegration.payex.com/psp/creditcard/payments", {
+    method: "POST",
+    headers: {
+      "Authorization": `Bearer ${config.SWEDBANK_ACCESS_TOKEN}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      payment: {
+        operation: "Purchase",
+        intent: "Authorization",
+        currency: "SEK",
+        prices: [{ type: "Visa", amount: 1500, vatAmount: 0 }],
+        description: "Test purchase",
+        payerReference: "user123",
+        userAgent: "Mozilla/5.0",
+        language: "sv-SE",
+        urls: {
+          hostUrls: ["https://www.partsshop.se/"],
+          completeUrl: "https://www.partsshop.se/payment/complete",
+          cancelUrl: "https://www.partsshop.se/payment/cancel",
+          callbackUrl: "https://www.partsshop.se/payment/callback"
+        },
+        payeeInfo: {
+          payeeId: config.SWEDBANK_PAYEE_ID,
+          payeeReference: `ref-${Date.now()}`
+        }
+      }
+    })
+  });
+  const data = await res.json();
+  return data;
+});
+
+const payment$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: payment
 });
 
 const version = defineCachedEventHandler(

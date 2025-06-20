@@ -95,6 +95,10 @@ declare module 'nuxt/schema' {
       cdnURL: string,
    },
 
+   SWEDBANK_ACCESS_TOKEN: string,
+
+   SWEDBANK_PAYEE_ID: string,
+
    databaseUrl: string,
 
    nitro: {

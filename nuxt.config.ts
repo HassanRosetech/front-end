@@ -90,11 +90,13 @@ export default defineNuxtConfig({
 
 
 
-  plugins: [
-    { src: "~/plugins/plugins.js", mode: "client" } ],
+  // plugins: [
+  //   { src: "~/plugins/plugins.js", mode: "client" } ],
 
 
   runtimeConfig: {
+    SWEDBANK_ACCESS_TOKEN: process.env.SWEDBANK_ACCESS_TOKEN,
+    SWEDBANK_PAYEE_ID: process.env.SWEDBANK_PAYEE_ID,
     public: {
       const: constants,
     },

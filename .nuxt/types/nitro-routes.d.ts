@@ -32,6 +32,9 @@ declare module "nitropack/types" {
     '/api/payment/callback': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/payment/callback').default>>>>
     }
+    '/api/payment/payment': {
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/payment/payment').default>>>>
+    }
     '/api/version': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/version').default>>>>
     }
