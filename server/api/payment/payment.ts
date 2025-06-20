@@ -13,7 +13,7 @@ export default defineEventHandler(async (event) => {
           operation: "Purchase",
           intent: "Authorization",
           currency: "SEK",
-          prices: [{ type: "Card", amount: 1500, vatAmount: 0 }], // <- FIXED type
+          prices: [{ type: "Card", amount: 1500, vatAmount: 0 }], // "Card" is correct
           description: "Test purchase",
           payerReference: "user123",
           userAgent: "Mozilla/5.0",
@@ -32,11 +32,22 @@ export default defineEventHandler(async (event) => {
       })
     });
 
-    const data = await res.json();
+    const contentType = res.headers.get('content-type') || '';
+    let data;
+
+    if (contentType.includes('application/json')) {
+      data = await res.json();
+    } else {
+      const text = await res.text();
+      console.error('Non-JSON response:', text);
+      return {
+        statusCode: res.status,
+        body: text || 'No content in response'
+      };
+    }
 
     if (!res.ok) {
       console.error('Swedbank API Error:', JSON.stringify(data, null, 2));
-      // Return detailed error to frontend
       return {
         statusCode: res.status,
         body: data
