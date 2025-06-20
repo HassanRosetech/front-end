@@ -13,7 +13,7 @@ export default defineEventHandler(async (event) => {
           operation: "Purchase",
           intent: "Authorization",
           currency: "SEK",
-          prices: [{ type: "Visa", amount: 1500, vatAmount: 0 }],
+          prices: [{ type: "Card", amount: 1500, vatAmount: 0 }], // <- FIXED type
           description: "Test purchase",
           payerReference: "user123",
           userAgent: "Mozilla/5.0",
@@ -34,15 +34,21 @@ export default defineEventHandler(async (event) => {
 
     const data = await res.json();
 
-    // Add this to check for HTTP errors
     if (!res.ok) {
-      console.error('Swedbank API Error:', data);
-      throw new Error(`Swedbank API Error: ${res.status}`);
+      console.error('Swedbank API Error:', JSON.stringify(data, null, 2));
+      // Return detailed error to frontend
+      return {
+        statusCode: res.status,
+        body: data
+      };
     }
 
     return data;
   } catch (error) {
     console.error('Internal Server Error:', error);
-    return { statusCode: 500, body: 'Internal Server Error' };
+    return {
+      statusCode: 500,
+      body: error instanceof Error ? error.message : String(error)
+    };
   }
 });
