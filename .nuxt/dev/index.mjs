@@ -660,7 +660,7 @@ const _inlineRuntimeConfig = {
       "teamDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero assumenda hic porro odio voluptas qui quod sed."
     }
   },
-  "SWEDBANK_ACCESS_TOKEN": "e1ef03945774ae234993086c8c2c9197099d2586b7b9db83c6a251a4b181566b",
+  "SWEDBANK_ACCESS_TOKEN": "db406a4c82e9c4838792e4b429a4d5784281768fb3e5ea86c0123893a0724066",
   "SWEDBANK_PAYEE_ID": "6794ffe1-dc1f-4b4b-a885-952611f649b4",
   "databaseUrl": "postgresql://PartsShopDB_owner:npg_7LgQKJba5xoI@ep-hidden-shape-abqldvat-pooler.eu-west-2.aws.neon.tech/PartsShopDB?sslmode=require"
 };
@@ -1909,37 +1909,65 @@ const callback$1 = /*#__PURE__*/Object.freeze({
 
 const payment = defineEventHandler(async (event) => {
   const config = useRuntimeConfig();
-  const res = await fetch("https://api.externalintegration.payex.com/psp/creditcard/payments", {
-    method: "POST",
-    headers: {
-      "Authorization": `Bearer ${config.SWEDBANK_ACCESS_TOKEN}`,
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      payment: {
-        operation: "Purchase",
-        intent: "Authorization",
-        currency: "SEK",
-        prices: [{ type: "Visa", amount: 1500, vatAmount: 0 }],
-        description: "Test purchase",
-        payerReference: "user123",
-        userAgent: "Mozilla/5.0",
-        language: "sv-SE",
-        urls: {
-          hostUrls: ["https://www.partsshop.se/"],
-          completeUrl: "https://www.partsshop.se/payment/complete",
-          cancelUrl: "https://www.partsshop.se/payment/cancel",
-          callbackUrl: "https://www.partsshop.se/payment/callback"
-        },
-        payeeInfo: {
-          payeeId: config.SWEDBANK_PAYEE_ID,
-          payeeReference: `ref-${Date.now()}`
+  try {
+    console.log("Swedbank Access Token:", config.SWEDBANK_ACCESS_TOKEN);
+    const res = await fetch("https://api.externalintegration.payex.com/psp/creditcard/payments", {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${config.SWEDBANK_ACCESS_TOKEN}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        payment: {
+          operation: "Purchase",
+          intent: "Authorization",
+          currency: "SEK",
+          prices: [{ type: "Card", amount: 1500, vatAmount: 0 }],
+          // "Card" is correct
+          description: "Test purchase",
+          payerReference: "user123",
+          userAgent: "Mozilla/5.0",
+          language: "sv-SE",
+          urls: {
+            hostUrls: ["https://www.partsshop.se/"],
+            completeUrl: "https://www.partsshop.se/payment/complete",
+            cancelUrl: "https://www.partsshop.se/payment/cancel",
+            callbackUrl: "https://www.partsshop.se/payment/callback"
+          },
+          payeeInfo: {
+            payeeId: config.SWEDBANK_PAYEE_ID,
+            payeeReference: `ref-${Date.now()}`
+          }
         }
-      }
-    })
-  });
-  const data = await res.json();
-  return data;
+      })
+    });
+    const contentType = res.headers.get("content-type") || "";
+    let data;
+    if (contentType.includes("application/json")) {
+      data = await res.json();
+    } else {
+      const text = await res.text();
+      console.error("Non-JSON response:", text);
+      return {
+        statusCode: res.status,
+        body: text || "No content in response"
+      };
+    }
+    if (!res.ok) {
+      console.error("Swedbank API Error:", JSON.stringify(data, null, 2));
+      return {
+        statusCode: res.status,
+        body: data
+      };
+    }
+    return data;
+  } catch (error) {
+    console.error("Internal Server Error:", error);
+    return {
+      statusCode: 500,
+      body: error instanceof Error ? error.message : String(error)
+    };
+  }
 });
 
 const payment$1 = /*#__PURE__*/Object.freeze({
