@@ -1,6 +1,6 @@
 <script setup>
 const createPayment = async () => {
-  const response = await $fetch("/api/payment");
+  const response = await $fetch("/api/payment/payment");
   const redirectUrl = response.operations.find(
     (op) => op.rel === "redirect-authorization"
   ).href;
