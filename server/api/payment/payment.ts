@@ -4,7 +4,7 @@ export default defineEventHandler(async (event) => {
   try {
     console.log('Swedbank Access Token:', config.SWEDBANK_ACCESS_TOKEN);
 
-    const res = await fetch('https://api.externalintegration.payex.com/psp/creditcard/payments', {
+    const res = await fetch('https://api.externalintegration.payex.com/psp/paymentorders', {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${config.SWEDBANK_ACCESS_TOKEN}`,
