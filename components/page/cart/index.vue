@@ -228,7 +228,8 @@ export default {
         }
       } catch (error) {
         console.error("Checkout error:", error);
-        alert("An unexpected error occurred. Please try again.");
+        alert("Error: " + error.message);
+        //alert("An unexpected error occurred. Please try again.");
       }
     },
   },
