@@ -208,7 +208,6 @@ export default {
         const viewOp = result.operations.find(op => op.rel === "view-paymentorder");
 
         if (viewOp && viewOp.href) {
-          // Extract token from the last part of the URL path
           const urlParts = viewOp.href.split('/');
           const token = urlParts[urlParts.length - 1];
 
@@ -229,9 +228,7 @@ export default {
 <script>
                   payex.hostedView
                     .checkout({
-                      container: {
-                        checkout: "checkout-container"
-                      },
+                      container: { checkout: "checkout-container" },
                       culture: "sv-SE"
                     })
                     .open();
