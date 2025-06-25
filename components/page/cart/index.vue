@@ -215,25 +215,30 @@ export default {
         const viewOp = result.operations?.find(
           (op) => op.rel === "view-paymentorder"
         );
-        const tcTid = result._tc_tid || result.tcTid || null;
-
-        if (!viewOp?.href || !tcTid) {
-          console.error(
-            "Missing view-paymentorder or _tc_tid in response",
-            result
-          );
+        if (!viewOp?.href) {
+          console.error("Missing view-paymentorder in response", result);
           alert("Could not load checkout.");
           return;
         }
 
-        const token = viewOp.href.split("/").pop();
-        const checkoutUrl = `https://ecom.externalintegration.payex.com/checkout/client/${token}?culture=sv-SE&_tc_tid=${tcTid}`;
+        const viewUrl = new URL(viewOp.href);
+        const token = viewUrl.pathname.split("/").pop();
+        const culture = viewUrl.searchParams.get("culture") || "sv-SE";
+        const tcTid =
+          viewUrl.searchParams.get("_tc_tid") || result._tc_tid || result.tcTid;
 
+        if (!token || !tcTid) {
+          console.error("Missing token or _tc_tid", { token, tcTid });
+          alert("Invalid checkout data.");
+          return;
+        }
+
+        const scriptSrc = `https://ecom.externalintegration.payex.com/checkout/client/${token}?culture=${culture}&_tc_tid=${tcTid}`;
         const newWindow = window.open("", "_blank", "width=800,height=600");
 
         const htmlContent = `
           <!DOCTYPE html>
-          <html lang="sv">
+          <html lang="${culture}">
             <head>
               <meta charset="UTF-8" />
               <title>Swedbank Pay Embedded Checkout</title>
@@ -241,12 +246,12 @@ export default {
             <body>
               <h2>Checkout</h2>
               <div id="checkout-container"></div>
-              <script src="${checkoutUrl}"><\\/script>
+              <script src="${scriptSrc}"><\\/script>
               <script>
                 payex.hostedView
                   .checkout({
                     container: { checkout: "checkout-container" },
-                    culture: "sv-SE"
+                    culture: "${culture}"
                   })
                   .open();
               <\\/script>
