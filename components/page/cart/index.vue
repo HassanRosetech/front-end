@@ -173,7 +173,7 @@ export default {
             headers: {
               "Content-Type": "application/json",
               Authorization:
-                "c446d494390c638604600ca6908277c9f854c261723adc38900cf2eccdd8d0e8", // replace with your actual token
+                "Bearer c446d494390c638604600ca6908277c9f854c261723adc38900cf2eccdd8d0e8", // replace with your actual token
               Accept: "application/json",
             },
             body: JSON.stringify({
