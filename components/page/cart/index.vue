@@ -160,7 +160,9 @@ export default {
       try {
         const userAgent = navigator.userAgent;
         const currency = this.getCurrencyCode(this.selectedCurrencySymbol);
-        const payeeReference = Math.floor(100000 + Math.random() * 900000).toString();
+        const payeeReference = Math.floor(
+          100000 + Math.random() * 900000
+        ).toString();
         const totalAmount = this.cartTotal * 100; // amount in cents
         const vatAmount = Math.round(totalAmount * 0.25); // 25% VAT
 
@@ -185,7 +187,8 @@ export default {
                 cancelUrl: "https://www.partsshop.se/payment/cancelled",
                 callbackUrl: "https://www.partsshop.se/payment/callback",
                 logoUrl: "https://www.partsshop.se/logo.png",
-                termsOfServiceUrl: "https://www.partsshop.se/termsandconditoons.pdf",
+                termsOfServiceUrl:
+                  "https://www.partsshop.se/termsandconditoons.pdf",
               },
               payeeInfo: {
                 payeeId: "6794ffe1-dc1f-4b4b-a885-952611f649b4",
@@ -205,10 +208,12 @@ export default {
           return;
         }
 
-        const viewOp = result.operations.find(op => op.rel === "view-paymentorder");
+        const viewOp = result.operations.find(
+          (op) => op.rel === "view-paymentorder"
+        );
 
         if (viewOp && viewOp.href) {
-          const urlParts = viewOp.href.split('/');
+          const urlParts = viewOp.href.split("/");
           const token = urlParts[urlParts.length - 1];
 
           const newWindow = window.open("", "_blank", "width=800,height=600");
@@ -223,23 +228,25 @@ export default {
               <body>
                 <h2>Checkout</h2>
                 <div id="checkout-container"></div>
-                <script src="https://ecom.externalintegration.payex.com/checkout/client/${token}?culture=sv-SE&_tc_tid=95b13b69bc9a44daaab53619b5a30556">
-</script>
-<script>
+                <script src="https://ecom.externalintegration.payex.com/checkout/client/${token}?culture=sv-SE&_tc_tid=95b13b69bc9a44daaab53619b5a30556"><\\/script>
+                <script>
                   payex.hostedView
                     .checkout({
                       container: { checkout: "checkout-container" },
                       culture: "sv-SE"
                     })
                     .open();
-                <\/script>
+                <\\/script>
               </body>
             </html>`;
 
           newWindow.document.write(htmlContent);
           newWindow.document.close();
         } else {
-          console.error("No 'view-paymentorder' link found in response:", result);
+          console.error(
+            "No 'view-paymentorder' link found in response:",
+            result
+          );
           alert("Could not open payment page.");
         }
       } catch (error) {
