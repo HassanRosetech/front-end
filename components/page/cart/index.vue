@@ -163,53 +163,47 @@ export default {
         const payeeReference = Math.floor(
           100000 + Math.random() * 900000
         ).toString();
-        const totalAmount = this.cartTotal * 100;
+        const totalAmount = this.cartTotal * 100; // cents
         const vatAmount = Math.round(totalAmount * 0.25); // 25% VAT
 
-        const response = await fetch(
-          "https://api.externalintegration.payex.com/psp/paymentorders",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-              Authorization:
-                "Bearer c446d494390c638604600ca6908277c9f854c261723adc38900cf2eccdd8d0e8", // replace with your actual token
-              Accept: "application/json",
-            },
-            body: JSON.stringify({
-              paymentorder: {
-                operation: "Purchase",
-                currency,
-                amount: totalAmount,
-                vatAmount,
-                description: "Test Purchase",
-                userAgent,
-                language: "sv-SE",
-                urls: {
-                  hostUrls: ["https://www.partsshop.se"],
-                  paymentUrl: "https://www.partsshop.se/payment/complete",
-                  completeUrl: "https://www.partsshop.se/payment/complete",
-                  cancelUrl: "https://www.partsshop.se/payment/cancelled",
-                  callbackUrl: "https://www.partsshop.se/payment/callback",
-                  logoUrl: "https://www.partsshop.se/logo.png",
-                  termsOfServiceUrl:
-                    "https://www.partsshop.se/termsandconditoons.pdf",
-                },
-                payeeInfo: {
-                  payeeId: "6794ffe1-dc1f-4b4b-a885-952611f649b4",
-                  payeeReference,
-                  payeeName: "Hassan",
-                  orderReference: "or-" + payeeReference,
-                },
+        const response = await fetch("/api/payex/checkout", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            paymentorder: {
+              operation: "Purchase",
+              currency,
+              amount: totalAmount,
+              vatAmount,
+              description: "Test Purchase",
+              userAgent,
+              language: "sv-SE",
+              urls: {
+                hostUrls: ["https://www.partsshop.se"],
+                paymentUrl: "https://www.partsshop.se/payment/complete",
+                completeUrl: "https://www.partsshop.se/payment/complete",
+                cancelUrl: "https://www.partsshop.se/payment/cancelled",
+                callbackUrl: "https://www.partsshop.se/payment/callback",
+                logoUrl: "https://www.partsshop.se/logo.png",
+                termsOfServiceUrl:
+                  "https://www.partsshop.se/termsandconditoons.pdf",
               },
-            }),
-          }
-        );
+              payeeInfo: {
+                payeeId: "6794ffe1-dc1f-4b4b-a885-952611f649b4",
+                payeeReference,
+                payeeName: "Hassan",
+                orderReference: "or-" + payeeReference,
+              },
+            },
+          }),
+        });
 
         const result = await response.json();
 
-        if (!response.ok) {
-          console.error("Payment request failed:", result);
+        if (!response.ok || result.error) {
+          console.error("Payment creation failed:", result);
           alert("Payment creation failed. Please try again.");
           return;
         }
@@ -229,8 +223,7 @@ export default {
         }
       } catch (error) {
         console.error("Checkout error:", error);
-        alert("Error: " + error.message);
-        //alert("An unexpected error occurred. Please try again.");
+        alert("An unexpected error occurred. Please try again.");
       }
     },
   },

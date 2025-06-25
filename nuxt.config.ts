@@ -97,6 +97,9 @@ export default defineNuxtConfig({
   runtimeConfig: {
     SWEDBANK_ACCESS_TOKEN: process.env.SWEDBANK_ACCESS_TOKEN,
     SWEDBANK_PAYEE_ID: process.env.SWEDBANK_PAYEE_ID,
+    payex: {
+      apiKey: process.env.PAYEX_API_KEY, // private key, server only
+    },
     public: {
       const: constants,
     },
