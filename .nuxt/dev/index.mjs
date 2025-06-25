@@ -662,6 +662,9 @@ const _inlineRuntimeConfig = {
   },
   "SWEDBANK_ACCESS_TOKEN": "c446d494390c638604600ca6908277c9f854c261723adc38900cf2eccdd8d0e8",
   "SWEDBANK_PAYEE_ID": "6794ffe1-dc1f-4b4b-a885-952611f649b4",
+  "payex": {
+    "apiKey": "c446d494390c638604600ca6908277c9f854c261723adc38900cf2eccdd8d0e8"
+  },
   "databaseUrl": "postgresql://PartsShopDB_owner:npg_7LgQKJba5xoI@ep-hidden-shape-abqldvat-pooler.eu-west-2.aws.neon.tech/PartsShopDB?sslmode=require"
 };
 const envOptions = {
@@ -1240,6 +1243,7 @@ const _lazy_CGSrwQ = () => Promise.resolve().then(function () { return contact_p
 const _lazy_fjF3DR = () => Promise.resolve().then(function () { return initiatePayment$1; });
 const _lazy_xpMbo6 = () => Promise.resolve().then(function () { return subscribe_post$1; });
 const _lazy_4zF49U = () => Promise.resolve().then(function () { return unsubscribe_post$1; });
+const _lazy_J9LJlV = () => Promise.resolve().then(function () { return checkout_post$1; });
 const _lazy_8e8y0C = () => Promise.resolve().then(function () { return callback$1; });
 const _lazy_Bhq6c2 = () => Promise.resolve().then(function () { return payment$1; });
 const _lazy_yeU3lG = () => Promise.resolve().then(function () { return version$1; });
@@ -1256,6 +1260,7 @@ const handlers = [
   { route: '/api/initiate-payment', handler: _lazy_fjF3DR, lazy: true, middleware: false, method: undefined },
   { route: '/api/newsletter/subscribe', handler: _lazy_xpMbo6, lazy: true, middleware: false, method: "post" },
   { route: '/api/newsletter/unsubscribe', handler: _lazy_4zF49U, lazy: true, middleware: false, method: "post" },
+  { route: '/api/payex/checkout', handler: _lazy_J9LJlV, lazy: true, middleware: false, method: "post" },
   { route: '/api/payment/callback', handler: _lazy_8e8y0C, lazy: true, middleware: false, method: undefined },
   { route: '/api/payment/payment', handler: _lazy_Bhq6c2, lazy: true, middleware: false, method: undefined },
   { route: '/api/version', handler: _lazy_yeU3lG, lazy: true, middleware: false, method: undefined },
@@ -1882,6 +1887,38 @@ const unsubscribe_post = defineEventHandler(async (event) => {
 const unsubscribe_post$1 = /*#__PURE__*/Object.freeze({
   __proto__: null,
   default: unsubscribe_post
+});
+
+const checkout_post = defineEventHandler(async (event) => {
+  const config = useRuntimeConfig();
+  try {
+    const body = await readBody(event);
+    const response = await fetch("https://api.externalintegration.payex.com/psp/paymentorders", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${config.payex.apiKey}`
+      },
+      body: JSON.stringify(body)
+    });
+    const data = await response.json();
+    if (!response.ok) {
+      setResponseStatus(event, response.status);
+      return {
+        error: true,
+        message: data || "Unknown error from PayEx"
+      };
+    }
+    return data;
+  } catch (error) {
+    setResponseStatus(event, 500);
+    return { error: true, message: error.message || "Server error" };
+  }
+});
+
+const checkout_post$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: checkout_post
 });
 
 const callback = defineEventHandler(async (event) => {

@@ -29,6 +29,9 @@ declare module "nitropack/types" {
     '/api/newsletter/unsubscribe': {
       'post': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/newsletter/unsubscribe.post').default>>>>
     }
+    '/api/payex/checkout': {
+      'post': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/payex/checkout.post').default>>>>
+    }
     '/api/payment/callback': {
       'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../server/api/payment/callback').default>>>>
     }

@@ -146,6 +146,10 @@ export default {
       useCartStore().clearAllCartItems();
     },
 
+    getImageUrl(name) {
+      return `/images/${name}`;
+    },
+
     getCurrencyCode(symbol) {
       const map = {
         "€": "EUR",
@@ -153,7 +157,7 @@ export default {
         SEK: "SEK",
         kr: "SEK",
       };
-      return map[symbol] || "SEK"; // default fallback
+      return map[symbol] || "SEK";
     },
 
     async handleCheckout() {
@@ -163,8 +167,8 @@ export default {
         const payeeReference = Math.floor(
           100000 + Math.random() * 900000
         ).toString();
-        const totalAmount = this.cartTotal * 100; // amount in cents
-        const vatAmount = Math.round(totalAmount * 0.25); // 25% VAT
+        const totalAmount = this.cartTotal * 100;
+        const vatAmount = Math.round(totalAmount * 0.25);
 
         const response = await fetch("/api/payex/checkout", {
           method: "POST",
@@ -208,47 +212,49 @@ export default {
           return;
         }
 
-        const viewOp = result.operations.find(
+        const viewOp = result.operations?.find(
           (op) => op.rel === "view-paymentorder"
         );
+        const tcTid = result._tc_tid || result.tcTid || null;
 
-        if (viewOp && viewOp.href) {
-          const urlParts = viewOp.href.split("/");
-          const token = urlParts[urlParts.length - 1];
-
-          const newWindow = window.open("", "_blank", "width=800,height=600");
-
-          const htmlContent = `
-            <!DOCTYPE html>
-            <html lang="sv">
-              <head>
-                <meta charset="UTF-8" />
-                <title>Swedbank Pay Embedded Checkout</title>
-              </head>
-              <body>
-                <h2>Checkout</h2>
-                <div id="checkout-container"></div>
-                <script src="https://ecom.externalintegration.payex.com/checkout/client/${token}?culture=sv-SE&_tc_tid=95b13b69bc9a44daaab53619b5a30556"><\\/script>
-                <script>
-                  payex.hostedView
-                    .checkout({
-                      container: { checkout: "checkout-container" },
-                      culture: "sv-SE"
-                    })
-                    .open();
-                <\\/script>
-              </body>
-            </html>`;
-
-          newWindow.document.write(htmlContent);
-          newWindow.document.close();
-        } else {
+        if (!viewOp?.href || !tcTid) {
           console.error(
-            "No 'view-paymentorder' link found in response:",
+            "Missing view-paymentorder or _tc_tid in response",
             result
           );
-          alert("Could not open payment page.");
+          alert("Could not load checkout.");
+          return;
         }
+
+        const token = viewOp.href.split("/").pop();
+        const checkoutUrl = `https://ecom.externalintegration.payex.com/checkout/client/${token}?culture=sv-SE&_tc_tid=${tcTid}`;
+
+        const newWindow = window.open("", "_blank", "width=800,height=600");
+
+        const htmlContent = `
+          <!DOCTYPE html>
+          <html lang="sv">
+            <head>
+              <meta charset="UTF-8" />
+              <title>Swedbank Pay Embedded Checkout</title>
+            </head>
+            <body>
+              <h2>Checkout</h2>
+              <div id="checkout-container"></div>
+              <script src="${checkoutUrl}"><\\/script>
+              <script>
+                payex.hostedView
+                  .checkout({
+                    container: { checkout: "checkout-container" },
+                    culture: "sv-SE"
+                  })
+                  .open();
+              <\\/script>
+            </body>
+          </html>`;
+
+        newWindow.document.write(htmlContent);
+        newWindow.document.close();
       } catch (error) {
         console.error("Checkout error:", error);
         alert("An unexpected error occurred. Please try again.");

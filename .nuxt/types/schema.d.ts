@@ -99,6 +99,10 @@ declare module 'nuxt/schema' {
 
    SWEDBANK_PAYEE_ID: string,
 
+   payex: {
+      apiKey: string,
+   },
+
    databaseUrl: string,
 
    nitro: {
