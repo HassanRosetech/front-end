@@ -222,18 +222,16 @@ export default {
         }
 
         const viewUrl = new URL(viewOp.href);
+
+        // Extract parameters
         const token = viewUrl.pathname.split("/").pop();
         const culture = viewUrl.searchParams.get("culture") || "sv-SE";
-        const tcTid =
-          viewUrl.searchParams.get("_tc_tid") || result._tc_tid || result.tcTid;
+        const tcTid = viewUrl.searchParams.get("_tc_tid");
 
-        if (!token || !tcTid) {
-          console.error("Missing token or _tc_tid", { token, tcTid });
-          alert("Invalid checkout data.");
-          return;
-        }
-
+        // Construct full script source
         const scriptSrc = `https://ecom.externalintegration.payex.com/checkout/client/${token}?culture=${culture}&_tc_tid=${tcTid}`;
+
+        // Open checkout in new window
         const newWindow = window.open("", "_blank", "width=800,height=600");
 
         const htmlContent = `
@@ -246,7 +244,7 @@ export default {
             <body>
               <h2>Checkout</h2>
               <div id="checkout-container"></div>
-              <script src="${scriptSrc}"><\\/script>
+              <script src="${scriptSrc}"><\/script>
               <script>
                 payex.hostedView
                   .checkout({
@@ -254,9 +252,10 @@ export default {
                     culture: "${culture}"
                   })
                   .open();
-              <\\/script>
+              <\/script>
             </body>
-          </html>`;
+          </html>
+        `;
 
         newWindow.document.write(htmlContent);
         newWindow.document.close();
