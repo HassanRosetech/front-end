@@ -2,26 +2,39 @@
   <section class="cart-section section-b-space">
     <div class="container">
       <div class="row">
-        <div class="d-flex flex-column align-items-center justify-content-center" v-if="cartItems.length === 0">
+        <div
+          class="d-flex flex-column align-items-center justify-content-center"
+          v-if="cartItems.length === 0"
+        >
           <img :src="getImageUrl('cartEmpty.png')" class="img-fluid" />
-          <animatedButton :buttonContent="useRuntimeConfig().public.const.ContinueShopping"
-            buttonClasses="btn btn-solid-default btn-block mt-4" :headerLocation="'/shop/shop_canvas_filter'" />
+          <animatedButton
+            :buttonContent="useRuntimeConfig().public.const.ContinueShopping"
+            buttonClasses="btn btn-solid-default btn-block mt-4"
+            :headerLocation="'/shop/shop_canvas_filter'"
+          />
         </div>
         <PageCartTable :cartItems="cartItems" v-if="cartItems.length != 0" />
 
         <div class="col-12 mt-md-5 mt-4" v-if="cartItems.length != 0">
           <div class="row">
             <div class="col-sm-7 col-5 order-1">
-              <div class="left-side-button text-end d-flex d-block justify-content-end">
-                <a href="javascript:void(0)" @click.prevent="clearCartItems"
-                  class="text-decoration-underline theme-color d-block text-capitalize">{{
-                    useRuntimeConfig().public.const.clearallitems
-                  }}</a>
+              <div
+                class="left-side-button text-end d-flex d-block justify-content-end"
+              >
+                <a
+                  href="javascript:void(0)"
+                  @click.prevent="clearCartItems"
+                  class="text-decoration-underline theme-color d-block text-capitalize"
+                  >{{ useRuntimeConfig().public.const.clearallitems }}</a
+                >
               </div>
             </div>
             <div class="col-sm-5 col-7">
               <div class="left-side-button float-start">
-                <nuxt-link to="/home/fashion_demo" class="btn btn-solid-default btn fw-bold mb-0 ms-0">
+                <nuxt-link
+                  to="/home/fashion_demo"
+                  class="btn btn-solid-default btn fw-bold mb-0 ms-0"
+                >
                   <i class="fas fa-arrow-left"></i>
                   {{ useRuntimeConfig().public.const.ContinueShopping }}
                 </nuxt-link>
@@ -34,24 +47,42 @@
           <div class="row g-4">
             <div class="col-lg-4 col-sm-6">
               <div class="promo-section">
-                <form class="row g-3">
+                <!-- <form class="row g-3">
                   <div class="col-7">
-                    <input type="text" class="form-control" id="number" placeholder="Coupon Code" />
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="number"
+                      placeholder="Coupon Code"
+                    />
                   </div>
                   <div class="col-5">
                     <button class="btn btn-solid-default rounded btn">
                       {{ useRuntimeConfig().public.const.ApplyCoupon }}
                     </button>
                   </div>
-                </form>
+                </form> -->
               </div>
             </div>
 
             <div class="col-lg-4 col-sm-6" v-if="cartItems.length != 0">
               <div class="checkout-button">
-                <a href="javascript:void(0)" @click.prevent="$router.push('/page/checkout')"
-                  class="btn btn-solid-default btn fw-bold">
-                  {{ useRuntimeConfig().public.const.CheckOut }} <i class="fas fa-arrow-right ms-1"></i></a>
+                <!-- <a
+                  href="javascript:void(0)"
+                  @click.prevent="$router.push('/page/checkout')"
+                  class="btn btn-solid-default btn fw-bold"
+                >
+                  {{ useRuntimeConfig().public.const.CheckOut }}
+                  <i class="fas fa-arrow-right ms-1"></i
+                ></a> -->
+
+                <button
+                  @click="handleCheckout"
+                  class="btn btn-solid-default btn fw-bold"
+                >
+                  {{ useRuntimeConfig().public.const.CheckOut }}
+                  <i class="fas fa-arrow-right ms-1"></i>
+                </button>
               </div>
             </div>
 
@@ -65,13 +96,15 @@
                         {{ useRuntimeConfig().public.const.TotalMRP }}
                         <span>{{ selectedCurrencySymbol }}{{ cartTotal }}</span>
                       </h6>
-                      <h6>
+                      <!-- <h6>
                         {{ useRuntimeConfig().public.const.CouponDiscount }}
                         <span>-{{ selectedCurrencySymbol }}25.00</span>
-                      </h6>
+                      </h6> -->
                       <h6>
                         {{ useRuntimeConfig().public.const.ConvenienceFee }}
-                        <span><del>{{ selectedCurrencySymbol }}25.00</del></span>
+                        <span
+                          ><del>{{ selectedCurrencySymbol }}25.00</del></span
+                        >
                       </h6>
                     </div>
                     <div class="bottom-details">
@@ -94,6 +127,7 @@
 import animatedButton from "~/layout/elements/buttons/animatedButton.vue";
 import { useCartStore } from "~~/store/cart";
 import { useLayout } from "~~/store/layout";
+
 export default {
   components: {
     animatedButton,
@@ -101,15 +135,101 @@ export default {
   props: ["cartItems"],
   computed: {
     cartTotal() {
-      return useCartStore().cartTotal
+      return useCartStore().cartTotal;
     },
     selectedCurrencySymbol() {
-      return useLayout().selectedCurrencySymbol
+      return useLayout().selectedCurrencySymbol;
     },
   },
   methods: {
     clearCartItems() {
-      useCartStore().clearAllCartItems()
+      useCartStore().clearAllCartItems();
+    },
+
+    getCurrencyCode(symbol) {
+      const map = {
+        "€": "EUR",
+        $: "USD",
+        SEK: "SEK",
+        kr: "SEK",
+      };
+      return map[symbol] || "SEK"; // default fallback
+    },
+
+    async handleCheckout() {
+      try {
+        const userAgent = navigator.userAgent;
+        const currency = this.getCurrencyCode(this.selectedCurrencySymbol);
+        const payeeReference = Math.floor(
+          100000 + Math.random() * 900000
+        ).toString();
+        const totalAmount = this.cartTotal * 100;
+        const vatAmount = Math.round(totalAmount * 0.25); // 25% VAT
+
+        const response = await fetch(
+          "https://api.externalintegration.payex.com/psp/paymentorders",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Authorization:
+                "c446d494390c638604600ca6908277c9f854c261723adc38900cf2eccdd8d0e8", // replace with your actual token
+            },
+            body: JSON.stringify({
+              paymentorder: {
+                operation: "Purchase",
+                currency,
+                amount: totalAmount,
+                vatAmount,
+                description: "Test Purchase",
+                userAgent,
+                language: "sv-SE",
+                urls: {
+                  hostUrls: ["https://www.partsshop.se"],
+                  paymentUrl: "https://www.partsshop.se/payment/complete",
+                  completeUrl: "https://www.partsshop.se/payment/complete",
+                  cancelUrl: "https://www.partsshop.se/payment/cancelled",
+                  callbackUrl: "https://www.partsshop.se/payment/callback",
+                  logoUrl: "https://www.partsshop.se/logo.png",
+                  termsOfServiceUrl:
+                    "https://www.partsshop.se/termsandconditoons.pdf",
+                },
+                payeeInfo: {
+                  payeeId: "6794ffe1-dc1f-4b4b-a885-952611f649b4",
+                  payeeReference,
+                  payeeName: "Hassan",
+                  orderReference: "or-" + payeeReference,
+                },
+              },
+            }),
+          }
+        );
+
+        const result = await response.json();
+
+        if (!response.ok) {
+          console.error("Payment request failed:", result);
+          alert("Payment creation failed. Please try again.");
+          return;
+        }
+
+        const viewOp = result.operations.find(
+          (op) => op.rel === "view-paymentorder"
+        );
+
+        if (viewOp) {
+          window.location.href = viewOp.href;
+        } else {
+          console.error(
+            "No 'view-paymentorder' link found in response:",
+            result
+          );
+          alert("Could not redirect to payment page.");
+        }
+      } catch (error) {
+        console.error("Checkout error:", error);
+        alert("An unexpected error occurred. Please try again.");
+      }
     },
   },
 };

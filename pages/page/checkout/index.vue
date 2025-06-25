@@ -21,13 +21,13 @@ export default {
   },
   computed: {
     cartItems() {
-      return useCartStore().getCartItems
-    }
+      return useCartStore().getCartItems;
+    },
   },
-  created(){
-if(!this.cartItems.length){
-  this.$router.push('/page/cart')
-}
+  created() {
+    if (!this.cartItems.length) {
+      this.$router.push("/page/cart");
+    }
   },
 };
 </script>

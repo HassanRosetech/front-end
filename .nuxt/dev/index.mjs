@@ -660,7 +660,7 @@ const _inlineRuntimeConfig = {
       "teamDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero assumenda hic porro odio voluptas qui quod sed."
     }
   },
-  "SWEDBANK_ACCESS_TOKEN": "db406a4c82e9c4838792e4b429a4d5784281768fb3e5ea86c0123893a0724066",
+  "SWEDBANK_ACCESS_TOKEN": "c446d494390c638604600ca6908277c9f854c261723adc38900cf2eccdd8d0e8",
   "SWEDBANK_PAYEE_ID": "6794ffe1-dc1f-4b4b-a885-952611f649b4",
   "databaseUrl": "postgresql://PartsShopDB_owner:npg_7LgQKJba5xoI@ep-hidden-shape-abqldvat-pooler.eu-west-2.aws.neon.tech/PartsShopDB?sslmode=require"
 };
@@ -1911,7 +1911,7 @@ const payment = defineEventHandler(async (event) => {
   const config = useRuntimeConfig();
   try {
     console.log("Swedbank Access Token:", config.SWEDBANK_ACCESS_TOKEN);
-    const res = await fetch("https://api.externalintegration.payex.com/psp/creditcard/payments", {
+    const res = await fetch("https://api.externalintegration.payex.com/psp/paymentorders", {
       method: "POST",
       headers: {
         "Authorization": `Bearer ${config.SWEDBANK_ACCESS_TOKEN}`,
